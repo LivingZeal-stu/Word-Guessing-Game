@@ -1,631 +1,546 @@
 From: <Saved by Blink>
-Snapshot-Content-Location: https://replit.com/@irugulivingzeal/Word-Guessing-Game#index.html
-Subject: index.html - Word Guessing Game - Replit
-Date: Thu, 31 Jul 2025 22:30:40 +0530
+Snapshot-Content-Location: https://replit.com/@irugulivingzeal/Word-Guessing-Game#script.js
+Subject: script.js - Word Guessing Game - Replit
+Date: Thu, 31 Jul 2025 22:34:02 +0530
 MIME-Version: 1.0
 Content-Type: multipart/related;
 	type="text/html";
-	boundary="----MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----"
+	boundary="----MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----"
 
 
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-39A210B66939B93F9040535853EE6DF5@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
-Content-Location: https://replit.com/@irugulivingzeal/Word-Guessing-Game#index.html
+Content-Location: https://replit.com/@irugulivingzeal/Word-Guessing-Game#script.js
 
 <!DOCTYPE html><html lang=3D"en" class=3D"replit-ui-theme-root notranslate"=
  translate=3D"no" style=3D"app-region: unset;"><head><meta http-equiv=3D"Co=
 ntent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet"=
- type=3D"text/css" href=3D"cid:css-07cf2583-29ce-478e-b13a-08771fe9d477@mht=
-ml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-dd41=
-f36e-cbe8-4fd5-a5f9-9b9e65df75db@mhtml.blink" /><link rel=3D"stylesheet" ty=
-pe=3D"text/css" href=3D"cid:css-fb07c7dd-d863-401a-a4a4-eaf4b4df8a4e@mhtml.=
-blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-99e4fbf=
-e-876c-4564-93e4-a62c9b735c5c@mhtml.blink" /><link rel=3D"stylesheet" type=
-=3D"text/css" href=3D"cid:css-3d9570c7-befd-45f9-9620-17ead951a729@mhtml.bl=
-ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-9422c271-=
-edc4-440d-aa62-9c3c40f230bc@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
-"text/css" href=3D"cid:css-8df208d5-bc93-4f17-b6ed-73aec196439f@mhtml.blink=
-" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b749b027-1d3=
-7-4e27-950a-43f0050cccdf@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
-xt/css" href=3D"cid:css-20bc73f8-bb6d-4446-86a5-83f392cd5e26@mhtml.blink" /=
-><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-167b4739-d56b-4=
-e96-9337-bf5bd8d73384@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
-css" href=3D"cid:css-66c61c05-9dcd-4443-bb50-151878ddb485@mhtml.blink" /><l=
-ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2c3d9516-2946-421b=
--8d75-23c606af227b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
-" href=3D"cid:css-0d7cd957-c30f-4144-83c4-0aeadf85604f@mhtml.blink" /><link=
- rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b6166db4-bbb2-4010-8c=
-27-f2a1b9c7b4ad@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" h=
-ref=3D"cid:css-b15ac419-7744-455c-8987-620ee7c43322@mhtml.blink" /><link re=
-l=3D"stylesheet" type=3D"text/css" href=3D"cid:css-0eeda86f-885f-48a7-aecb-=
-b1fa12d4eeb1@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-0216b53c-ed22-4a63-8cbb-1a8cea84fbc9@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ae52d5fd-ba34-4e22-a3f4-0=
-6a2a14e2684@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-b26387e9-727a-429e-9249-b9bffc21dcf1@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5fe2db95-47e0-439e-ac09-f=
-3485a0aea02@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-5044e61b-2d3d-4f6b-b5cd-b508b8df6d9a@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-ecc539e0-d316-4bd7-b6c5-9=
-ee4c9a3f246@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-2239b304-a4e0-4c91-82c6-7c3e497bb84f@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-78f1de78-9ac0-458f-a260-9=
-44648cebfe7@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-a0ec41dd-1df3-44a5-ade7-1caf3b74b0b5@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-4dd8d88b-3466-4608-bcf6-6=
-0c96d3b5713@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-971b890b-e55e-4307-9b78-ee366484a4c0@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-58181d38-0fbf-4fd9-b8dd-0=
-79ca6d7faae@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-4ec3e2f7-f02e-471e-a123-02af4ff6c93b@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7a3490c3-7f3a-4a5a-8c2c-9=
-ddc52ba2876@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-fbb5b40d-b0da-4cd5-93a7-c9a6eabf7a62@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-fabb1db1-2beb-48b2-abf7-b=
-4cb06069d1e@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-f60db246-05ef-45af-95b4-399349640e07@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-9f6eb7c8-23f0-458d-8fb1-9=
-e70a8a46e45@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-5c363bab-b246-4b24-b4d2-74d291fa7216@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-1826d5bc-0636-4a92-9a69-a=
-88a05d334ca@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-82a4d626-6027-46c6-86cf-4891a7043e29@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2b495b07-6e37-437e-9fc2-e=
-94164fb9386@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-16e34db2-ff94-42e0-9434-de897169e93e@mhtml.blink" /><link rel=
-=3D"stylesheet" type=3D"text/css" href=3D"cid:css-cd0e13da-836c-4470-a7f1-e=
-98177d6d319@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
-=3D"cid:css-cb6e8f83-a2f4-4fcb-bf30-b4f168117352@mhtml.blink" /><meta http-=
+ type=3D"text/css" href=3D"cid:css-8fa0c9de-fbc2-4679-bc6f-19bca71a0091@mht=
+ml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-bf3e=
+ea86-6586-4a7a-aa52-924ef7bd0c40@mhtml.blink" /><link rel=3D"stylesheet" ty=
+pe=3D"text/css" href=3D"cid:css-2e4ecb62-20e9-408a-82ee-c14b777d86c7@mhtml.=
+blink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-9b33c0e=
+a-91d8-4624-8a57-27b62bc0438f@mhtml.blink" /><link rel=3D"stylesheet" type=
+=3D"text/css" href=3D"cid:css-9688339b-d304-4e09-be14-0c19fafd284d@mhtml.bl=
+ink" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-aa229bab-=
+ed74-4c5d-a177-d903f5a1ee24@mhtml.blink" /><link rel=3D"stylesheet" type=3D=
+"text/css" href=3D"cid:css-002b12fc-e4e7-4311-8485-0a4addda4813@mhtml.blink=
+" /><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7f6564c9-aac=
+8-4d96-bec3-dfef83f0e6e8@mhtml.blink" /><link rel=3D"stylesheet" type=3D"te=
+xt/css" href=3D"cid:css-a5eeb9ab-370c-42d2-bee9-d3c04da47595@mhtml.blink" /=
+><link rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d6ef929a-fa8c-4=
+cb6-9343-b47149f7960b@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-ba8cafae-81a3-4c4c-9b4f-8969360eb4e9@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-2c5d8e79-dd1f-4297=
+-b9dd-6eef2b63e85d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-06b404e0-3bb5-4549-8d4a-4592f47a50cb@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-149f6d1b-87e7-4561-af=
+e7-3f8d1da752d3@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" h=
+ref=3D"cid:css-b80043dc-dd86-4e41-82fc-fe78244c4ab8@mhtml.blink" /><link re=
+l=3D"stylesheet" type=3D"text/css" href=3D"cid:css-81a8ef70-4aaa-4105-b1a9-=
+7a1f239a1e32@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-c78add67-1b17-4873-ba8d-abc7895b7ada@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b2c854e5-69c8-4d51-ac7a-6=
+5589ac11475@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-002408ac-9974-46d5-800f-686f96acf693@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-d1a4cbb1-dce6-4b2d-9ac5-c=
+54709bee51d@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-a902ad2d-1690-494b-9fbf-5beed2f1314e@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5875b685-fdc7-41cf-993f-3=
+2e578891fcc@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-e34c653d-8c0e-46a7-adc7-98b5e90e8ff6@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-187780b0-4324-4e5c-87cc-7=
+8b7270e91f6@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-eac3b8e7-c1ba-4f26-95f3-7c6330f37332@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e977c6b1-681b-4566-8588-0=
+c5003efa70e@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-d0c1665a-1eba-4a37-8b46-9cf7ab5c3be2@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-efae5004-90de-4718-a6dd-1=
+a0177633389@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-93560eba-c275-491a-9f52-1c5da3bc2ba9@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6cc2b5bd-4869-4939-9d66-4=
+55ab46e3850@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-b340e450-67d7-474a-84a9-c57ea9b4bcdf@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-e7a0262c-4b48-4ae2-bed0-8=
+7ff6234c286@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-8037abdf-7d7e-4874-8527-475ac04672a8@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-5b53cafe-eeab-4c7b-92ed-c=
+4f1a5fda34e@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-7795a656-4bcd-44f9-86b2-502228b9c109@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-34a17e3c-fb91-4eac-a3ec-8=
+b960791c376@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-7176d00a-df1a-46ae-91be-e5fbf9b77c2b@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-096dd5e6-b5e9-49d1-b3c3-f=
+beb93f7a4c8@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-7d7b855d-e26d-45d3-b9ea-d4a5b622df6a@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-b2d766f2-252b-4568-a2ce-9=
+1bf63fbaec5@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-29f15e3c-9a83-46a2-9390-249576424d48@mhtml.blink" /><meta http-=
 equiv=3D"origin-trial" content=3D"A7vZI3v+Gz7JfuRolKNM4Aff6zaGuT7X0mf3wtoZT=
 nKv6497cVMnhy03KDqX7kBz/q/iidW7srW31oQbBt4VhgoAAACUeyJvcmlnaW4iOiJodHRwczov=
 L3d3dy5nb29nbGUuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlVGhpcmRQYXJ0eVN0b3JhZ2V=
 QYXJ0aXRpb25pbmczIiwiZXhwaXJ5IjoxNzU3OTgwODAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaX=
-NUaGlyZFBhcnR5Ijp0cnVlfQ=3D=3D"><title data-next-head=3D"">index.html - Wor=
-d Guessing Game - Replit</title><link rel=3D"shortcut icon" href=3D"https:/=
-/replit.com/public/icons/favicon-prompt-192.png" sizes=3D"192x192" type=3D"=
-image/png" data-next-head=3D""><meta property=3D"og:description" content=3D=
-"Build and deploy software collaboratively with the power of AI without spe=
-nding a second on setup." data-next-head=3D""><meta property=3D"og:type" co=
-ntent=3D"article" data-next-head=3D""><meta property=3D"og:image" content=
-=3D"https://replit.com/public/images/opengraph.png" data-next-head=3D""><me=
-ta property=3D"og:site_name" content=3D"replit" data-next-head=3D""><meta p=
-roperty=3D"fb:app_id" content=3D"1775481339348651" data-next-head=3D""><met=
-a itemprop=3D"name" content=3D"replit" data-next-head=3D""><meta itemprop=
-=3D"description" content=3D"Build and deploy software collaboratively with =
-the power of AI without spending a second on setup." data-next-head=3D""><m=
-eta itemprop=3D"image" content=3D"https://replit.com/public/images/opengrap=
-h.png" data-next-head=3D""><meta name=3D"description" content=3D"Build and =
-deploy software collaboratively with the power of AI without spending a sec=
-ond on setup." data-next-head=3D""><meta name=3D"keywords" content=3D"IDE,I=
-nterpreter,Compiler,Teach,Host,Learn,Code,REPL,Compiler,AI,Deploy,Clojure,H=
-askell,Kotlin,QBasic,Forth,LOLCODE,BrainF,Emoticon,Bloop,Unlambda,CoffeeScr=
-ipt,Scheme,APL,Lua,Ruby,Roy,Python,Node.js,Deno (beta),Go,C++,C,C#,F#,HTML,=
- CSS, JS,Rust,Swift,Python (with Turtle),Basic (beta),R,Bash,Crystal,Julia,=
-Elixir,Nim,Dart,Reason Node.js,Tcl,Erlang,TypeScript,Pygame,Love2D,Emacs Li=
-sp (Elisp),PHP Web Server,SQLite,Java,PHP CLI,Pyxel,Raku,Scala (beta),Nix" =
-data-next-head=3D""><meta name=3D"author" property=3D"og:author" content=3D=
-"replit" data-next-head=3D""><meta name=3D"twitter:card" content=3D"summary=
-" data-next-head=3D""><meta name=3D"twitter:site" content=3D"@replit" data-=
-next-head=3D""><meta name=3D"twitter:description" content=3D"Build and depl=
-oy software collaboratively with the power of AI without spending a second =
-on setup." data-next-head=3D""><meta name=3D"twitter:image" content=3D"http=
-s://replit.com/public/images/opengraph.png" data-next-head=3D""><meta name=
-=3D"twitter:domain" content=3D"replit.com" data-next-head=3D""><meta name=
-=3D"google" content=3D"notranslate" data-next-head=3D""><meta name=3D"viewp=
-ort" content=3D"width=3Ddevice-width, initial-scale=3D1" data-next-head=3D"=
-"><link rel=3D"manifest" href=3D"https://replit.com/public/manifest.json" d=
-ata-next-head=3D""><meta name=3D"theme-color" content=3D"#12141A" data-next=
--head=3D""><meta http-equiv=3D"origin-trial" content=3D"AsKJNnBESA8LBSWSiA1=
-TeHAuM7wj/zSm2MVlsxnG6yMeAuorNg9zyAEC3w+lp88yOz+9zkJmIQ++T1Cl4asHoAUAAABQey=
-JvcmlnaW4iOiJodHRwczovL3JlcGxpdC5jb206NDQzIiwiZmVhdHVyZSI6IkRpZ2l0YWxHb29kc=
-yIsImV4cGlyeSI6MTYzMTY2Mzk5OX0=3D" data-next-head=3D""><link rel=3D"apple-t=
-ouch-icon" href=3D"https://replit.com/public/icons/favicon-prompt-192.png" =
-data-next-head=3D""><meta name=3D"mobile-web-app-capable" content=3D"yes" d=
-ata-next-head=3D""><meta name=3D"apple-mobile-web-app-title" content=3D"Rep=
-lit" data-next-head=3D""><link rel=3D"search" type=3D"application/opensearc=
-hdescription+xml" href=3D"https://replit.com/public/opensearch.xml" title=
-=3D"Replit" data-next-head=3D""><link rel=3D"dns-prefetch" href=3D"http://s=
-p.replit.com/"><link data-next-font=3D"size-adjust" rel=3D"preconnect" href=
-=3D"https://replit.com/" crossorigin=3D"anonymous"><link rel=3D"preload" hr=
-ef=3D"https://cdn.replit.com/_next/static/css/20dd27076eafc880.css" as=3D"s=
-tyle" crossorigin=3D"anonymous"><link rel=3D"stylesheet" href=3D"https://cd=
-n.replit.com/_next/static/css/20dd27076eafc880.css" crossorigin=3D"anonymou=
-s" data-n-g=3D""><link rel=3D"preload" href=3D"https://cdn.replit.com/_next=
-/static/css/4111a8fdeb9a0170.css" as=3D"style" crossorigin=3D"anonymous"><l=
-ink as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https:=
-//cdn.replit.com/_next/static/chunks/pages/new-2694ebf8f53efa6c.js"><link a=
-s=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn=
-.replit.com/_next/static/chunks/389-ae0f8eae3cf645ee.js"><link as=3D"script=
-" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com=
-/_next/static/chunks/pages/import-cc895e1c0937f053.js"><link as=3D"script" =
-rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_=
-next/static/chunks/27dcceb2-6029ad9a6c5796e6.js"><link as=3D"script" rel=3D=
-"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/s=
-tatic/chunks/5621-70b381cca6df1c38.js"><link as=3D"script" rel=3D"prefetch"=
+NUaGlyZFBhcnR5Ijp0cnVlfQ=3D=3D"><title data-next-head=3D"">script.js - Word=
+ Guessing Game - Replit</title><link rel=3D"shortcut icon" href=3D"https://=
+replit.com/public/icons/favicon-prompt-192.png" sizes=3D"192x192" type=3D"i=
+mage/png" data-next-head=3D""><meta property=3D"og:description" content=3D"=
+Build and deploy software collaboratively with the power of AI without spen=
+ding a second on setup." data-next-head=3D""><meta property=3D"og:type" con=
+tent=3D"article" data-next-head=3D""><meta property=3D"og:image" content=3D=
+"https://replit.com/public/images/opengraph.png" data-next-head=3D""><meta =
+property=3D"og:site_name" content=3D"replit" data-next-head=3D""><meta prop=
+erty=3D"fb:app_id" content=3D"1775481339348651" data-next-head=3D""><meta i=
+temprop=3D"name" content=3D"replit" data-next-head=3D""><meta itemprop=3D"d=
+escription" content=3D"Build and deploy software collaboratively with the p=
+ower of AI without spending a second on setup." data-next-head=3D""><meta i=
+temprop=3D"image" content=3D"https://replit.com/public/images/opengraph.png=
+" data-next-head=3D""><meta name=3D"description" content=3D"Build and deplo=
+y software collaboratively with the power of AI without spending a second o=
+n setup." data-next-head=3D""><meta name=3D"keywords" content=3D"IDE,Interp=
+reter,Compiler,Teach,Host,Learn,Code,REPL,Compiler,AI,Deploy,Clojure,Haskel=
+l,Kotlin,QBasic,Forth,LOLCODE,BrainF,Emoticon,Bloop,Unlambda,CoffeeScript,S=
+cheme,APL,Lua,Ruby,Roy,Python,Node.js,Deno (beta),Go,C++,C,C#,F#,HTML, CSS,=
+ JS,Rust,Swift,Python (with Turtle),Basic (beta),R,Bash,Crystal,Julia,Elixi=
+r,Nim,Dart,Reason Node.js,Tcl,Erlang,TypeScript,Pygame,Love2D,Emacs Lisp (E=
+lisp),PHP Web Server,SQLite,Java,PHP CLI,Pyxel,Raku,Scala (beta),Nix" data-=
+next-head=3D""><meta name=3D"author" property=3D"og:author" content=3D"repl=
+it" data-next-head=3D""><meta name=3D"twitter:card" content=3D"summary" dat=
+a-next-head=3D""><meta name=3D"twitter:site" content=3D"@replit" data-next-=
+head=3D""><meta name=3D"twitter:description" content=3D"Build and deploy so=
+ftware collaboratively with the power of AI without spending a second on se=
+tup." data-next-head=3D""><meta name=3D"twitter:image" content=3D"https://r=
+eplit.com/public/images/opengraph.png" data-next-head=3D""><meta name=3D"tw=
+itter:domain" content=3D"replit.com" data-next-head=3D""><meta name=3D"goog=
+le" content=3D"notranslate" data-next-head=3D""><meta name=3D"viewport" con=
+tent=3D"width=3Ddevice-width, initial-scale=3D1" data-next-head=3D""><link =
+rel=3D"manifest" href=3D"https://replit.com/public/manifest.json" data-next=
+-head=3D""><meta name=3D"theme-color" content=3D"#12141A" data-next-head=3D=
+""><meta http-equiv=3D"origin-trial" content=3D"AsKJNnBESA8LBSWSiA1TeHAuM7w=
+j/zSm2MVlsxnG6yMeAuorNg9zyAEC3w+lp88yOz+9zkJmIQ++T1Cl4asHoAUAAABQeyJvcmlnaW=
+4iOiJodHRwczovL3JlcGxpdC5jb206NDQzIiwiZmVhdHVyZSI6IkRpZ2l0YWxHb29kcyIsImV4c=
+GlyeSI6MTYzMTY2Mzk5OX0=3D" data-next-head=3D""><link rel=3D"apple-touch-ico=
+n" href=3D"https://replit.com/public/icons/favicon-prompt-192.png" data-nex=
+t-head=3D""><meta name=3D"mobile-web-app-capable" content=3D"yes" data-next=
+-head=3D""><meta name=3D"apple-mobile-web-app-title" content=3D"Replit" dat=
+a-next-head=3D""><link rel=3D"search" type=3D"application/opensearchdescrip=
+tion+xml" href=3D"https://replit.com/public/opensearch.xml" title=3D"Replit=
+" data-next-head=3D""><link rel=3D"dns-prefetch" href=3D"http://sp.replit.c=
+om/"><link data-next-font=3D"size-adjust" rel=3D"preconnect" href=3D"https:=
+//replit.com/" crossorigin=3D"anonymous"><link rel=3D"preload" href=3D"http=
+s://cdn.replit.com/_next/static/css/20dd27076eafc880.css" as=3D"style" cros=
+sorigin=3D"anonymous"><link rel=3D"stylesheet" href=3D"https://cdn.replit.c=
+om/_next/static/css/20dd27076eafc880.css" crossorigin=3D"anonymous" data-n-=
+g=3D""><link rel=3D"preload" href=3D"https://cdn.replit.com/_next/static/cs=
+s/4111a8fdeb9a0170.css" as=3D"style" crossorigin=3D"anonymous"><link as=3D"=
+script" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.repl=
+it.com/_next/static/chunks/pages/new-2694ebf8f53efa6c.js"><link as=3D"scrip=
+t" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.co=
+m/_next/static/chunks/389-ae0f8eae3cf645ee.js"><link as=3D"script" rel=3D"p=
+refetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/sta=
+tic/chunks/pages/import-cc895e1c0937f053.js"><link as=3D"script" rel=3D"pre=
+fetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/stati=
+c/chunks/27dcceb2-6029ad9a6c5796e6.js"><link as=3D"script" rel=3D"prefetch"=
  crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/static/chun=
-ks/1234-ad85e5ac55deb249.js"><link as=3D"script" rel=3D"prefetch" crossorig=
-in=3D"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/2290-30=
-5dea79d9b10151.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anon=
-ymous" href=3D"https://cdn.replit.com/_next/static/chunks/4768-f92591fdfe0e=
-b44e.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous" hre=
-f=3D"https://cdn.replit.com/_next/static/chunks/8604-b547bf9c0f1e9c7b.js"><=
+ks/5621-70b381cca6df1c38.js"><link as=3D"script" rel=3D"prefetch" crossorig=
+in=3D"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/1234-ad=
+85e5ac55deb249.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anon=
+ymous" href=3D"https://cdn.replit.com/_next/static/chunks/2290-305dea79d9b1=
+0151.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous" hre=
+f=3D"https://cdn.replit.com/_next/static/chunks/4768-f92591fdfe0eb44e.js"><=
 link as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https=
-://cdn.replit.com/_next/static/chunks/8226-bfcb3861b7229d12.js"><link as=3D=
+://cdn.replit.com/_next/static/chunks/8604-b547bf9c0f1e9c7b.js"><link as=3D=
 "script" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.rep=
-lit.com/_next/static/chunks/3739-9096679e36c38ffd.js"><link as=3D"script" r=
+lit.com/_next/static/chunks/8226-bfcb3861b7229d12.js"><link as=3D"script" r=
 el=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_n=
-ext/static/chunks/3729-22f2859fe0b9d57d.js"><link as=3D"script" rel=3D"pref=
+ext/static/chunks/3739-9096679e36c38ffd.js"><link as=3D"script" rel=3D"pref=
 etch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/static=
-/chunks/4887-4494d4176da82151.js"><link as=3D"script" rel=3D"prefetch" cros=
-sorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/82=
-82-e953de2a20219185.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D=
-"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/412-e23c3887=
-6b9e7d38.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous"=
- href=3D"https://cdn.replit.com/_next/static/chunks/200-a1b0b34944302a8b.js=
-"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"ht=
-tps://cdn.replit.com/_next/static/chunks/1667-3907027a2e1747f6.js"><link as=
+/chunks/3729-22f2859fe0b9d57d.js"><link as=3D"script" rel=3D"prefetch" cros=
+sorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/48=
+87-4494d4176da82151.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D=
+"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/8282-e953de2=
+a20219185.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous=
+" href=3D"https://cdn.replit.com/_next/static/chunks/412-e23c38876b9e7d38.j=
+s"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"h=
+ttps://cdn.replit.com/_next/static/chunks/200-a1b0b34944302a8b.js"><link as=
 =3D"script" rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.=
-replit.com/_next/static/chunks/8464-bfb402b2d0ecd325.js"><link as=3D"script=
+replit.com/_next/static/chunks/1667-3907027a2e1747f6.js"><link as=3D"script=
 " rel=3D"prefetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com=
-/_next/static/chunks/232-aecb9955cec1386e.js"><link as=3D"script" rel=3D"pr=
-efetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/stat=
-ic/chunks/3170-8a34000569863ea5.js"><link as=3D"script" rel=3D"prefetch" cr=
+/_next/static/chunks/8464-bfb402b2d0ecd325.js"><link as=3D"script" rel=3D"p=
+refetch" crossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/sta=
+tic/chunks/232-aecb9955cec1386e.js"><link as=3D"script" rel=3D"prefetch" cr=
 ossorigin=3D"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/=
-72-241bd892ed69d185.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D=
-"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/pages/replEn=
-vironmentDesktop-9b4a4750be010c27.js"><meta property=3D"og:title" content=
-=3D"Word Guessing Game" data-next-head=3D""><meta name=3D"twitter:title" co=
-ntent=3D"Word Guessing Game" data-next-head=3D""><link rel=3D"alternate" ty=
-pe=3D"application/json+oembed" href=3D"https://replit.com/data/oembed?url=
-=3Dhttps%3A%2F%2Freplit.com%2F%40irugulivingzeal%2FWord-Guessing-Game" titl=
-e=3D"Replit - select language" data-next-head=3D""><link rel=3D"shortcut ic=
-on" href=3D"https://replit.com/public/icons/favicon-prompt-192.png" sizes=
-=3D"192x192" type=3D"image/png" data-next-head=3D""></head><body><div id=3D=
-"__next"><div data-cy=3D"workspace-page" class=3D"AppLayout_root__fUqNn" st=
-yle=3D"--AppLayout--header-height: 0px; --AppLayout--sidebar-width: 0px;"><=
-a href=3D"https://replit.com/@irugulivingzeal/Word-Guessing-Game#main-conte=
-nt" class=3D"css-9x64ab">Skip to content</a><div class=3D"AppLayout_content=
-__gze4e"><section class=3D" useView_view__C2mnv css-v7zd9q" aria-live=3D"po=
-lite" aria-label=3D"Messages (alt + T key to focus)" tabindex=3D"-1" aria-r=
-elevant=3D"additions" role=3D"status" style=3D"--groupHeight: 0px;"><ol></o=
-l></section><div class=3D" useView_view__C2mnv replEnvironmentDesktop_surfa=
-ce__18l0g Surface_surfaceRoot__TeA2u"><header class=3D" useView_view__C2mnv=
- Header_root__fJWuA" style=3D"--useView--pr: 12px; --useView--pl: 8px; --in=
-dex--height: 48px;"><div class=3D""><div class=3D" useView_view__C2mnv useV=
-iew_isHorizontal__Q1YOp css-kv6cfi" style=3D"--useView--gap: 4px; --useView=
---justify: start; --useView--align: center;"><a data-cy=3D"home-button" cla=
-ss=3D"css-os4f0t" role=3D"link" aria-label=3D"Home" tabindex=3D"0" href=3D"=
-https://replit.com/~" style=3D"--height: 32px; --width: 32px; display: flex=
-;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=
-=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"false" class=3D"css-492=
-dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><ti=
-tle>Home</title><path fill-rule=3D"evenodd" d=3D"M11.54 1.408a.75.75 0 0 1 =
-.92 0l9 7a.75.75 0 0 1 .29.592v11A2.75 2.75 0 0 1 19 22.75H5A2.75 2.75 0 0 =
-1 2.25 20V9a.75.75 0 0 1 .29-.592l9-7ZM3.75 9.367V20A1.25 1.25 0 0 0 5 21.2=
-5h3.25V13.5a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 .75.75v7.75H19A1.25 1.25 0 =
-0 0 20.25 20V9.367L12 2.95 3.75 9.367Zm10.5 11.883v-7h-4.5v7h4.5Z" clip-rul=
-e=3D"evenodd"></path></svg></a><div class=3D" useView_view__C2mnv useView_i=
-sHorizontal__Q1YOp" style=3D"--useView--justify: start; --useView--align: c=
-enter;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" sty=
-le=3D"--useView--gap: 4px;"><div class=3D" useView_view__C2mnv useView_isHo=
-rizontal__Q1YOp css-18xp4h9" style=3D"--useView--align: center; --useView--=
-shrink: 1;"><button data-cy=3D"ws-repl-info-container" class=3D" useView_vi=
-ew__C2mnv css-1al49xg" aria-expanded=3D"false" fdprocessedid=3D"fwqpns"><di=
-v class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--use=
-View--gap: 6px; --useView--align: center; --useView--grow: 1; --useView--sh=
-rink: 1;"><div class=3D" useView_view__C2mnv css-5wf34q"><div class=3D" use=
-View_view__C2mnv css-0"><div class=3D" useView_view__C2mnv css-l5xv05"><div=
- class=3D" useView_view__C2mnv css-0"><div class=3D" useView_view__C2mnv cs=
-s-hd9fvg Surface_surfaceDefault__TcNI5"><span style=3D"box-sizing: border-b=
-ox; display: inline-block; overflow: hidden; width: initial; height: initia=
-l; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; po=
-sition: relative; max-width: 100%;"><span style=3D"box-sizing: border-box; =
-display: block; width: initial; height: initial; background: none; opacity:=
- 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt=3D""=
- aria-hidden=3D"true" src=3D"data:image/svg+xml,%3csvg%20xmlns=3D%27http://=
-www.w3.org/2000/svg%27%20version=3D%271.1%27%20width=3D%2720%27%20height=3D=
-%2720%27/%3e" style=3D"display: block; max-width: 100%; width: initial; hei=
-ght: initial; background: none; opacity: 1; border: 0px; margin: 0px; paddi=
-ng: 0px;"></span><img alt=3D"" src=3D"https://replit.com/cdn-cgi/image/widt=
-h=3D48,quality=3D80,format=3Dauto/https://storage.googleapis.com/replit/ima=
-ges/1664473044967_513d905f04b05dc76a37ec102fb668eb.jpeg" decoding=3D"async"=
- data-nimg=3D"intrinsic" style=3D"position: absolute; inset: 0px; box-sizin=
-g: border-box; padding: 0px; border: none; margin: auto; display: block; wi=
-dth: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; =
-max-height: 100%; object-fit: cover;"></span><div class=3D" useView_view__C=
-2mnv css-1tdidfe"></div></div></div></div></div></div><span data-cy=3D"head=
-er-repl-title" class=3D" useView_view__C2mnv css-jlxiq8 Text_text__T_hn_ Te=
-xt_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-s=
-ize: var(--font-size-default); --Text--line-height: var(--line-height-defau=
-lt);">Word Guessing Game</span></div></button></div></div></div><button typ=
-e=3D"button" tabindex=3D"0" aria-expanded=3D"false" class=3D"css-19ctpa2" d=
-ata-rac=3D"" id=3D"react-aria8892419012-:rl2:" fdprocessedid=3D"sz4jj7"><di=
-v class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--use=
-View--gap: 8px; --useView--align: center;"><div class=3D" useView_view__C2m=
-nv css-y72f9m" role=3D"group"><div class=3D" useView_view__C2mnv useView_is=
-Horizontal__Q1YOp css-pkrqb1" style=3D"--useView--grow: 1; --useView--shrin=
-k: 1;"><div class=3D" useView_view__C2mnv measureBarProgress css-xgk69a" ro=
-le=3D"meter" aria-label=3D"0.81867 out of 3" aria-valuemin=3D"0" aria-value=
-now=3D"0.81867" aria-valuemax=3D"3" style=3D"background-color: var(--accent=
--primary-dimmer); width: 27.289%;"></div></div></div><span class=3D" useVie=
-w_view__C2mnv Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font=
--family: inherit; --Text--font-size: var(--font-size-small); --Text--line-h=
-eight: var(--line-height-small); --Text--color: var(--foreground-dimmer);">=
-27% used</span></div></button><div class=3D" useView_view__C2mnv css-1sg97z=
-6"></div></div></div><div class=3D" useView_view__C2mnv useView_isHorizonta=
-l__Q1YOp css-13guecw" style=3D"--useView--align: center;"><div class=3D" us=
-eView_view__C2mnv css-19k8hvb" data-visible=3D"false"><svg preserveAspectRa=
-tio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"c=
-urrentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16p=
-x; --rotate: 0deg; width: 16px; height: 16px;"><path fill=3D"url(#paint0_li=
-near_7101_264)" fill-rule=3D"evenodd" d=3D"M24 3.429a3.429 3.429 0 1 0-6.85=
-7 0 3.429 3.429 0 0 0 6.857 0ZM6.857 12A3.429 3.429 0 1 0 0 12a3.429 3.429 =
-0 0 0 6.857 0ZM3.43 0a3.429 3.429 0 0 1 3.428 3.429v.027a5.143 5.143 0 0 0 =
-5.14 5.115H12a3.429 3.429 0 1 1 0 6.858h-.007a5.143 5.143 0 0 0-5.136 5.116=
-v.026a3.429 3.429 0 1 1-3.428-3.428h.004a5.143 5.143 0 0 0-.005-10.286 3.42=
-9 3.429 0 0 1 0-6.857Zm12 3.429a3.429 3.429 0 1 0-3.43 3.428 5.143 5.143 0 =
-0 1 .005 10.286H12a3.429 3.429 0 1 0 3.429 3.428v-.027a5.143 5.143 0 0 1 5.=
-135-5.115h.007a3.429 3.429 0 1 0 0-6.858h-.003a5.143 5.143 0 0 1-5.14-5.106=
-V3.43Zm5.142 13.714a3.429 3.429 0 1 1 0 6.857 3.429 3.429 0 0 1 0-6.857Z" c=
-lip-rule=3D"evenodd"></path><defs><linearGradient id=3D"paint0_linear_7101_=
-264" x1=3D"0" x2=3D"24" y1=3D"0" y2=3D"24" gradientUnits=3D"userSpaceOnUse"=
-><stop stop-color=3D"#A694FF"></stop><stop offset=3D"1" stop-color=3D"#795E=
-FF"></stop></linearGradient></defs></svg></div><span class=3D" useView_view=
-__C2mnv" tabindex=3D"0"><div data-cy=3D"ws-run-btn" class=3D" useView_view_=
-_C2mnv"><button class=3D" useView_view__C2mnv css-1t4xyzq" fdprocessedid=3D=
-"jsookn"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" v=
-iewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"cs=
-s-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;=
-"><path fill-rule=3D"evenodd" d=3D"M3.25 6A2.75 2.75 0 0 1 6 3.25h12A2.75 2=
-.75 0 0 1 20.75 6v12A2.75 2.75 0 0 1 18 20.75H6A2.75 2.75 0 0 1 3.25 18V6Z"=
- clip-rule=3D"evenodd"></path></svg><span class=3D" useView_view__C2mnv css=
--1xdyip3 Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-fam=
-ily: inherit; --Text--font-size: var(--font-size-default); --Text--line-hei=
-ght: var(--line-height-default);">Stop</span></button></div></span><div cla=
-ss=3D" useView_view__C2mnv css-1hu4ly2" data-visible=3D"true"><button class=
-=3D" useView_view__C2mnv css-11uvkyq" aria-expanded=3D"false" fdprocessedid=
-=3D"t09hk"><span class=3D" useView_view__C2mnv" tabindex=3D"0"><svg preserv=
-eAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" =
-fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--=
-size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"=
-evenodd" d=3D"M12.53 15.53a.75.75 0 0 1-1.06 0l-6-6a.75.75 0 0 1 1.06-1.06L=
-12 13.94l5.47-5.47a.75.75 0 1 1 1.06 1.06l-6 6Z" clip-rule=3D"evenodd"></pa=
-th></svg></span></button></div></div><div class=3D""><div class=3D" useView=
-_view__C2mnv useView_isHorizontal__Q1YOp css-kv6cfi" style=3D"--useView--ga=
-p: 6px; --useView--justify: end; --useView--align: center;"><div class=3D" =
-useView_view__C2mnv css-1sg97z6"></div><button class=3D" useView_view__C2mn=
-v css-os4f0t" type=3D"button" aria-label=3D"Search=E2=80=A6 (Ctrl-k)" fdpro=
-cessedid=3D"hvbhse" style=3D"--height: 32px; --width: 32px;"><svg preserveA=
-spectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fi=
-ll=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--si=
-ze: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"ev=
-enodd" d=3D"M11 3.75a7.25 7.25 0 1 0 5.044 12.457.753.753 0 0 1 .163-.163A7=
-.25 7.25 0 0 0 11 3.75Zm6.695 12.884a8.75 8.75 0 1 0-1.06 1.06l3.835 3.836a=
-.75.75 0 1 0 1.06-1.06l-3.835-3.836Z" clip-rule=3D"evenodd"></path></svg></=
-button><div class=3D" useView_view__C2mnv css-154vfli Surface_surfaceRoot__=
-TeA2u"><div class=3D" useView_view__C2mnv css-3jd6p9"><button type=3D"butto=
-n" tabindex=3D"0" aria-expanded=3D"false" class=3D"invite-button Button_but=
-ton__oRQ_x css-rkvknz" data-rac=3D"" id=3D"react-aria8892419012-:rl8:" fdpr=
-ocessedid=3D"ry0yzq" style=3D"--Button--height: 32px; --Button--shrink: 0; =
---Button--align-self: auto; --Button--alignment: center;"><div class=3D" us=
-eView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 8px=
-; --useView--justify: center; --useView--align: center; --useView--grow: 1;=
- --useView--shrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" =
-height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"tr=
-ue" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px=
-; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M8.5 3.75a3.25 3.25 0 1 0=
- 0 6.5 3.25 3.25 0 0 0 0-6.5ZM3.75 7a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-=
-9.5 0ZM20 7.25a.75.75 0 0 1 .75.75v2.25H23a.75.75 0 0 1 0 1.5h-2.25V14a.75.=
-75 0 0 1-1.5 0v-2.25H17a.75.75 0 0 1 0-1.5h2.25V8a.75.75 0 0 1 .75-.75ZM1.6=
-41 15.641A4.75 4.75 0 0 1 5 14.25h7A4.75 4.75 0 0 1 16.75 19v2a.75.75 0 0 1=
--1.5 0v-2A3.25 3.25 0 0 0 12 15.75H5A3.25 3.25 0 0 0 1.75 19v2a.75.75 0 0 1=
--1.5 0v-2c0-1.26.5-2.468 1.391-3.359Z" clip-rule=3D"evenodd"></path></svg><=
-span class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: va=
-r(--font-size-default); --Text--font-family: inherit;"><span class=3D" useV=
-iew_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--f=
-ont-family: inherit; --Text--font-size: var(--font-size-default); --Text--l=
-ine-height: var(--line-height-default);">Invite</span></span></div></button=
-></div></div><div class=3D" useView_view__C2mnv"><button type=3D"button" cl=
-ass=3D"Button_button__oRQ_x css-1xply15" data-rac=3D"" id=3D"react-aria8892=
-419012-:rla:" style=3D"--Button--height: 32px; --Button--shrink: 0; --Butto=
-n--align-self: auto; --Button--alignment: center;" tabindex=3D"0" fdprocess=
-edid=3D"4a3yyj"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1=
-YOp" style=3D"--useView--gap: 8px; --useView--justify: center; --useView--a=
-lign: center; --useView--grow: 1; --useView--shrink: 1;"><svg preserveAspec=
-tRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=
+3170-8a34000569863ea5.js"><link as=3D"script" rel=3D"prefetch" crossorigin=
+=3D"anonymous" href=3D"https://cdn.replit.com/_next/static/chunks/72-241bd8=
+92ed69d185.js"><link as=3D"script" rel=3D"prefetch" crossorigin=3D"anonymou=
+s" href=3D"https://cdn.replit.com/_next/static/chunks/pages/replEnvironment=
+Desktop-9b4a4750be010c27.js"><meta property=3D"og:title" content=3D"Word Gu=
+essing Game" data-next-head=3D""><meta name=3D"twitter:title" content=3D"Wo=
+rd Guessing Game" data-next-head=3D""><link rel=3D"alternate" type=3D"appli=
+cation/json+oembed" href=3D"https://replit.com/data/oembed?url=3Dhttps%3A%2=
+F%2Freplit.com%2F%40irugulivingzeal%2FWord-Guessing-Game" title=3D"Replit -=
+ select language" data-next-head=3D""><link rel=3D"shortcut icon" href=3D"h=
+ttps://replit.com/public/icons/favicon-prompt-192.png" sizes=3D"192x192" ty=
+pe=3D"image/png" data-next-head=3D""><link type=3D"text/css" rel=3D"stylesh=
+eet" href=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/css/mcafee=
+_fonts.css"></head><body><div id=3D"__next"><div data-cy=3D"workspace-page"=
+ class=3D"AppLayout_root__fUqNn" style=3D"--AppLayout--header-height: 0px; =
+--AppLayout--sidebar-width: 0px;"><a href=3D"https://replit.com/@irugulivin=
+gzeal/Word-Guessing-Game#main-content" class=3D"css-9x64ab">Skip to content=
+</a><div class=3D"AppLayout_content__gze4e"><section class=3D" useView_view=
+__C2mnv css-v7zd9q" aria-live=3D"polite" aria-label=3D"Messages (alt + T ke=
+y to focus)" tabindex=3D"-1" aria-relevant=3D"additions" role=3D"status" st=
+yle=3D"--groupHeight: 0px;"><ol></ol></section><div class=3D" useView_view_=
+_C2mnv replEnvironmentDesktop_surface__18l0g Surface_surfaceRoot__TeA2u"><h=
+eader class=3D" useView_view__C2mnv Header_root__fJWuA" style=3D"--useView-=
+-pr: 12px; --useView--pl: 8px; --index--height: 48px;"><div class=3D""><div=
+ class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-kv6cfi" styl=
+e=3D"--useView--gap: 4px; --useView--justify: start; --useView--align: cent=
+er;"><a data-cy=3D"home-button" class=3D"css-os4f0t" role=3D"link" aria-lab=
+el=3D"Home" tabindex=3D"0" href=3D"https://replit.com/~" style=3D"--height:=
+ 32px; --width: 32px; display: flex;"><svg preserveAspectRatio=3D"xMidYMin"=
+ width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" ari=
+a-hidden=3D"false" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0d=
+eg; width: 16px; height: 16px;"><title>Home</title><path fill-rule=3D"eveno=
+dd" d=3D"M11.54 1.408a.75.75 0 0 1 .92 0l9 7a.75.75 0 0 1 .29.592v11A2.75 2=
+.75 0 0 1 19 22.75H5A2.75 2.75 0 0 1 2.25 20V9a.75.75 0 0 1 .29-.592l9-7ZM3=
+.75 9.367V20A1.25 1.25 0 0 0 5 21.25h3.25V13.5a.75.75 0 0 1 .75-.75h6a.75.7=
+5 0 0 1 .75.75v7.75H19A1.25 1.25 0 0 0 20.25 20V9.367L12 2.95 3.75 9.367Zm1=
+0.5 11.883v-7h-4.5v7h4.5Z" clip-rule=3D"evenodd"></path></svg></a><div clas=
+s=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--=
+justify: start; --useView--align: center;"><div class=3D" useView_view__C2m=
+nv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px;"><div class=
+=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-18xp4h9" style=3D"=
+--useView--align: center; --useView--shrink: 1;"><button data-cy=3D"ws-repl=
+-info-container" class=3D" useView_view__C2mnv css-1al49xg" aria-expanded=
+=3D"false" fdprocessedid=3D"fwqpns"><div class=3D" useView_view__C2mnv useV=
+iew_isHorizontal__Q1YOp" style=3D"--useView--gap: 6px; --useView--align: ce=
+nter; --useView--grow: 1; --useView--shrink: 1;"><div class=3D" useView_vie=
+w__C2mnv css-5wf34q"><div class=3D" useView_view__C2mnv css-0"><div class=
+=3D" useView_view__C2mnv css-l5xv05"><div class=3D" useView_view__C2mnv css=
+-0"><div class=3D" useView_view__C2mnv css-hd9fvg Surface_surfaceDefault__T=
+cNI5"><span style=3D"box-sizing: border-box; display: inline-block; overflo=
+w: hidden; width: initial; height: initial; background: none; opacity: 1; b=
+order: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;=
+"><span style=3D"box-sizing: border-box; display: block; width: initial; he=
+ight: initial; background: none; opacity: 1; border: 0px; margin: 0px; padd=
+ing: 0px; max-width: 100%;"><img alt=3D"" aria-hidden=3D"true" src=3D"data:=
+image/svg+xml,%3csvg%20xmlns=3D%27http://www.w3.org/2000/svg%27%20version=
+=3D%271.1%27%20width=3D%2720%27%20height=3D%2720%27/%3e" style=3D"display: =
+block; max-width: 100%; width: initial; height: initial; background: none; =
+opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><img alt=3D"" s=
+rc=3D"https://replit.com/cdn-cgi/image/width=3D48,quality=3D80,format=3Daut=
+o/https://storage.googleapis.com/replit/images/1664473044967_513d905f04b05d=
+c76a37ec102fb668eb.jpeg" decoding=3D"async" data-nimg=3D"intrinsic" style=
+=3D"position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; b=
+order: none; margin: auto; display: block; width: 0px; height: 0px; min-wid=
+th: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: =
+cover;"></span><div class=3D" useView_view__C2mnv css-1tdidfe"></div></div>=
+</div></div></div></div><span data-cy=3D"header-repl-title" class=3D" useVi=
+ew_view__C2mnv css-jlxiq8 Text_text__T_hn_ Text_singleLine__lXpWA" style=3D=
+"--Text--font-family: inherit; --Text--font-size: var(--font-size-default);=
+ --Text--line-height: var(--line-height-default);">Word Guessing Game</span=
+></div></button></div></div></div><button type=3D"button" tabindex=3D"0" ar=
+ia-expanded=3D"false" class=3D"css-19ctpa2" data-rac=3D"" id=3D"react-aria8=
+892419012-:rl2:" fdprocessedid=3D"sz4jj7"><div class=3D" useView_view__C2mn=
+v useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 8px; --useView--ali=
+gn: center;"><div class=3D" useView_view__C2mnv css-y72f9m" role=3D"group">=
+<div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-pkrqb1" =
+style=3D"--useView--grow: 1; --useView--shrink: 1;"><div class=3D" useView_=
+view__C2mnv measureBarProgress css-xgk69a" role=3D"meter" aria-label=3D"0.8=
+1867 out of 3" aria-valuemin=3D"0" aria-valuenow=3D"0.81867" aria-valuemax=
+=3D"3" style=3D"background-color: var(--accent-primary-dimmer); width: 27.2=
+89%;"></div></div></div><span class=3D" useView_view__C2mnv Text_text__T_hn=
+_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text--fon=
+t-size: var(--font-size-small); --Text--line-height: var(--line-height-smal=
+l); --Text--color: var(--foreground-dimmer);">27% used</span></div></button=
+><div class=3D" useView_view__C2mnv css-1sg97z6"></div></div></div><div cla=
+ss=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-13guecw" style=
+=3D"--useView--align: center;"><div class=3D" useView_view__C2mnv css-19k8h=
+vb" data-visible=3D"false"><svg preserveAspectRatio=3D"xMidYMin" width=3D"1=
+6" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D=
+"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 1=
+6px; height: 16px;"><path fill=3D"url(#paint0_linear_7101_264)" fill-rule=
+=3D"evenodd" d=3D"M24 3.429a3.429 3.429 0 1 0-6.857 0 3.429 3.429 0 0 0 6.8=
+57 0ZM6.857 12A3.429 3.429 0 1 0 0 12a3.429 3.429 0 0 0 6.857 0ZM3.43 0a3.4=
+29 3.429 0 0 1 3.428 3.429v.027a5.143 5.143 0 0 0 5.14 5.115H12a3.429 3.429=
+ 0 1 1 0 6.858h-.007a5.143 5.143 0 0 0-5.136 5.116v.026a3.429 3.429 0 1 1-3=
+.428-3.428h.004a5.143 5.143 0 0 0-.005-10.286 3.429 3.429 0 0 1 0-6.857Zm12=
+ 3.429a3.429 3.429 0 1 0-3.43 3.428 5.143 5.143 0 0 1 .005 10.286H12a3.429 =
+3.429 0 1 0 3.429 3.428v-.027a5.143 5.143 0 0 1 5.135-5.115h.007a3.429 3.42=
+9 0 1 0 0-6.858h-.003a5.143 5.143 0 0 1-5.14-5.106V3.43Zm5.142 13.714a3.429=
+ 3.429 0 1 1 0 6.857 3.429 3.429 0 0 1 0-6.857Z" clip-rule=3D"evenodd"></pa=
+th><defs><linearGradient id=3D"paint0_linear_7101_264" x1=3D"0" x2=3D"24" y=
+1=3D"0" y2=3D"24" gradientUnits=3D"userSpaceOnUse"><stop stop-color=3D"#A69=
+4FF"></stop><stop offset=3D"1" stop-color=3D"#795EFF"></stop></linearGradie=
+nt></defs></svg></div><span class=3D" useView_view__C2mnv" tabindex=3D"0"><=
+div data-cy=3D"ws-run-btn" class=3D" useView_view__C2mnv"><button class=3D"=
+ useView_view__C2mnv css-1t4xyzq" fdprocessedid=3D"jsookn"><svg preserveAsp=
+ectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=
 =3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size=
 : 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"even=
-odd" d=3D"M14.409 9.75c-.039.434-.101.865-.188 1.29l1.241 1.24c.233-.822.38=
-5-1.67.452-2.53h3.298a7.226 7.226 0 0 1-1.995 4.285l1.06 1.06a8.75 8.75 0 1=
- 0-12.555 0l1.061-1.06A7.226 7.226 0 0 1 4.788 9.75h3.298c.067.86.219 1.708=
-.452 2.53l1.24-1.24c-.086-.425-.149-.856-.187-1.29h4.818Zm-9.62-1.5h3.297c.=
-176-2.262.94-4.433 2.209-6.298A7.256 7.256 0 0 0 4.788 8.25ZM12 2.16a11.49 =
-11.49 0 0 0-2.409 6.09h4.818A11.49 11.49 0 0 0 12 2.16Zm7.212 6.09h-3.298a1=
-2.99 12.99 0 0 0-2.209-6.298 7.256 7.256 0 0 1 5.507 6.298Z" clip-rule=3D"e=
-venodd"></path><path d=3D"m17.53 16.47-5-5a.75.75 0 0 0-1.06 0l-5 5a.75.75 =
-0 1 0 1.06 1.06l3.72-3.72V23a.75.75 0 0 0 1.5 0v-9.19l3.72 3.72a.75.75 0 1 =
-0 1.06-1.06Z"></path></svg><span class=3D"Text_singleLineWrapper__REG8N" st=
-yle=3D"--Text--font-size: var(--font-size-default); --Text--font-family: in=
-herit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLin=
-e__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--f=
-ont-size-default); --Text--line-height: var(--line-height-default);">Deploy=
-</span></span></div></button></div><div class=3D" useView_view__C2mnv useVi=
-ew_isHorizontal__Q1YOp"><button class=3D" useView_view__C2mnv css-os4f0t" t=
-ype=3D"button" aria-label=3D"No notifications" aria-expanded=3D"false" fdpr=
-ocessedid=3D"9lj8bw" style=3D"--height: 32px; --width: 32px;"><div class=3D=
-" useView_view__C2mnv css-l5xv05"><svg preserveAspectRatio=3D"xMidYMin" wid=
+odd" d=3D"M3.25 6A2.75 2.75 0 0 1 6 3.25h12A2.75 2.75 0 0 1 20.75 6v12A2.75=
+ 2.75 0 0 1 18 20.75H6A2.75 2.75 0 0 1 3.25 18V6Z" clip-rule=3D"evenodd"></=
+path></svg><span class=3D" useView_view__C2mnv css-1xdyip3 Text_text__T_hn_=
+ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--fon=
+t-size: var(--font-size-default); --Text--line-height: var(--line-height-de=
+fault);">Stop</span></button></div></span><div class=3D" useView_view__C2mn=
+v css-1hu4ly2" data-visible=3D"true"><button class=3D" useView_view__C2mnv =
+css-11uvkyq" aria-expanded=3D"false" fdprocessedid=3D"t09hk"><span class=3D=
+" useView_view__C2mnv" tabindex=3D"0"><svg preserveAspectRatio=3D"xMidYMin"=
+ width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" ari=
+a-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0de=
+g; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M12.53 15.5=
+3a.75.75 0 0 1-1.06 0l-6-6a.75.75 0 0 1 1.06-1.06L12 13.94l5.47-5.47a.75.75=
+ 0 1 1 1.06 1.06l-6 6Z" clip-rule=3D"evenodd"></path></svg></span></button>=
+</div></div><div class=3D""><div class=3D" useView_view__C2mnv useView_isHo=
+rizontal__Q1YOp css-kv6cfi" style=3D"--useView--gap: 6px; --useView--justif=
+y: end; --useView--align: center;"><div class=3D" useView_view__C2mnv css-1=
+sg97z6"></div><button class=3D" useView_view__C2mnv css-os4f0t" type=3D"but=
+ton" aria-label=3D"Search=E2=80=A6 (Ctrl-k)" fdprocessedid=3D"hvbhse" style=
+=3D"--height: 32px; --width: 32px;"><svg preserveAspectRatio=3D"xMidYMin" w=
+idth=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-=
+hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg;=
+ width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M11 3.75a7.25=
+ 7.25 0 1 0 5.044 12.457.753.753 0 0 1 .163-.163A7.25 7.25 0 0 0 11 3.75Zm6=
+.695 12.884a8.75 8.75 0 1 0-1.06 1.06l3.835 3.836a.75.75 0 1 0 1.06-1.06l-3=
+.835-3.836Z" clip-rule=3D"evenodd"></path></svg></button><div class=3D" use=
+View_view__C2mnv css-154vfli Surface_surfaceRoot__TeA2u"><div class=3D" use=
+View_view__C2mnv css-3jd6p9"><button type=3D"button" tabindex=3D"0" aria-ex=
+panded=3D"false" class=3D"invite-button Button_button__oRQ_x css-rkvknz" da=
+ta-rac=3D"" id=3D"react-aria8892419012-:rl8:" fdprocessedid=3D"ry0yzq" styl=
+e=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align-self: aut=
+o; --Button--alignment: center;"><div class=3D" useView_view__C2mnv useView=
+_isHorizontal__Q1YOp" style=3D"--useView--gap: 8px; --useView--justify: cen=
+ter; --useView--align: center; --useView--grow: 1; --useView--shrink: 1;"><=
+svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"=
+0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" =
+style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fi=
+ll-rule=3D"evenodd" d=3D"M8.5 3.75a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-=
+6.5ZM3.75 7a4.75 4.75 0 1 1 9.5 0 4.75 4.75 0 0 1-9.5 0ZM20 7.25a.75.75 0 0=
+ 1 .75.75v2.25H23a.75.75 0 0 1 0 1.5h-2.25V14a.75.75 0 0 1-1.5 0v-2.25H17a.=
+75.75 0 0 1 0-1.5h2.25V8a.75.75 0 0 1 .75-.75ZM1.641 15.641A4.75 4.75 0 0 1=
+ 5 14.25h7A4.75 4.75 0 0 1 16.75 19v2a.75.75 0 0 1-1.5 0v-2A3.25 3.25 0 0 0=
+ 12 15.75H5A3.25 3.25 0 0 0 1.75 19v2a.75.75 0 0 1-1.5 0v-2c0-1.26.5-2.468 =
+1.391-3.359Z" clip-rule=3D"evenodd"></path></svg><span class=3D"Text_single=
+LineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-default); -=
+-Text--font-family: inherit;"><span class=3D" useView_view__C2mnv Text_text=
+__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Te=
+xt--font-size: var(--font-size-default); --Text--line-height: var(--line-he=
+ight-default);">Invite</span></span></div></button></div></div><div class=
+=3D" useView_view__C2mnv"><button type=3D"button" class=3D"Button_button__o=
+RQ_x css-1xply15" data-rac=3D"" id=3D"react-aria8892419012-:rla:" style=3D"=
+--Button--height: 32px; --Button--shrink: 0; --Button--align-self: auto; --=
+Button--alignment: center;" tabindex=3D"0" fdprocessedid=3D"4a3yyj"><div cl=
+ass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView=
+--gap: 8px; --useView--justify: center; --useView--align: center; --useView=
+--grow: 1; --useView--shrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" wid=
 th=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hi=
 dden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; w=
-idth: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M7.227 3.227A6.=
-75 6.75 0 0 1 18.75 8c0 3.39.725 5.514 1.409 6.766.342.628.678 1.044.917 1.=
-296a3.254 3.254 0 0 0 .338.312l.009.007A.75.75 0 0 1 21 17.75H3a.75.75 0 0 =
-1-.423-1.37l.009-.006.063-.05c.06-.05.156-.136.275-.262.239-.252.575-.668.9=
-18-1.296C4.525 13.514 5.25 11.39 5.25 8a6.75 6.75 0 0 1 1.977-4.773ZM4.69 1=
-6.25h14.62a8.795 8.795 0 0 1-.468-.766C18.025 13.986 17.25 11.611 17.25 8a5=
-.25 5.25 0 0 0-10.5 0c0 3.61-.775 5.986-1.592 7.484a8.77 8.77 0 0 1-.468.76=
-6Zm5.204 4.101a.75.75 0 0 1 1.025.273 1.25 1.25 0 0 0 2.162 0 .75.75 0 0 1 =
-1.298.752 2.749 2.749 0 0 1-4.758 0 .75.75 0 0 1 .273-1.025Z" clip-rule=3D"=
-evenodd"></path></svg></div></button></div><button data-cy=3D"avatar-dropdo=
-wn-button" type=3D"button" tabindex=3D"0" aria-label=3D"User menu" aria-exp=
-anded=3D"false" class=3D"css-vnwwuf" data-rac=3D"" id=3D"react-aria88924190=
-12-:rlf:" fdprocessedid=3D"ej0shg"><div class=3D" useView_view__C2mnv css-c=
-iv67h" style=3D"--useView--pt: 4px; --useView--pb: 4px; --useView--pr: 4px;=
- --useView--pl: 8px;"><div class=3D" useView_view__C2mnv css-79elbk"><div c=
-lass=3D" useView_view__C2mnv css-e984aq" style=3D"--size: 24px; --ring-size=
-: 1px; --ring-color: var(--outline-dimmer); --has-on-click-shadow: inset 0 =
-0 0 var(--ring-size) var(--ring-color); --border-radius: var(--border-radiu=
-s-round);"><div class=3D" useView_view__C2mnv css-1nbdh03" aria-hidden=3D"t=
-rue"><div class=3D" useView_view__C2mnv css-ouxpv3" style=3D"--useView--gro=
-w: 1; --useView--shrink: 1;">LZ</div></div><span style=3D"box-sizing: borde=
-r-box; display: inline-block; overflow: hidden; width: initial; height: ini=
-tial; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;=
- position: relative; max-width: 100%;"><span style=3D"box-sizing: border-bo=
-x; display: block; width: initial; height: initial; background: none; opaci=
-ty: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"><img alt=
-=3D"" aria-hidden=3D"true" src=3D"data:image/svg+xml,%3csvg%20xmlns=3D%27ht=
-tp://www.w3.org/2000/svg%27%20version=3D%271.1%27%20width=3D%2724%27%20heig=
-ht=3D%2724%27/%3e" style=3D"display: block; max-width: 100%; width: initial=
-; height: initial; background: none; opacity: 1; border: 0px; margin: 0px; =
-padding: 0px;"></span><img alt=3D"irugulivingzeal" src=3D"https://www.grava=
-tar.com/avatar/7724c0c8de887ca9008ba29d1446e176?d=3Dblank&amp;s=3D256" deco=
-ding=3D"async" data-nimg=3D"intrinsic" style=3D"position: absolute; inset: =
-0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; disp=
-lay: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-=
-height: 100%; max-height: 100%; object-fit: cover;"></span></div></div><svg=
- preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0=
- 24 24" fill=3D"var(--foreground-dimmest)" aria-hidden=3D"true" class=3D"cs=
-s-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;=
-"><path fill-rule=3D"evenodd" d=3D"M12.53 15.53a.75.75 0 0 1-1.06 0l-6-6a.7=
-5.75 0 0 1 1.06-1.06L12 13.94l5.47-5.47a.75.75 0 1 1 1.06 1.06l-6 6Z" clip-=
-rule=3D"evenodd"></path></svg></div></button></div></div></header><div clas=
-s=3D" useView_view__C2mnv Workspace_contentContainer__DubhE" style=3D"heigh=
-t: calc(100% - 48px); top: 48px;"><div class=3D" useView_view__C2mnv DockSi=
-debar_root__N_L1p Surface_surfaceRoot__TeA2u" style=3D"--index--width: 180p=
-x; --index--height: 586px; --index--transform: translate(-180px, 0px); --in=
-dex--display: none; --index--border-color: transparent; --index--background=
--color: color-mix(in srgb, var(--interactive-background) 60%, var(--surface=
--background)); --index--z-index: 17;"><div class=3D" useView_view__C2mnv us=
-eView_isHorizontal__Q1YOp DockSidebar_header__xaaAD" style=3D"--useView--ga=
-p: 4px; --useView--align: center; --useView--pr: 4px; --useView--pl: 6px;">=
-<div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--=
-useView--gap: 4px; --useView--align: center; --useView--grow: 1; --useView-=
--shrink: 1;"><span class=3D" useView_view__C2mnv css-17rg3yr Text_text__T_h=
-n_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text--fo=
-nt-size: var(--font-size-default); --Text--line-height: var(--line-height-d=
-efault);">Files</span><span class=3D" useView_view__C2mnv" tabindex=3D"0"><=
-div class=3D" useView_view__C2mnv css-165e435"><svg preserveAspectRatio=3D"=
-xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"var(--fo=
-reground-dimmest)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--siz=
-e: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path d=3D"M20.149 12.=
-072a3.857 3.857 0 0 0-2.024-1.015l1.22-1.22a5.314 5.314 0 0 1 1.844 1.154 5=
-.044 5.044 0 0 1 1.561 3.634 5.044 5.044 0 0 1-1.56 3.634 5.385 5.385 0 0 1=
--3.734 1.491h-8.18a8.23 8.23 0 0 1-4.233-1.164 7.852 7.852 0 0 1-2.967-3.16=
- 7.524 7.524 0 0 1-.785-4.211 7.607 7.607 0 0 1 1.646-3.97A8.01 8.01 0 0 1 =
-6.495 4.73a8.287 8.287 0 0 1 4.387-.32c1.465.29 2.819.97 3.907 1.967.29.265=
-.557.55.802.852l-1.068 1.068a6.347 6.347 0 0 0-.747-.814 6.62 6.62 0 0 0-3.=
-185-1.603 6.787 6.787 0 0 0-3.593.263 6.51 6.51 0 0 0-2.892 2.043 6.106 6.1=
-06 0 0 0-1.323 3.187 6.024 6.024 0 0 0 .63 3.373 6.352 6.352 0 0 0 2.4 2.55=
-4 6.73 6.73 0 0 0 3.463.951h8.18a3.885 3.885 0 0 0 2.693-1.072 3.544 3.544 =
-0 0 0 1.101-2.553c0-.952-.393-1.871-1.101-2.553Z"></path><path d=3D"M12.03 =
-15.03a.75.75 0 0 1-1.06 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.97 2.97 7.97-7.=
-97a.75.75 0 1 1 1.06 1.06l-8.5 8.5Z"></path></svg></div></span></div><div c=
-lass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useVie=
-w--align: center;"><button class=3D" useView_view__C2mnv css-os4f0t" type=
-=3D"button" aria-label=3D"menu" style=3D"--height: 24px; --width: 24px;"><s=
-vg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0=
- 0 24 24" fill=3D"var(--foreground-dimmest)" aria-hidden=3D"true" class=3D"=
-css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16p=
-x;"><path fill-rule=3D"evenodd" d=3D"M10.25 5a1.75 1.75 0 1 1 3.5 0 1.75 1.=
-75 0 0 1-3.5 0Zm0 7a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Zm0 7a1.75 1=
-.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Z" clip-rule=3D"evenodd"></path></svg>=
-</button><input type=3D"file" multiple=3D"" accept=3D"*" style=3D"display: =
-none;"><input type=3D"file" webkitdirectory=3D"true" mozdirectory=3D"true" =
-msdirectory=3D"true" odirectory=3D"true" directory=3D"true" accept=3D"*" st=
-yle=3D"display: none;"></div></div><div class=3D" useView_view__C2mnv DockS=
-idebar_content__e0_hV" style=3D"--useView--grow: 1; --useView--shrink: 1;">=
-<div class=3D" useView_view__C2mnv Search_root__qfJle" style=3D"--Search--b=
-ackground-color: color-mix(in srgb, var(--interactive-background) 60%, var(=
---surface-background)); --Search--input-height: 32px;"><div class=3D" useVi=
-ew_view__C2mnv css-66z24y" style=3D"--useView--grow: 1; --useView--shrink: =
-1; --fontSize: 12px; --iconSize: 12px; --inputBarHeight: 28px; --inputBarPa=
-dding: var(--space-4); --menuPaddingTop: var(--space-4); --containerType: n=
-ormal;"><div class=3D" useView_view__C2mnv css-1mepytb" style=3D"--useView-=
--grow: 1; --useView--shrink: 1; max-width: 100%;"><label id=3D":rll:-label"=
- for=3D":rll:-input" class=3D"css-1gq6hfc">Commands</label><div class=3D" u=
-seView_view__C2mnv css-x4l6vm"><div class=3D" useView_view__C2mnv css-1waeo=
-oz" style=3D"--borderBottomRightRadius: 0; --borderBottomLeftRadius: 0;"><i=
-nput placeholder=3D"Search" autocorrect=3D"off" autocomplete=3D"off" autoca=
-pitalize=3D"off" id=3D":rll:-input" role=3D"combobox" aria-autocomplete=3D"=
-list" aria-activedescendant=3D"item-0" aria-controls=3D":rll:-menu" aria-ex=
-panded=3D"false" aria-labelledby=3D":rll:-label" class=3D"css-f5ixbl" value=
-=3D""></div></div></div></div></div><div data-cy=3D"sidebar-filetree-sectio=
-n" class=3D" useView_view__C2mnv" style=3D"--useView--grow: 1; --useView--s=
-hrink: 1;"><div class=3D" useView_view__C2mnv css-1mb0gc9" style=3D"--useVi=
-ew--pr: 2px; --useView--pl: 2px; --fontSize: 13px; --dirStatusIconSize: 13p=
-x; --fontSizeSmall: 12px; --iconSize: 16px; --iconTextGap: 6px; --horizonta=
-lPadding: 4px; --borderRadius: 4px; --scrollHeight: 88px; --gutterWidth: 10=
-px; --minHeight: 24px;"><div class=3D" useView_view__C2mnv css-1vvww13" rol=
-e=3D"tree"><div class=3D" useView_view__C2mnv css-60uqlc" style=3D"transiti=
-on: transform 140ms, width 140ms, height 140ms, opacity 140ms ease-out 60ms=
-; --dropPreviewY: 0px; --dropPreviewHeight: 0px; --dropPreviewDepth: 0; --d=
-ropPreviewOpacity: 0; --statusColor: var(--accent-negative-default);"></div=
-></div></div></div><div class=3D" useView_view__C2mnv useView_isHorizontal_=
-_Q1YOp DockSidebar_footerButtons__ENw63" style=3D"--useView--gap: 4px; --us=
-eView--justify: end; --useView--align: center; --useView--pt: 4px; --useVie=
-w--pr: 4px; --useView--pb: 4px; --useView--pl: 4px;"><button data-cy=3D"fil=
-etree-add-file" type=3D"button" tabindex=3D"0" class=3D"Button_button__oRQ_=
-x css-1skvsxd" data-rac=3D"" id=3D"react-aria8892419012-:rlm:" style=3D"--B=
-utton--height: 28px; --Button--shrink: 0; --Button--align-self: auto; --But=
-ton--alignment: center;"><div class=3D" useView_view__C2mnv useView_isHoriz=
-ontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--justify: center; --u=
-seView--align: center; --useView--grow: 1; --useView--shrink: 1;"><svg pres=
-erveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 2=
-4" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D=
-"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=
-=3D"evenodd" d=3D"M4.055 2.055A2.75 2.75 0 0 1 6 1.25h8a.75.75 0 0 1 .53.22=
-l6 6c.141.14.22.331.22.53v12A2.75 2.75 0 0 1 18 22.75H6A2.75 2.75 0 0 1 3.2=
-5 20V4c0-.73.29-1.429.805-1.945ZM6 2.75A1.25 1.25 0 0 0 4.75 4v16A1.25 1.25=
- 0 0 0 6 21.25h12A1.25 1.25 0 0 0 19.25 20V8.75H14a.75.75 0 0 1-.75-.75V2.7=
-5H6Zm8.75 1.06 3.44 3.44h-3.44V3.81ZM12 11.25a.75.75 0 0 1 .75.75v2.25H15a.=
-75.75 0 0 1 0 1.5h-2.25V18a.75.75 0 0 1-1.5 0v-2.25H9a.75.75 0 0 1 0-1.5h2.=
-25V12a.75.75 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path></svg><span class=
-=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-s=
-ize-small); --Text--font-family: inherit;"><span class=3D" useView_view__C2=
-mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: =
-inherit; --Text--font-size: var(--font-size-small); --Text--line-height: va=
-r(--line-height-small);">File</span></span></div></button><button type=3D"b=
+idth: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M14.409 9.75c-.=
+039.434-.101.865-.188 1.29l1.241 1.24c.233-.822.385-1.67.452-2.53h3.298a7.2=
+26 7.226 0 0 1-1.995 4.285l1.06 1.06a8.75 8.75 0 1 0-12.555 0l1.061-1.06A7.=
+226 7.226 0 0 1 4.788 9.75h3.298c.067.86.219 1.708.452 2.53l1.24-1.24c-.086=
+-.425-.149-.856-.187-1.29h4.818Zm-9.62-1.5h3.297c.176-2.262.94-4.433 2.209-=
+6.298A7.256 7.256 0 0 0 4.788 8.25ZM12 2.16a11.49 11.49 0 0 0-2.409 6.09h4.=
+818A11.49 11.49 0 0 0 12 2.16Zm7.212 6.09h-3.298a12.99 12.99 0 0 0-2.209-6.=
+298 7.256 7.256 0 0 1 5.507 6.298Z" clip-rule=3D"evenodd"></path><path d=3D=
+"m17.53 16.47-5-5a.75.75 0 0 0-1.06 0l-5 5a.75.75 0 1 0 1.06 1.06l3.72-3.72=
+V23a.75.75 0 0 0 1.5 0v-9.19l3.72 3.72a.75.75 0 1 0 1.06-1.06Z"></path></sv=
+g><span class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size:=
+ var(--font-size-default); --Text--font-family: inherit;"><span class=3D" u=
+seView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text=
+--font-family: inherit; --Text--font-size: var(--font-size-default); --Text=
+--line-height: var(--line-height-default);">Deploy</span></span></div></but=
+ton></div><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp"><=
+button class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" aria-label=
+=3D"No notifications" aria-expanded=3D"false" fdprocessedid=3D"9lj8bw" styl=
+e=3D"--height: 32px; --width: 32px;"><div class=3D" useView_view__C2mnv css=
+-l5xv05"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" v=
+iewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"cs=
+s-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;=
+"><path fill-rule=3D"evenodd" d=3D"M7.227 3.227A6.75 6.75 0 0 1 18.75 8c0 3=
+.39.725 5.514 1.409 6.766.342.628.678 1.044.917 1.296a3.254 3.254 0 0 0 .33=
+8.312l.009.007A.75.75 0 0 1 21 17.75H3a.75.75 0 0 1-.423-1.37l.009-.006.063=
+-.05c.06-.05.156-.136.275-.262.239-.252.575-.668.918-1.296C4.525 13.514 5.2=
+5 11.39 5.25 8a6.75 6.75 0 0 1 1.977-4.773ZM4.69 16.25h14.62a8.795 8.795 0 =
+0 1-.468-.766C18.025 13.986 17.25 11.611 17.25 8a5.25 5.25 0 0 0-10.5 0c0 3=
+.61-.775 5.986-1.592 7.484a8.77 8.77 0 0 1-.468.766Zm5.204 4.101a.75.75 0 0=
+ 1 1.025.273 1.25 1.25 0 0 0 2.162 0 .75.75 0 0 1 1.298.752 2.749 2.749 0 0=
+ 1-4.758 0 .75.75 0 0 1 .273-1.025Z" clip-rule=3D"evenodd"></path></svg></d=
+iv></button></div><button data-cy=3D"avatar-dropdown-button" type=3D"button=
+" tabindex=3D"0" aria-label=3D"User menu" aria-expanded=3D"false" class=3D"=
+css-vnwwuf" data-rac=3D"" id=3D"react-aria8892419012-:rlf:" fdprocessedid=
+=3D"ej0shg"><div class=3D" useView_view__C2mnv css-civ67h" style=3D"--useVi=
+ew--pt: 4px; --useView--pb: 4px; --useView--pr: 4px; --useView--pl: 8px;"><=
+div class=3D" useView_view__C2mnv css-79elbk"><div class=3D" useView_view__=
+C2mnv css-e984aq" style=3D"--size: 24px; --ring-size: 1px; --ring-color: va=
+r(--outline-dimmer); --has-on-click-shadow: inset 0 0 0 var(--ring-size) va=
+r(--ring-color); --border-radius: var(--border-radius-round);"><div class=
+=3D" useView_view__C2mnv css-1nbdh03" aria-hidden=3D"true"><div class=3D" u=
+seView_view__C2mnv css-ouxpv3" style=3D"--useView--grow: 1; --useView--shri=
+nk: 1;">LZ</div></div><span style=3D"box-sizing: border-box; display: inlin=
+e-block; overflow: hidden; width: initial; height: initial; background: non=
+e; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; =
+max-width: 100%;"><span style=3D"box-sizing: border-box; display: block; wi=
+dth: initial; height: initial; background: none; opacity: 1; border: 0px; m=
+argin: 0px; padding: 0px; max-width: 100%;"><img alt=3D"" aria-hidden=3D"tr=
+ue" src=3D"data:image/svg+xml,%3csvg%20xmlns=3D%27http://www.w3.org/2000/sv=
+g%27%20version=3D%271.1%27%20width=3D%2724%27%20height=3D%2724%27/%3e" styl=
+e=3D"display: block; max-width: 100%; width: initial; height: initial; back=
+ground: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"></span><=
+img alt=3D"irugulivingzeal" src=3D"https://www.gravatar.com/avatar/7724c0c8=
+de887ca9008ba29d1446e176?d=3Dblank&amp;s=3D256" decoding=3D"async" data-nim=
+g=3D"intrinsic" style=3D"position: absolute; inset: 0px; box-sizing: border=
+-box; padding: 0px; border: none; margin: auto; display: block; width: 0px;=
+ height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-heigh=
+t: 100%; object-fit: cover;"></span></div></div><svg preserveAspectRatio=3D=
+"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--f=
+oreground-dimmest)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--si=
+ze: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"ev=
+enodd" d=3D"M12.53 15.53a.75.75 0 0 1-1.06 0l-6-6a.75.75 0 0 1 1.06-1.06L12=
+ 13.94l5.47-5.47a.75.75 0 1 1 1.06 1.06l-6 6Z" clip-rule=3D"evenodd"></path=
+></svg></div></button></div></div></header><div class=3D" useView_view__C2m=
+nv Workspace_contentContainer__DubhE" style=3D"height: calc(100% - 48px); t=
+op: 48px;"><div class=3D" useView_view__C2mnv DockSidebar_root__N_L1p Surfa=
+ce_surfaceRoot__TeA2u" style=3D"--index--width: 180px; --index--height: 586=
+px; --index--transform: translate(-180px, 0px); --index--display: none; --i=
+ndex--border-color: transparent; --index--background-color: color-mix(in sr=
+gb, var(--interactive-background) 60%, var(--surface-background)); --index-=
+-z-index: 17;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1Y=
+Op DockSidebar_header__xaaAD" style=3D"--useView--gap: 4px; --useView--alig=
+n: center; --useView--pr: 4px; --useView--pl: 6px;"><div class=3D" useView_=
+view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --us=
+eView--align: center; --useView--grow: 1; --useView--shrink: 1;"><span clas=
+s=3D" useView_view__C2mnv css-17rg3yr Text_text__T_hn_ Text_multiline__ICkL=
+z" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-siz=
+e-default); --Text--line-height: var(--line-height-default);">Files</span><=
+span class=3D" useView_view__C2mnv" tabindex=3D"0"><div class=3D" useView_v=
+iew__C2mnv css-165e435"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" =
+height=3D"16" viewBox=3D"0 0 24 24" fill=3D"var(--foreground-dimmest)" aria=
+-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg=
+; width: 16px; height: 16px;"><path d=3D"M20.149 12.072a3.857 3.857 0 0 0-2=
+.024-1.015l1.22-1.22a5.314 5.314 0 0 1 1.844 1.154 5.044 5.044 0 0 1 1.561 =
+3.634 5.044 5.044 0 0 1-1.56 3.634 5.385 5.385 0 0 1-3.734 1.491h-8.18a8.23=
+ 8.23 0 0 1-4.233-1.164 7.852 7.852 0 0 1-2.967-3.16 7.524 7.524 0 0 1-.785=
+-4.211 7.607 7.607 0 0 1 1.646-3.97A8.01 8.01 0 0 1 6.495 4.73a8.287 8.287 =
+0 0 1 4.387-.32c1.465.29 2.819.97 3.907 1.967.29.265.557.55.802.852l-1.068 =
+1.068a6.347 6.347 0 0 0-.747-.814 6.62 6.62 0 0 0-3.185-1.603 6.787 6.787 0=
+ 0 0-3.593.263 6.51 6.51 0 0 0-2.892 2.043 6.106 6.106 0 0 0-1.323 3.187 6.=
+024 6.024 0 0 0 .63 3.373 6.352 6.352 0 0 0 2.4 2.554 6.73 6.73 0 0 0 3.463=
+.951h8.18a3.885 3.885 0 0 0 2.693-1.072 3.544 3.544 0 0 0 1.101-2.553c0-.95=
+2-.393-1.871-1.101-2.553Z"></path><path d=3D"M12.03 15.03a.75.75 0 0 1-1.06=
+ 0l-3.5-3.5a.75.75 0 1 1 1.06-1.06l2.97 2.97 7.97-7.97a.75.75 0 1 1 1.06 1.=
+06l-8.5 8.5Z"></path></svg></div></span></div><div class=3D" useView_view__=
+C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--align: center;"><but=
+ton class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" aria-label=3D=
+"menu" style=3D"--height: 24px; --width: 24px;"><svg preserveAspectRatio=3D=
+"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"var(--f=
+oreground-dimmest)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--si=
+ze: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"ev=
+enodd" d=3D"M10.25 5a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Zm0 7a1.75 =
+1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Zm0 7a1.75 1.75 0 1 1 3.5 0 1.75 1.75=
+ 0 0 1-3.5 0Z" clip-rule=3D"evenodd"></path></svg></button><input type=3D"f=
+ile" multiple=3D"" accept=3D"*" style=3D"display: none;"><input type=3D"fil=
+e" webkitdirectory=3D"true" mozdirectory=3D"true" msdirectory=3D"true" odir=
+ectory=3D"true" directory=3D"true" accept=3D"*" style=3D"display: none;"></=
+div></div><div class=3D" useView_view__C2mnv DockSidebar_content__e0_hV" st=
+yle=3D"--useView--grow: 1; --useView--shrink: 1;"><div class=3D" useView_vi=
+ew__C2mnv Search_root__qfJle" style=3D"--Search--background-color: color-mi=
+x(in srgb, var(--interactive-background) 60%, var(--surface-background)); -=
+-Search--input-height: 32px;"><div class=3D" useView_view__C2mnv css-66z24y=
+" style=3D"--useView--grow: 1; --useView--shrink: 1; --fontSize: 12px; --ic=
+onSize: 12px; --inputBarHeight: 28px; --inputBarPadding: var(--space-4); --=
+menuPaddingTop: var(--space-4); --containerType: normal;"><div class=3D" us=
+eView_view__C2mnv css-1mepytb" style=3D"--useView--grow: 1; --useView--shri=
+nk: 1; max-width: 100%;"><label id=3D":rll:-label" for=3D":rll:-input" clas=
+s=3D"css-1gq6hfc">Commands</label><div class=3D" useView_view__C2mnv css-x4=
+l6vm"><div class=3D" useView_view__C2mnv css-1waeooz" style=3D"--borderBott=
+omRightRadius: 0; --borderBottomLeftRadius: 0;"><input placeholder=3D"Searc=
+h" autocorrect=3D"off" autocomplete=3D"off" autocapitalize=3D"off" id=3D":r=
+ll:-input" role=3D"combobox" aria-autocomplete=3D"list" aria-activedescenda=
+nt=3D"item-0" aria-controls=3D":rll:-menu" aria-expanded=3D"false" aria-lab=
+elledby=3D":rll:-label" class=3D"css-f5ixbl" value=3D""></div></div></div><=
+/div></div><div data-cy=3D"sidebar-filetree-section" class=3D" useView_view=
+__C2mnv" style=3D"--useView--grow: 1; --useView--shrink: 1;"><div class=3D"=
+ useView_view__C2mnv css-1mb0gc9" style=3D"--useView--pr: 2px; --useView--p=
+l: 2px; --fontSize: 13px; --dirStatusIconSize: 13px; --fontSizeSmall: 12px;=
+ --iconSize: 16px; --iconTextGap: 6px; --horizontalPadding: 4px; --borderRa=
+dius: 4px; --scrollHeight: 88px; --gutterWidth: 10px; --minHeight: 24px;"><=
+div class=3D" useView_view__C2mnv css-1vvww13" role=3D"tree"><div class=3D"=
+ useView_view__C2mnv css-60uqlc" style=3D"transition: transform 140ms, widt=
+h 140ms, height 140ms, opacity 140ms ease-out 60ms; --dropPreviewY: 0px; --=
+dropPreviewHeight: 0px; --dropPreviewDepth: 0; --dropPreviewOpacity: 0; --s=
+tatusColor: var(--accent-negative-default);"></div></div></div></div><div c=
+lass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp DockSidebar_footer=
+Buttons__ENw63" style=3D"--useView--gap: 4px; --useView--justify: end; --us=
+eView--align: center; --useView--pt: 4px; --useView--pr: 4px; --useView--pb=
+: 4px; --useView--pl: 4px;"><button data-cy=3D"filetree-add-file" type=3D"b=
 utton" tabindex=3D"0" class=3D"Button_button__oRQ_x css-1skvsxd" data-rac=
-=3D"" id=3D"react-aria8892419012-:rlo:" style=3D"--Button--height: 28px; --=
+=3D"" id=3D"react-aria8892419012-:rlm:" style=3D"--Button--height: 28px; --=
 Button--shrink: 0; --Button--align-self: auto; --Button--alignment: center;=
 "><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"=
 --useView--gap: 4px; --useView--justify: center; --useView--align: center; =
 --useView--grow: 1; --useView--shrink: 1;"><svg preserveAspectRatio=3D"xMid=
 YMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor=
 " aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate=
-: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M4 3.7=
-5A1.25 1.25 0 0 0 2.75 5v14A1.25 1.25 0 0 0 4 20.25h16A1.25 1.25 0 0 0 21.2=
-5 19V8A1.25 1.25 0 0 0 20 6.75h-9a.75.75 0 0 1-.624-.334L8.599 3.75H4Zm-1.9=
-45-.695A2.75 2.75 0 0 1 4 2.25h5a.75.75 0 0 1 .624.334l1.777 2.666H20A2.75 =
-2.75 0 0 1 22.75 8v11A2.75 2.75 0 0 1 20 21.75H4A2.75 2.75 0 0 1 1.25 19V5c=
-0-.73.29-1.429.805-1.945ZM12 10.25a.75.75 0 0 1 .75.75v2.25H15a.75.75 0 0 1=
- 0 1.5h-2.25V17a.75.75 0 0 1-1.5 0v-2.25H9a.75.75 0 0 1 0-1.5h2.25V11a.75.7=
-5 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path></svg><span class=3D"Text_si=
-ngleLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-small);=
- --Text--font-family: inherit;"><span class=3D" useView_view__C2mnv Text_te=
-xt__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --=
-Text--font-size: var(--font-size-small); --Text--line-height: var(--line-he=
-ight-small);">Folder</span></span></div></button></div></div><div class=3D"=
- useView_view__C2mnv DockSidebar_resizeHandleRoot__vsVgf" style=3D"--useVie=
-w--justify: center; --useView--align: center; --index--resize-grip-opacity:=
- 0; --index--resize-handle-transform: translateX(calc(100% + 1px)); --index=
---resize-grip-color: var(--outline-dimmest); --index--resize-handle-width: =
-6px; --index--resize-handle-height: 24px;"><div class=3D" useView_view__C2m=
-nv DockSidebar_resizeHandleGrip__5IgIv"></div></div></div><main id=3D"main-=
-content" class=3D"Workspace_main__kdQYh"><div class=3D" useView_view__C2mnv=
- css-1dk1hz7" style=3D"opacity: var(--opacity); pointer-events: var(--point=
-erEvents); --width: 6px; --height: 586px; --transformX: 401px; --transformY=
-: 0px; --rotation: 0deg; --gripVisibility: visible; --transitionDuration: 0=
-.12ms; --pointerEvents: auto; --opacity: 1; --cursor: col-resize; --hoverSc=
-aleX: 2; --hoverScaleY: 1; --gripColor: var(--outline-dimmest); --zIndex: 1=
-; --gripWidth: 2px; --gripHeight: 24px;"><div class=3D" useView_view__C2mnv=
- blanket css-122y91a"></div><div class=3D" useView_view__C2mnv grip css-1j7=
-y24b"></div></div><div class=3D" useView_view__C2mnv useView_isHorizontal__=
-Q1YOp Header_surface__O1_Hg Surface_surfaceRoot__TeA2u" style=3D"--useView-=
--align: center; --index--border-radius: 4px; --index--background-color: col=
-or-mix(in srgb, var(--interactive-background) 60%, var(--surface-background=
-)); --index--transform-origin-x: 0x; z-index: 2; --index--controls-opacity:=
- 0; --index--width: 352.8px; --index--height: 32px; --index--scale: 1; --in=
-dex--opacity: 1; --index--transform-x: 0px; --index--transform-y: 0px; --in=
-dex--top: 0px; --index--left: 48px;"><div class=3D" useView_view__C2mnv use=
-View_isHorizontal__Q1YOp Header_left__RrNvy" style=3D"--useView--align: cen=
-ter; --useView--grow: 1; --useView--shrink: 1;"><div class=3D" useView_view=
-__C2mnv useView_isHorizontal__Q1YOp TabList_container__s3ufN" role=3D"tabli=
-st" style=3D"--useView--align: center;"><div dir=3D"ltr" class=3D"TabList_t=
-abScrollAreaRoot__O0iqm" style=3D"position: relative; --radix-scroll-area-c=
-orner-width: 0px; --radix-scroll-area-corner-height: 0px;"><div data-radix-=
-scroll-area-viewport=3D"" class=3D"TabList_tabScrollAreaViewport__9wZEC" st=
-yle=3D"overflow: scroll hidden;"><div style=3D"min-width: 100%; display: ta=
-ble;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp TabLis=
-t_tabContainer__o__tr"><div class=3D" useView_view__C2mnv useView_isHorizon=
-tal__Q1YOp Tab_tab__EF2Lk Tab_active__WvwT0 Surface_surfaceDefault__TcNI5" =
-style=3D"--useView--align: stretch; --Tab--font-style: inherit;"><button cl=
-ass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tabButton__2m0l=
-S" tabindex=3D"0" role=3D"tab" aria-selected=3D"true" aria-controls=3D"17e9=
-44e1-41c9-4d87-83bb-53a353ddfef8" id=3D"tab-17e944e1-41c9-4d87-83bb-53a353d=
-dfef8" data-pane-tab-primary-button=3D"true" fdprocessedid=3D"hgbet9" style=
-=3D"--useView--gap: 6px; --useView--align: center; --useView--grow: 1; --us=
-eView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;"><div class=3D" u=
-seView_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspectRatio=3D"xMidYMin=
-" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" ar=
-ia-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0d=
-eg; width: 16px; height: 16px;"><g clip-path=3D"url(#clip0_7329_267)"><path=
- fill=3D"var(--accent-teal-default)" d=3D"M7.714 0a3.429 3.429 0 0 1 3.429 =
-3.429v.026a5.143 5.143 0 0 0 5.137 5.116h.006a3.429 3.429 0 0 1 0 6.858 5.1=
-43 5.143 0 0 0-5.143 5.142 3.429 3.429 0 1 1-3.429-3.428h.007a5.143 5.143 0=
- 0 0-.007-10.286 3.429 3.429 0 0 1 0-6.857Z"></path><path fill=3D"var(--acc=
-ent-teal-stronger)" d=3D"M11.143 12a3.429 3.429 0 1 0-6.857 0 3.429 3.429 0=
- 0 0 6.857 0Z"></path><path fill=3D"url(#paint0_radial_7329_267)" d=3D"M7.7=
-14 0a3.429 3.429 0 0 1 3.429 3.429v.026a5.143 5.143 0 0 0 5.137 5.116h.006a=
-3.429 3.429 0 0 1 0 6.858 5.143 5.143 0 0 0-5.143 5.142 3.429 3.429 0 1 1-3=
-.429-3.428h.007a5.143 5.143 0 0 0-.007-10.286 3.429 3.429 0 0 1 0-6.857Z" o=
-pacity=3D".5"></path><path fill=3D"url(#paint1_radial_7329_267)" d=3D"M7.71=
-4 8.571a3.429 3.429 0 1 1 0 6.858 3.429 3.429 0 0 1 0-6.858Z" opacity=3D".5=
-"></path></g><defs><radialGradient id=3D"paint0_radial_7329_267" cx=3D"0" c=
-y=3D"0" r=3D"1" gradientTransform=3D"rotate(44.479 -2.762 5.679)scale(29.16=
-94)" gradientUnits=3D"userSpaceOnUse"><stop stop-color=3D"#fff" stop-opacit=
-y=3D".79"></stop><stop offset=3D"1"></stop></radialGradient><radialGradient=
- id=3D"paint1_radial_7329_267" cx=3D"0" cy=3D"0" r=3D"1" gradientTransform=
-=3D"rotate(44.479 -2.763 5.679)scale(29.1694)" gradientUnits=3D"userSpaceOn=
-Use"><stop stop-color=3D"#fff" stop-opacity=3D".79"></stop><stop offset=3D"=
-1"></stop></radialGradient><clipPath id=3D"clip0_7329_267"><path fill=3D"#f=
-ff" d=3D"M0 .274C0 .123.123 0 .274 0h23.452c.151 0 .274.123.274.274v23.452a=
-.274.274 0 0 1-.274.274H.274A.274.274 0 0 1 0 23.726V.274Z"></path></clipPa=
-th></defs></svg></div><div class=3D" useView_view__C2mnv useView_isHorizont=
-al__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: center;"><span c=
-lass=3D" useView_view__C2mnv Tab_tabTitle__hyRHu Text_text__T_hn_ Text_sing=
-leLine__lXpWA" title=3D"Assistant" style=3D"--Text--font-family: inherit; -=
--Text--font-size: var(--font-size-default); --Text--line-height: var(--line=
--height-default);">Assistant</span></div></button><button class=3D" useView=
-_view__C2mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-1" type=3D"but=
-ton" aria-label=3D"Close tab" style=3D"--height: 12px; --width: 12px;"><svg=
- preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0=
- 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" sty=
-le=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-=
-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75=
-.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.4=
-7 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip=
--rule=3D"evenodd"></path></svg></button></div></div></div></div></div><butt=
-on class=3D" useView_view__C2mnv TabList_newTabButton__F7Fv4 css-os4f0t" ty=
-pe=3D"button" aria-label=3D"New tab" fdprocessedid=3D"iunt5m" style=3D"--he=
-ight: 12px; --width: 12px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"=
-12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=
-=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width=
-: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M12 3.25a.75.75 0 0=
- 1 .75.75v7.25H20a.75.75 0 0 1 0 1.5h-7.25V20a.75.75 0 0 1-1.5 0v-7.25H4a.7=
-5.75 0 0 1 0-1.5h7.25V4a.75.75 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path=
-></svg></button><div class=3D" useView_view__C2mnv css-ijdrbt" title=3D"Dou=
-ble click to maximize. Drag to move." style=3D"--useView--grow: 1; --useVie=
-w--shrink: 1; cursor: grab;"></div></div></div><div class=3D" useView_view_=
-_C2mnv useView_isHorizontal__Q1YOp Header_right__6qiEj"><button class=3D" u=
-seView_view__C2mnv Header_headerContentMoreActions__WHJN2 css-os4f0t" type=
-=3D"button" aria-label=3D"Pane actions" fdprocessedid=3D"mtouz" style=3D"--=
-height: 24px; --width: 24px;"><svg preserveAspectRatio=3D"xMidYMin" width=
-=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"var(--foreground-dimmes=
-t)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rota=
-te: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M10.=
-25 5a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Zm0 7a1.75 1.75 0 1 1 3.5 0=
- 1.75 1.75 0 0 1-3.5 0Zm0 7a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Z" c=
-lip-rule=3D"evenodd"></path></svg></button></div></div><div class=3D" useVi=
-ew_view__C2mnv useView_isHorizontal__Q1YOp Header_surface__O1_Hg Surface_su=
-rfaceRoot__TeA2u" style=3D"--useView--align: center; --index--border-radius=
-: 4px; --index--background-color: color-mix(in srgb, var(--interactive-back=
-ground) 60%, var(--surface-background)); --index--transform-origin-x: 0x; z=
--index: 2; --index--controls-opacity: 1; --index--width: 529.1999999999999p=
-x; --index--height: 32px; --index--scale: 1; --index--opacity: 1; --index--=
-transform-x: 0px; --index--transform-y: 0px; --index--top: 0px; --index--le=
-ft: 407px;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp =
+: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M4.055=
+ 2.055A2.75 2.75 0 0 1 6 1.25h8a.75.75 0 0 1 .53.22l6 6c.141.14.22.331.22.5=
+3v12A2.75 2.75 0 0 1 18 22.75H6A2.75 2.75 0 0 1 3.25 20V4c0-.73.29-1.429.80=
+5-1.945ZM6 2.75A1.25 1.25 0 0 0 4.75 4v16A1.25 1.25 0 0 0 6 21.25h12A1.25 1=
+.25 0 0 0 19.25 20V8.75H14a.75.75 0 0 1-.75-.75V2.75H6Zm8.75 1.06 3.44 3.44=
+h-3.44V3.81ZM12 11.25a.75.75 0 0 1 .75.75v2.25H15a.75.75 0 0 1 0 1.5h-2.25V=
+18a.75.75 0 0 1-1.5 0v-2.25H9a.75.75 0 0 1 0-1.5h2.25V12a.75.75 0 0 1 .75-.=
+75Z" clip-rule=3D"evenodd"></path></svg><span class=3D"Text_singleLineWrapp=
+er__REG8N" style=3D"--Text--font-size: var(--font-size-small); --Text--font=
+-family: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Tex=
+t_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-si=
+ze: var(--font-size-small); --Text--line-height: var(--line-height-small);"=
+>File</span></span></div></button><button type=3D"button" tabindex=3D"0" cl=
+ass=3D"Button_button__oRQ_x css-1skvsxd" data-rac=3D"" id=3D"react-aria8892=
+419012-:rlo:" style=3D"--Button--height: 28px; --Button--shrink: 0; --Butto=
+n--align-self: auto; --Button--alignment: center;"><div class=3D" useView_v=
+iew__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --use=
+View--justify: center; --useView--align: center; --useView--grow: 1; --useV=
+iew--shrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=
+=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" cl=
+ass=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; heig=
+ht: 12px;"><path fill-rule=3D"evenodd" d=3D"M4 3.75A1.25 1.25 0 0 0 2.75 5v=
+14A1.25 1.25 0 0 0 4 20.25h16A1.25 1.25 0 0 0 21.25 19V8A1.25 1.25 0 0 0 20=
+ 6.75h-9a.75.75 0 0 1-.624-.334L8.599 3.75H4Zm-1.945-.695A2.75 2.75 0 0 1 4=
+ 2.25h5a.75.75 0 0 1 .624.334l1.777 2.666H20A2.75 2.75 0 0 1 22.75 8v11A2.7=
+5 2.75 0 0 1 20 21.75H4A2.75 2.75 0 0 1 1.25 19V5c0-.73.29-1.429.805-1.945Z=
+M12 10.25a.75.75 0 0 1 .75.75v2.25H15a.75.75 0 0 1 0 1.5h-2.25V17a.75.75 0 =
+0 1-1.5 0v-2.25H9a.75.75 0 0 1 0-1.5h2.25V11a.75.75 0 0 1 .75-.75Z" clip-ru=
+le=3D"evenodd"></path></svg><span class=3D"Text_singleLineWrapper__REG8N" s=
+tyle=3D"--Text--font-size: var(--font-size-small); --Text--font-family: inh=
+erit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine=
+__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--fo=
+nt-size-small); --Text--line-height: var(--line-height-small);">Folder</spa=
+n></span></div></button></div></div><div class=3D" useView_view__C2mnv Dock=
+Sidebar_resizeHandleRoot__vsVgf" style=3D"--useView--justify: center; --use=
+View--align: center; --index--resize-grip-opacity: 0; --index--resize-handl=
+e-transform: translateX(calc(100% + 1px)); --index--resize-grip-color: var(=
+--outline-dimmest); --index--resize-handle-width: 6px; --index--resize-hand=
+le-height: 24px;"><div class=3D" useView_view__C2mnv DockSidebar_resizeHand=
+leGrip__5IgIv"></div></div></div><main id=3D"main-content" class=3D"Workspa=
+ce_main__kdQYh"><div class=3D" useView_view__C2mnv css-1dk1hz7" style=3D"op=
+acity: var(--opacity); pointer-events: var(--pointerEvents); --width: 6px; =
+--height: 586px; --transformX: 401px; --transformY: 0px; --rotation: 0deg; =
+--gripVisibility: visible; --transitionDuration: 0.12ms; --pointerEvents: a=
+uto; --opacity: 1; --cursor: col-resize; --hoverScaleX: 2; --hoverScaleY: 1=
+; --gripColor: var(--outline-dimmest); --zIndex: 1; --gripWidth: 2px; --gri=
+pHeight: 24px;"><div class=3D" useView_view__C2mnv blanket css-122y91a"></d=
+iv><div class=3D" useView_view__C2mnv grip css-1j7y24b"></div></div><div cl=
+ass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp Header_surface__O1_=
+Hg Surface_surfaceRoot__TeA2u" style=3D"--useView--align: center; --index--=
+border-radius: 4px; --index--background-color: color-mix(in srgb, var(--int=
+eractive-background) 60%, var(--surface-background)); --index--transform-or=
+igin-x: 0x; z-index: 2; --index--controls-opacity: 0; --index--width: 352.8=
+px; --index--height: 32px; --index--scale: 1; --index--opacity: 1; --index-=
+-transform-x: 0px; --index--transform-y: 0px; --index--top: 0px; --index--l=
+eft: 48px;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp =
 Header_left__RrNvy" style=3D"--useView--align: center; --useView--grow: 1; =
 --useView--shrink: 1;"><div class=3D" useView_view__C2mnv useView_isHorizon=
 tal__Q1YOp TabList_container__s3ufN" role=3D"tablist" style=3D"--useView--a=
@@ -636,293 +551,454 @@ style=3D"position: relative; --radix-scroll-area-corner-width: 0px; --radix=
 idden;"><div style=3D"min-width: 100%; display: table;"><div class=3D" useV=
 iew_view__C2mnv useView_isHorizontal__Q1YOp TabList_tabContainer__o__tr"><d=
 iv class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk=
- Tab_active__WvwT0 Surface_surfaceDefault__TcNI5" draggable=3D"true" style=
-=3D"--useView--align: stretch; --Tab--font-style: inherit;"><button class=
-=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tabButton__2m0lS" =
-tabindex=3D"0" role=3D"tab" aria-selected=3D"true" aria-controls=3D"0a40c60=
-1-eaed-45a1-a752-3a426d25399f" id=3D"tab-0a40c601-eaed-45a1-a752-3a426d2539=
-9f" data-pane-tab-primary-button=3D"true" fdprocessedid=3D"1i9kra" style=3D=
-"--useView--gap: 6px; --useView--align: center; --useView--grow: 1; --useVi=
-ew--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;"><div class=3D" useV=
-iew_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspectRatio=3D"xMidYMin" w=
-idth=3D"16" height=3D"16" viewBox=3D"0 0 24 24" aria-hidden=3D"true" class=
+ Tab_active__WvwT0 Surface_surfaceDefault__TcNI5" style=3D"--useView--align=
+: stretch; --Tab--font-style: inherit;"><button class=3D" useView_view__C2m=
+nv useView_isHorizontal__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"0" role=3D=
+"tab" aria-selected=3D"true" aria-controls=3D"17e944e1-41c9-4d87-83bb-53a35=
+3ddfef8" id=3D"tab-17e944e1-41c9-4d87-83bb-53a353ddfef8" data-pane-tab-prim=
+ary-button=3D"true" fdprocessedid=3D"hgbet9" style=3D"--useView--gap: 6px; =
+--useView--align: center; --useView--grow: 1; --useView--shrink: 1; --useVi=
+ew--pr: 6px; --useView--pl: 6px;"><div class=3D" useView_view__C2mnv Tab_ta=
+bIcon__Gmt_u"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"=
+16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=
 =3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height:=
- 16px;"><path fill=3D"#AD5700" d=3D"M3 2 4.64 20.4l7.35 2.045 7.371-2.047L2=
-1 2H3Zm3.404 4.367L6.35 5.76h5.643v2.256h-3.18l.205 2.312h2.974v2.256H6.959=
-l-.554-6.219Zm10.772 4.568-.53 5.942-.034.38-4.623 1.284-4.616-1.283-.316-3=
-.544H9.32l.16 1.8 2.512.678 2.513-.68.261-2.926h-2.767v-2.257h5.23l-.055.60=
-6h.003Zm.408-4.568L17.48 7.51l-.045.507H12V5.762h5.638l-.054.605Z"></path><=
-/svg></div><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" =
-style=3D"--useView--gap: 4px; --useView--align: center;"><span class=3D" us=
-eView_view__C2mnv Tab_tabTitle__hyRHu Text_text__T_hn_ Text_singleLine__lXp=
-WA" title=3D"index.html" style=3D"--Text--font-family: inherit; --Text--fon=
-t-size: var(--font-size-default); --Text--line-height: var(--line-height-de=
-fault);">index.html</span></div></button><button class=3D" useView_view__C2=
-mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-1" type=3D"button" aria=
--label=3D"Close tab" style=3D"--height: 12px; --width: 12px;"><svg preserve=
-AspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" f=
-ill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--s=
-ize: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"e=
-venodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1=
- 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.7=
-5.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"=
-evenodd"></path></svg></button><div class=3D" useView_view__C2mnv Tab_activ=
-eLine__jYh7y" data-active-pane-line=3D"true"></div></div><div class=3D" use=
-View_view__C2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface_surface=
-Root__TeA2u" draggable=3D"true" style=3D"--useView--align: stretch; --Tab--=
-font-style: inherit;"><button class=3D" useView_view__C2mnv useView_isHoriz=
-ontal__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"-1" role=3D"tab" aria-select=
-ed=3D"false" aria-controls=3D"204324e0-b6ab-492e-af47-f147b20c332c" id=3D"t=
-ab-204324e0-b6ab-492e-af47-f147b20c332c" data-pane-tab-primary-button=3D"tr=
-ue" style=3D"--useView--gap: 6px; --useView--align: center; --useView--grow=
-: 1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;"><div cl=
-ass=3D" useView_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspectRatio=3D=
-"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"var(--a=
-ccent-yellow-strongest)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D=
-"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=
-=3D"evenodd" d=3D"M3.47 4.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.06l-6=
- 6a.75.75 0 0 1-1.06-1.06L8.94 11 3.47 5.53a.75.75 0 0 1 0-1.06ZM11.25 19a.=
-75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1-.75-.75Z" clip-rul=
-e=3D"evenodd"></path></svg></div><div class=3D" useView_view__C2mnv useView=
-_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: cente=
-r;"><span class=3D" useView_view__C2mnv Tab_tabTitle__hyRHu Text_text__T_hn=
-_ Text_singleLine__lXpWA" title=3D"Console" style=3D"--Text--font-family: i=
-nherit; --Text--font-size: var(--font-size-default); --Text--line-height: v=
-ar(--line-height-default);">Console</span></div></button><button class=3D" =
-useView_view__C2mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-1" type=
-=3D"button" aria-label=3D"Close tab" style=3D"--height: 12px; --width: 12px=
-;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=
-=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492d=
-z9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><pat=
-h fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5=
-.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.=
-06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06=
-Z" clip-rule=3D"evenodd"></path></svg></button></div><div class=3D" useView=
-_view__C2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface_surfaceRoot=
-__TeA2u" draggable=3D"true" style=3D"--useView--align: stretch; --Tab--font=
--style: inherit;"><button class=3D" useView_view__C2mnv useView_isHorizonta=
-l__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"-1" role=3D"tab" aria-selected=
-=3D"false" aria-controls=3D"c62b592d-86a7-44d3-bf65-4442d20ee9a2" id=3D"tab=
--c62b592d-86a7-44d3-bf65-4442d20ee9a2" data-pane-tab-primary-button=3D"true=
-" style=3D"--useView--gap: 6px; --useView--align: center; --useView--grow: =
-1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;"><div clas=
-s=3D" useView_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspectRatio=3D"x=
-MidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentCo=
-lor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rot=
-ate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M4 =
-3.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 =
-1.25-1.25V5c0-.69-.56-1.25-1.25-1.25H4Zm8.75 14H20A2.75 2.75 0 0 0 22.75 15=
-V5A2.75 2.75 0 0 0 20 2.25H4A2.75 2.75 0 0 0 1.25 5v10A2.75 2.75 0 0 0 4 17=
-.75h7.25v2.5H8a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5h-3.25v-2.5Z" clip-ru=
-le=3D"evenodd"></path></svg></div><div class=3D" useView_view__C2mnv useVie=
-w_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: cent=
-er;"><span class=3D" useView_view__C2mnv Tab_tabTitle__hyRHu Text_text__T_h=
-n_ Text_singleLine__lXpWA" title=3D"Preview" style=3D"--Text--font-family: =
-inherit; --Text--font-size: var(--font-size-default); --Text--line-height: =
-var(--line-height-default);">Preview</span></div></button><button class=3D"=
- useView_view__C2mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-1" typ=
-e=3D"button" aria-label=3D"Close tab" style=3D"--height: 12px; --width: 12p=
+ 16px;"><g clip-path=3D"url(#clip0_7329_267)"><path fill=3D"var(--accent-te=
+al-default)" d=3D"M7.714 0a3.429 3.429 0 0 1 3.429 3.429v.026a5.143 5.143 0=
+ 0 0 5.137 5.116h.006a3.429 3.429 0 0 1 0 6.858 5.143 5.143 0 0 0-5.143 5.1=
+42 3.429 3.429 0 1 1-3.429-3.428h.007a5.143 5.143 0 0 0-.007-10.286 3.429 3=
+.429 0 0 1 0-6.857Z"></path><path fill=3D"var(--accent-teal-stronger)" d=3D=
+"M11.143 12a3.429 3.429 0 1 0-6.857 0 3.429 3.429 0 0 0 6.857 0Z"></path><p=
+ath fill=3D"url(#paint0_radial_7329_267)" d=3D"M7.714 0a3.429 3.429 0 0 1 3=
+.429 3.429v.026a5.143 5.143 0 0 0 5.137 5.116h.006a3.429 3.429 0 0 1 0 6.85=
+8 5.143 5.143 0 0 0-5.143 5.142 3.429 3.429 0 1 1-3.429-3.428h.007a5.143 5.=
+143 0 0 0-.007-10.286 3.429 3.429 0 0 1 0-6.857Z" opacity=3D".5"></path><pa=
+th fill=3D"url(#paint1_radial_7329_267)" d=3D"M7.714 8.571a3.429 3.429 0 1 =
+1 0 6.858 3.429 3.429 0 0 1 0-6.858Z" opacity=3D".5"></path></g><defs><radi=
+alGradient id=3D"paint0_radial_7329_267" cx=3D"0" cy=3D"0" r=3D"1" gradient=
+Transform=3D"rotate(44.479 -2.762 5.679)scale(29.1694)" gradientUnits=3D"us=
+erSpaceOnUse"><stop stop-color=3D"#fff" stop-opacity=3D".79"></stop><stop o=
+ffset=3D"1"></stop></radialGradient><radialGradient id=3D"paint1_radial_732=
+9_267" cx=3D"0" cy=3D"0" r=3D"1" gradientTransform=3D"rotate(44.479 -2.763 =
+5.679)scale(29.1694)" gradientUnits=3D"userSpaceOnUse"><stop stop-color=3D"=
+#fff" stop-opacity=3D".79"></stop><stop offset=3D"1"></stop></radialGradien=
+t><clipPath id=3D"clip0_7329_267"><path fill=3D"#fff" d=3D"M0 .274C0 .123.1=
+23 0 .274 0h23.452c.151 0 .274.123.274.274v23.452a.274.274 0 0 1-.274.274H.=
+274A.274.274 0 0 1 0 23.726V.274Z"></path></clipPath></defs></svg></div><di=
+v class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--use=
+View--gap: 4px; --useView--align: center;"><span class=3D" useView_view__C2=
+mnv Tab_tabTitle__hyRHu Text_text__T_hn_ Text_singleLine__lXpWA" title=3D"A=
+ssistant" style=3D"--Text--font-family: inherit; --Text--font-size: var(--f=
+ont-size-default); --Text--line-height: var(--line-height-default);">Assist=
+ant</span></div></button><button class=3D" useView_view__C2mnv Tab_closeBut=
+ton__SEFkG css-os4f0t" tabindex=3D"-1" type=3D"button" aria-label=3D"Close =
+tab" style=3D"--height: 12px; --width: 12px;"><svg preserveAspectRatio=3D"x=
+MidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentCo=
+lor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rot=
+ate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M5.=
+47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06=
+ 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-=
+1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"evenodd"></path>=
+</svg></button></div></div></div></div></div><button class=3D" useView_view=
+__C2mnv TabList_newTabButton__F7Fv4 css-os4f0t" type=3D"button" aria-label=
+=3D"New tab" fdprocessedid=3D"iunt5m" style=3D"--height: 12px; --width: 12p=
 x;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBo=
 x=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492=
 dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><pa=
-th fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-=
-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13=
-.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.0=
-6Z" clip-rule=3D"evenodd"></path></svg></button></div><div class=3D" useVie=
-w_view__C2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface_surfaceRoo=
-t__TeA2u" draggable=3D"true" style=3D"--useView--align: stretch; --Tab--fon=
-t-style: inherit;"><button class=3D" useView_view__C2mnv useView_isHorizont=
-al__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"-1" role=3D"tab" aria-selected=
-=3D"false" aria-controls=3D"77683f75-afad-4c64-858e-4044128855ee" id=3D"tab=
--77683f75-afad-4c64-858e-4044128855ee" data-pane-tab-primary-button=3D"true=
-" style=3D"--useView--gap: 6px; --useView--align: center; --useView--grow: =
-1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;" fdprocess=
-edid=3D"6k5oec"><div class=3D" useView_view__C2mnv Tab_tabIcon__Gmt_u"><svg=
- preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0=
- 24 24" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --=
-rotate: 0deg; width: 16px; height: 16px;"><path fill=3D"#0079F2" d=3D"m3 2 =
-1.638 18.373 7.35 2.04 7.372-2.043L21 2H3Zm14.596 4.202-.553 6.21-.384 4.28=
-4-.034.381-4.622 1.282-4.615-1.282-.316-3.539h2.262l.16 1.798 2.512.677.007=
--.002h.001l2.506-.676.263-2.922h-5.26l-.045-.506-.103-1.143-.053-.604h5.66l=
-.207-2.308H6.566l-.045-.507-.103-1.142-.054-.604h11.288l-.055.604Z"></path>=
-</svg></div><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp"=
- style=3D"--useView--gap: 4px; --useView--align: center;"><span class=3D" u=
-seView_view__C2mnv Tab_tabTitle__hyRHu Text_text__T_hn_ Text_singleLine__lX=
-pWA" title=3D"style.css" style=3D"--Text--font-family: inherit; --Text--fon=
-t-size: var(--font-size-default); --Text--line-height: var(--line-height-de=
-fault);">style.css</span></div></button><button class=3D" useView_view__C2m=
-nv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-1" type=3D"button" aria-=
-label=3D"Close tab" style=3D"--height: 12px; --width: 12px;"><svg preserveA=
-spectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fi=
-ll=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--si=
-ze: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"ev=
-enodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 =
-1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75=
-.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"e=
-venodd"></path></svg></button></div><div class=3D" useView_view__C2mnv useV=
-iew_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface_surfaceRoot__TeA2u" draggabl=
-e=3D"true" style=3D"--useView--align: stretch; --Tab--font-style: inherit;"=
-><button class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tabB=
-utton__2m0lS" tabindex=3D"-1" role=3D"tab" aria-selected=3D"false" aria-con=
-trols=3D"bc8aabd9-f39e-482c-a995-70b0e100e3ab" id=3D"tab-bc8aabd9-f39e-482c=
--a995-70b0e100e3ab" data-pane-tab-primary-button=3D"true" style=3D"--useVie=
-w--gap: 6px; --useView--align: center; --useView--grow: 1; --useView--shrin=
-k: 1; --useView--pr: 6px; --useView--pl: 6px;"><div class=3D" useView_view_=
-_C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspectRatio=3D"xMidYMin" width=3D"1=
-6" height=3D"16" viewBox=3D"0 0 24 24" aria-hidden=3D"true" class=3D"css-49=
-2dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><p=
-ath fill=3D"#967D00" d=3D"M4.271 2A2.271 2.271 0 0 0 2 4.271V19.73A2.271 2.=
-271 0 0 0 4.271 22H19.73A2.272 2.272 0 0 0 22 19.729V4.27A2.271 2.271 0 0 0=
- 19.729 2H4.27Zm8.167 17.109c-.294.599-.857.992-1.51 1.182-1.001.23-1.96.1-=
-2.672-.329-.478-.293-.85-.743-1.103-1.262.508-.31 1.014-.622 1.521-.932.014=
-.006.053.078.107.171.194.326.361.556.69.717.324.11 1.032.18 1.306-.388.168-=
-.289.114-1.237.114-2.266 0-1.616.008-3.205.008-4.841h1.87c0 1.718.01 3.44 0=
- 5.155.004 1.052.096 2.008-.33 2.793Zm7.761-.529c-.65 2.225-4.276 2.297-5.7=
-24.827-.306-.345-.498-.526-.68-.926.77-.443.77-.443 1.518-.876.408.626.784.=
-97 1.46 1.11.92.112 1.843-.203 1.636-1.178-.213-.797-1.88-.99-3.015-1.843-1=
-.152-.774-1.422-2.654-.475-3.728.315-.397.853-.694 1.418-.836.195-.025.393-=
-.052.589-.076 1.131-.024 1.838.275 2.357.855.145.147.262.304.483.647-.602.3=
-84-.6.38-1.464.94a1.392 1.392 0 0 0-.813-.755c-.502-.152-1.135.013-1.266.54=
-3-.046.164-.036.316.036.586.204.464.886.665 1.498.946 1.763.715 2.358 1.481=
- 2.504 2.394.14.785-.034 1.294-.06 1.37h-.002Z"></path></svg></div><div cla=
-ss=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView-=
--gap: 4px; --useView--align: center;"><span class=3D" useView_view__C2mnv T=
-ab_tabTitle__hyRHu Text_text__T_hn_ Text_singleLine__lXpWA" title=3D"script=
-.js" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-s=
-ize-default); --Text--line-height: var(--line-height-default);">script.js</=
-span></div></button><button class=3D" useView_view__C2mnv Tab_closeButton__=
-SEFkG css-os4f0t" tabindex=3D"-1" type=3D"button" aria-label=3D"Close tab" =
-style=3D"--height: 12px; --width: 12px;"><svg preserveAspectRatio=3D"xMidYM=
-in" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" =
-aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: =
-0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M5.47 5.=
-47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5=
-.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L=
-10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"evenodd"></path></svg=
-></button></div><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1=
-YOp Tab_tab__EF2Lk Surface_surfaceRoot__TeA2u" draggable=3D"true" style=3D"=
---useView--align: stretch; --Tab--font-style: inherit;"><button class=3D" u=
-seView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tabButton__2m0lS" tabind=
-ex=3D"-1" role=3D"tab" aria-selected=3D"false" aria-controls=3D"178b7dee-7c=
-8f-4d50-a198-d263cb19ce8c" id=3D"tab-178b7dee-7c8f-4d50-a198-d263cb19ce8c" =
-data-pane-tab-primary-button=3D"true" style=3D"--useView--gap: 6px; --useVi=
-ew--align: center; --useView--grow: 1; --useView--shrink: 1; --useView--pr:=
- 6px; --useView--pl: 6px;"><div class=3D" useView_view__C2mnv Tab_tabIcon__=
-Gmt_u"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" vie=
-wBox=3D"0 0 24 24" fill=3D"var(--accent-green-strongest)" aria-hidden=3D"tr=
-ue" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px=
-; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M14.409 9.75c-.039.434-.1=
-01.865-.188 1.29l1.241 1.24c.233-.822.385-1.67.452-2.53h3.298a7.226 7.226 0=
- 0 1-1.995 4.285l1.06 1.06a8.75 8.75 0 1 0-12.555 0l1.061-1.06A7.226 7.226 =
-0 0 1 4.788 9.75h3.298c.067.86.219 1.708.452 2.53l1.24-1.24c-.086-.425-.149=
--.856-.187-1.29h4.818Zm-9.62-1.5h3.297c.176-2.262.94-4.433 2.209-6.298A7.25=
-6 7.256 0 0 0 4.788 8.25ZM12 2.16a11.49 11.49 0 0 0-2.409 6.09h4.818A11.49 =
-11.49 0 0 0 12 2.16Zm7.212 6.09h-3.298a12.99 12.99 0 0 0-2.209-6.298 7.256 =
-7.256 0 0 1 5.507 6.298Z" clip-rule=3D"evenodd"></path><path d=3D"m17.53 16=
-.47-5-5a.75.75 0 0 0-1.06 0l-5 5a.75.75 0 1 0 1.06 1.06l3.72-3.72V23a.75.75=
- 0 0 0 1.5 0v-9.19l3.72 3.72a.75.75 0 1 0 1.06-1.06Z"></path></svg></div><d=
-iv class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--us=
-eView--gap: 4px; --useView--align: center;"><span class=3D" useView_view__C=
-2mnv Tab_tabTitle__hyRHu Text_text__T_hn_ Text_singleLine__lXpWA" title=3D"=
-Deployments" style=3D"--Text--font-family: inherit; --Text--font-size: var(=
---font-size-default); --Text--line-height: var(--line-height-default);">Dep=
-loyments</span></div></button><button class=3D" useView_view__C2mnv Tab_clo=
-seButton__SEFkG css-os4f0t" tabindex=3D"-1" type=3D"button" aria-label=3D"C=
-lose tab" style=3D"--height: 12px; --width: 12px;"><svg preserveAspectRatio=
-=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"curr=
-entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; =
---rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=
-=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.0=
-6L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 =
-1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"evenodd">=
-</path></svg></button></div></div></div></div></div><button class=3D" useVi=
-ew_view__C2mnv TabList_newTabButton__F7Fv4 css-os4f0t" type=3D"button" aria=
--label=3D"New tab" fdprocessedid=3D"chlz" style=3D"--height: 12px; --width:=
+th fill-rule=3D"evenodd" d=3D"M12 3.25a.75.75 0 0 1 .75.75v7.25H20a.75.75 0=
+ 0 1 0 1.5h-7.25V20a.75.75 0 0 1-1.5 0v-7.25H4a.75.75 0 0 1 0-1.5h7.25V4a.7=
+5.75 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path></svg></button><div class=
+=3D" useView_view__C2mnv css-ijdrbt" title=3D"Double click to maximize. Dra=
+g to move." style=3D"--useView--grow: 1; --useView--shrink: 1; cursor: grab=
+;"></div></div></div><div class=3D" useView_view__C2mnv useView_isHorizonta=
+l__Q1YOp Header_right__6qiEj"><button class=3D" useView_view__C2mnv Header_=
+headerContentMoreActions__WHJN2 css-os4f0t" type=3D"button" aria-label=3D"P=
+ane actions" fdprocessedid=3D"mtouz" style=3D"--height: 24px; --width: 24px=
+;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=
+=3D"0 0 24 24" fill=3D"var(--foreground-dimmest)" aria-hidden=3D"true" clas=
+s=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height=
+: 16px;"><path fill-rule=3D"evenodd" d=3D"M10.25 5a1.75 1.75 0 1 1 3.5 0 1.=
+75 1.75 0 0 1-3.5 0Zm0 7a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Zm0 7a1=
+.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Z" clip-rule=3D"evenodd"></path><=
+/svg></button></div></div><div class=3D" useView_view__C2mnv useView_isHori=
+zontal__Q1YOp Header_surface__O1_Hg Surface_surfaceRoot__TeA2u" style=3D"--=
+useView--align: center; --index--border-radius: 4px; --index--background-co=
+lor: color-mix(in srgb, var(--interactive-background) 60%, var(--surface-ba=
+ckground)); --index--transform-origin-x: 0x; z-index: 2; --index--controls-=
+opacity: 1; --index--width: 529.1999999999999px; --index--height: 32px; --i=
+ndex--scale: 1; --index--opacity: 1; --index--transform-x: 0px; --index--tr=
+ansform-y: 0px; --index--top: 0px; --index--left: 407px;"><div class=3D" us=
+eView_view__C2mnv useView_isHorizontal__Q1YOp Header_left__RrNvy" style=3D"=
+--useView--align: center; --useView--grow: 1; --useView--shrink: 1;"><div c=
+lass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp TabList_container_=
+_s3ufN" role=3D"tablist" style=3D"--useView--align: center;"><div dir=3D"lt=
+r" class=3D"TabList_tabScrollAreaRoot__O0iqm" style=3D"position: relative; =
+--radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0=
+px;"><div data-radix-scroll-area-viewport=3D"" class=3D"TabList_tabScrollAr=
+eaViewport__9wZEC" style=3D"overflow: scroll hidden;"><div style=3D"min-wid=
+th: 100%; display: table;"><div class=3D" useView_view__C2mnv useView_isHor=
+izontal__Q1YOp TabList_tabContainer__o__tr"><div class=3D" useView_view__C2=
+mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface_surfaceRoot__TeA2u" =
+draggable=3D"true" style=3D"--useView--align: stretch; --Tab--font-style: i=
+nherit;"><button class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp =
+Tab_tabButton__2m0lS" tabindex=3D"-1" role=3D"tab" aria-selected=3D"false" =
+aria-controls=3D"0a40c601-eaed-45a1-a752-3a426d25399f" id=3D"tab-0a40c601-e=
+aed-45a1-a752-3a426d25399f" data-pane-tab-primary-button=3D"true" fdprocess=
+edid=3D"1i9kra" style=3D"--useView--gap: 6px; --useView--align: center; --u=
+seView--grow: 1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6=
+px;"><div class=3D" useView_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAs=
+pectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" ari=
+a-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0de=
+g; width: 16px; height: 16px;"><path fill=3D"#AD5700" d=3D"M3 2 4.64 20.4l7=
+.35 2.045 7.371-2.047L21 2H3Zm3.404 4.367L6.35 5.76h5.643v2.256h-3.18l.205 =
+2.312h2.974v2.256H6.959l-.554-6.219Zm10.772 4.568-.53 5.942-.034.38-4.623 1=
+.284-4.616-1.283-.316-3.544H9.32l.16 1.8 2.512.678 2.513-.68.261-2.926h-2.7=
+67v-2.257h5.23l-.055.606h.003Zm.408-4.568L17.48 7.51l-.045.507H12V5.762h5.6=
+38l-.054.605Z"></path></svg></div><div class=3D" useView_view__C2mnv useVie=
+w_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: cent=
+er;"><span class=3D" useView_view__C2mnv Tab_tabTitle__hyRHu Text_text__T_h=
+n_ Text_singleLine__lXpWA" title=3D"index.html" style=3D"--Text--font-famil=
+y: inherit; --Text--font-size: var(--font-size-default); --Text--line-heigh=
+t: var(--line-height-default);">index.html</span></div></button><button cla=
+ss=3D" useView_view__C2mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-=
+1" type=3D"button" aria-label=3D"Close tab" style=3D"--height: 12px; --widt=
+h: 12px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" =
+viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"c=
+ss-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px=
+;"><path fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94=
+l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06=
+L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1=
+ 0-1.06Z" clip-rule=3D"evenodd"></path></svg></button></div><div class=3D" =
+useView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface_surf=
+aceRoot__TeA2u" draggable=3D"true" style=3D"--useView--align: stretch; --Ta=
+b--font-style: inherit;"><button class=3D" useView_view__C2mnv useView_isHo=
+rizontal__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"-1" role=3D"tab" aria-sel=
+ected=3D"false" aria-controls=3D"204324e0-b6ab-492e-af47-f147b20c332c" id=
+=3D"tab-204324e0-b6ab-492e-af47-f147b20c332c" data-pane-tab-primary-button=
+=3D"true" style=3D"--useView--gap: 6px; --useView--align: center; --useView=
+--grow: 1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;"><=
+div class=3D" useView_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspectRa=
+tio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"v=
+ar(--accent-yellow-strongest)" aria-hidden=3D"true" class=3D"css-492dz9" st=
+yle=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill=
+-rule=3D"evenodd" d=3D"M3.47 4.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.=
+06l-6 6a.75.75 0 0 1-1.06-1.06L8.94 11 3.47 5.53a.75.75 0 0 1 0-1.06ZM11.25=
+ 19a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1-.75-.75Z" cli=
+p-rule=3D"evenodd"></path></svg></div><div class=3D" useView_view__C2mnv us=
+eView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: =
+center;"><span class=3D" useView_view__C2mnv Tab_tabTitle__hyRHu Text_text_=
+_T_hn_ Text_singleLine__lXpWA" title=3D"Console" style=3D"--Text--font-fami=
+ly: inherit; --Text--font-size: var(--font-size-default); --Text--line-heig=
+ht: var(--line-height-default);">Console</span></div></button><button class=
+=3D" useView_view__C2mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-1"=
+ type=3D"button" aria-label=3D"Close tab" style=3D"--height: 12px; --width:=
  12px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" vi=
 ewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css=
 -492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"=
-><path fill-rule=3D"evenodd" d=3D"M12 3.25a.75.75 0 0 1 .75.75v7.25H20a.75.=
-75 0 0 1 0 1.5h-7.25V20a.75.75 0 0 1-1.5 0v-7.25H4a.75.75 0 0 1 0-1.5h7.25V=
-4a.75.75 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path></svg></button><div c=
-lass=3D" useView_view__C2mnv css-ijdrbt" title=3D"Double click to maximize.=
- Drag to move." style=3D"--useView--grow: 1; --useView--shrink: 1; cursor: =
-grab;"></div></div></div><div class=3D" useView_view__C2mnv useView_isHoriz=
-ontal__Q1YOp Header_right__6qiEj"><button class=3D" useView_view__C2mnv Hea=
-der_headerContentMoreActions__WHJN2 css-os4f0t" type=3D"button" aria-label=
-=3D"Pane actions" fdprocessedid=3D"h2ef7s" style=3D"--height: 24px; --width=
-: 24px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" v=
-iewBox=3D"0 0 24 24" fill=3D"var(--foreground-dimmest)" aria-hidden=3D"true=
-" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; =
-height: 16px;"><path fill-rule=3D"evenodd" d=3D"M10.25 5a1.75 1.75 0 1 1 3.=
-5 0 1.75 1.75 0 0 1-3.5 0Zm0 7a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Z=
-m0 7a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Z" clip-rule=3D"evenodd"></=
-path></svg></button></div></div><div class=3D" useView_view__C2mnv Pane_roo=
-t__Dz_FC Surface_surfaceDefault__TcNI5" role=3D"tabpanel" id=3D"17e944e1-41=
-c9-4d87-83bb-53a353ddfef8" aria-labelledby=3D"tab-17e944e1-41c9-4d87-83bb-5=
-3a353ddfef8" style=3D"--index--border-gap: 4px; --index--transform-origin-x=
-: 0x; --fixed-position-offset-x: -48px; --fixed-position-offset-y: -80px; -=
--index--pointer-events: auto; z-index: 3; --index--interaction-blanket-disp=
-lay: none; --index--user-select: auto; --index--iframe-pointer-events: auto=
-; --index--width: 352.8px; --index--height: 554px; --index--transform-x: 48=
-px; --index--transform-y: 32px; --index--scale: 1; --index--opacity: 1;"><d=
-iv class=3D" useView_view__C2mnv Pane_container__V2H53"><div class=3D" useV=
-iew_view__C2mnv" tabindex=3D"-1"></div><div class=3D" useView_view__C2mnv" =
-style=3D"--useView--grow: 1; --useView--shrink: 1; --useView--pr: 4px; --us=
-eView--pl: 4px; --paddingLeft: 0; --sidebarWidth: 240px; --sidebarOpacity: =
-0; --sidebarBlanketOpacity: 0; --sidebarBlanketPointerEvents: none; --sideb=
-arPointerEvents: none; --sidebarTransform: translate(var(--space-8), var(--=
-space-8)); --sidebarHeight: calc(100% - var(--space-16));"><div class=3D" u=
-seView_view__C2mnv css-o29w4z Surface_surfaceDefault__TcNI5"><div class=3D"=
- useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--align=
-: center;"><div class=3D" useView_view__C2mnv"><button class=3D" useView_vi=
-ew__C2mnv css-os4f0t" type=3D"button" aria-label=3D"All chats" fdprocessedi=
-d=3D"u0kgys" style=3D"--height: 24px; --width: 24px;"><svg preserveAspectRa=
-tio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"c=
-urrentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16p=
-x; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" =
-d=3D"M2.25 6A.75.75 0 0 1 3 5.25h.01a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25=
- 6Zm5 0A.75.75 0 0 1 8 5.25h13a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 6Zm-5=
- 6a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75Zm5 0a=
-.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75Zm-5 6a.75=
-.75 0 0 1 .75-.75h.01a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75Zm5 0a.75.75=
- 0 0 1 .75-.75h13a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75Z" clip-rule=3D"=
-evenodd"></path></svg></button></div><button type=3D"button" tabindex=3D"0"=
- class=3D"Button_button__oRQ_x css-1cype2t" data-rac=3D"" id=3D"react-aria8=
-892419012-:rmd:" fdprocessedid=3D"en45lr" style=3D"--Button--height: 28px; =
---Button--shrink: 0; --Button--align-self: auto; --Button--alignment: cente=
-r;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=
-=3D"--useView--gap: 4px; --useView--justify: center; --useView--align: cent=
-er; --useView--grow: 1; --useView--shrink: 1;"><svg preserveAspectRatio=3D"=
-xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentC=
-olor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --ro=
-tate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M1=
-2 3.25a.75.75 0 0 1 .75.75v7.25H20a.75.75 0 0 1 0 1.5h-7.25V20a.75.75 0 0 1=
--1.5 0v-7.25H4a.75.75 0 0 1 0-1.5h7.25V4a.75.75 0 0 1 .75-.75Z" clip-rule=
-=3D"evenodd"></path></svg><span class=3D"Text_singleLineWrapper__REG8N" sty=
-le=3D"--Text--font-size: var(--font-size-small); --Text--font-family: inher=
-it;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__=
-lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font=
--size-small); --Text--line-height: var(--line-height-small);">New chat</spa=
-n></span></div></button><div class=3D" useView_view__C2mnv" style=3D"--useV=
-iew--align: center; --useView--grow: 1; --useView--shrink: 1;"></div><div c=
-lass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useVie=
-w--gap: 4px; --useView--align: center;"><button class=3D" useView_view__C2m=
-nv css-os4f0t" type=3D"button" aria-label=3D"Usage" aria-expanded=3D"false"=
- fdprocessedid=3D"pk0q9l" style=3D"--height: 24px; --width: 24px;"><div cla=
-ss=3D" useView_view__C2mnv css-l5xv05"><svg preserveAspectRatio=3D"xMidYMin=
-" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" ar=
-ia-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0d=
-eg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M12 6.75A9=
-.25 9.25 0 0 0 2.75 16a.75.75 0 0 1-1.5 0C1.25 10.063 6.063 5.25 12 5.25S22=
-.75 10.063 22.75 16a.75.75 0 0 1-1.5 0A9.25 9.25 0 0 0 12 6.75Zm4.53 4.22a.=
-75.75 0 0 1 0 1.06l-2.325 2.326a2.75 2.75 0 1 1-1.203-.918l2.468-2.468a.75.=
-75 0 0 1 1.06 0ZM12 14.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z" cli=
-p-rule=3D"evenodd"></path></svg></div></button><button class=3D" useView_vi=
-ew__C2mnv css-os4f0t" type=3D"button" aria-label=3D"Settings" fdprocessedid=
-=3D"6pu8bl" style=3D"--height: 24px; --width: 24px;"><svg preserveAspectRat=
-io=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"cu=
-rrentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px=
-; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=
+><path fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5=
+.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L1=
+2 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0=
+-1.06Z" clip-rule=3D"evenodd"></path></svg></button></div><div class=3D" us=
+eView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface_surfac=
+eRoot__TeA2u" draggable=3D"true" style=3D"--useView--align: stretch; --Tab-=
+-font-style: inherit;"><button class=3D" useView_view__C2mnv useView_isHori=
+zontal__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"-1" role=3D"tab" aria-selec=
+ted=3D"false" aria-controls=3D"c62b592d-86a7-44d3-bf65-4442d20ee9a2" id=3D"=
+tab-c62b592d-86a7-44d3-bf65-4442d20ee9a2" data-pane-tab-primary-button=3D"t=
+rue" style=3D"--useView--gap: 6px; --useView--align: center; --useView--gro=
+w: 1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;"><div c=
+lass=3D" useView_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspectRatio=
+=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"curr=
+entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; =
+--rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=
+=3D"M4 3.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.=
+25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25H4Zm8.75 14H20A2.75 2.75 0 0 0 2=
+2.75 15V5A2.75 2.75 0 0 0 20 2.25H4A2.75 2.75 0 0 0 1.25 5v10A2.75 2.75 0 0=
+ 0 4 17.75h7.25v2.5H8a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5h-3.25v-2.5Z" =
+clip-rule=3D"evenodd"></path></svg></div><div class=3D" useView_view__C2mnv=
+ useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--alig=
+n: center;"><span class=3D" useView_view__C2mnv Tab_tabTitle__hyRHu Text_te=
+xt__T_hn_ Text_singleLine__lXpWA" title=3D"Preview" style=3D"--Text--font-f=
+amily: inherit; --Text--font-size: var(--font-size-default); --Text--line-h=
+eight: var(--line-height-default);">Preview</span></div></button><button cl=
+ass=3D" useView_view__C2mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"=
+-1" type=3D"button" aria-label=3D"Close tab" style=3D"--height: 12px; --wid=
+th: 12px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12"=
+ viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"=
+css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12p=
+x;"><path fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.9=
+4l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.0=
+6L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 =
+1 0-1.06Z" clip-rule=3D"evenodd"></path></svg></button></div><div class=3D"=
+ useView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface_sur=
+faceRoot__TeA2u" draggable=3D"true" style=3D"--useView--align: stretch; --T=
+ab--font-style: inherit;"><button class=3D" useView_view__C2mnv useView_isH=
+orizontal__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"-1" role=3D"tab" aria-se=
+lected=3D"false" aria-controls=3D"77683f75-afad-4c64-858e-4044128855ee" id=
+=3D"tab-77683f75-afad-4c64-858e-4044128855ee" data-pane-tab-primary-button=
+=3D"true" style=3D"--useView--gap: 6px; --useView--align: center; --useView=
+--grow: 1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;" f=
+dprocessedid=3D"6k5oec"><div class=3D" useView_view__C2mnv Tab_tabIcon__Gmt=
+_u"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBo=
+x=3D"0 0 24 24" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: =
+16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill=3D"#0079F2" d=
+=3D"m3 2 1.638 18.373 7.35 2.04 7.372-2.043L21 2H3Zm14.596 4.202-.553 6.21-=
+.384 4.284-.034.381-4.622 1.282-4.615-1.282-.316-3.539h2.262l.16 1.798 2.51=
+2.677.007-.002h.001l2.506-.676.263-2.922h-5.26l-.045-.506-.103-1.143-.053-.=
+604h5.66l.207-2.308H6.566l-.045-.507-.103-1.142-.054-.604h11.288l-.055.604Z=
+"></path></svg></div><div class=3D" useView_view__C2mnv useView_isHorizonta=
+l__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: center;"><span cl=
+ass=3D" useView_view__C2mnv Tab_tabTitle__hyRHu Text_text__T_hn_ Text_singl=
+eLine__lXpWA" title=3D"style.css" style=3D"--Text--font-family: inherit; --=
+Text--font-size: var(--font-size-default); --Text--line-height: var(--line-=
+height-default);">style.css</span></div></button><button class=3D" useView_=
+view__C2mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-1" type=3D"butt=
+on" aria-label=3D"Close tab" style=3D"--height: 12px; --width: 12px;"><svg =
+preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 =
+24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" styl=
+e=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-r=
+ule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.=
+75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47=
+ 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-=
+rule=3D"evenodd"></path></svg></button></div><div class=3D" useView_view__C=
+2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Tab_active__WvwT0 Surface_s=
+urfaceDefault__TcNI5" draggable=3D"true" style=3D"--useView--align: stretch=
+; --Tab--font-style: inherit;"><button class=3D" useView_view__C2mnv useVie=
+w_isHorizontal__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"0" role=3D"tab" ari=
+a-selected=3D"true" aria-controls=3D"bc8aabd9-f39e-482c-a995-70b0e100e3ab" =
+id=3D"tab-bc8aabd9-f39e-482c-a995-70b0e100e3ab" data-pane-tab-primary-butto=
+n=3D"true" style=3D"--useView--gap: 6px; --useView--align: center; --useVie=
+w--grow: 1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;">=
+<div class=3D" useView_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspectR=
+atio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" aria-hid=
+den=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; wi=
+dth: 16px; height: 16px;"><path fill=3D"#967D00" d=3D"M4.271 2A2.271 2.271 =
+0 0 0 2 4.271V19.73A2.271 2.271 0 0 0 4.271 22H19.73A2.272 2.272 0 0 0 22 1=
+9.729V4.27A2.271 2.271 0 0 0 19.729 2H4.27Zm8.167 17.109c-.294.599-.857.992=
+-1.51 1.182-1.001.23-1.96.1-2.672-.329-.478-.293-.85-.743-1.103-1.262.508-.=
+31 1.014-.622 1.521-.932.014.006.053.078.107.171.194.326.361.556.69.717.324=
+.11 1.032.18 1.306-.388.168-.289.114-1.237.114-2.266 0-1.616.008-3.205.008-=
+4.841h1.87c0 1.718.01 3.44 0 5.155.004 1.052.096 2.008-.33 2.793Zm7.761-.52=
+9c-.65 2.225-4.276 2.297-5.724.827-.306-.345-.498-.526-.68-.926.77-.443.77-=
+.443 1.518-.876.408.626.784.97 1.46 1.11.92.112 1.843-.203 1.636-1.178-.213=
+-.797-1.88-.99-3.015-1.843-1.152-.774-1.422-2.654-.475-3.728.315-.397.853-.=
+694 1.418-.836.195-.025.393-.052.589-.076 1.131-.024 1.838.275 2.357.855.14=
+5.147.262.304.483.647-.602.384-.6.38-1.464.94a1.392 1.392 0 0 0-.813-.755c-=
+.502-.152-1.135.013-1.266.543-.046.164-.036.316.036.586.204.464.886.665 1.4=
+98.946 1.763.715 2.358 1.481 2.504 2.394.14.785-.034 1.294-.06 1.37h-.002Z"=
+></path></svg></div><div class=3D" useView_view__C2mnv useView_isHorizontal=
+__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: center;"><span cla=
+ss=3D" useView_view__C2mnv Tab_tabTitle__hyRHu Text_text__T_hn_ Text_single=
+Line__lXpWA" title=3D"script.js" style=3D"--Text--font-family: inherit; --T=
+ext--font-size: var(--font-size-default); --Text--line-height: var(--line-h=
+eight-default);">script.js</span></div></button><button class=3D" useView_v=
+iew__C2mnv Tab_closeButton__SEFkG css-os4f0t" tabindex=3D"-1" type=3D"butto=
+n" aria-label=3D"Close tab" style=3D"--height: 12px; --width: 12px;"><svg p=
+reserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 2=
+4 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=
+=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-ru=
+le=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.7=
+5 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 =
+5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-r=
+ule=3D"evenodd"></path></svg></button><div class=3D" useView_view__C2mnv Ta=
+b_activeLine__jYh7y" data-active-pane-line=3D"true"></div></div><div class=
+=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp Tab_tab__EF2Lk Surface=
+_surfaceRoot__TeA2u" draggable=3D"true" style=3D"--useView--align: stretch;=
+ --Tab--font-style: inherit;"><button class=3D" useView_view__C2mnv useView=
+_isHorizontal__Q1YOp Tab_tabButton__2m0lS" tabindex=3D"-1" role=3D"tab" ari=
+a-selected=3D"false" aria-controls=3D"178b7dee-7c8f-4d50-a198-d263cb19ce8c"=
+ id=3D"tab-178b7dee-7c8f-4d50-a198-d263cb19ce8c" data-pane-tab-primary-butt=
+on=3D"true" style=3D"--useView--gap: 6px; --useView--align: center; --useVi=
+ew--grow: 1; --useView--shrink: 1; --useView--pr: 6px; --useView--pl: 6px;"=
+><div class=3D" useView_view__C2mnv Tab_tabIcon__Gmt_u"><svg preserveAspect=
+Ratio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D=
+"var(--accent-green-strongest)" aria-hidden=3D"true" class=3D"css-492dz9" s=
+tyle=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fil=
+l-rule=3D"evenodd" d=3D"M14.409 9.75c-.039.434-.101.865-.188 1.29l1.241 1.2=
+4c.233-.822.385-1.67.452-2.53h3.298a7.226 7.226 0 0 1-1.995 4.285l1.06 1.06=
+a8.75 8.75 0 1 0-12.555 0l1.061-1.06A7.226 7.226 0 0 1 4.788 9.75h3.298c.06=
+7.86.219 1.708.452 2.53l1.24-1.24c-.086-.425-.149-.856-.187-1.29h4.818Zm-9.=
+62-1.5h3.297c.176-2.262.94-4.433 2.209-6.298A7.256 7.256 0 0 0 4.788 8.25ZM=
+12 2.16a11.49 11.49 0 0 0-2.409 6.09h4.818A11.49 11.49 0 0 0 12 2.16Zm7.212=
+ 6.09h-3.298a12.99 12.99 0 0 0-2.209-6.298 7.256 7.256 0 0 1 5.507 6.298Z" =
+clip-rule=3D"evenodd"></path><path d=3D"m17.53 16.47-5-5a.75.75 0 0 0-1.06 =
+0l-5 5a.75.75 0 1 0 1.06 1.06l3.72-3.72V23a.75.75 0 0 0 1.5 0v-9.19l3.72 3.=
+72a.75.75 0 1 0 1.06-1.06Z"></path></svg></div><div class=3D" useView_view_=
+_C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView=
+--align: center;"><span class=3D" useView_view__C2mnv Tab_tabTitle__hyRHu T=
+ext_text__T_hn_ Text_singleLine__lXpWA" title=3D"Deployments" style=3D"--Te=
+xt--font-family: inherit; --Text--font-size: var(--font-size-default); --Te=
+xt--line-height: var(--line-height-default);">Deployments</span></div></but=
+ton><button class=3D" useView_view__C2mnv Tab_closeButton__SEFkG css-os4f0t=
+" tabindex=3D"-1" type=3D"button" aria-label=3D"Close tab" style=3D"--heigh=
+t: 12px; --width: 12px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12"=
+ height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"t=
+rue" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12p=
+x; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 =
+1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 =
+0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.=
+53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"evenodd"></path></svg></button></div>=
+</div></div></div></div><button class=3D" useView_view__C2mnv TabList_newTa=
+bButton__F7Fv4 css-os4f0t" type=3D"button" aria-label=3D"New tab" fdprocess=
+edid=3D"chlz" style=3D"--height: 12px; --width: 12px;"><svg preserveAspectR=
+atio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"=
+currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12=
+px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd"=
+ d=3D"M12 3.25a.75.75 0 0 1 .75.75v7.25H20a.75.75 0 0 1 0 1.5h-7.25V20a.75.=
+75 0 0 1-1.5 0v-7.25H4a.75.75 0 0 1 0-1.5h7.25V4a.75.75 0 0 1 .75-.75Z" cli=
+p-rule=3D"evenodd"></path></svg></button><div class=3D" useView_view__C2mnv=
+ css-ijdrbt" title=3D"Double click to maximize. Drag to move." style=3D"--u=
+seView--grow: 1; --useView--shrink: 1; cursor: grab;"></div></div></div><di=
+v class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp Header_right__6=
+qiEj"><button class=3D" useView_view__C2mnv Header_headerContentMoreActions=
+__WHJN2 css-os4f0t" type=3D"button" aria-label=3D"Pane actions" fdprocessed=
+id=3D"h2ef7s" style=3D"--height: 24px; --width: 24px;"><svg preserveAspectR=
+atio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"=
+var(--foreground-dimmest)" aria-hidden=3D"true" class=3D"css-492dz9" style=
+=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-ru=
+le=3D"evenodd" d=3D"M10.25 5a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Zm0=
+ 7a1.75 1.75 0 1 1 3.5 0 1.75 1.75 0 0 1-3.5 0Zm0 7a1.75 1.75 0 1 1 3.5 0 1=
+.75 1.75 0 0 1-3.5 0Z" clip-rule=3D"evenodd"></path></svg></button></div></=
+div><div class=3D" useView_view__C2mnv Pane_root__Dz_FC Surface_surfaceDefa=
+ult__TcNI5" role=3D"tabpanel" id=3D"17e944e1-41c9-4d87-83bb-53a353ddfef8" a=
+ria-labelledby=3D"tab-17e944e1-41c9-4d87-83bb-53a353ddfef8" style=3D"--inde=
+x--border-gap: 4px; --index--transform-origin-x: 0x; --fixed-position-offse=
+t-x: -48px; --fixed-position-offset-y: -80px; --index--pointer-events: auto=
+; z-index: 3; --index--interaction-blanket-display: none; --index--user-sel=
+ect: auto; --index--iframe-pointer-events: auto; --index--width: 352.8px; -=
+-index--height: 554px; --index--transform-x: 48px; --index--transform-y: 32=
+px; --index--scale: 1; --index--opacity: 1;"><div class=3D" useView_view__C=
+2mnv Pane_container__V2H53"><div class=3D" useView_view__C2mnv" tabindex=3D=
+"-1"></div><div class=3D" useView_view__C2mnv" style=3D"--useView--grow: 1;=
+ --useView--shrink: 1; --useView--pr: 4px; --useView--pl: 4px; --paddingLef=
+t: 0; --sidebarWidth: 240px; --sidebarOpacity: 0; --sidebarBlanketOpacity: =
+0; --sidebarBlanketPointerEvents: none; --sidebarPointerEvents: none; --sid=
+ebarTransform: translate(var(--space-8), var(--space-8)); --sidebarHeight: =
+calc(100% - var(--space-16));"><div class=3D" useView_view__C2mnv css-o29w4=
+z Surface_surfaceDefault__TcNI5"><div class=3D" useView_view__C2mnv useView=
+_isHorizontal__Q1YOp" style=3D"--useView--align: center;"><div class=3D" us=
+eView_view__C2mnv"><button class=3D" useView_view__C2mnv css-os4f0t" type=
+=3D"button" aria-label=3D"All chats" fdprocessedid=3D"u0kgys" style=3D"--he=
+ight: 24px; --width: 24px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"=
+16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=
+=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width=
+: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M2.25 6A.75.75 0 0 =
+1 3 5.25h.01a.75.75 0 0 1 0 1.5H3A.75.75 0 0 1 2.25 6Zm5 0A.75.75 0 0 1 8 5=
+.25h13a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 6Zm-5 6a.75.75 0 0 1 .75-.75h=
+.01a.75.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75Zm5 0a.75.75 0 0 1 .75-.75h13a=
+.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75Zm-5 6a.75.75 0 0 1 .75-.75h.01a.7=
+5.75 0 0 1 0 1.5H3a.75.75 0 0 1-.75-.75Zm5 0a.75.75 0 0 1 .75-.75h13a.75.75=
+ 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75Z" clip-rule=3D"evenodd"></path></svg></=
+button></div><button type=3D"button" tabindex=3D"0" class=3D"Button_button_=
+_oRQ_x css-1cype2t" data-rac=3D"" id=3D"react-aria8892419012-:rmd:" fdproce=
+ssedid=3D"en45lr" style=3D"--Button--height: 28px; --Button--shrink: 0; --B=
+utton--align-self: auto; --Button--alignment: center;"><div class=3D" useVi=
+ew_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; -=
+-useView--justify: center; --useView--align: center; --useView--grow: 1; --=
+useView--shrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" hei=
+ght=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true"=
+ class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; h=
+eight: 12px;"><path fill-rule=3D"evenodd" d=3D"M12 3.25a.75.75 0 0 1 .75.75=
+v7.25H20a.75.75 0 0 1 0 1.5h-7.25V20a.75.75 0 0 1-1.5 0v-7.25H4a.75.75 0 0 =
+1 0-1.5h7.25V4a.75.75 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path></svg><s=
+pan class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: var=
+(--font-size-small); --Text--font-family: inherit;"><span class=3D" useView=
+_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font=
+-family: inherit; --Text--font-size: var(--font-size-small); --Text--line-h=
+eight: var(--line-height-small);">New chat</span></span></div></button><div=
+ class=3D" useView_view__C2mnv" style=3D"--useView--align: center; --useVie=
+w--grow: 1; --useView--shrink: 1;"></div><div class=3D" useView_view__C2mnv=
+ useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--alig=
+n: center;"><button class=3D" useView_view__C2mnv css-os4f0t" type=3D"butto=
+n" aria-label=3D"Usage" aria-expanded=3D"false" fdprocessedid=3D"pk0q9l" st=
+yle=3D"--height: 24px; --width: 24px;"><div class=3D" useView_view__C2mnv c=
+ss-l5xv05"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16"=
+ viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"=
+css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16p=
+x;"><path fill-rule=3D"evenodd" d=3D"M12 6.75A9.25 9.25 0 0 0 2.75 16a.75.7=
+5 0 0 1-1.5 0C1.25 10.063 6.063 5.25 12 5.25S22.75 10.063 22.75 16a.75.75 0=
+ 0 1-1.5 0A9.25 9.25 0 0 0 12 6.75Zm4.53 4.22a.75.75 0 0 1 0 1.06l-2.325 2.=
+326a2.75 2.75 0 1 1-1.203-.918l2.468-2.468a.75.75 0 0 1 1.06 0ZM12 14.75a1.=
+25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z" clip-rule=3D"evenodd"></path></=
+svg></div></button><button class=3D" useView_view__C2mnv css-os4f0t" type=
+=3D"button" aria-label=3D"Settings" fdprocessedid=3D"6pu8bl" style=3D"--hei=
+ght: 24px; --width: 24px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"1=
+6" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D=
+"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 1=
+6px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M12 1.75A1.25 1.25 0 0=
+ 0 10.75 3V3.173a2.4 2.4 0 0 1-1.455 2.196.75.75 0 0 1-.222.057 2.4 2.4 0 0=
+ 1-2.497-.54L6.57 4.88l-.06-.06a1.252 1.252 0 1 0-1.77 1.77l.066.066a2.4 2.=
+4 0 0 1 .49 2.625 2.4 2.4 0 0 1-2.188 1.549H3a1.25 1.25 0 0 0 0 2.5h.173a2.=
+4 2.4 0 0 1 2.195 1.45 2.4 2.4 0 0 1-.482 2.644l-.006.006-.06.06a1.253 1.25=
+3 0 0 0 .406 2.041 1.25 1.25 0 0 0 1.363-.271l.067-.066a2.4 2.4 0 0 1 2.625=
+-.49 2.4 2.4 0 0 1 1.549 2.188V21a1.25 1.25 0 0 0 2.5 0V20.827a2.4 2.4 0 0 =
+1 1.45-2.195 2.4 2.4 0 0 1 2.644.482l.006.006.06.06a1.253 1.253 0 0 0 1.77 =
+0 1.255 1.255 0 0 0 .271-1.364 1.25 1.25 0 0 0-.271-.405l-.066-.067a2.4 2.4=
+ 0 0 1-.482-2.643 2.4 2.4 0 0 1 2.195-1.451H21a1.25 1.25 0 0 0 0-2.5H20.827=
+a2.4 2.4 0 0 1-2.196-1.455.753.753 0 0 1-.058-.222 2.4 2.4 0 0 1 .54-2.497l=
+.007-.006.06-.06a1.252 1.252 0 1 0-1.77-1.77l-.066.066a2.4 2.4 0 0 1-2.643.=
+482 2.4 2.4 0 0 1-1.451-2.195V3A1.25 1.25 0 0 0 12 1.75Zm-1.944-.695A2.75 2=
+.75 0 0 1 14.75 3v.088a.9.9 0 0 0 .545.823l.008.003a.9.9 0 0 0 .99-.178l.05=
+6-.056a2.752 2.752 0 1 1 3.891 3.89l-.056.057a.9.9 0 0 0-.178.99c.027.061.0=
+46.125.055.19a.9.9 0 0 0 .77.443H21a2.75 2.75 0 1 1 0 5.5h-.088a.9.9 0 0 0-=
+.823.545l-.003.008a.9.9 0 0 0 .178.99l.056.056a2.749 2.749 0 0 1 0 3.891 2.=
+748 2.748 0 0 1-3.89 0l-.057-.056a.9.9 0 0 0-.99-.178l-.007.003a.9.9 0 0 0-=
+.546.823V21a2.75 2.75 0 1 1-5.5 0v-.08a.9.9 0 0 0-.589-.816.767.767 0 0 1-.=
+044-.018.9.9 0 0 0-.99.178l-.056.056a2.748 2.748 0 0 1-3.892 0 2.749 2.749 =
+0 0 1 0-3.89l.057-.057a.9.9 0 0 0 .178-.99l-.003-.007a.9.9 0 0 0-.823-.546H=
+3a2.75 2.75 0 1 1 0-5.5h.08a.9.9 0 0 0 .816-.589.745.745 0 0 1 .018-.044.9.=
+9 0 0 0-.178-.99l-.056-.056A2.752 2.752 0 1 1 7.57 3.76l.057.056a.9.9 0 0 0=
+ .99.178.75.75 0 0 1 .19-.056.9.9 0 0 0 .443-.77V3c0-.73.29-1.429.806-1.945=
+ZM12 9.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5ZM8.25 12a3.75 3.75 0 =
+1 1 7.5 0 3.75 3.75 0 0 1-7.5 0Z" clip-rule=3D"evenodd"></path></svg></butt=
+on></div></div></div><div class=3D" useView_view__C2mnv css-17apv6g"><div c=
+lass=3D" useView_view__C2mnv css-nj8au5"></div><div class=3D" useView_view_=
+_C2mnv css-w438d2 Surface_surfaceDefault__TcNI5"><div class=3D" useView_vie=
+w__C2mnv css-1gkxqwf" style=3D"--useView--grow: 1; --useView--shrink: 1;"><=
+template data-react-aria-hidden=3D"true"></template><div class=3D"css-1jy0d=
+03" data-rac=3D"" data-orientation=3D"horizontal"><div class=3D" useView_vi=
+ew__C2mnv css-1jy0d03"><div class=3D" useView_view__C2mnv" style=3D"--useVi=
+ew--gap: 4px; --useView--pt: 8px; --useView--pr: 8px; --useView--pb: 8px; -=
+-useView--pl: 8px;"><div data-collection=3D"react-aria8892419012-:rmi:" id=
+=3D"react-aria8892419012-:rmj:" aria-label=3D"Chats" role=3D"tablist" aria-=
+orientation=3D"horizontal" class=3D"css-15x1cjx" data-rac=3D"" data-orienta=
+tion=3D"horizontal"><div tabindex=3D"0" data-collection=3D"react-aria889241=
+9012-:rmi:" data-key=3D"Chats" id=3D"react-aria8892419012-:rmj:-tab-Chats" =
+aria-selected=3D"true" aria-controls=3D"react-aria8892419012-:rmj:-tabpanel=
+-Chats" role=3D"tab" class=3D"css-1c8jezf" data-rac=3D"" data-selected=3D"t=
+rue"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_multiline__I=
+CkLz" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-=
+size-default); --Text--line-height: var(--line-height-default); --Text--col=
+or: var(--foreground-dimmer);">Chats</span></div><div tabindex=3D"-1" data-=
+collection=3D"react-aria8892419012-:rmi:" data-key=3D"Archived" id=3D"react=
+-aria8892419012-:rmj:-tab-Archived" aria-selected=3D"false" role=3D"tab" cl=
+ass=3D"css-1c8jezf" data-rac=3D""><span class=3D" useView_view__C2mnv Text_=
+text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; -=
+-Text--font-size: var(--font-size-default); --Text--line-height: var(--line=
+-height-default); --Text--color: var(--foreground-dimmer);">Archived</span>=
+</div></div></div><div class=3D" useView_view__C2mnv css-1lgpax4"><div id=
+=3D"react-aria8892419012-:rmj:-tabpanel-Chats" aria-labelledby=3D"react-ari=
+a8892419012-:rmj:-tab-Chats" tabindex=3D"0" role=3D"tabpanel" class=3D"css-=
+1jy0d03" data-rac=3D""><div class=3D" useView_view__C2mnv css-9ekk1p"><div =
+class=3D" useView_view__C2mnv css-39oalo" style=3D"--sessionBackground: var=
+(--accent-primary-dimmest);"><div class=3D" useView_view__C2mnv css-1o41amg=
+"><div class=3D" useView_view__C2mnv css-tqeoyf"><span class=3D" useView_vi=
+ew__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-fa=
+mily: inherit; --Text--font-size: var(--font-size-default); --Text--line-he=
+ight: var(--line-height-default);">New Chat</span></div></div><span class=
+=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"=
+--Text--font-family: inherit; --Text--font-size: var(--font-size-small); --=
+Text--line-height: var(--line-height-small); --Text--color: var(--foregroun=
+d-dimmest);">just now</span></div></div></div></div></div></div></div><div =
+class=3D" useView_view__C2mnv css-y96ay0"><button type=3D"button" tabindex=
+=3D"0" class=3D"Button_button__oRQ_x css-1cype2t" data-rac=3D"" id=3D"react=
+-aria8892419012-:rmn:" fdprocessedid=3D"g9owdq" style=3D"--Button--height: =
+28px; --Button--shrink: 0; --Button--align-self: auto; --Button--alignment:=
+ start;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" st=
+yle=3D"--useView--gap: 4px; --useView--justify: start; --useView--align: ce=
+nter; --useView--grow: 1; --useView--shrink: 1;"><svg preserveAspectRatio=
+=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"curr=
+entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; =
+--rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=
 =3D"M12 1.75A1.25 1.25 0 0 0 10.75 3V3.173a2.4 2.4 0 0 1-1.455 2.196.75.75 =
 0 0 1-.222.057 2.4 2.4 0 0 1-2.497-.54L6.57 4.88l-.06-.06a1.252 1.252 0 1 0=
 -1.77 1.77l.066.066a2.4 2.4 0 0 1 .49 2.625 2.4 2.4 0 0 1-2.188 1.549H3a1.2=
@@ -948,502 +1024,430 @@ rrentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px=
 7 3.76l.057.056a.9.9 0 0 0 .99.178.75.75 0 0 1 .19-.056.9.9 0 0 0 .443-.77V=
 3c0-.73.29-1.429.806-1.945ZM12 9.75a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0=
 -4.5ZM8.25 12a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0Z" clip-rule=3D"ev=
-enodd"></path></svg></button></div></div></div><div class=3D" useView_view_=
-_C2mnv css-17apv6g"><div class=3D" useView_view__C2mnv css-nj8au5"></div><d=
-iv class=3D" useView_view__C2mnv css-w438d2 Surface_surfaceDefault__TcNI5">=
-<div class=3D" useView_view__C2mnv css-1gkxqwf" style=3D"--useView--grow: 1=
-; --useView--shrink: 1;"><template data-react-aria-hidden=3D"true"></templa=
-te><div class=3D"css-1jy0d03" data-rac=3D"" data-orientation=3D"horizontal"=
-><div class=3D" useView_view__C2mnv css-1jy0d03"><div class=3D" useView_vie=
-w__C2mnv" style=3D"--useView--gap: 4px; --useView--pt: 8px; --useView--pr: =
-8px; --useView--pb: 8px; --useView--pl: 8px;"><div data-collection=3D"react=
--aria8892419012-:rmi:" id=3D"react-aria8892419012-:rmj:" aria-label=3D"Chat=
-s" role=3D"tablist" aria-orientation=3D"horizontal" class=3D"css-15x1cjx" d=
-ata-rac=3D"" data-orientation=3D"horizontal"><div tabindex=3D"0" data-colle=
-ction=3D"react-aria8892419012-:rmi:" data-key=3D"Chats" id=3D"react-aria889=
-2419012-:rmj:-tab-Chats" aria-selected=3D"true" aria-controls=3D"react-aria=
-8892419012-:rmj:-tabpanel-Chats" role=3D"tab" class=3D"css-1c8jezf" data-ra=
-c=3D"" data-selected=3D"true"><span class=3D" useView_view__C2mnv Text_text=
-__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Tex=
-t--font-size: var(--font-size-default); --Text--line-height: var(--line-hei=
-ght-default); --Text--color: var(--foreground-dimmer);">Chats</span></div><=
-div tabindex=3D"-1" data-collection=3D"react-aria8892419012-:rmi:" data-key=
-=3D"Archived" id=3D"react-aria8892419012-:rmj:-tab-Archived" aria-selected=
-=3D"false" role=3D"tab" class=3D"css-1c8jezf" data-rac=3D""><span class=3D"=
- useView_view__C2mnv Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Tex=
-t--font-family: inherit; --Text--font-size: var(--font-size-default); --Tex=
-t--line-height: var(--line-height-default); --Text--color: var(--foreground=
--dimmer);">Archived</span></div></div></div><div class=3D" useView_view__C2=
-mnv css-1lgpax4"><div id=3D"react-aria8892419012-:rmj:-tabpanel-Chats" aria=
--labelledby=3D"react-aria8892419012-:rmj:-tab-Chats" tabindex=3D"0" role=3D=
-"tabpanel" class=3D"css-1jy0d03" data-rac=3D""><div class=3D" useView_view_=
-_C2mnv css-9ekk1p"><div class=3D" useView_view__C2mnv css-39oalo" style=3D"=
---sessionBackground: var(--accent-primary-dimmest);"><div class=3D" useView=
-_view__C2mnv css-1o41amg"><div class=3D" useView_view__C2mnv css-tqeoyf"><s=
-pan class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" =
-style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-d=
-efault); --Text--line-height: var(--line-height-default);">New Chat</span><=
-/div></div><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_single=
-Line__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(=
---font-size-small); --Text--line-height: var(--line-height-small); --Text--=
-color: var(--foreground-dimmest);">just now</span></div></div></div></div><=
-/div></div></div><div class=3D" useView_view__C2mnv css-y96ay0"><button typ=
-e=3D"button" tabindex=3D"0" class=3D"Button_button__oRQ_x css-1cype2t" data=
--rac=3D"" id=3D"react-aria8892419012-:rmn:" fdprocessedid=3D"g9owdq" style=
-=3D"--Button--height: 28px; --Button--shrink: 0; --Button--align-self: auto=
-; --Button--alignment: start;"><div class=3D" useView_view__C2mnv useView_i=
-sHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--justify: start=
-; --useView--align: center; --useView--grow: 1; --useView--shrink: 1;"><svg=
- preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0=
- 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" sty=
-le=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-=
-rule=3D"evenodd" d=3D"M12 1.75A1.25 1.25 0 0 0 10.75 3V3.173a2.4 2.4 0 0 1-=
-1.455 2.196.75.75 0 0 1-.222.057 2.4 2.4 0 0 1-2.497-.54L6.57 4.88l-.06-.06=
-a1.252 1.252 0 1 0-1.77 1.77l.066.066a2.4 2.4 0 0 1 .49 2.625 2.4 2.4 0 0 1=
--2.188 1.549H3a1.25 1.25 0 0 0 0 2.5h.173a2.4 2.4 0 0 1 2.195 1.45 2.4 2.4 =
-0 0 1-.482 2.644l-.006.006-.06.06a1.253 1.253 0 0 0 .406 2.041 1.25 1.25 0 =
-0 0 1.363-.271l.067-.066a2.4 2.4 0 0 1 2.625-.49 2.4 2.4 0 0 1 1.549 2.188V=
-21a1.25 1.25 0 0 0 2.5 0V20.827a2.4 2.4 0 0 1 1.45-2.195 2.4 2.4 0 0 1 2.64=
-4.482l.006.006.06.06a1.253 1.253 0 0 0 1.77 0 1.255 1.255 0 0 0 .271-1.364 =
-1.25 1.25 0 0 0-.271-.405l-.066-.067a2.4 2.4 0 0 1-.482-2.643 2.4 2.4 0 0 1=
- 2.195-1.451H21a1.25 1.25 0 0 0 0-2.5H20.827a2.4 2.4 0 0 1-2.196-1.455.753.=
-753 0 0 1-.058-.222 2.4 2.4 0 0 1 .54-2.497l.007-.006.06-.06a1.252 1.252 0 =
-1 0-1.77-1.77l-.066.066a2.4 2.4 0 0 1-2.643.482 2.4 2.4 0 0 1-1.451-2.195V3=
-A1.25 1.25 0 0 0 12 1.75Zm-1.944-.695A2.75 2.75 0 0 1 14.75 3v.088a.9.9 0 0=
- 0 .545.823l.008.003a.9.9 0 0 0 .99-.178l.056-.056a2.752 2.752 0 1 1 3.891 =
-3.89l-.056.057a.9.9 0 0 0-.178.99c.027.061.046.125.055.19a.9.9 0 0 0 .77.44=
-3H21a2.75 2.75 0 1 1 0 5.5h-.088a.9.9 0 0 0-.823.545l-.003.008a.9.9 0 0 0 .=
-178.99l.056.056a2.749 2.749 0 0 1 0 3.891 2.748 2.748 0 0 1-3.89 0l-.057-.0=
-56a.9.9 0 0 0-.99-.178l-.007.003a.9.9 0 0 0-.546.823V21a2.75 2.75 0 1 1-5.5=
- 0v-.08a.9.9 0 0 0-.589-.816.767.767 0 0 1-.044-.018.9.9 0 0 0-.99.178l-.05=
-6.056a2.748 2.748 0 0 1-3.892 0 2.749 2.749 0 0 1 0-3.89l.057-.057a.9.9 0 0=
- 0 .178-.99l-.003-.007a.9.9 0 0 0-.823-.546H3a2.75 2.75 0 1 1 0-5.5h.08a.9.=
-9 0 0 0 .816-.589.745.745 0 0 1 .018-.044.9.9 0 0 0-.178-.99l-.056-.056A2.7=
-52 2.752 0 1 1 7.57 3.76l.057.056a.9.9 0 0 0 .99.178.75.75 0 0 1 .19-.056.9=
-.9 0 0 0 .443-.77V3c0-.73.29-1.429.806-1.945ZM12 9.75a2.25 2.25 0 1 0 0 4.5=
- 2.25 2.25 0 0 0 0-4.5ZM8.25 12a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0=
-Z" clip-rule=3D"evenodd"></path></svg><span class=3D"Text_singleLineWrapper=
-__REG8N" style=3D"--Text--font-size: var(--font-size-small); --Text--font-f=
-amily: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_=
-singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size=
-: var(--font-size-small); --Text--line-height: var(--line-height-small);">S=
-ettings</span></span></div></button></div></div><div class=3D" useView_view=
-__C2mnv css-xbk23q" style=3D"--useView--grow: 1; --useView--shrink: 1;"><di=
-v class=3D" useView_view__C2mnv css-17b8i8"><div class=3D" useView_view__C2=
-mnv css-f34pvv"><div class=3D" useView_view__C2mnv css-1e93p88" style=3D"--=
-useView--gap: 16px;"><div class=3D" useView_view__C2mnv" style=3D"--useView=
---gap: 8px; --useView--align: center;"><svg preserveAspectRatio=3D"xMidYMin=
-" width=3D"48" height=3D"48" viewBox=3D"0 0 24 24" fill=3D"currentColor" ar=
-ia-hidden=3D"true" class=3D"css-1dgrgdl" style=3D"transform: scale(1.33); -=
--size: 48px; --rotate: 0deg; width: 48px; height: 48px;"><path fill-rule=3D=
-"evenodd" d=3D"M5 3.75A1.25 1.25 0 0 0 3.75 5v14.19l2.72-2.72a.75.75 0 0 1 =
-.53-.22h12A1.25 1.25 0 0 0 20.25 15v-3a.75.75 0 0 1 1.5 0v3A2.75 2.75 0 0 1=
- 19 17.75H7.31l-3.78 3.78A.75.75 0 0 1 2.25 21V5A2.75 2.75 0 0 1 5 2.25h7a.=
-75.75 0 0 1 0 1.5H5Z" clip-rule=3D"evenodd"></path><path d=3D"M19 1a.8.8 0 =
-0 1 .8.8v2.4h2.4a.8.8 0 0 1 0 1.6h-2.4v2.4a.8.8 0 0 1-1.6 0V5.8h-2.4a.8.8 0=
- 0 1 0-1.6h2.4V1.8A.8.8 0 0 1 19 1Z"></path></svg><div class=3D" useView_vi=
-ew__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useV=
-iew--align: center;"><h1 class=3D" useView_view__C2mnv Text_text__T_hn_ Tex=
-t_multiline__ICkLz" style=3D"--Text--font-size: var(--font-size-subhead-big=
-); --Text--font-family: inherit; --Text--line-height: var(--line-height-sub=
-head-big); --Text--font-weight: var(--font-weight-medium);">New chat with A=
-ssistant</h1></div></div><span class=3D" useView_view__C2mnv Text_text__T_h=
-n_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text--fo=
-nt-size: var(--font-size-default); --Text--line-height: var(--line-height-d=
-efault); --Text--color: var(--foreground-dimmest);">Assistant answers quest=
-ions, refines code, and makes precise edits.</span></div><div class=3D" use=
-View_view__C2mnv css-1njtlqi" style=3D"--useView--pb: 8px;"><div class=3D" =
-useView_view__C2mnv css-1npwin0"><div class=3D" useView_view__C2mnv css-9vd=
-5ud"><div class=3D" useView_view__C2mnv css-vs66lg"><div class=3D" useView_=
-view__C2mnv css-18h52fe"><button type=3D"button" tabindex=3D"0" aria-label=
-=3D"Inspect for errors" class=3D"Button_button__oRQ_x css-hfy41" data-rac=
-=3D"" id=3D"react-aria8892419012-:rmp:" fdprocessedid=3D"gbbu0b" style=3D"-=
--Button--height: 32px; --Button--shrink: 0; --Button--align-self: auto; --B=
-utton--alignment: center;"><span class=3D"Text_singleLineWrapper__REG8N" st=
-yle=3D"--Text--font-size: var(--font-size-default); --Text--font-family: in=
-herit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLin=
-e__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--f=
-ont-size-default); --Text--line-height: var(--line-height-default);">Inspec=
-t for errors</span></span></button><button type=3D"button" tabindex=3D"0" a=
-ria-label=3D"Improve the visual design" class=3D"Button_button__oRQ_x css-h=
-fy41" data-rac=3D"" id=3D"react-aria8892419012-:rmr:" fdprocessedid=3D"xi74=
-2" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align-se=
-lf: auto; --Button--alignment: center;"><span class=3D"Text_singleLineWrapp=
-er__REG8N" style=3D"--Text--font-size: var(--font-size-default); --Text--fo=
-nt-family: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ T=
-ext_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-=
-size: var(--font-size-default); --Text--line-height: var(--line-height-defa=
-ult);">Improve the visual design</span></span></button><button type=3D"butt=
-on" tabindex=3D"0" aria-label=3D"Brainstorm new features" class=3D"Button_b=
-utton__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rmt:" fdp=
-rocessedid=3D"jecdat" style=3D"--Button--height: 32px; --Button--shrink: 0;=
- --Button--align-self: auto; --Button--alignment: center;"><span class=3D"T=
-ext_singleLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-d=
-efault); --Text--font-family: inherit;"><span class=3D" useView_view__C2mnv=
- Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inh=
-erit; --Text--font-size: var(--font-size-default); --Text--line-height: var=
-(--line-height-default);">Brainstorm new features</span></span></button></d=
-iv><div class=3D" useView_view__C2mnv css-18h52fe"><button type=3D"button" =
-tabindex=3D"0" aria-label=3D"Add dark mode toggle" class=3D"Button_button__=
-oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rmv:" fdprocesse=
-did=3D"i6nzw" style=3D"--Button--height: 32px; --Button--shrink: 0; --Butto=
-n--align-self: auto; --Button--alignment: center;"><span class=3D"Text_sing=
-leLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-default);=
- --Text--font-family: inherit;"><span class=3D" useView_view__C2mnv Text_te=
-xt__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --=
-Text--font-size: var(--font-size-default); --Text--line-height: var(--line-=
-height-default);">Add dark mode toggle</span></span></button><button type=
-=3D"button" tabindex=3D"0" aria-label=3D"Optimize for mobile" class=3D"Butt=
-on_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rn1:"=
- fdprocessedid=3D"j360nf" style=3D"--Button--height: 32px; --Button--shrink=
-: 0; --Button--align-self: auto; --Button--alignment: center;"><span class=
-=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-s=
-ize-default); --Text--font-family: inherit;"><span class=3D" useView_view__=
-C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family=
-: inherit; --Text--font-size: var(--font-size-default); --Text--line-height=
-: var(--line-height-default);">Optimize for mobile</span></span></button><b=
-utton type=3D"button" tabindex=3D"0" aria-label=3D"Explain this code" class=
-=3D"Button_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria889241901=
-2-:rn3:" fdprocessedid=3D"q7y7sj" style=3D"--Button--height: 32px; --Button=
---shrink: 0; --Button--align-self: auto; --Button--alignment: center;"><spa=
-n class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: var(-=
--font-size-default); --Text--font-family: inherit;"><span class=3D" useView=
-_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font=
--family: inherit; --Text--font-size: var(--font-size-default); --Text--line=
--height: var(--line-height-default);">Explain this code</span></span></butt=
-on></div></div><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1Y=
-Op css-1c74xmz"><button type=3D"button" tabindex=3D"0" aria-label=3D"Inspec=
-t for errors" class=3D"Button_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"=
-react-aria8892419012-:rn5:" style=3D"--Button--height: 32px; --Button--shri=
-nk: 0; --Button--align-self: auto; --Button--alignment: center;"><span clas=
-s=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-=
-size-default); --Text--font-family: inherit;"><span class=3D" useView_view_=
-_C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-famil=
-y: inherit; --Text--font-size: var(--font-size-default); --Text--line-heigh=
-t: var(--line-height-default);">Inspect for errors</span></span></button><b=
-utton type=3D"button" tabindex=3D"0" aria-label=3D"Improve the visual desig=
-n" class=3D"Button_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria8=
-892419012-:rn7:" style=3D"--Button--height: 32px; --Button--shrink: 0; --Bu=
-tton--align-self: auto; --Button--alignment: center;"><span class=3D"Text_s=
-ingleLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-defaul=
-t); --Text--font-family: inherit;"><span class=3D" useView_view__C2mnv Text=
-_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit;=
- --Text--font-size: var(--font-size-default); --Text--line-height: var(--li=
-ne-height-default);">Improve the visual design</span></span></button><butto=
-n type=3D"button" tabindex=3D"0" aria-label=3D"Brainstorm new features" cla=
-ss=3D"Button_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419=
-012-:rn9:" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button--=
-align-self: auto; --Button--alignment: center;"><span class=3D"Text_singleL=
-ineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-default); --=
-Text--font-family: inherit;"><span class=3D" useView_view__C2mnv Text_text_=
-_T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Tex=
-t--font-size: var(--font-size-default); --Text--line-height: var(--line-hei=
-ght-default);">Brainstorm new features</span></span></button><button type=
-=3D"button" tabindex=3D"0" aria-label=3D"Add dark mode toggle" class=3D"But=
-ton_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rnb:=
-" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align-sel=
-f: auto; --Button--alignment: center;"><span class=3D"Text_singleLineWrappe=
-r__REG8N" style=3D"--Text--font-size: var(--font-size-default); --Text--fon=
-t-family: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Te=
-xt_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-s=
-ize: var(--font-size-default); --Text--line-height: var(--line-height-defau=
-lt);">Add dark mode toggle</span></span></button><button type=3D"button" ta=
-bindex=3D"0" aria-label=3D"Optimize for mobile" class=3D"Button_button__oRQ=
-_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rnd:" style=3D"--Bu=
-tton--height: 32px; --Button--shrink: 0; --Button--align-self: auto; --Butt=
-on--alignment: center;"><span class=3D"Text_singleLineWrapper__REG8N" style=
-=3D"--Text--font-size: var(--font-size-default); --Text--font-family: inher=
-it;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__=
-lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font=
--size-default); --Text--line-height: var(--line-height-default);">Optimize =
-for mobile</span></span></button><button type=3D"button" tabindex=3D"0" ari=
-a-label=3D"Explain this code" class=3D"Button_button__oRQ_x css-hfy41" data=
--rac=3D"" id=3D"react-aria8892419012-:rnf:" style=3D"--Button--height: 32px=
+enodd"></path></svg><span class=3D"Text_singleLineWrapper__REG8N" style=3D"=
+--Text--font-size: var(--font-size-small); --Text--font-family: inherit;"><=
+span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA"=
+ style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-=
+small); --Text--line-height: var(--line-height-small);">Settings</span></sp=
+an></div></button></div></div><div class=3D" useView_view__C2mnv css-xbk23q=
+" style=3D"--useView--grow: 1; --useView--shrink: 1;"><div class=3D" useVie=
+w_view__C2mnv css-17b8i8"><div class=3D" useView_view__C2mnv css-f34pvv"><d=
+iv class=3D" useView_view__C2mnv css-1e93p88" style=3D"--useView--gap: 16px=
+;"><div class=3D" useView_view__C2mnv" style=3D"--useView--gap: 8px; --useV=
+iew--align: center;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"48" hei=
+ght=3D"48" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true"=
+ class=3D"css-1dgrgdl" style=3D"transform: scale(1.33); --size: 48px; --rot=
+ate: 0deg; width: 48px; height: 48px;"><path fill-rule=3D"evenodd" d=3D"M5 =
+3.75A1.25 1.25 0 0 0 3.75 5v14.19l2.72-2.72a.75.75 0 0 1 .53-.22h12A1.25 1.=
+25 0 0 0 20.25 15v-3a.75.75 0 0 1 1.5 0v3A2.75 2.75 0 0 1 19 17.75H7.31l-3.=
+78 3.78A.75.75 0 0 1 2.25 21V5A2.75 2.75 0 0 1 5 2.25h7a.75.75 0 0 1 0 1.5H=
+5Z" clip-rule=3D"evenodd"></path><path d=3D"M19 1a.8.8 0 0 1 .8.8v2.4h2.4a.=
+8.8 0 0 1 0 1.6h-2.4v2.4a.8.8 0 0 1-1.6 0V5.8h-2.4a.8.8 0 0 1 0-1.6h2.4V1.8=
+A.8.8 0 0 1 19 1Z"></path></svg><div class=3D" useView_view__C2mnv useView_=
+isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: center=
+;"><h1 class=3D" useView_view__C2mnv Text_text__T_hn_ Text_multiline__ICkLz=
+" style=3D"--Text--font-size: var(--font-size-subhead-big); --Text--font-fa=
+mily: inherit; --Text--line-height: var(--line-height-subhead-big); --Text-=
+-font-weight: var(--font-weight-medium);">New chat with Assistant</h1></div=
+></div><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_multiline_=
+_ICkLz" style=3D"--Text--font-family: inherit; --Text--font-size: var(--fon=
+t-size-default); --Text--line-height: var(--line-height-default); --Text--c=
+olor: var(--foreground-dimmest);">Assistant answers questions, refines code=
+, and makes precise edits.</span></div><div class=3D" useView_view__C2mnv c=
+ss-1njtlqi" style=3D"--useView--pb: 8px;"><div class=3D" useView_view__C2mn=
+v css-1npwin0"><div class=3D" useView_view__C2mnv css-9vd5ud"><div class=3D=
+" useView_view__C2mnv css-vs66lg"><div class=3D" useView_view__C2mnv css-18=
+h52fe"><button type=3D"button" tabindex=3D"0" aria-label=3D"Inspect for err=
+ors" class=3D"Button_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-ari=
+a8892419012-:rmp:" fdprocessedid=3D"gbbu0b" style=3D"--Button--height: 32px=
 ; --Button--shrink: 0; --Button--align-self: auto; --Button--alignment: cen=
 ter;"><span class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-s=
 ize: var(--font-size-default); --Text--font-family: inherit;"><span class=
 =3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"=
 --Text--font-family: inherit; --Text--font-size: var(--font-size-default); =
---Text--line-height: var(--line-height-default);">Explain this code</span><=
-/span></button></div></div></div></div></div></div><div class=3D" useView_v=
-iew__C2mnv" style=3D"--useView--pr: 8px; --useView--pl: 8px; --useView--pb:=
- 8px;"><div class=3D" useView_view__C2mnv css-xb06ew Surface_surfaceDefault=
-__TcNI5" style=3D"--padding: 4px 4px; --columnGap: 4px; padding-top: var(--=
-space-32);"><div class=3D" useView_view__C2mnv css-n9xu1j"><div class=3D" u=
-seView_view__C2mnv css-r68r6a" style=3D"--useView--pr: 6px; --useView--pl: =
-6px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" view=
-Box=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-4=
-92dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><=
-g clip-path=3D"url(#clip0_7329_267)"><path fill=3D"var(--accent-teal-defaul=
-t)" d=3D"M7.714 0a3.429 3.429 0 0 1 3.429 3.429v.026a5.143 5.143 0 0 0 5.13=
-7 5.116h.006a3.429 3.429 0 0 1 0 6.858 5.143 5.143 0 0 0-5.143 5.142 3.429 =
-3.429 0 1 1-3.429-3.428h.007a5.143 5.143 0 0 0-.007-10.286 3.429 3.429 0 0 =
-1 0-6.857Z"></path><path fill=3D"var(--accent-teal-stronger)" d=3D"M11.143 =
-12a3.429 3.429 0 1 0-6.857 0 3.429 3.429 0 0 0 6.857 0Z"></path><path fill=
-=3D"url(#paint0_radial_7329_267)" d=3D"M7.714 0a3.429 3.429 0 0 1 3.429 3.4=
-29v.026a5.143 5.143 0 0 0 5.137 5.116h.006a3.429 3.429 0 0 1 0 6.858 5.143 =
-5.143 0 0 0-5.143 5.142 3.429 3.429 0 1 1-3.429-3.428h.007a5.143 5.143 0 0 =
-0-.007-10.286 3.429 3.429 0 0 1 0-6.857Z" opacity=3D".5"></path><path fill=
-=3D"url(#paint1_radial_7329_267)" d=3D"M7.714 8.571a3.429 3.429 0 1 1 0 6.8=
-58 3.429 3.429 0 0 1 0-6.858Z" opacity=3D".5"></path></g><defs><radialGradi=
-ent id=3D"paint0_radial_7329_267" cx=3D"0" cy=3D"0" r=3D"1" gradientTransfo=
-rm=3D"rotate(44.479 -2.762 5.679)scale(29.1694)" gradientUnits=3D"userSpace=
-OnUse"><stop stop-color=3D"#fff" stop-opacity=3D".79"></stop><stop offset=
-=3D"1"></stop></radialGradient><radialGradient id=3D"paint1_radial_7329_267=
-" cx=3D"0" cy=3D"0" r=3D"1" gradientTransform=3D"rotate(44.479 -2.763 5.679=
-)scale(29.1694)" gradientUnits=3D"userSpaceOnUse"><stop stop-color=3D"#fff"=
- stop-opacity=3D".79"></stop><stop offset=3D"1"></stop></radialGradient><cl=
-ipPath id=3D"clip0_7329_267"><path fill=3D"#fff" d=3D"M0 .274C0 .123.123 0 =
-.274 0h23.452c.151 0 .274.123.274.274v23.452a.274.274 0 0 1-.274.274H.274A.=
-274.274 0 0 1 0 23.726V.274Z"></path></clipPath></defs></svg><div class=3D"=
- useView_view__C2mnv" style=3D"--useView--grow: 1; --useView--shrink: 1;"><=
-div class=3D" useView_view__C2mnv css-ntg5h7" style=3D"--useView--grow: 1; =
---useView--shrink: 1;"><template data-react-aria-hidden=3D"true"></template=
-><div class=3D"react-aria-Select" data-rac=3D""><span class=3D" useView_vie=
-w__C2mnv css-1crseai Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Tex=
-t--font-family: inherit; --Text--font-size: var(--font-size-small); --Text-=
--line-height: var(--line-height-small);"><label class=3D" useView_view__C2m=
-nv" id=3D"react-aria8892419012-:rnk:">Assistant mode</label></span><button =
-id=3D"react-aria8892419012-:rnj:" type=3D"button" tabindex=3D"0" aria-label=
-ledby=3D"react-aria8892419012-:rno: react-aria8892419012-:rnk:" aria-haspop=
-up=3D"listbox" aria-expanded=3D"false" class=3D"css-36z16u" data-rac=3D"" f=
-dprocessedid=3D"e77jbr"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" =
-height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"tr=
-ue" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px=
-; height: 12px;"><path d=3D"M12.554.492c.49 3.288 1.307 7.363 2.448 8.505 1=
-.142 1.142 5.22 1.959 8.51 2.449.651.097.65 1.01 0 1.107-3.29.49-7.367 1.30=
-7-8.51 2.448-1.143 1.143-1.96 5.227-2.45 8.518-.096.642-1.009.641-1.104 0-.=
-49-3.291-1.308-7.374-2.45-8.517-1.142-1.143-5.217-1.959-8.506-2.45a.558.558=
- 0 0 1 0-1.107c3.289-.49 7.363-1.307 8.505-2.448 1.142-1.142 1.959-5.216 2.=
-45-8.505a.558.558 0 0 1 1.107 0Z"></path></svg>Advanced<svg preserveAspectR=
-atio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"=
-currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12=
-px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd"=
- clip-rule=3D"evenodd" d=3D"M12.5303 15.5303C12.2374 15.8232 11.7626 15.823=
-2 11.4697 15.5303L5.46967 9.53033C5.17678 9.23744 5.17678 8.76256 5.46967 8=
-.46967C5.76256 8.17678 6.23744 8.17678 6.53033 8.46967L12 13.9393L17.4697 8=
-.46967C17.7626 8.17678 18.2374 8.17678 18.5303 8.46967C18.8232 8.76256 18.8=
-232 9.23744 18.5303 9.53033L12.5303 15.5303Z"></path></svg></button></div><=
-div aria-hidden=3D"true" data-react-aria-prevent-focus=3D"true" data-a11y-i=
-gnore=3D"aria-hidden-focus" data-testid=3D"hidden-select-container" style=
-=3D"border: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); hei=
-ght: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute;=
- width: 1px; white-space: nowrap;"><label><select tabindex=3D"-1" title=3D"=
-"><option></option><option value=3D"basic">basic</option><option value=3D"a=
-dvanced">advanced</option></select></label></div></div></div><div class=3D"=
- useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: =
-4px; --useView--align: center;"><span class=3D" useView_view__C2mnv css-1o4=
-c1gr Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: =
-inherit; --Text--font-size: var(--font-size-small); --Text--line-height: va=
-r(--line-height-small); --Text--color: var(--foreground-dimmer);">Claude 4.=
-0 Sonnet</span><span class=3D" useView_view__C2mnv" tabindex=3D"0"><svg pre=
-serveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 =
-24" fill=3D"var(--foreground-dimmest)" aria-hidden=3D"true" class=3D"css-49=
-2dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><p=
-ath fill-rule=3D"evenodd" d=3D"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 =
-0 0 0-18.5ZM1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.9=
-37 22.75 12 22.75 1.25 17.937 1.25 12ZM12 11.25a.75.75 0 0 1 .75.75v4a.75.7=
-5 0 0 1-1.5 0v-4a.75.75 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path><path =
-d=3D"M13 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg></span></div></div></=
-div><div class=3D"css-1vnz4o6"><div class=3D"cm-editor =CD=BC1 =CD=BC3 =CD=
-=BC4 =CD=BCs =CD=BCt =CD=BC38 =CD=BC13 =CD=BC14 =CD=BC37 =CD=BCw =CD=BCz =
-=CD=BC16"><div class=3D"cm-announced" aria-live=3D"polite"></div><div tabin=
-dex=3D"-1" class=3D"cm-scroller"><div spellcheck=3D"false" autocorrect=3D"o=
-n" autocapitalize=3D"on" translate=3D"no" contenteditable=3D"true" style=3D=
-"tab-size: 4;" class=3D"cm-content cm-lineWrapping" role=3D"textbox" aria-m=
-ultiline=3D"true" data-gramm=3D"false" data-gramm_editor=3D"false" data-ena=
-bled-grammarly=3D"false" aria-autocomplete=3D"list"><div class=3D"cm-replit=
--active-line cm-line"><br></div></div><div class=3D"cm-layer cm-layer-above=
- cm-cursorLayer" aria-hidden=3D"true" style=3D"z-index: 150; animation-dura=
-tion: 1200ms; animation-name: cm-blink;"><div class=3D"cm-cursor cm-cursor-=
-primary" style=3D"left: 6px; top: 4.72723px; height: 18.1818px;"></div></di=
-v><div class=3D"cm-layer cm-selectionLayer" aria-hidden=3D"true" style=3D"z=
--index: -2;"></div><div class=3D"cm-layer cm-active-line-layer" aria-hidden=
-=3D"true" style=3D"z-index: -3;"><div class=3D"cm-active-line-layer-element=
-" style=3D"left: 0px; top: 4px; height: 21px;"></div></div><div class=3D"cm=
--layer cm-placeholder-layer" aria-hidden=3D"true" style=3D"z-index: -4;"><d=
-iv class=3D"cm-placeholder-dom" style=3D"width: 100%; padding-top: 4.72723p=
-x; padding-left: 6px; height: 18.1818px;">Ask Assistant, use @ to include s=
-pecific files...</div></div><div class=3D"cm-layer" aria-hidden=3D"true" st=
-yle=3D"z-index: -5;"></div></div></div></div><div class=3D" useView_view__C=
-2mnv useView_isHorizontal__Q1YOp css-elgmcf" style=3D"--useView--gap: 8px; =
---useView--align: end; --useView--pt: 4px; --useView--pb: 4px;"><div class=
-=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-1jvoort" style=3D"=
---useView--gap: 8px; --useView--align: center; --useView--grow: 1; --useVie=
-w--shrink: 1;"><div class=3D" useView_view__C2mnv"><button class=3D" useVie=
-w_view__C2mnv css-1wpg864" type=3D"button" aria-label=3D"Attach file" fdpro=
-cessedid=3D"xsq6h" style=3D"--height: 24px; --width: 24px;"><svg preserveAs=
-pectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fil=
-l=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--siz=
-e: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"eve=
-nodd" d=3D"M9.75 3A3.75 3.75 0 0 0 6 6.75V15a6 6 0 0 0 12 0V6.75a.75.75 0 0=
- 1 1.5 0V15a7.5 7.5 0 0 1-15 0V6.75a5.25 5.25 0 1 1 10.5 0V15a3 3 0 0 1-6 0=
-V6.75a.75.75 0 1 1 1.5 0V15a1.5 1.5 0 0 0 3 0V6.75A3.75 3.75 0 0 0 9.75 3Z"=
- clip-rule=3D"evenodd"></path></svg></button><input type=3D"file" multiple=
-=3D"" accept=3D"*" style=3D"display: none;"><input type=3D"file" webkitdire=
-ctory=3D"true" mozdirectory=3D"true" msdirectory=3D"true" odirectory=3D"tru=
-e" directory=3D"true" accept=3D"*" style=3D"display: none;"></div><span cla=
-ss=3D" useView_view__C2mnv" tabindex=3D"0"><button type=3D"button" tabindex=
-=3D"0" class=3D"Button_button__oRQ_x css-mz2u1w" data-rac=3D"" id=3D"react-=
-aria8892419012-:rri:" fdprocessedid=3D"r827lp" style=3D"--Button--height: 2=
-8px; --Button--shrink: 0; --Button--align-self: auto; --Button--alignment: =
-center;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" st=
-yle=3D"--useView--gap: 4px; --useView--justify: center; --useView--align: c=
-enter; --useView--grow: 1; --useView--shrink: 1;"><svg preserveAspectRatio=
-=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"curr=
-entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; =
---rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=
-=3D"M12 8.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5ZM9.75 12a2.25 2.25=
- 0 1 1 4.5 0 2.25 2.25 0 0 1-4.5 0Z" clip-rule=3D"evenodd"></path><path fil=
-l-rule=3D"evenodd" d=3D"M12 1.5a.75.75 0 0 1 .75.75v.78a9.002 9.002 0 0 1 8=
-.22 8.22h.78a.75.75 0 0 1 0 1.5h-.78a9.002 9.002 0 0 1-8.22 8.22v.78a.75.75=
- 0 0 1-1.5 0v-.78a9.002 9.002 0 0 1-8.22-8.22h-.78a.75.75 0 0 1 0-1.5h.78a9=
-.002 9.002 0 0 1 8.22-8.22v-.78A.75.75 0 0 1 12 1.5Zm.75 3.037a7.503 7.503 =
-0 0 1 6.713 6.713h-.713a.75.75 0 0 0 0 1.5h.713a7.503 7.503 0 0 1-6.713 6.7=
-13v-.713a.75.75 0 0 0-1.5 0v.713a7.503 7.503 0 0 1-6.713-6.713h.713a.75.75 =
-0 0 0 0-1.5h-.713a7.502 7.502 0 0 1 6.713-6.713v.713a.75.75 0 0 0 1.5 0v-.7=
-13Z" clip-rule=3D"evenodd"></path></svg><span class=3D"Text_singleLineWrapp=
-er__REG8N" style=3D"--Text--font-size: var(--font-size-small); --Text--font=
--family: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Tex=
-t_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-si=
-ze: var(--font-size-small); --Text--line-height: var(--line-height-small);"=
->Select</span></span></div></button></span><button type=3D"button" tabindex=
-=3D"0" aria-haspopup=3D"true" aria-expanded=3D"false" aria-controls=3D":rnt=
-:" id=3D"react-aria8892419012-:rnu:" aria-label=3D"Select files" class=3D"B=
-utton_button__oRQ_x css-1oncput" data-rac=3D"" fdprocessedid=3D"olb59b" sty=
-le=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align-self: au=
-to; --Button--alignment: center;"><div class=3D" useView_view__C2mnv useVie=
-w_isHorizontal__Q1YOp" style=3D"--useView--gap: 8px; --useView--justify: ce=
-nter; --useView--align: center; --useView--grow: 1; --useView--shrink: 1;">=
-<svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D=
-"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9"=
- style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path f=
-ill-rule=3D"evenodd" d=3D"M1.25 5A2.75 2.75 0 0 1 4 2.25h4.999c.251 0 .485.=
-125.625.334L11.4 5.25H20A2.75 2.75 0 0 1 22.75 8v4.5a.75.75 0 0 1-1.5 0V8c0=
--.69-.56-1.25-1.25-1.25h-9a.751.751 0 0 1-.625-.335L8.598 3.75H4c-.69 0-1.2=
-5.56-1.25 1.25v14c0 .69.56 1.25 1.25 1.25h9a.75.75 0 0 1 0 1.5H4A2.75 2.75 =
-0 0 1 1.25 19V5Z" clip-rule=3D"evenodd"></path><path fill-rule=3D"evenodd" =
-d=3D"M18.438 13.8c-.147-.4-.73-.4-.875 0l-1.005 2.744a.458.458 0 0 1-.298.2=
-78l-2.436.746a.446.446 0 0 0 0 .857l2.437.752a.458.458 0 0 1 .297.279l1.005=
- 2.745c.146.399.728.399.875 0l1.004-2.745a.458.458 0 0 1 .297-.278l2.437-.7=
-5a.446.446 0 0 0 0-.857l-2.437-.749a.458.458 0 0 1-.297-.278L18.437 13.8Z" =
-clip-rule=3D"evenodd"></path></svg><span class=3D"Text_singleLineWrapper__R=
+--Text--line-height: var(--line-height-default);">Inspect for errors</span>=
+</span></button><button type=3D"button" tabindex=3D"0" aria-label=3D"Improv=
+e the visual design" class=3D"Button_button__oRQ_x css-hfy41" data-rac=3D""=
+ id=3D"react-aria8892419012-:rmr:" fdprocessedid=3D"xi742" style=3D"--Butto=
+n--height: 32px; --Button--shrink: 0; --Button--align-self: auto; --Button-=
+-alignment: center;"><span class=3D"Text_singleLineWrapper__REG8N" style=3D=
+"--Text--font-size: var(--font-size-default); --Text--font-family: inherit;=
+"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXp=
+WA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-si=
+ze-default); --Text--line-height: var(--line-height-default);">Improve the =
+visual design</span></span></button><button type=3D"button" tabindex=3D"0" =
+aria-label=3D"Brainstorm new features" class=3D"Button_button__oRQ_x css-hf=
+y41" data-rac=3D"" id=3D"react-aria8892419012-:rmt:" fdprocessedid=3D"jecda=
+t" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align-se=
+lf: auto; --Button--alignment: center;"><span class=3D"Text_singleLineWrapp=
+er__REG8N" style=3D"--Text--font-size: var(--font-size-default); --Text--fo=
+nt-family: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ T=
+ext_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-=
+size: var(--font-size-default); --Text--line-height: var(--line-height-defa=
+ult);">Brainstorm new features</span></span></button></div><div class=3D" u=
+seView_view__C2mnv css-18h52fe"><button type=3D"button" tabindex=3D"0" aria=
+-label=3D"Add dark mode toggle" class=3D"Button_button__oRQ_x css-hfy41" da=
+ta-rac=3D"" id=3D"react-aria8892419012-:rmv:" fdprocessedid=3D"i6nzw" style=
+=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align-self: auto=
+; --Button--alignment: center;"><span class=3D"Text_singleLineWrapper__REG8=
+N" style=3D"--Text--font-size: var(--font-size-default); --Text--font-famil=
+y: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_sing=
+leLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: va=
+r(--font-size-default); --Text--line-height: var(--line-height-default);">A=
+dd dark mode toggle</span></span></button><button type=3D"button" tabindex=
+=3D"0" aria-label=3D"Optimize for mobile" class=3D"Button_button__oRQ_x css=
+-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rn1:" fdprocessedid=3D"j3=
+60nf" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align=
+-self: auto; --Button--alignment: center;"><span class=3D"Text_singleLineWr=
+apper__REG8N" style=3D"--Text--font-size: var(--font-size-default); --Text-=
+-font-family: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn=
+_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--fo=
+nt-size: var(--font-size-default); --Text--line-height: var(--line-height-d=
+efault);">Optimize for mobile</span></span></button><button type=3D"button"=
+ tabindex=3D"0" aria-label=3D"Explain this code" class=3D"Button_button__oR=
+Q_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rn3:" fdprocessedi=
+d=3D"q7y7sj" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button=
+--align-self: auto; --Button--alignment: center;"><span class=3D"Text_singl=
+eLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-default); =
+--Text--font-family: inherit;"><span class=3D" useView_view__C2mnv Text_tex=
+t__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --T=
+ext--font-size: var(--font-size-default); --Text--line-height: var(--line-h=
+eight-default);">Explain this code</span></span></button></div></div><div c=
+lass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-1c74xmz"><butt=
+on type=3D"button" tabindex=3D"0" aria-label=3D"Inspect for errors" class=
+=3D"Button_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria889241901=
+2-:rn5:" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button--al=
+ign-self: auto; --Button--alignment: center;"><span class=3D"Text_singleLin=
+eWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-default); --Te=
+xt--font-family: inherit;"><span class=3D" useView_view__C2mnv Text_text__T=
+_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text-=
+-font-size: var(--font-size-default); --Text--line-height: var(--line-heigh=
+t-default);">Inspect for errors</span></span></button><button type=3D"butto=
+n" tabindex=3D"0" aria-label=3D"Improve the visual design" class=3D"Button_=
+button__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rn7:" st=
+yle=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align-self: a=
+uto; --Button--alignment: center;"><span class=3D"Text_singleLineWrapper__R=
 EG8N" style=3D"--Text--font-size: var(--font-size-default); --Text--font-fa=
 mily: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_s=
 ingleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size:=
  var(--font-size-default); --Text--line-height: var(--line-height-default);=
-">3 files</span></span></div></button></div><div class=3D" useView_view__C2=
-mnv css-ggpti8" style=3D"align-items: center;"><div class=3D" useView_view_=
-_C2mnv css-11dp5zn"><div class=3D" useView_view__C2mnv css-4bw4p Surface_su=
-rfaceHigher__glqx6"><button data-cy=3D"ai-chat-send-button" class=3D" useVi=
-ew_view__C2mnv css-qqa2s3" type=3D"button" disabled=3D"" aria-label=3D"Send=
-" style=3D"--height: 24px; --width: 24px;"><svg preserveAspectRatio=3D"xMid=
-YMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor=
-" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate=
-: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M11.47=
- 4.47a.75.75 0 0 1 1.06 0l7 7a.75.75 0 1 1-1.06 1.06l-5.72-5.72V19a.75.75 0=
- 0 1-1.5 0V6.81l-5.72 5.72a.75.75 0 0 1-1.06-1.06l7-7Z" clip-rule=3D"evenod=
-d"></path></svg></button></div></div></div></div></div></div></div></div></=
-div></div><div class=3D" useView_view__C2mnv Pane_interactionBlanket__HGhM4=
-"></div></div><div class=3D" useView_view__C2mnv Pane_root__Dz_FC Surface_s=
-urfaceDefault__TcNI5" role=3D"tabpanel" id=3D"0a40c601-eaed-45a1-a752-3a426=
-d25399f" aria-labelledby=3D"tab-0a40c601-eaed-45a1-a752-3a426d25399f" style=
-=3D"--index--border-gap: 4px; --index--transform-origin-x: 0x; --fixed-posi=
-tion-offset-x: -407px; --fixed-position-offset-y: -80px; --index--pointer-e=
-vents: auto; z-index: 5; --index--interaction-blanket-display: none; --inde=
-x--user-select: auto; --index--iframe-pointer-events: auto; --index--width:=
- 529.1999999999999px; --index--height: 554px; --index--transform-x: 406.8px=
-; --index--transform-y: 32px; --index--scale: 1; --index--opacity: 1;"><div=
- class=3D" useView_view__C2mnv Pane_container__V2H53"><div class=3D" useVie=
-w_view__C2mnv" tabindex=3D"-1"></div><div class=3D" useView_view__C2mnv css=
--1un13td"><div class=3D" useView_view__C2mnv css-4nw7y5"><div class=3D" use=
-View_view__C2mnv css-hs7krv" style=3D"--useView--pl: 4px;"><div class=3D" u=
-seView_view__C2mnv css-36r0go"><button class=3D" useView_view__C2mnv css-15=
-yqntz" id=3D":ro3:" aria-haspopup=3D"true" aria-expanded=3D"false" aria-con=
-trols=3D":ro4:" fdprocessedid=3D"evjk4x"><svg preserveAspectRatio=3D"xMidYM=
-in" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" aria-hidden=3D"true" c=
-lass=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; hei=
-ght: 12px;"><path fill=3D"#AD5700" d=3D"M3 2 4.64 20.4l7.35 2.045 7.371-2.0=
-47L21 2H3Zm3.404 4.367L6.35 5.76h5.643v2.256h-3.18l.205 2.312h2.974v2.256H6=
-.959l-.554-6.219Zm10.772 4.568-.53 5.942-.034.38-4.623 1.284-4.616-1.283-.3=
-16-3.544H9.32l.16 1.8 2.512.678 2.513-.68.261-2.926h-2.767v-2.257h5.23l-.05=
-5.606h.003Zm.408-4.568L17.48 7.51l-.045.507H12V5.762h5.638l-.054.605Z"></pa=
-th></svg><div class=3D" useView_view__C2mnv css-1gm78i9">index.html</div></=
-button></div></div><div class=3D" useView_view__C2mnv css-1gppttt"><div cla=
-ss=3D" useView_view__C2mnv css-36r0go"><button data-cy=3D"ws-format-btn" cl=
-ass=3D" useView_view__C2mnv css-jq818c" alt=3D"Format index.html" fdprocess=
-edid=3D"brx4b6"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=
-=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" cl=
-ass=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; heig=
-ht: 12px;"><path fill-rule=3D"evenodd" d=3D"M2.25 6A3.75 3.75 0 0 1 6 2.25h=
-12A3.75 3.75 0 0 1 21.75 6v12A3.75 3.75 0 0 1 18 21.75H6A3.75 3.75 0 0 1 2.=
-25 18V6ZM6 3.75A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25h12A2.25 2=
-.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6ZM6.25 8A.75.75 0 0 1 7 7.25h=
-10a.75.75 0 0 1 0 1.5H7A.75.75 0 0 1 6.25 8Zm0 4a.75.75 0 0 1 .75-.75h4a.75=
-.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75Zm0 4a.75.75 0 0 1 .75-.75h10a.75.75 =
-0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75Z" clip-rule=3D"evenodd"></path></svg><di=
-v class=3D" useView_view__C2mnv css-c25p8t">Format</div></button></div></di=
-v></div><div class=3D"css-1vdup0e"><div data-cy=3D"workspace-cm-editor-inde=
-x.html" class=3D"css-5zpaww"><div class=3D"css-19w5vye"><div class=3D"cm-ed=
-itor cm-focused =CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =CD=BCt =CD=BCo =CD=BC2z =
-=CD=BC2y =CD=BCr =CD=BC2t =CD=BC2s =CD=BCq =CD=BC34 =CD=BC30 =CD=BC2q =CD=
-=BC2r =CD=BC32 =CD=BC2x =CD=BC2w =CD=BC2v =CD=BC2u =CD=BC2o =CD=BC2m =CD=BC=
-p =CD=BC2n =CD=BC33 =CD=BC2f =CD=BCv =CD=BCw =CD=BCz =CD=BC16 cm-with-scrol=
-lbar"><div class=3D"cm-announced" aria-live=3D"polite"></div><div tabindex=
-=3D"-1" class=3D"cm-scroller"><div class=3D"cm-gutters" aria-hidden=3D"true=
-" style=3D"min-height: 1105px; position: sticky;"><div class=3D"cm-gutter c=
-m-diff-gutter"><div class=3D"cm-gutterElement cm-diff-gutter-element cm-dif=
-f-gutter-element-file-added" style=3D"height: 0px; visibility: hidden; poin=
-ter-events: none;"></div><div class=3D"cm-gutterElement cm-diff-gutter-elem=
-ent cm-diff-gutter-element-empty" style=3D"height: 21px; margin-top: 4px;">=
-</div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-=
-element-modified" style=3D"height: 21px;"></div><div class=3D"cm-gutterElem=
-ent cm-diff-gutter-element cm-diff-gutter-element-empty cm-activeLineGutter=
-" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutt=
-er-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><div=
- class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-mo=
-dified" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-dif=
-f-gutter-element cm-diff-gutter-element-modified" style=3D"height: 21px;"><=
-/div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-e=
-lement-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElem=
-ent cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"heigh=
-t: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-di=
-ff-gutter-element-insertion" style=3D"height: 21px;"></div><div class=3D"cm=
--gutterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" sty=
-le=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-el=
-ement cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div =
-class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-ins=
-ertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-dif=
-f-gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;">=
-</div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-=
-element-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterEle=
-ment cm-diff-gutter-element cm-diff-gutter-element-modified" style=3D"heigh=
-t: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-di=
-ff-gutter-element-insertion" style=3D"height: 21px;"></div><div class=3D"cm=
--gutterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" sty=
-le=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-el=
-ement cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div =
-class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-ins=
-ertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-dif=
-f-gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;">=
-</div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-=
-element-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement=
+">Improve the visual design</span></span></button><button type=3D"button" t=
+abindex=3D"0" aria-label=3D"Brainstorm new features" class=3D"Button_button=
+__oRQ_x css-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rn9:" style=3D=
+"--Button--height: 32px; --Button--shrink: 0; --Button--align-self: auto; -=
+-Button--alignment: center;"><span class=3D"Text_singleLineWrapper__REG8N" =
+style=3D"--Text--font-size: var(--font-size-default); --Text--font-family: =
+inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleL=
+ine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(-=
+-font-size-default); --Text--line-height: var(--line-height-default);">Brai=
+nstorm new features</span></span></button><button type=3D"button" tabindex=
+=3D"0" aria-label=3D"Add dark mode toggle" class=3D"Button_button__oRQ_x cs=
+s-hfy41" data-rac=3D"" id=3D"react-aria8892419012-:rnb:" style=3D"--Button-=
+-height: 32px; --Button--shrink: 0; --Button--align-self: auto; --Button--a=
+lignment: center;"><span class=3D"Text_singleLineWrapper__REG8N" style=3D"-=
+-Text--font-size: var(--font-size-default); --Text--font-family: inherit;">=
+<span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA=
+" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size=
+-default); --Text--line-height: var(--line-height-default);">Add dark mode =
+toggle</span></span></button><button type=3D"button" tabindex=3D"0" aria-la=
+bel=3D"Optimize for mobile" class=3D"Button_button__oRQ_x css-hfy41" data-r=
+ac=3D"" id=3D"react-aria8892419012-:rnd:" style=3D"--Button--height: 32px; =
+--Button--shrink: 0; --Button--align-self: auto; --Button--alignment: cente=
+r;"><span class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-siz=
+e: var(--font-size-default); --Text--font-family: inherit;"><span class=3D"=
+ useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Te=
+xt--font-family: inherit; --Text--font-size: var(--font-size-default); --Te=
+xt--line-height: var(--line-height-default);">Optimize for mobile</span></s=
+pan></button><button type=3D"button" tabindex=3D"0" aria-label=3D"Explain t=
+his code" class=3D"Button_button__oRQ_x css-hfy41" data-rac=3D"" id=3D"reac=
+t-aria8892419012-:rnf:" style=3D"--Button--height: 32px; --Button--shrink: =
+0; --Button--align-self: auto; --Button--alignment: center;"><span class=3D=
+"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size=
+-default); --Text--font-family: inherit;"><span class=3D" useView_view__C2m=
+nv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: i=
+nherit; --Text--font-size: var(--font-size-default); --Text--line-height: v=
+ar(--line-height-default);">Explain this code</span></span></button></div><=
+/div></div></div></div></div><div class=3D" useView_view__C2mnv" style=3D"-=
+-useView--pr: 8px; --useView--pl: 8px; --useView--pb: 8px;"><div class=3D" =
+useView_view__C2mnv css-xb06ew Surface_surfaceDefault__TcNI5" style=3D"--pa=
+dding: 4px 4px; --columnGap: 4px; padding-top: var(--space-32);"><div class=
+=3D" useView_view__C2mnv css-n9xu1j"><div class=3D" useView_view__C2mnv css=
+-r68r6a" style=3D"--useView--pr: 6px; --useView--pl: 6px;"><svg preserveAsp=
+ectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=
+=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size=
+: 16px; --rotate: 0deg; width: 16px; height: 16px;"><g clip-path=3D"url(#cl=
+ip0_7329_267)"><path fill=3D"var(--accent-teal-default)" d=3D"M7.714 0a3.42=
+9 3.429 0 0 1 3.429 3.429v.026a5.143 5.143 0 0 0 5.137 5.116h.006a3.429 3.4=
+29 0 0 1 0 6.858 5.143 5.143 0 0 0-5.143 5.142 3.429 3.429 0 1 1-3.429-3.42=
+8h.007a5.143 5.143 0 0 0-.007-10.286 3.429 3.429 0 0 1 0-6.857Z"></path><pa=
+th fill=3D"var(--accent-teal-stronger)" d=3D"M11.143 12a3.429 3.429 0 1 0-6=
+.857 0 3.429 3.429 0 0 0 6.857 0Z"></path><path fill=3D"url(#paint0_radial_=
+7329_267)" d=3D"M7.714 0a3.429 3.429 0 0 1 3.429 3.429v.026a5.143 5.143 0 0=
+ 0 5.137 5.116h.006a3.429 3.429 0 0 1 0 6.858 5.143 5.143 0 0 0-5.143 5.142=
+ 3.429 3.429 0 1 1-3.429-3.428h.007a5.143 5.143 0 0 0-.007-10.286 3.429 3.4=
+29 0 0 1 0-6.857Z" opacity=3D".5"></path><path fill=3D"url(#paint1_radial_7=
+329_267)" d=3D"M7.714 8.571a3.429 3.429 0 1 1 0 6.858 3.429 3.429 0 0 1 0-6=
+.858Z" opacity=3D".5"></path></g><defs><radialGradient id=3D"paint0_radial_=
+7329_267" cx=3D"0" cy=3D"0" r=3D"1" gradientTransform=3D"rotate(44.479 -2.7=
+62 5.679)scale(29.1694)" gradientUnits=3D"userSpaceOnUse"><stop stop-color=
+=3D"#fff" stop-opacity=3D".79"></stop><stop offset=3D"1"></stop></radialGra=
+dient><radialGradient id=3D"paint1_radial_7329_267" cx=3D"0" cy=3D"0" r=3D"=
+1" gradientTransform=3D"rotate(44.479 -2.763 5.679)scale(29.1694)" gradient=
+Units=3D"userSpaceOnUse"><stop stop-color=3D"#fff" stop-opacity=3D".79"></s=
+top><stop offset=3D"1"></stop></radialGradient><clipPath id=3D"clip0_7329_2=
+67"><path fill=3D"#fff" d=3D"M0 .274C0 .123.123 0 .274 0h23.452c.151 0 .274=
+.123.274.274v23.452a.274.274 0 0 1-.274.274H.274A.274.274 0 0 1 0 23.726V.2=
+74Z"></path></clipPath></defs></svg><div class=3D" useView_view__C2mnv" sty=
+le=3D"--useView--grow: 1; --useView--shrink: 1;"><div class=3D" useView_vie=
+w__C2mnv css-ntg5h7" style=3D"--useView--grow: 1; --useView--shrink: 1;"><t=
+emplate data-react-aria-hidden=3D"true"></template><div class=3D"react-aria=
+-Select" data-rac=3D""><span class=3D" useView_view__C2mnv css-1crseai Text=
+_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; =
+--Text--font-size: var(--font-size-small); --Text--line-height: var(--line-=
+height-small);"><label class=3D" useView_view__C2mnv" id=3D"react-aria88924=
+19012-:rnk:">Assistant mode</label></span><button id=3D"react-aria889241901=
+2-:rnj:" type=3D"button" tabindex=3D"0" aria-labelledby=3D"react-aria889241=
+9012-:rno: react-aria8892419012-:rnk:" aria-haspopup=3D"listbox" aria-expan=
+ded=3D"false" class=3D"css-36z16u" data-rac=3D"" fdprocessedid=3D"e77jbr"><=
+svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"=
+0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" =
+style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path d=
+=3D"M12.554.492c.49 3.288 1.307 7.363 2.448 8.505 1.142 1.142 5.22 1.959 8.=
+51 2.449.651.097.65 1.01 0 1.107-3.29.49-7.367 1.307-8.51 2.448-1.143 1.143=
+-1.96 5.227-2.45 8.518-.096.642-1.009.641-1.104 0-.49-3.291-1.308-7.374-2.4=
+5-8.517-1.142-1.143-5.217-1.959-8.506-2.45a.558.558 0 0 1 0-1.107c3.289-.49=
+ 7.363-1.307 8.505-2.448 1.142-1.142 1.959-5.216 2.45-8.505a.558.558 0 0 1 =
+1.107 0Z"></path></svg>Advanced<svg preserveAspectRatio=3D"xMidYMin" width=
+=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidd=
+en=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; wid=
+th: 12px; height: 12px;"><path fill-rule=3D"evenodd" clip-rule=3D"evenodd" =
+d=3D"M12.5303 15.5303C12.2374 15.8232 11.7626 15.8232 11.4697 15.5303L5.469=
+67 9.53033C5.17678 9.23744 5.17678 8.76256 5.46967 8.46967C5.76256 8.17678 =
+6.23744 8.17678 6.53033 8.46967L12 13.9393L17.4697 8.46967C17.7626 8.17678 =
+18.2374 8.17678 18.5303 8.46967C18.8232 8.76256 18.8232 9.23744 18.5303 9.5=
+3033L12.5303 15.5303Z"></path></svg></button></div><div aria-hidden=3D"true=
+" data-react-aria-prevent-focus=3D"true" data-a11y-ignore=3D"aria-hidden-fo=
+cus" data-testid=3D"hidden-select-container" style=3D"border: 0px; clip: re=
+ct(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; margin: -1px; o=
+verflow: hidden; padding: 0px; position: absolute; width: 1px; white-space:=
+ nowrap;"><label><select tabindex=3D"-1" title=3D""><option></option><optio=
+n value=3D"basic">basic</option><option value=3D"advanced">advanced</option=
+></select></label></div></div></div><div class=3D" useView_view__C2mnv useV=
+iew_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: ce=
+nter;"><span class=3D" useView_view__C2mnv css-1o4c1gr Text_text__T_hn_ Tex=
+t_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text--font-siz=
+e: var(--font-size-small); --Text--line-height: var(--line-height-small); -=
+-Text--color: var(--foreground-dimmer);">Claude 4.0 Sonnet</span><span clas=
+s=3D" useView_view__C2mnv" tabindex=3D"0"><svg preserveAspectRatio=3D"xMidY=
+Min" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"var(--foregro=
+und-dimmest)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16=
+px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd"=
+ d=3D"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5ZM1.25 12C1.25 =
+6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17=
+.937 1.25 12ZM12 11.25a.75.75 0 0 1 .75.75v4a.75.75 0 0 1-1.5 0v-4a.75.75 0=
+ 0 1 .75-.75Z" clip-rule=3D"evenodd"></path><path d=3D"M13 8a1 1 0 1 1-2 0 =
+1 1 0 0 1 2 0Z"></path></svg></span></div></div></div><div class=3D"css-1vn=
+z4o6"><div class=3D"cm-editor =CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =CD=BCt =CD=
+=BC38 =CD=BC13 =CD=BC14 =CD=BC37 =CD=BCw =CD=BCz =CD=BC16"><div class=3D"cm=
+-announced" aria-live=3D"polite"></div><div tabindex=3D"-1" class=3D"cm-scr=
+oller"><div spellcheck=3D"false" autocorrect=3D"on" autocapitalize=3D"on" t=
+ranslate=3D"no" contenteditable=3D"true" style=3D"tab-size: 4;" class=3D"cm=
+-content cm-lineWrapping" role=3D"textbox" aria-multiline=3D"true" data-gra=
+mm=3D"false" data-gramm_editor=3D"false" data-enabled-grammarly=3D"false" a=
+ria-autocomplete=3D"list"><div class=3D"cm-replit-active-line cm-line"><br>=
+</div></div><div class=3D"cm-layer cm-layer-above cm-cursorLayer" aria-hidd=
+en=3D"true" style=3D"z-index: 150; animation-duration: 1200ms; animation-na=
+me: cm-blink;"><div class=3D"cm-cursor cm-cursor-primary" style=3D"left: 6p=
+x; top: 4.72723px; height: 18.1818px;"></div></div><div class=3D"cm-layer c=
+m-selectionLayer" aria-hidden=3D"true" style=3D"z-index: -2;"></div><div cl=
+ass=3D"cm-layer cm-active-line-layer" aria-hidden=3D"true" style=3D"z-index=
+: -3;"><div class=3D"cm-active-line-layer-element" style=3D"left: 0px; top:=
+ 4px; height: 21px;"></div></div><div class=3D"cm-layer cm-placeholder-laye=
+r" aria-hidden=3D"true" style=3D"z-index: -4;"><div class=3D"cm-placeholder=
+-dom" style=3D"width: 100%; padding-top: 4.72723px; padding-left: 6px; heig=
+ht: 18.1818px;">Ask Assistant, use @ to include specific files...</div></di=
+v><div class=3D"cm-layer" aria-hidden=3D"true" style=3D"z-index: -5;"></div=
+></div></div></div><div class=3D" useView_view__C2mnv useView_isHorizontal_=
+_Q1YOp css-elgmcf" style=3D"--useView--gap: 8px; --useView--align: end; --u=
+seView--pt: 4px; --useView--pb: 4px;"><div class=3D" useView_view__C2mnv us=
+eView_isHorizontal__Q1YOp css-1jvoort" style=3D"--useView--gap: 8px; --useV=
+iew--align: center; --useView--grow: 1; --useView--shrink: 1;"><div class=
+=3D" useView_view__C2mnv"><button class=3D" useView_view__C2mnv css-1wpg864=
+" type=3D"button" aria-label=3D"Attach file" fdprocessedid=3D"xsq6h" style=
+=3D"--height: 24px; --width: 24px;"><svg preserveAspectRatio=3D"xMidYMin" w=
+idth=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-=
+hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg;=
+ width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M9.75 3A3.75 =
+3.75 0 0 0 6 6.75V15a6 6 0 0 0 12 0V6.75a.75.75 0 0 1 1.5 0V15a7.5 7.5 0 0 =
+1-15 0V6.75a5.25 5.25 0 1 1 10.5 0V15a3 3 0 0 1-6 0V6.75a.75.75 0 1 1 1.5 0=
+V15a1.5 1.5 0 0 0 3 0V6.75A3.75 3.75 0 0 0 9.75 3Z" clip-rule=3D"evenodd"><=
+/path></svg></button><input type=3D"file" multiple=3D"" accept=3D"*" style=
+=3D"display: none;"><input type=3D"file" webkitdirectory=3D"true" mozdirect=
+ory=3D"true" msdirectory=3D"true" odirectory=3D"true" directory=3D"true" ac=
+cept=3D"*" style=3D"display: none;"></div><span class=3D" useView_view__C2m=
+nv" tabindex=3D"0"><button type=3D"button" tabindex=3D"0" class=3D"Button_b=
+utton__oRQ_x css-mz2u1w" data-rac=3D"" id=3D"react-aria8892419012-:rri:" fd=
+processedid=3D"r827lp" style=3D"--Button--height: 28px; --Button--shrink: 0=
+; --Button--align-self: auto; --Button--alignment: center;"><div class=3D" =
+useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4=
+px; --useView--justify: center; --useView--align: center; --useView--grow: =
+1; --useView--shrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16=
+" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"=
+true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16=
+px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M12 8.25a3.75 3.75 0 1 =
+0 0 7.5 3.75 3.75 0 0 0 0-7.5ZM9.75 12a2.25 2.25 0 1 1 4.5 0 2.25 2.25 0 0 =
+1-4.5 0Z" clip-rule=3D"evenodd"></path><path fill-rule=3D"evenodd" d=3D"M12=
+ 1.5a.75.75 0 0 1 .75.75v.78a9.002 9.002 0 0 1 8.22 8.22h.78a.75.75 0 0 1 0=
+ 1.5h-.78a9.002 9.002 0 0 1-8.22 8.22v.78a.75.75 0 0 1-1.5 0v-.78a9.002 9.0=
+02 0 0 1-8.22-8.22h-.78a.75.75 0 0 1 0-1.5h.78a9.002 9.002 0 0 1 8.22-8.22v=
+-.78A.75.75 0 0 1 12 1.5Zm.75 3.037a7.503 7.503 0 0 1 6.713 6.713h-.713a.75=
+.75 0 0 0 0 1.5h.713a7.503 7.503 0 0 1-6.713 6.713v-.713a.75.75 0 0 0-1.5 0=
+v.713a7.503 7.503 0 0 1-6.713-6.713h.713a.75.75 0 0 0 0-1.5h-.713a7.502 7.5=
+02 0 0 1 6.713-6.713v.713a.75.75 0 0 0 1.5 0v-.713Z" clip-rule=3D"evenodd">=
+</path></svg><span class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text-=
+-font-size: var(--font-size-small); --Text--font-family: inherit;"><span cl=
+ass=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=
+=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-small)=
+; --Text--line-height: var(--line-height-small);">Select</span></span></div=
+></button></span><button type=3D"button" tabindex=3D"0" aria-haspopup=3D"tr=
+ue" aria-expanded=3D"false" aria-controls=3D":rnt:" id=3D"react-aria8892419=
+012-:rnu:" aria-label=3D"Select files" class=3D"Button_button__oRQ_x css-1o=
+ncput" data-rac=3D"" fdprocessedid=3D"olb59b" style=3D"--Button--height: 32=
+px; --Button--shrink: 0; --Button--align-self: auto; --Button--alignment: c=
+enter;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" sty=
+le=3D"--useView--gap: 8px; --useView--justify: center; --useView--align: ce=
+nter; --useView--grow: 1; --useView--shrink: 1;"><svg preserveAspectRatio=
+=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"curr=
+entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; =
+--rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=
+=3D"M1.25 5A2.75 2.75 0 0 1 4 2.25h4.999c.251 0 .485.125.625.334L11.4 5.25H=
+20A2.75 2.75 0 0 1 22.75 8v4.5a.75.75 0 0 1-1.5 0V8c0-.69-.56-1.25-1.25-1.2=
+5h-9a.751.751 0 0 1-.625-.335L8.598 3.75H4c-.69 0-1.25.56-1.25 1.25v14c0 .6=
+9.56 1.25 1.25 1.25h9a.75.75 0 0 1 0 1.5H4A2.75 2.75 0 0 1 1.25 19V5Z" clip=
+-rule=3D"evenodd"></path><path fill-rule=3D"evenodd" d=3D"M18.438 13.8c-.14=
+7-.4-.73-.4-.875 0l-1.005 2.744a.458.458 0 0 1-.298.278l-2.436.746a.446.446=
+ 0 0 0 0 .857l2.437.752a.458.458 0 0 1 .297.279l1.005 2.745c.146.399.728.39=
+9.875 0l1.004-2.745a.458.458 0 0 1 .297-.278l2.437-.75a.446.446 0 0 0 0-.85=
+7l-2.437-.749a.458.458 0 0 1-.297-.278L18.437 13.8Z" clip-rule=3D"evenodd">=
+</path></svg><span class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text-=
+-font-size: var(--font-size-default); --Text--font-family: inherit;"><span =
+class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" styl=
+e=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-defau=
+lt); --Text--line-height: var(--line-height-default);">3 files</span></span=
+></div></button></div><div class=3D" useView_view__C2mnv css-ggpti8" style=
+=3D"align-items: center;"><div class=3D" useView_view__C2mnv css-11dp5zn"><=
+div class=3D" useView_view__C2mnv css-4bw4p Surface_surfaceHigher__glqx6"><=
+button data-cy=3D"ai-chat-send-button" class=3D" useView_view__C2mnv css-qq=
+a2s3" type=3D"button" disabled=3D"" aria-label=3D"Send" style=3D"--height: =
+24px; --width: 24px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" he=
+ight=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true=
+" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; =
+height: 16px;"><path fill-rule=3D"evenodd" d=3D"M11.47 4.47a.75.75 0 0 1 1.=
+06 0l7 7a.75.75 0 1 1-1.06 1.06l-5.72-5.72V19a.75.75 0 0 1-1.5 0V6.81l-5.72=
+ 5.72a.75.75 0 0 1-1.06-1.06l7-7Z" clip-rule=3D"evenodd"></path></svg></but=
+ton></div></div></div></div></div></div></div></div></div></div><div class=
+=3D" useView_view__C2mnv Pane_interactionBlanket__HGhM4"></div></div><div c=
+lass=3D" useView_view__C2mnv Pane_root__Dz_FC Surface_surfaceDefault__TcNI5=
+" role=3D"tabpanel" id=3D"0a40c601-eaed-45a1-a752-3a426d25399f" aria-labell=
+edby=3D"tab-0a40c601-eaed-45a1-a752-3a426d25399f" style=3D"--index--border-=
+gap: 4px; --index--transform-origin-x: 0x; --fixed-position-offset-x: -407p=
+x; --fixed-position-offset-y: -80px; --index--pointer-events: none; z-index=
+: 0; --index--interaction-blanket-display: none; --index--user-select: auto=
+; --index--iframe-pointer-events: auto; --index--width: 529.1999999999999px=
+; --index--height: 554px; --index--transform-x: 406.8px; --index--transform=
+-y: 32px; --index--scale: 1; --index--opacity: 0;"><div class=3D" useView_v=
+iew__C2mnv Pane_container__V2H53"><div class=3D" useView_view__C2mnv" tabin=
+dex=3D"-1"></div><div class=3D" useView_view__C2mnv css-1un13td"><div class=
+=3D" useView_view__C2mnv css-4nw7y5"><div class=3D" useView_view__C2mnv css=
+-hs7krv" style=3D"--useView--pl: 4px;"><div class=3D" useView_view__C2mnv c=
+ss-36r0go"><button class=3D" useView_view__C2mnv css-15yqntz" id=3D":ro3:" =
+aria-haspopup=3D"true" aria-expanded=3D"false" aria-controls=3D":ro4:" fdpr=
+ocessedid=3D"evjk4x"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" hei=
+ght=3D"12" viewBox=3D"0 0 24 24" aria-hidden=3D"true" class=3D"css-492dz9" =
+style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fi=
+ll=3D"#AD5700" d=3D"M3 2 4.64 20.4l7.35 2.045 7.371-2.047L21 2H3Zm3.404 4.3=
+67L6.35 5.76h5.643v2.256h-3.18l.205 2.312h2.974v2.256H6.959l-.554-6.219Zm10=
+.772 4.568-.53 5.942-.034.38-4.623 1.284-4.616-1.283-.316-3.544H9.32l.16 1.=
+8 2.512.678 2.513-.68.261-2.926h-2.767v-2.257h5.23l-.055.606h.003Zm.408-4.5=
+68L17.48 7.51l-.045.507H12V5.762h5.638l-.054.605Z"></path></svg><div class=
+=3D" useView_view__C2mnv css-1gm78i9">index.html</div></button></div></div>=
+<div class=3D" useView_view__C2mnv css-1gppttt"><div class=3D" useView_view=
+__C2mnv css-36r0go"><button data-cy=3D"ws-format-btn" class=3D" useView_vie=
+w__C2mnv css-jq818c" alt=3D"Format index.html" fdprocessedid=3D"brx4b6"><sv=
+g preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 =
+0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" st=
+yle=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill=
+-rule=3D"evenodd" d=3D"M2.25 6A3.75 3.75 0 0 1 6 2.25h12A3.75 3.75 0 0 1 21=
+.75 6v12A3.75 3.75 0 0 1 18 21.75H6A3.75 3.75 0 0 1 2.25 18V6ZM6 3.75A2.25 =
+2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A=
+2.25 2.25 0 0 0 18 3.75H6ZM6.25 8A.75.75 0 0 1 7 7.25h10a.75.75 0 0 1 0 1.5=
+H7A.75.75 0 0 1 6.25 8Zm0 4a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5H7a.75=
+.75 0 0 1-.75-.75Zm0 4a.75.75 0 0 1 .75-.75h10a.75.75 0 0 1 0 1.5H7a.75.75 =
+0 0 1-.75-.75Z" clip-rule=3D"evenodd"></path></svg><div class=3D" useView_v=
+iew__C2mnv css-c25p8t">Format</div></button></div></div></div><div class=3D=
+"css-1vdup0e"><div data-cy=3D"workspace-cm-editor-index.html" class=3D"css-=
+5zpaww"><div class=3D"css-19w5vye"><div class=3D"cm-editor =CD=BC1 =CD=BC3 =
+=CD=BC4 =CD=BCs =CD=BCt =CD=BCo =CD=BC2z =CD=BC2y =CD=BCr =CD=BC2t =CD=BC2s=
+ =CD=BCq =CD=BC34 =CD=BC30 =CD=BC2q =CD=BC2r =CD=BC32 =CD=BC2x =CD=BC2w =CD=
+=BC2v =CD=BC2u =CD=BC2o =CD=BC2m =CD=BCp =CD=BC2n =CD=BC33 =CD=BC2f =CD=BCv=
+ =CD=BCw =CD=BCz =CD=BC16 cm-with-scrollbar"><div class=3D"cm-announced" ar=
+ia-live=3D"polite"></div><div tabindex=3D"-1" class=3D"cm-scroller"><div cl=
+ass=3D"cm-gutters" aria-hidden=3D"true" style=3D"min-height: 1105px; positi=
+on: sticky;"><div class=3D"cm-gutter cm-diff-gutter"><div class=3D"cm-gutte=
+rElement cm-diff-gutter-element cm-diff-gutter-element-file-added" style=3D=
+"height: 0px; visibility: hidden; pointer-events: none;"></div><div class=
+=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-empty" s=
+tyle=3D"height: 21px; margin-top: 4px;"></div><div class=3D"cm-gutterElemen=
+t cm-diff-gutter-element cm-diff-gutter-element-modified" style=3D"height: =
+21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-=
+gutter-element-empty cm-activeLineGutter" style=3D"height: 21px;"></div><di=
+v class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-e=
+mpty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-=
+gutter-element cm-diff-gutter-element-modified" style=3D"height: 21px;"></d=
+iv><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-ele=
+ment-modified" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement=
  cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"height: =
-42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-=
+21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-=
 gutter-element-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gu=
 tterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" style=
 =3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-elem=
-ent cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><div class=
+ent cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div cl=
+ass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-inser=
+tion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-=
+gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;"></=
+div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-el=
+ement-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterEleme=
+nt cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"height=
+: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-dif=
+f-gutter-element-modified" style=3D"height: 42px;"></div><div class=3D"cm-g=
+utterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" style=
+=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-elem=
+ent cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div cl=
+ass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-inser=
+tion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-=
+gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;"></=
+div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-el=
+ement-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterEleme=
+nt cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21=
+px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gu=
+tter-element-insertion" style=3D"height: 42px;"></div><div class=3D"cm-gutt=
+erElement cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D=
+"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element=
+ cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div class=
 =3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-empty" s=
 tyle=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-=
 element cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><div cl=
 ass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-empty=
-" style=3D"height: 21px;"></div></div><div class=3D"cm-gutter cm-diff-gutte=
-r"><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-ele=
-ment-empty" style=3D"height: 0px; visibility: hidden; pointer-events: none;=
-"></div><div class=3D"cm-gutterElement" style=3D"height: 21px; margin-top: =
-4px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><=
-div class=3D"cm-gutterElement cm-activeLineGutter" style=3D"height: 21px;">=
+" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutt=
+er-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></div></di=
+v><div class=3D"cm-gutter cm-diff-gutter"><div class=3D"cm-gutterElement cm=
+-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height: 0px; vi=
+sibility: hidden; pointer-events: none;"></div><div class=3D"cm-gutterEleme=
+nt" style=3D"height: 21px; margin-top: 4px;"></div><div class=3D"cm-gutterE=
+lement" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-act=
+iveLineGutter" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement=
+" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"he=
+ight: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;">=
 </div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div cl=
 ass=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gut=
 terElement" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" s=
@@ -1451,156 +1455,107 @@ tyle=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"heigh=
 t: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></d=
 iv><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=
 =3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gutter=
-Element" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" styl=
+Element" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement" styl=
 e=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: =
-21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 42px;"></div>=
+21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div>=
 <div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D=
 "cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gutterEle=
 ment" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=
-=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 2=
+=3D"height: 42px;"></div><div class=3D"cm-gutterElement" style=3D"height: 2=
 1px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><=
-div class=3D"cm-gutterElement" style=3D"height: 42px;"></div><div class=3D"=
+div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"=
 cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gutterElem=
 ent" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D=
-"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px=
-;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div=
- class=3D"cm-gutterElement" style=3D"height: 21px;"></div></div><div class=
-=3D"cm-gutter cm-lineNumbers"><div class=3D"cm-gutterElement" style=3D"heig=
-ht: 0px; visibility: hidden; pointer-events: none;">99</div><div class=3D"c=
-m-gutterElement" style=3D"height: 21px; margin-top: 4px;">1</div><div class=
-=3D"cm-gutterElement" style=3D"height: 21px;">2</div><div class=3D"cm-gutte=
-rElement cm-activeLineGutter" style=3D"height: 21px;">3</div><div class=3D"=
-cm-gutterElement" style=3D"height: 21px;">4</div><div class=3D"cm-gutterEle=
-ment" style=3D"height: 21px;">5</div><div class=3D"cm-gutterElement" style=
-=3D"height: 21px;">6</div><div class=3D"cm-gutterElement" style=3D"height: =
-21px;">7</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">8</di=
-v><div class=3D"cm-gutterElement" style=3D"height: 21px;">9</div><div class=
-=3D"cm-gutterElement" style=3D"height: 21px;">10</div><div class=3D"cm-gutt=
-erElement" style=3D"height: 21px;">11</div><div class=3D"cm-gutterElement" =
-style=3D"height: 21px;">12</div><div class=3D"cm-gutterElement" style=3D"he=
-ight: 21px;">13</div><div class=3D"cm-gutterElement" style=3D"height: 21px;=
-">14</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">15</div><=
-div class=3D"cm-gutterElement" style=3D"height: 21px;">16</div><div class=
-=3D"cm-gutterElement" style=3D"height: 21px;">17</div><div class=3D"cm-gutt=
-erElement" style=3D"height: 21px;">18</div><div class=3D"cm-gutterElement" =
-style=3D"height: 21px;">19</div><div class=3D"cm-gutterElement" style=3D"he=
-ight: 21px;">20</div><div class=3D"cm-gutterElement" style=3D"height: 21px;=
-">21</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">22</div><=
-div class=3D"cm-gutterElement" style=3D"height: 21px;">23</div><div class=
-=3D"cm-gutterElement" style=3D"height: 21px;">24</div><div class=3D"cm-gutt=
-erElement" style=3D"height: 21px;">25</div><div class=3D"cm-gutterElement" =
-style=3D"height: 21px;">26</div><div class=3D"cm-gutterElement" style=3D"he=
-ight: 21px;">27</div><div class=3D"cm-gutterElement" style=3D"height: 21px;=
-">28</div></div><div class=3D"cm-gutter cm-foldGutter"><div class=3D"cm-gut=
-terElement" style=3D"height: 0px; visibility: hidden; pointer-events: none;=
-"><div class=3D"cm-gutter-fold-marker is-folded" title=3D"Unfold block"></d=
-iv></div><div class=3D"cm-gutterElement" style=3D"height: 21px; margin-top:=
- 25px;"><div class=3D"cm-gutter-fold-marker" title=3D"Fold block"></div></d=
-iv><div class=3D"cm-gutterElement cm-activeLineGutter" style=3D"height: 21p=
-x;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"><div clas=
-s=3D"cm-gutter-fold-marker" title=3D"Fold block"></div></div><div class=3D"=
-cm-gutterElement" style=3D"height: 21px; margin-top: 105px;"><div class=3D"=
-cm-gutter-fold-marker" title=3D"Fold block"></div></div><div class=3D"cm-gu=
-tterElement" style=3D"height: 21px;"><div class=3D"cm-gutter-fold-marker" t=
-itle=3D"Fold block"></div></div></div></div><div spellcheck=3D"false" autoc=
-orrect=3D"off" autocapitalize=3D"off" translate=3D"no" contenteditable=3D"t=
-rue" style=3D"tab-size: 2; padding-bottom: 471.5px;" class=3D"cm-content cm=
--lineWrapping" role=3D"textbox" aria-multiline=3D"true" data-language=3D"ht=
-ml" data-gramm=3D"false" data-gramm_editor=3D"false" data-enabled-grammarly=
-=3D"false" aria-autocomplete=3D"list"><div class=3D"cm-line"><span class=3D=
-"=CD=BC28">&lt;!DOCTYPE html&gt;</span></div><div class=3D"cm-line"><span c=
-lass=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">html</span> <span cla=
-ss=3D"=CD=BC20">lang</span><span class=3D"=CD=BC21">=3D</span><span class=
-=3D"=CD=BC1m">"en"</span><span class=3D"=CD=BC1h">&gt;</span></div><div cla=
-ss=3D"cm-replit-active-line cm-line"><br></div><div class=3D"cm-line"><span=
- class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">head</span><span cl=
-ass=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-markers cm-line" =
-style=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent=
--marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repe=
-at;">  <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">meta</s=
-pan> <span class=3D"=CD=BC20">charset</span><span class=3D"=CD=BC21">=3D</s=
-pan><span class=3D"=CD=BC1m">"UTF-8"</span><span class=3D"=CD=BC1h">&gt;</s=
-pan></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-marker=
-s: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px,=
- transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=
-=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">title</span><span class=3D"=
-=CD=BC1h">&gt;</span>Word Guessing Game<span class=3D"=CD=BC1h">&lt;/</span=
-><span class=3D"=CD=BC27">title</span><span class=3D"=CD=BC1h">&gt;</span><=
-/div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: re=
-peating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, tran=
-sparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1=
-h">&lt;</span><span class=3D"=CD=BC27">link</span> <span class=3D"=CD=BC20"=
->rel</span><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"sty=
-lesheet"</span> <span class=3D"=CD=BC20">href</span><span class=3D"=CD=BC21=
-">=3D</span><span class=3D"=CD=BC1m">"style.css"</span><span class=3D"=CD=
-=BC1h">&gt;</span></div><div class=3D"cm-line"><span class=3D"=CD=BC1h">&lt=
-;/</span><span class=3D"=CD=BC27">head</span><span class=3D"=CD=BC1h">&gt;<=
-/span></div><div class=3D"cm-line"><br></div><div class=3D"cm-line"><span c=
-lass=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">body</span><span clas=
-s=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-markers cm-line" st=
-yle=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-m=
-arker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat=
-;">  <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">div</span=
-> <span class=3D"=CD=BC20">class</span><span class=3D"=CD=BC21">=3D</span><=
-span class=3D"=CD=BC1m">"game-container"</span><span class=3D"=CD=BC1h">&gt=
-;</span></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-ma=
-rkers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 =
-1px, transparent 1px 2ch) 0.5ch/calc(4ch - 1px) no-repeat;">    <span class=
-=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">h1</span><span class=3D"=
-=CD=BC1h">&gt;</span>=F0=9F=A7=A0 Word Guessing Game<span class=3D"=CD=BC1h=
-">&lt;/</span><span class=3D"=CD=BC27">h1</span><span class=3D"=CD=BC1h">&g=
-t;</span></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-m=
-arkers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0=
- 1px, transparent 1px 2ch) 0.5ch/calc(4ch - 1px) no-repeat;">    <span clas=
-s=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">p</span><span class=3D"=
-=CD=BC1h">&gt;</span>Guess the 4-letter word (You have 8 tries!)<span class=
-=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">p</span><span class=3D"=
-=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-markers cm-line" style=
-=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mark=
-er-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(4ch - 1px) no-repeat;">=
-<br></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-marker=
-s: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px,=
- transparent 1px 2ch) 0.5ch/calc(4ch - 1px) no-repeat;">    <span class=3D"=
-=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">input</span> <span class=3D"=
-=CD=BC20">type</span><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=
-=BC1m">"text"</span> <span class=3D"=CD=BC20">id</span><span class=3D"=CD=
-=BC21">=3D</span><span class=3D"=CD=BC1m">"guessInput"</span> <span class=
-=3D"=CD=BC20">maxlength</span><span class=3D"=CD=BC21">=3D</span><span clas=
-s=3D"=CD=BC1m">"4"</span> <span class=3D"=CD=BC20">placeholder</span><span =
-class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"Enter guess"</span><=
-span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-markers cm=
--line" style=3D"--indent-markers: repeating-linear-gradient(to right, var(-=
--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(4ch - 1px) =
-no-repeat;">    <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27=
-">button</span> <span class=3D"=CD=BC20">onclick</span><span class=3D"=CD=
-=BC21">=3D</span><span class=3D"=CD=BC1m">"</span><span class=3D"=CD=BC1u">=
-submitGuess</span><span class=3D"=CD=BC1f">(</span><span class=3D"=CD=BC1f"=
->)</span><span class=3D"=CD=BC1m">"</span><span class=3D"=CD=BC1h">&gt;</sp=
-an>Guess<span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">butto=
-n</span><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-m=
-arkers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to rig=
-ht, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(4c=
-h - 1px) no-repeat;"><br></div><div class=3D"cm-indent-markers cm-line" sty=
-le=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-ma=
-rker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(4ch - 1px) no-repeat;=
-">    <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">div</spa=
-n> <span class=3D"=CD=BC20">id</span><span class=3D"=CD=BC21">=3D</span><sp=
-an class=3D"=CD=BC1m">"feedback"</span><span class=3D"=CD=BC1h">&gt;</span>=
-<span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">div</span><sp=
-an class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-markers cm-l=
-ine" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--i=
-ndent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(4ch - 1px) no=
--repeat;">    <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">=
-p</span> <span class=3D"=CD=BC20">id</span><span class=3D"=CD=BC21">=3D</sp=
-an><span class=3D"=CD=BC1m">"attemptsLeft"</span><span class=3D"=CD=BC1h">&=
-gt;</span><span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">p</=
+"height: 21px;"></div></div><div class=3D"cm-gutter cm-lineNumbers"><div cl=
+ass=3D"cm-gutterElement" style=3D"height: 0px; visibility: hidden; pointer-=
+events: none;">99</div><div class=3D"cm-gutterElement" style=3D"height: 21p=
+x; margin-top: 4px;">1</div><div class=3D"cm-gutterElement" style=3D"height=
+: 21px;">2</div><div class=3D"cm-gutterElement cm-activeLineGutter" style=
+=3D"height: 21px;">3</div><div class=3D"cm-gutterElement" style=3D"height: =
+21px;">4</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">5</di=
+v><div class=3D"cm-gutterElement" style=3D"height: 21px;">6</div><div class=
+=3D"cm-gutterElement" style=3D"height: 21px;">7</div><div class=3D"cm-gutte=
+rElement" style=3D"height: 21px;">8</div><div class=3D"cm-gutterElement" st=
+yle=3D"height: 21px;">9</div><div class=3D"cm-gutterElement" style=3D"heigh=
+t: 21px;">10</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">1=
+1</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">12</div><div=
+ class=3D"cm-gutterElement" style=3D"height: 21px;">13</div><div class=3D"c=
+m-gutterElement" style=3D"height: 21px;">14</div><div class=3D"cm-gutterEle=
+ment" style=3D"height: 42px;">15</div><div class=3D"cm-gutterElement" style=
+=3D"height: 21px;">16</div><div class=3D"cm-gutterElement" style=3D"height:=
+ 21px;">17</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">18<=
+/div><div class=3D"cm-gutterElement" style=3D"height: 21px;">19</div><div c=
+lass=3D"cm-gutterElement" style=3D"height: 21px;">20</div><div class=3D"cm-=
+gutterElement" style=3D"height: 21px;">21</div><div class=3D"cm-gutterEleme=
+nt" style=3D"height: 42px;">22</div><div class=3D"cm-gutterElement" style=
+=3D"height: 21px;">23</div><div class=3D"cm-gutterElement" style=3D"height:=
+ 21px;">24</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">25<=
+/div><div class=3D"cm-gutterElement" style=3D"height: 21px;">26</div><div c=
+lass=3D"cm-gutterElement" style=3D"height: 21px;">27</div><div class=3D"cm-=
+gutterElement" style=3D"height: 21px;">28</div></div><div class=3D"cm-gutte=
+r cm-foldGutter"><div class=3D"cm-gutterElement" style=3D"height: 0px; visi=
+bility: hidden; pointer-events: none;"><div class=3D"cm-gutter-fold-marker =
+is-folded" title=3D"Unfold block"></div></div><div class=3D"cm-gutterElemen=
+t" style=3D"height: 21px; margin-top: 25px;"><div class=3D"cm-gutter-fold-m=
+arker" title=3D"Fold block"></div></div><div class=3D"cm-gutterElement cm-a=
+ctiveLineGutter" style=3D"height: 21px;"></div><div class=3D"cm-gutterEleme=
+nt" style=3D"height: 21px;"><div class=3D"cm-gutter-fold-marker" title=3D"F=
+old block"></div></div><div class=3D"cm-gutterElement" style=3D"height: 21p=
+x; margin-top: 105px;"><div class=3D"cm-gutter-fold-marker" title=3D"Fold b=
+lock"></div></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"><=
+div class=3D"cm-gutter-fold-marker" title=3D"Fold block"></div></div></div>=
+</div><div spellcheck=3D"false" autocorrect=3D"off" autocapitalize=3D"off" =
+translate=3D"no" contenteditable=3D"true" style=3D"tab-size: 2; padding-bot=
+tom: 471.5px;" class=3D"cm-content cm-lineWrapping" role=3D"textbox" aria-m=
+ultiline=3D"true" data-language=3D"html" data-gramm=3D"false" data-gramm_ed=
+itor=3D"false" data-enabled-grammarly=3D"false" aria-autocomplete=3D"list">=
+<div class=3D"cm-line"><span class=3D"=CD=BC28">&lt;!DOCTYPE html&gt;</span=
+></div><div class=3D"cm-line"><span class=3D"=CD=BC1h">&lt;</span><span cla=
+ss=3D"=CD=BC27">html</span> <span class=3D"=CD=BC20">lang</span><span class=
+=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"en"</span><span class=3D"=
+=CD=BC1h">&gt;</span></div><div class=3D"cm-replit-active-line cm-line"><br=
+></div><div class=3D"cm-line"><span class=3D"=CD=BC1h">&lt;</span><span cla=
+ss=3D"=CD=BC27">head</span><span class=3D"=CD=BC1h">&gt;</span></div><div c=
+lass=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-lin=
+ear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px=
+ 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1h">&lt;</sp=
+an><span class=3D"=CD=BC27">meta</span> <span class=3D"=CD=BC20">charset</s=
+pan><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"UTF-8"</sp=
+an><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-marker=
+s cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right, v=
+ar(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1=
+px) no-repeat;">  <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC=
+27">title</span><span class=3D"=CD=BC1h">&gt;</span>Word Guessing Game<span=
+ class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">title</span><span =
+class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-markers cm-line=
+" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--inde=
+nt-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-re=
+peat;">  <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">link<=
+/span> <span class=3D"=CD=BC20">rel</span><span class=3D"=CD=BC21">=3D</spa=
+n><span class=3D"=CD=BC1m">"stylesheet"</span> <span class=3D"=CD=BC20">hre=
+f</span><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"style.=
+css"</span><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-line"=
+><span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">head</span><=
+span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-line"><br></div><=
+div class=3D"cm-line"><span class=3D"=CD=BC1h">&lt;</span><span class=3D"=
+=CD=BC27">body</span><span class=3D"=CD=BC1h">&gt;</span></div><div class=
+=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-=
+gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch=
+) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1h">&lt;</span><=
+span class=3D"=CD=BC27">div</span> <span class=3D"=CD=BC20">class</span><sp=
+an class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"game-container"</=
 span><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-mark=
 ers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right,=
  var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(4ch -=
  1px) no-repeat;">    <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=
-=CD=BC27">p</span> <span class=3D"=CD=BC20">id</span><span class=3D"=CD=BC2=
-1">=3D</span><span class=3D"=CD=BC1m">"scoreDisplay"</span><span class=3D"=
-=CD=BC1h">&gt;</span><span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=
+=CD=BC27">h1</span><span class=3D"=CD=BC1h">&gt;</span>=F0=9F=A7=A0 Word Gu=
+essing Game<span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">h1=
+</span><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-ma=
+rkers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to righ=
+t, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(4ch=
+ - 1px) no-repeat;">    <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=
+=CD=BC27">p</span><span class=3D"=CD=BC1h">&gt;</span>Guess the 4-letter wo=
+rd (You have 8 tries!)<span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=
 =CD=BC27">p</span><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"c=
 m-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradi=
 ent(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5=
@@ -1608,275 +1563,321 @@ ch/calc(4ch - 1px) no-repeat;"><br></div><div class=3D"cm-indent-markers cm=
 -line" style=3D"--indent-markers: repeating-linear-gradient(to right, var(-=
 -indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(4ch - 1px) =
 no-repeat;">    <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27=
-">button</span> <span class=3D"=CD=BC20">onclick</span><span class=3D"=CD=
-=BC21">=3D</span><span class=3D"=CD=BC1m">"</span><span class=3D"=CD=BC1u">=
-startGame</span><span class=3D"=CD=BC1f">(</span><span class=3D"=CD=BC1f">)=
-</span><span class=3D"=CD=BC1m">"</span> <span class=3D"=CD=BC20">id</span>=
-<span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"replay"</span>=
- <span class=3D"=CD=BC20">style</span><span class=3D"=CD=BC21">=3D</span><s=
-pan class=3D"=CD=BC1m">"</span><span class=3D"=CD=BC1z">display</span>:<spa=
-n class=3D"=CD=BC29">none</span><span class=3D"=CD=BC1m">"</span><span clas=
-s=3D"=CD=BC1h">&gt;</span>=F0=9F=94=81 Play Again<span class=3D"=CD=BC1h">&=
-lt;/</span><span class=3D"=CD=BC27">button</span><span class=3D"=CD=BC1h">&=
-gt;</span></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-=
-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) =
-0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=
-=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">div</span><span class=3D=
-"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-markers cm-line" style=
-=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mark=
-er-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">=
-<br></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-marker=
-s: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px,=
- transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=
-=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">script</span> <span class=3D"=
-=CD=BC20">src</span><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=
-=BC1m">"script.js"</span><span class=3D"=CD=BC1h">&gt;</span><span class=3D=
-"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">script</span><span class=3D=
-"=CD=BC1h">&gt;</span></div><div class=3D"cm-line"><span class=3D"=CD=BC1h"=
->&lt;/</span><span class=3D"=CD=BC27">body</span><span class=3D"=CD=BC1h">&=
-gt;</span></div><div class=3D"cm-line"><br></div><div class=3D"cm-line"><sp=
-an class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">html</span><span=
- class=3D"=CD=BC1h">&gt;</span></div></div><div class=3D"cm-scrollbar-gutte=
-r"><div class=3D"cm-scrollbar-inner"><canvas aria-hidden=3D"true" width=3D"=
-28" height=3D"994"></canvas><div class=3D"cm-scrollbar-overlay-container" r=
-ole=3D"presentation" aria-hidden=3D"true"><div class=3D"cm-scrollbar-overla=
-y" style=3D"--cm-scrollbar-overlay-height: 44.97737556561086%; top: 0px;"><=
-/div></div></div></div><div class=3D"cm-right-gutters" aria-hidden=3D"true"=
- style=3D"width: 0px; min-height: 1105px; position: sticky; right: 0px;"><d=
-iv class=3D"cm-gutter cm-thread-indicator-gutter"><div class=3D"cm-gutterEl=
-ement" style=3D"height: 0px; visibility: hidden; pointer-events: none;"><cm=
--editor-lifecycle class=3D"cm-thread-indicator" aria-hidden=3D"true" style=
-=3D"display: inline; cursor: pointer;"><button class=3D" useView_view__C2mn=
-v thread-indicator css-1iysqm2" type=3D"button" aria-label=3D"View threads"=
- style=3D"--height: 24px; --width: 24px;"><span class=3D"css-k008qs"><svg w=
-idth=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"none" xmlns=3D"http=
-://www.w3.org/2000/svg" style=3D"color: currentcolor;"><path d=3D"M21 15C21=
- 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7=
-L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3=
- 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.4695=
-7 21 5V15Z" stroke=3D"currentColor" stroke-width=3D"3" stroke-linecap=3D"ro=
-und" stroke-linejoin=3D"round"></path></svg></span></button></cm-editor-lif=
-ecycle></div></div></div><div class=3D"cm-layer cm-multiplayer-cursor-layer=
-" aria-hidden=3D"true" style=3D"z-index: -1;"></div><div class=3D"cm-layer =
-cm-layer-above cm-cursorLayer" aria-hidden=3D"true" style=3D"z-index: 148; =
-animation-duration: 1200ms; animation-name: cm-blink;"><div class=3D"cm-cur=
-sor cm-cursor-primary" style=3D"left: 49.6023px; top: 47.4545px; height: 16=
-.7273px;"></div></div><div class=3D"cm-layer cm-selectionLayer" aria-hidden=
-=3D"true" style=3D"z-index: -4;"></div><div class=3D"cm-layer cm-active-lin=
-e-layer" aria-hidden=3D"true" style=3D"z-index: -5;"><div class=3D"cm-activ=
-e-line-layer-element" style=3D"left: 0px; top: 46px; height: 21px;"></div><=
-/div><div class=3D"cm-layer cm-layer-above cm-empty-state-layer" aria-hidde=
-n=3D"true" style=3D"z-index: 145;"></div><div class=3D"cm-layer" aria-hidde=
-n=3D"true" style=3D"z-index: -7;"></div><div class=3D"cm-layer cm-layer-abo=
-ve cm-ghostwriter-hint-layer" aria-hidden=3D"true" style=3D"z-index: 149;">=
-<cm-editor-lifecycle class=3D"cm-ghostwriter-hint-marker" style=3D"visibili=
-ty: hidden; top: 46px; height: 21px; right: 0px; padding-right: 4px;"><div =
-class=3D" useView_view__C2mnv css-bucrlo"><button class=3D" useView_view__C=
-2mnv css-10vsj6z" style=3D"--fontSize: 13px;"><div class=3D" useView_view__=
-C2mnv">Generate</div><div class=3D" useView_view__C2mnv css-1kh4gr5" style=
-=3D"--useView--justify: center;"><div class=3D" useView_view__C2mnv css-1rf=
-45w6" data-testid=3D"Keybinding:Ctrl-i" title=3D"Ctrl-i" style=3D"--gap: 2p=
-x;"><div class=3D" useView_view__C2mnv css-501xz8" style=3D"--fontSize: 10.=
-4px; --xPadding: 2px; height: 15px; min-width: 15px;"><div class=3D" useVie=
-w_view__C2mnv css-1ua3br4">Ctrl</div><div class=3D" useView_view__C2mnv css=
--1g9st86"></div></div><div class=3D" useView_view__C2mnv css-501xz8" style=
-=3D"--fontSize: 10.4px; --xPadding: 2px; height: 15px; min-width: 15px;"><d=
-iv class=3D" useView_view__C2mnv css-1ua3br4">i</div><div class=3D" useView=
-_view__C2mnv css-1g9st86"></div></div></div></div></button></div></cm-edito=
-r-lifecycle></div><div class=3D"cm-layer cm-layer-above cm-selection-contro=
-ls-layer" aria-hidden=3D"true" style=3D"z-index: 143;"></div></div><cm-edit=
-or-lifecycle class=3D"cm-mounted-react-nodes" style=3D"display: contents;">=
-</cm-editor-lifecycle></div></div></div></div><div style=3D"display: block;=
-"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-1tje68=
-8" style=3D"--useView--grow: 1; --useView--shrink: 1;"><div class=3D" useVi=
-ew_view__C2mnv"><button type=3D"button" tabindex=3D"0" aria-expanded=3D"fal=
-se" id=3D"react-aria8892419012-:ro6:" class=3D"css-y7csor" data-rac=3D"" fd=
-processedid=3D"2iag9l"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" h=
-eight=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-blurple-default)" a=
-ria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0=
-deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M15.938 1=
-.044c-.147-.4-.73-.4-.876 0l-1.004 2.744a.458.458 0 0 1-.298.278l-2.436.746=
-a.446.446 0 0 0 0 .857l2.437.753a.458.458 0 0 1 .297.278l1.005 2.745c.146.3=
-99.728.399.874 0L16.943 6.7a.458.458 0 0 1 .297-.278l2.437-.75a.446.446 0 0=
- 0 0-.856l-2.437-.75a.458.458 0 0 1-.297-.278l-1.005-2.744Z" clip-rule=3D"e=
-venodd"></path><path d=3D"M6.764 19.334c.12-.3.494-.417.778-.261.806.441 2.=
-443 1.171 4.458 1.171s3.652-.73 4.458-1.171c.284-.156.658-.04.778.261l1.215=
- 2.539a1 1 0 0 1-.928 1.371H6.477a1 1 0 0 1-.928-1.371l1.215-2.539Z"></path=
-><path fill-rule=3D"evenodd" d=3D"M10.814 1.053a.75.75 0 0 1-.526.92 6.5 6.=
-5 0 1 0 7.494 9.241.75.75 0 0 1 1.334.686A8 8 0 1 1 9.893.527a.75.75 0 0 1 =
-.921.526Z" clip-rule=3D"evenodd"></path></svg><div class=3D" useView_view__=
-C2mnv">AI</div></button></div><div class=3D" useView_view__C2mnv"><button t=
-ype=3D"button" tabindex=3D"0" aria-expanded=3D"false" id=3D"react-aria88924=
-19012-:rob:" class=3D"css-y7csor" data-rac=3D"" fdprocessedid=3D"53ppq"><di=
-v data-cy=3D"ws-code-intelligence-active" class=3D" useView_view__C2mnv"><s=
-vg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0=
- 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" s=
-tyle=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fil=
-l=3D"var(--foreground-dimmer)" fill-rule=3D"evenodd" d=3D"M6.25 4.5c-.764 0=
--1.407.117-1.932.37a2.49 2.49 0 0 0-1.143 1.078c-.426.79-.425 1.785-.425 2.=
-57v.084c0 .903-.017 1.562-.263 2.018a1.037 1.037 0 0 1-.49.462c-.248.12-.63=
-7.215-1.247.215-.414 0-.75.315-.75.703 0 .388.336.703.75.703.61 0 .999.095 =
-1.248.215.235.113.383.266.49.462.245.456.262 1.115.262 2.018v.085c0 .784-.0=
-01 1.78.425 2.57.238.44.605.819 1.143 1.078.525.252 1.168.369 1.932.369.414=
- 0 .75-.315.75-.703 0-.389-.336-.704-.75-.704-.61 0-.999-.095-1.248-.214a1.=
-037 1.037 0 0 1-.489-.462c-.246-.456-.263-1.115-.263-2.019v-.084c0-.784.001=
--1.78-.424-2.57A2.452 2.452 0 0 0 3.212 12c.263-.214.464-.467.614-.745.425-=
-.789.425-1.785.424-2.569v-.084c0-.904.017-1.563.263-2.02.106-.195.254-.348.=
-49-.46.248-.12.637-.215 1.247-.215.414 0 .75-.315.75-.704 0-.388-.336-.703-=
-.75-.703Zm11.5 0c-.415 0-.75.315-.75.703 0 .389.335.704.75.704.61 0 .999.09=
-5 1.248.214.235.113.383.266.489.462.246.456.263 1.115.263 2.019v.084c0 .784=
--.002 1.78.424 2.57.15.277.351.53.614.744a2.452 2.452 0 0 0-.614.745c-.425.=
-789-.425 1.785-.424 2.569v.084c0 .904-.017 1.563-.263 2.02a1.037 1.037 0 0 =
-1-.49.46c-.248.12-.637.215-1.247.215-.415 0-.75.315-.75.704 0 .388.335.703.=
-75.703.764 0 1.407-.117 1.932-.37a2.49 2.49 0 0 0 1.143-1.078c.426-.79.425-=
-1.785.425-2.57v-.084c0-.903.017-1.562.263-2.018.105-.196.254-.349.49-.462.2=
-48-.12.637-.215 1.247-.215.414 0 .75-.315.75-.703 0-.388-.336-.703-.75-.703=
--.61 0-.999-.095-1.248-.215a1.036 1.036 0 0 1-.49-.462c-.245-.456-.262-1.11=
-5-.262-2.018v-.085c0-.784.001-1.78-.425-2.57a2.49 2.49 0 0 0-1.143-1.078c-.=
-525-.252-1.168-.369-1.932-.369Z" clip-rule=3D"evenodd"></path><path fill=3D=
-"var(--accent-positive-stronger)" d=3D"M16.09 9.227a.692.692 0 0 1-.047.978=
-l-5.077 4.615a.692.692 0 0 1-.932 0l-2.307-2.098a.692.692 0 0 1 .931-1.024l=
-1.842 1.674 4.611-4.192a.692.692 0 0 1 .978.047Z"></path></svg></div><div c=
-lass=3D" useView_view__C2mnv">HTML</div></button></div><div class=3D" useVi=
-ew_view__C2mnv"><button type=3D"button" class=3D"css-y7csor" data-rac=3D"" =
-id=3D"react-aria8892419012-:rog:" tabindex=3D"0" fdprocessedid=3D"ld4x2p"><=
-div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--u=
-seView--gap: 8px; --useView--align: center;"><div class=3D" useView_view__C=
-2mnv css-v9redf"><div class=3D"css-1uzv2gf"><div class=3D"css-a26g8n" style=
-=3D"height: 12px; width: 12px; transform: scale(0.75);"><svg preserveAspect=
-Ratio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D=
-"var(--accent-red-stronger)" aria-hidden=3D"true" class=3D"css-492dz9" styl=
-e=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-r=
-ule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.=
-75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47=
- 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-=
-rule=3D"evenodd"></path></svg></div><svg preserveAspectRatio=3D"xMidYMin" w=
-idth=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-red-st=
-ronger)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; -=
--rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D=
-"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5ZM1.25 12C1.25 6.063=
- 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17.937 =
-1.25 12Z" clip-rule=3D"evenodd"></path></svg></div><span class=3D" useView_=
-view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-=
-family: inherit; --Text--font-size: var(--font-size-small); --Text--line-he=
-ight: var(--line-height-small); --Text--color: var(--foreground-dimmer);">0=
-</span></div><div class=3D" useView_view__C2mnv css-v9redf"><svg preserveAs=
+">input</span> <span class=3D"=CD=BC20">type</span><span class=3D"=CD=BC21"=
+>=3D</span><span class=3D"=CD=BC1m">"text"</span> <span class=3D"=CD=BC20">=
+id</span><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"guess=
+Input"</span> <span class=3D"=CD=BC20">maxlength</span><span class=3D"=CD=
+=BC21">=3D</span><span class=3D"=CD=BC1m">"4"</span> <span class=3D"=CD=BC2=
+0">placeholder</span><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=
+=BC1m">"Enter guess"</span><span class=3D"=CD=BC1h">&gt;</span></div><div c=
+lass=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-lin=
+ear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px=
+ 2ch) 0.5ch/calc(4ch - 1px) no-repeat;">    <span class=3D"=CD=BC1h">&lt;</=
+span><span class=3D"=CD=BC27">button</span> <span class=3D"=CD=BC20">onclic=
+k</span><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"</span=
+><span class=3D"=CD=BC1u">submitGuess</span><span class=3D"=CD=BC1f">(</spa=
+n><span class=3D"=CD=BC1f">)</span><span class=3D"=CD=BC1m">"</span><span c=
+lass=3D"=CD=BC1h">&gt;</span>Guess<span class=3D"=CD=BC1h">&lt;/</span><spa=
+n class=3D"=CD=BC27">button</span><span class=3D"=CD=BC1h">&gt;</span></div=
+><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeat=
+ing-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transpar=
+ent 1px 2ch) 0.5ch/calc(4ch - 1px) no-repeat;"><br></div><div class=3D"cm-i=
+ndent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient=
+(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/=
+calc(4ch - 1px) no-repeat;">    <span class=3D"=CD=BC1h">&lt;</span><span c=
+lass=3D"=CD=BC27">div</span> <span class=3D"=CD=BC20">id</span><span class=
+=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"feedback"</span><span cla=
+ss=3D"=CD=BC1h">&gt;</span><span class=3D"=CD=BC1h">&lt;/</span><span class=
+=3D"=CD=BC27">div</span><span class=3D"=CD=BC1h">&gt;</span></div><div clas=
+s=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linear=
+-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2c=
+h) 0.5ch/calc(4ch - 1px) no-repeat;">    <span class=3D"=CD=BC1h">&lt;</spa=
+n><span class=3D"=CD=BC27">p</span> <span class=3D"=CD=BC20">id</span><span=
+ class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"attemptsLeft"</span=
+><span class=3D"=CD=BC1h">&gt;</span><span class=3D"=CD=BC1h">&lt;/</span><=
+span class=3D"=CD=BC27">p</span><span class=3D"=CD=BC1h">&gt;</span></div><=
+div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeatin=
+g-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparen=
+t 1px 2ch) 0.5ch/calc(4ch - 1px) no-repeat;">    <span class=3D"=CD=BC1h">&=
+lt;</span><span class=3D"=CD=BC27">p</span> <span class=3D"=CD=BC20">id</sp=
+an><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"scoreDispla=
+y"</span><span class=3D"=CD=BC1h">&gt;</span><span class=3D"=CD=BC1h">&lt;/=
+</span><span class=3D"=CD=BC27">p</span><span class=3D"=CD=BC1h">&gt;</span=
+></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: =
+repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, tr=
+ansparent 1px 2ch) 0.5ch/calc(4ch - 1px) no-repeat;"><br></div><div class=
+=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-=
+gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch=
+) 0.5ch/calc(4ch - 1px) no-repeat;">    <span class=3D"=CD=BC1h">&lt;</span=
+><span class=3D"=CD=BC27">button</span> <span class=3D"=CD=BC20">onclick</s=
+pan><span class=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"</span><sp=
+an class=3D"=CD=BC1u">startGame</span><span class=3D"=CD=BC1f">(</span><spa=
+n class=3D"=CD=BC1f">)</span><span class=3D"=CD=BC1m">"</span> <span class=
+=3D"=CD=BC20">id</span><span class=3D"=CD=BC21">=3D</span><span class=3D"=
+=CD=BC1m">"replay"</span> <span class=3D"=CD=BC20">style</span><span class=
+=3D"=CD=BC21">=3D</span><span class=3D"=CD=BC1m">"</span><span class=3D"=CD=
+=BC1z">display</span>:<span class=3D"=CD=BC29">none</span><span class=3D"=
+=CD=BC1m">"</span><span class=3D"=CD=BC1h">&gt;</span>=F0=9F=94=81 Play Aga=
+in<span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">button</spa=
+n><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-indent-markers=
+ cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right, va=
+r(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1p=
+x) no-repeat;">  <span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC=
+27">div</span><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-in=
+dent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient(=
+to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/c=
+alc(2ch - 1px) no-repeat;"><br></div><div class=3D"cm-indent-markers cm-lin=
+e" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--ind=
+ent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-r=
+epeat;">  <span class=3D"=CD=BC1h">&lt;</span><span class=3D"=CD=BC27">scri=
+pt</span> <span class=3D"=CD=BC20">src</span><span class=3D"=CD=BC21">=3D</=
+span><span class=3D"=CD=BC1m">"script.js"</span><span class=3D"=CD=BC1h">&g=
+t;</span><span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">scri=
+pt</span><span class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-line"><=
+span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=BC27">body</span><sp=
+an class=3D"=CD=BC1h">&gt;</span></div><div class=3D"cm-line"><br></div><di=
+v class=3D"cm-line"><span class=3D"=CD=BC1h">&lt;/</span><span class=3D"=CD=
+=BC27">html</span><span class=3D"=CD=BC1h">&gt;</span></div></div><div clas=
+s=3D"cm-scrollbar-gutter"><div class=3D"cm-scrollbar-inner"><canvas aria-hi=
+dden=3D"true" width=3D"28" height=3D"994"></canvas><div class=3D"cm-scrollb=
+ar-overlay-container" role=3D"presentation" aria-hidden=3D"true"><div class=
+=3D"cm-scrollbar-overlay" style=3D"--cm-scrollbar-overlay-height: 44.977375=
+56561086%; top: 0px;"></div></div></div></div><div class=3D"cm-right-gutter=
+s" aria-hidden=3D"true" style=3D"width: 0px; min-height: 1105px; position: =
+sticky; right: 0px;"><div class=3D"cm-gutter cm-thread-indicator-gutter"><d=
+iv class=3D"cm-gutterElement" style=3D"height: 0px; visibility: hidden; poi=
+nter-events: none;"><cm-editor-lifecycle class=3D"cm-thread-indicator" aria=
+-hidden=3D"true" style=3D"display: inline; cursor: pointer;"><button class=
+=3D" useView_view__C2mnv thread-indicator css-1iysqm2" type=3D"button" aria=
+-label=3D"View threads" style=3D"--height: 24px; --width: 24px;"><span clas=
+s=3D"css-k008qs"><svg width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=
+=3D"none" xmlns=3D"http://www.w3.org/2000/svg" style=3D"color: currentcolor=
+;"><path d=3D"M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.=
+7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.=
+96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20=
+.7893 3.96086 21 4.46957 21 5V15Z" stroke=3D"currentColor" stroke-width=3D"=
+3" stroke-linecap=3D"round" stroke-linejoin=3D"round"></path></svg></span><=
+/button></cm-editor-lifecycle></div></div></div><div class=3D"cm-layer cm-m=
+ultiplayer-cursor-layer" aria-hidden=3D"true" style=3D"z-index: -1;"></div>=
+<div class=3D"cm-layer cm-layer-above cm-cursorLayer" aria-hidden=3D"true" =
+style=3D"z-index: 148; animation-duration: 1200ms; animation-name: cm-blink=
+;"><div class=3D"cm-cursor cm-cursor-primary" style=3D"left: 49.6023px; top=
+: 47.4545px; height: 16.7273px;"></div></div><div class=3D"cm-layer cm-sele=
+ctionLayer" aria-hidden=3D"true" style=3D"z-index: -4;"></div><div class=3D=
+"cm-layer cm-active-line-layer" aria-hidden=3D"true" style=3D"z-index: -5;"=
+><div class=3D"cm-active-line-layer-element" style=3D"left: 0px; top: 46px;=
+ height: 21px;"></div></div><div class=3D"cm-layer cm-layer-above cm-empty-=
+state-layer" aria-hidden=3D"true" style=3D"z-index: 145;"></div><div class=
+=3D"cm-layer" aria-hidden=3D"true" style=3D"z-index: -7;"></div><div class=
+=3D"cm-layer cm-layer-above cm-ghostwriter-hint-layer" aria-hidden=3D"true"=
+ style=3D"z-index: 149;"><cm-editor-lifecycle class=3D"cm-ghostwriter-hint-=
+marker" style=3D"visibility: hidden; top: 46px; height: 21px; right: 0px; p=
+adding-right: 4px;"><div class=3D" useView_view__C2mnv css-bucrlo"><button =
+class=3D" useView_view__C2mnv css-10vsj6z" style=3D"--fontSize: 13px;"><div=
+ class=3D" useView_view__C2mnv">Generate</div><div class=3D" useView_view__=
+C2mnv css-1kh4gr5" style=3D"--useView--justify: center;"><div class=3D" use=
+View_view__C2mnv css-1rf45w6" data-testid=3D"Keybinding:Ctrl-i" title=3D"Ct=
+rl-i" style=3D"--gap: 2px;"><div class=3D" useView_view__C2mnv css-501xz8" =
+style=3D"--fontSize: 10.4px; --xPadding: 2px; height: 15px; min-width: 15px=
+;"><div class=3D" useView_view__C2mnv css-1ua3br4">Ctrl</div><div class=3D"=
+ useView_view__C2mnv css-1g9st86"></div></div><div class=3D" useView_view__=
+C2mnv css-501xz8" style=3D"--fontSize: 10.4px; --xPadding: 2px; height: 15p=
+x; min-width: 15px;"><div class=3D" useView_view__C2mnv css-1ua3br4">i</div=
+><div class=3D" useView_view__C2mnv css-1g9st86"></div></div></div></div></=
+button></div></cm-editor-lifecycle></div><div class=3D"cm-layer cm-layer-ab=
+ove cm-selection-controls-layer" aria-hidden=3D"true" style=3D"z-index: 143=
+;"></div></div><cm-editor-lifecycle class=3D"cm-mounted-react-nodes" style=
+=3D"display: contents;"></cm-editor-lifecycle></div></div></div></div><div =
+style=3D"display: block;"><div class=3D" useView_view__C2mnv useView_isHori=
+zontal__Q1YOp css-1tje688" style=3D"--useView--grow: 1; --useView--shrink: =
+1;"><div class=3D" useView_view__C2mnv"><button type=3D"button" tabindex=3D=
+"0" aria-expanded=3D"false" id=3D"react-aria8892419012-:ro6:" class=3D"css-=
+y7csor" data-rac=3D"" fdprocessedid=3D"2iag9l"><svg preserveAspectRatio=3D"=
+xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--ac=
+cent-blurple-default)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"-=
+-size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D=
+"evenodd" d=3D"M15.938 1.044c-.147-.4-.73-.4-.876 0l-1.004 2.744a.458.458 0=
+ 0 1-.298.278l-2.436.746a.446.446 0 0 0 0 .857l2.437.753a.458.458 0 0 1 .29=
+7.278l1.005 2.745c.146.399.728.399.874 0L16.943 6.7a.458.458 0 0 1 .297-.27=
+8l2.437-.75a.446.446 0 0 0 0-.856l-2.437-.75a.458.458 0 0 1-.297-.278l-1.00=
+5-2.744Z" clip-rule=3D"evenodd"></path><path d=3D"M6.764 19.334c.12-.3.494-=
+.417.778-.261.806.441 2.443 1.171 4.458 1.171s3.652-.73 4.458-1.171c.284-.1=
+56.658-.04.778.261l1.215 2.539a1 1 0 0 1-.928 1.371H6.477a1 1 0 0 1-.928-1.=
+371l1.215-2.539Z"></path><path fill-rule=3D"evenodd" d=3D"M10.814 1.053a.75=
+.75 0 0 1-.526.92 6.5 6.5 0 1 0 7.494 9.241.75.75 0 0 1 1.334.686A8 8 0 1 1=
+ 9.893.527a.75.75 0 0 1 .921.526Z" clip-rule=3D"evenodd"></path></svg><div =
+class=3D" useView_view__C2mnv">AI</div></button></div><div class=3D" useVie=
+w_view__C2mnv"><button type=3D"button" tabindex=3D"0" aria-expanded=3D"fals=
+e" id=3D"react-aria8892419012-:rob:" class=3D"css-y7csor" data-rac=3D"" fdp=
+rocessedid=3D"53ppq"><div data-cy=3D"ws-code-intelligence-active" class=3D"=
+ useView_view__C2mnv"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" he=
+ight=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true=
+" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; =
+height: 16px;"><path fill=3D"var(--foreground-dimmer)" fill-rule=3D"evenodd=
+" d=3D"M6.25 4.5c-.764 0-1.407.117-1.932.37a2.49 2.49 0 0 0-1.143 1.078c-.4=
+26.79-.425 1.785-.425 2.57v.084c0 .903-.017 1.562-.263 2.018a1.037 1.037 0 =
+0 1-.49.462c-.248.12-.637.215-1.247.215-.414 0-.75.315-.75.703 0 .388.336.7=
+03.75.703.61 0 .999.095 1.248.215.235.113.383.266.49.462.245.456.262 1.115.=
+262 2.018v.085c0 .784-.001 1.78.425 2.57.238.44.605.819 1.143 1.078.525.252=
+ 1.168.369 1.932.369.414 0 .75-.315.75-.703 0-.389-.336-.704-.75-.704-.61 0=
+-.999-.095-1.248-.214a1.037 1.037 0 0 1-.489-.462c-.246-.456-.263-1.115-.26=
+3-2.019v-.084c0-.784.001-1.78-.424-2.57A2.452 2.452 0 0 0 3.212 12c.263-.21=
+4.464-.467.614-.745.425-.789.425-1.785.424-2.569v-.084c0-.904.017-1.563.263=
+-2.02.106-.195.254-.348.49-.46.248-.12.637-.215 1.247-.215.414 0 .75-.315.7=
+5-.704 0-.388-.336-.703-.75-.703Zm11.5 0c-.415 0-.75.315-.75.703 0 .389.335=
+.704.75.704.61 0 .999.095 1.248.214.235.113.383.266.489.462.246.456.263 1.1=
+15.263 2.019v.084c0 .784-.002 1.78.424 2.57.15.277.351.53.614.744a2.452 2.4=
+52 0 0 0-.614.745c-.425.789-.425 1.785-.424 2.569v.084c0 .904-.017 1.563-.2=
+63 2.02a1.037 1.037 0 0 1-.49.46c-.248.12-.637.215-1.247.215-.415 0-.75.315=
+-.75.704 0 .388.335.703.75.703.764 0 1.407-.117 1.932-.37a2.49 2.49 0 0 0 1=
+.143-1.078c.426-.79.425-1.785.425-2.57v-.084c0-.903.017-1.562.263-2.018.105=
+-.196.254-.349.49-.462.248-.12.637-.215 1.247-.215.414 0 .75-.315.75-.703 0=
+-.388-.336-.703-.75-.703-.61 0-.999-.095-1.248-.215a1.036 1.036 0 0 1-.49-.=
+462c-.245-.456-.262-1.115-.262-2.018v-.085c0-.784.001-1.78-.425-2.57a2.49 2=
+.49 0 0 0-1.143-1.078c-.525-.252-1.168-.369-1.932-.369Z" clip-rule=3D"eveno=
+dd"></path><path fill=3D"var(--accent-positive-stronger)" d=3D"M16.09 9.227=
+a.692.692 0 0 1-.047.978l-5.077 4.615a.692.692 0 0 1-.932 0l-2.307-2.098a.6=
+92.692 0 0 1 .931-1.024l1.842 1.674 4.611-4.192a.692.692 0 0 1 .978.047Z"><=
+/path></svg></div><div class=3D" useView_view__C2mnv">HTML</div></button></=
+div><div class=3D" useView_view__C2mnv"><button type=3D"button" class=3D"cs=
+s-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rog:" tabindex=3D"0" fd=
+processedid=3D"ld4x2p"><div class=3D" useView_view__C2mnv useView_isHorizon=
+tal__Q1YOp" style=3D"--useView--gap: 8px; --useView--align: center;"><div c=
+lass=3D" useView_view__C2mnv css-v9redf"><div class=3D"css-1uzv2gf"><div cl=
+ass=3D"css-a26g8n" style=3D"height: 12px; width: 12px; transform: scale(0.7=
+5);"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewB=
+ox=3D"0 0 24 24" fill=3D"var(--accent-red-stronger)" aria-hidden=3D"true" c=
+lass=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; hei=
+ght: 12px;"><path fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0=
+L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-=
+1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75=
+.75 0 0 1 0-1.06Z" clip-rule=3D"evenodd"></path></svg></div><svg preserveAs=
 pectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fil=
-l=3D"var(--accent-yellow-stronger)" aria-hidden=3D"true" class=3D"css-492dz=
-9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path=
- fill-rule=3D"evenodd" d=3D"M10.58 3.125c.673-1.167 2.357-1.167 3.03 0l9.09=
-4 15.75c.673 1.167-.169 2.625-1.516 2.625H3.002c-1.348 0-2.19-1.458-1.516-2=
-.625l9.093-15.75Zm1.731.75a.25.25 0 0 0-.433 0l-9.093 15.75a.25.25 0 0 0 .2=
-17.375h18.186a.25.25 0 0 0 .217-.375L12.31 3.875Zm-.268 4.478a.75.75 0 0 1 =
-.75.75v4a.75.75 0 1 1-1.5 0v-4a.75.75 0 0 1 .75-.75Zm-.75 8.75a.75.75 0 0 1=
- .75-.75h.01a.75.75 0 0 1 0 1.5h-.01a.75.75 0 0 1-.75-.75Z" clip-rule=3D"ev=
-enodd"></path></svg><span class=3D" useView_view__C2mnv Text_text__T_hn_ Te=
-xt_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-s=
-ize: var(--font-size-small); --Text--line-height: var(--line-height-small);=
- --Text--color: var(--foreground-dimmer);">0</span></div></div></button></d=
-iv><div class=3D" useView_view__C2mnv"><button type=3D"button" tabindex=3D"=
-0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rq2:" fdp=
-rocessedid=3D"0aqo6"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" hei=
-ght=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--foreground-dimmer)" aria-hid=
-den=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; wi=
-dth: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M18 2.5H6A1.5 1.=
-5 0 0 0 4.5 4v16A1.5 1.5 0 0 0 6 21.5h12a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 =
-0 0 18 2.5ZM6 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V4a3 3 0 0 0=
--3-3H6Z" clip-rule=3D"evenodd"></path><path fill-rule=3D"evenodd" d=3D"M16 =
-17.25c0 .414-.316.75-.706.75H8.706c-.39 0-.706-.336-.706-.75s.316-.75.706-.=
-75h6.588c.39 0 .706.336.706.75ZM16 9.5c0 .414-.316.75-.706.75H8.706c-.39 0-=
-.706-.336-.706-.75s.316-.75.706-.75h6.588c.39 0 .706.336.706.75Z" clip-rule=
-=3D"evenodd"></path><path fill-rule=3D"evenodd" d=3D"M12 13.5c-.414 0-.75-.=
-316-.75-.706V6.206c0-.39.336-.706.75-.706s.75.316.75.706v6.588c0 .39-.336.7=
-06-.75.706Z" clip-rule=3D"evenodd"></path></svg><div class=3D" useView_view=
-__C2mnv">Diff</div></button></div><div class=3D" useView_view__C2mnv"><butt=
-on type=3D"button" disabled=3D"" class=3D"css-y7csor" data-rac=3D"" id=3D"r=
-eact-aria8892419012-:rq5:" data-disabled=3D"true"></button></div><div class=
-=3D" useView_view__C2mnv css-tqeoyf"></div><div class=3D" useView_view__C2m=
-nv"><button type=3D"button" tabindex=3D"0" class=3D"css-y7csor" data-rac=3D=
-"" id=3D"react-aria8892419012-:rq8:" fdprocessedid=3D"6tmqf"><span data-cy=
-=3D"current-position">Ln 3, Col 1</span></button></div><div class=3D" useVi=
-ew_view__C2mnv"><button type=3D"button" tabindex=3D"0" aria-expanded=3D"fal=
-se" id=3D"react-aria8892419012-:rom:" class=3D"css-y7csor" data-rac=3D"" fd=
-processedid=3D"sduxbo"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" h=
-eight=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--foreground-dimmer)" aria-h=
-idden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; =
-width: 12px; height: 12px;"><circle cx=3D"12" cy=3D"12" r=3D"6" fill-rule=
-=3D"evenodd"></circle></svg><span class=3D" useView_view__C2mnv Text_text__=
-T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text-=
--font-size: var(--font-size-small); --Text--line-height: var(--line-height-=
-small); --Text--color: var(--foreground-dimmer);">Spaces: 2</span></button>=
-</div><div class=3D" useView_view__C2mnv"><button type=3D"button" tabindex=
-=3D"0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rqb:"=
- fdprocessedid=3D"fhl2c"><div class=3D" useView_view__C2mnv">History</div><=
-svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"=
-0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" =
+l=3D"var(--accent-red-stronger)" aria-hidden=3D"true" class=3D"css-492dz9" =
 style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fi=
-ll-rule=3D"evenodd" d=3D"M10.64 2.354A9.75 9.75 0 1 1 2.803 15.25a.75.75 0 =
-0 1 1.414-.498 8.25 8.25 0 1 0 1.937-8.564L2.894 9.25H7a.75.75 0 0 1 0 1.5H=
-1A.75.75 0 0 1 .25 10V4a.75.75 0 0 1 1.5 0v4.266l3.368-3.165a9.75 9.75 0 0 =
-1 5.522-2.747ZM12 6.25a.75.75 0 0 1 .75.75v4.932l3.666 2.444a.75.75 0 1 1-.=
-832 1.248l-4-2.667a.75.75 0 0 1-.334-.624V7a.75.75 0 0 1 .75-.75Z" clip-rul=
-e=3D"evenodd"></path></svg></button></div></div></div></div></div><div clas=
-s=3D" useView_view__C2mnv Pane_interactionBlanket__HGhM4"></div></div><div =
-class=3D" useView_view__C2mnv Pane_root__Dz_FC Surface_surfaceDefault__TcNI=
-5" role=3D"tabpanel" id=3D"204324e0-b6ab-492e-af47-f147b20c332c" aria-label=
-ledby=3D"tab-204324e0-b6ab-492e-af47-f147b20c332c" style=3D"--index--border=
--gap: 4px; --index--transform-origin-x: 0x; --fixed-position-offset-x: -407=
-px; --fixed-position-offset-y: -80px; --index--pointer-events: none; z-inde=
-x: 0; --index--interaction-blanket-display: none; --index--user-select: aut=
-o; --index--iframe-pointer-events: auto; --index--width: 529.1999999999999p=
-x; --index--height: 554px; --index--transform-x: 406.8px; --index--transfor=
-m-y: 32px; --index--scale: 1; --index--opacity: 0;"><div class=3D" useView_=
-view__C2mnv Pane_container__V2H53"><div class=3D" useView_view__C2mnv" tabi=
-ndex=3D"-1"></div><div class=3D" useView_view__C2mnv css-8pbtm4" style=3D"-=
--useView--grow: 1; --useView--shrink: 1;"><div class=3D" useView_view__C2mn=
-v css-1jy0d03"><div class=3D" useView_view__C2mnv css-1honu3h" style=3D"--u=
-seView--align: end;"><div class=3D" useView_view__C2mnv css-10kww86" style=
-=3D"--useView--align: center;"><div class=3D" useView_view__C2mnv useView_i=
-sHorizontal__Q1YOp css-1oa1efi" style=3D"--useView--align: center;"><label =
-class=3D" useView_view__C2mnv css-2t6oeo"><div style=3D"border: 0px; clip: =
-rect(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; margin: -1px;=
- overflow: hidden; padding: 0px; position: absolute; width: 1px; white-spac=
-e: nowrap;"><input aria-label=3D"Show Only Latest" type=3D"checkbox" tabind=
-ex=3D"0" role=3D"switch" checked=3D""></div><svg aria-hidden=3D"true" width=
-=3D"38" height=3D"24" viewBox=3D"0 0 38 24" fill=3D"none" xmlns=3D"http://w=
-ww.w3.org/2000/svg" overflow=3D"hidden" class=3D"css-1sujfxg" style=3D"curs=
-or: pointer;"><rect x=3D"0" y=3D"0" width=3D"38" height=3D"24" rx=3D"12" fi=
-ll=3D"var(--accent-primary-default)" class=3D"css-eebew0"></rect><rect x=3D=
-"18" y=3D"4" width=3D"16" height=3D"16" rx=3D"8" fill=3D"var(--white)" opac=
-ity=3D"1" class=3D"css-q1g2y6"></rect><rect x=3D"0.5" y=3D"0.5" width=3D"37=
-" height=3D"23" rx=3D"12" stroke=3D"transparent" data-switch-outline=3D"tru=
-e"></rect><rect x=3D"-1" y=3D"-1" stroke=3D"transparent" width=3D"40" heigh=
-t=3D"26" rx=3D"13" stroke-width=3D"2"></rect></svg><span class=3D" useView_=
-view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-=
-family: inherit; --Text--font-size: var(--font-size-default); --Text--line-=
-height: var(--line-height-default);"><div class=3D" useView_view__C2mnv css=
--c25p8t">Show Only Latest</div></span></label></div><button class=3D" useVi=
-ew_view__C2mnv css-13c1oxn" disabled=3D"" alt=3D"Clear Past Runs"><svg pres=
-erveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 2=
-4" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D=
-"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=
-=3D"evenodd" d=3D"M10 2.75A1.25 1.25 0 0 0 8.75 4v1.25h6.5V4A1.25 1.25 0 0 =
-0 14 2.75h-4Zm6.75 2.5V4A2.75 2.75 0 0 0 14 1.25h-4A2.75 2.75 0 0 0 7.25 4v=
-1.25H3a.75.75 0 0 0 0 1.5h1.25V20A2.75 2.75 0 0 0 7 22.75h10A2.75 2.75 0 0 =
-0 19.75 20V6.75H21a.75.75 0 0 0 0-1.5h-4.25Zm-11 1.5V20A1.25 1.25 0 0 0 7 2=
-1.25h10A1.25 1.25 0 0 0 18.25 20V6.75H5.75Zm4.25 3.5a.75.75 0 0 1 .75.75v6a=
-.75.75 0 0 1-1.5 0v-6a.75.75 0 0 1 .75-.75Zm4 0a.75.75 0 0 1 .75.75v6a.75.7=
-5 0 0 1-1.5 0v-6a.75.75 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path></svg>=
-<div class=3D" useView_view__C2mnv css-c25p8t">Clear Past Runs</div></butto=
-n></div></div><div class=3D" useView_view__C2mnv css-1nfmrg4"><div class=3D=
-" useView_view__C2mnv"><div class=3D" useView_view__C2mnv css-kud5ro"><div =
-class=3D" useView_view__C2mnv css-46r8gi"><button class=3D" useView_view__C=
-2mnv css-os4f0t" type=3D"button" aria-label=3D"Collapse" fdprocessedid=3D"2=
-zklizd" style=3D"--height: 24px; --width: 24px;"><svg preserveAspectRatio=
-=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"curr=
-entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; =
---rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=
-=3D"M12.53 15.53a.75.75 0 0 1-1.06 0l-6-6a.75.75 0 0 1 1.06-1.06L12 13.94l5=
-.47-5.47a.75.75 0 1 1 1.06 1.06l-6 6Z" clip-rule=3D"evenodd"></path></svg><=
-/button><div class=3D" useView_view__C2mnv css-c511d" color=3D"grey"><span>=
-echo "Serving HTML, open the Preview to see your output.
+ll-rule=3D"evenodd" d=3D"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-=
+18.5ZM1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.=
+75 12 22.75 1.25 17.937 1.25 12Z" clip-rule=3D"evenodd"></path></svg></div>=
+<span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA=
+" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size=
+-small); --Text--line-height: var(--line-height-small); --Text--color: var(=
+--foreground-dimmer);">0</span></div><div class=3D" useView_view__C2mnv css=
+-v9redf"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" v=
+iewBox=3D"0 0 24 24" fill=3D"var(--accent-yellow-stronger)" aria-hidden=3D"=
+true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12=
+px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M10.58 3.125c.673-1.167=
+ 2.357-1.167 3.03 0l9.094 15.75c.673 1.167-.169 2.625-1.516 2.625H3.002c-1.=
+348 0-2.19-1.458-1.516-2.625l9.093-15.75Zm1.731.75a.25.25 0 0 0-.433 0l-9.0=
+93 15.75a.25.25 0 0 0 .217.375h18.186a.25.25 0 0 0 .217-.375L12.31 3.875Zm-=
+.268 4.478a.75.75 0 0 1 .75.75v4a.75.75 0 1 1-1.5 0v-4a.75.75 0 0 1 .75-.75=
+Zm-.75 8.75a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 0 1.5h-.01a.75.75 0 0 1-.=
+75-.75Z" clip-rule=3D"evenodd"></path></svg><span class=3D" useView_view__C=
+2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family:=
+ inherit; --Text--font-size: var(--font-size-small); --Text--line-height: v=
+ar(--line-height-small); --Text--color: var(--foreground-dimmer);">0</span>=
+</div></div></button></div><div class=3D" useView_view__C2mnv"><button type=
+=3D"button" tabindex=3D"0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-a=
+ria8892419012-:rq2:" fdprocessedid=3D"0aqo6"><svg preserveAspectRatio=3D"xM=
+idYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--fore=
+ground-dimmer)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: =
+12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenod=
+d" d=3D"M18 2.5H6A1.5 1.5 0 0 0 4.5 4v16A1.5 1.5 0 0 0 6 21.5h12a1.5 1.5 0 =
+0 0 1.5-1.5V4A1.5 1.5 0 0 0 18 2.5ZM6 1a3 3 0 0 0-3 3v16a3 3 0 0 0 3 3h12a3=
+ 3 0 0 0 3-3V4a3 3 0 0 0-3-3H6Z" clip-rule=3D"evenodd"></path><path fill-ru=
+le=3D"evenodd" d=3D"M16 17.25c0 .414-.316.75-.706.75H8.706c-.39 0-.706-.336=
+-.706-.75s.316-.75.706-.75h6.588c.39 0 .706.336.706.75ZM16 9.5c0 .414-.316.=
+75-.706.75H8.706c-.39 0-.706-.336-.706-.75s.316-.75.706-.75h6.588c.39 0 .70=
+6.336.706.75Z" clip-rule=3D"evenodd"></path><path fill-rule=3D"evenodd" d=
+=3D"M12 13.5c-.414 0-.75-.316-.75-.706V6.206c0-.39.336-.706.75-.706s.75.316=
+.75.706v6.588c0 .39-.336.706-.75.706Z" clip-rule=3D"evenodd"></path></svg><=
+div class=3D" useView_view__C2mnv">Diff</div></button></div><div class=3D" =
+useView_view__C2mnv"><button type=3D"button" disabled=3D"" class=3D"css-y7c=
+sor" data-rac=3D"" id=3D"react-aria8892419012-:rq5:" data-disabled=3D"true"=
+></button></div><div class=3D" useView_view__C2mnv css-tqeoyf"></div><div c=
+lass=3D" useView_view__C2mnv"><button type=3D"button" tabindex=3D"0" class=
+=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rq8:" fdprocessed=
+id=3D"6tmqf"><span data-cy=3D"current-position">Ln 3, Col 1</span></button>=
+</div><div class=3D" useView_view__C2mnv"><button type=3D"button" tabindex=
+=3D"0" aria-expanded=3D"false" id=3D"react-aria8892419012-:rom:" class=3D"c=
+ss-y7csor" data-rac=3D"" fdprocessedid=3D"sduxbo"><svg preserveAspectRatio=
+=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(=
+--foreground-dimmer)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--=
+size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><circle cx=3D"12" c=
+y=3D"12" r=3D"6" fill-rule=3D"evenodd"></circle></svg><span class=3D" useVi=
+ew_view__C2mnv Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--fon=
+t-family: inherit; --Text--font-size: var(--font-size-small); --Text--line-=
+height: var(--line-height-small); --Text--color: var(--foreground-dimmer);"=
+>Spaces: 2</span></button></div><div class=3D" useView_view__C2mnv"><button=
+ type=3D"button" tabindex=3D"0" class=3D"css-y7csor" data-rac=3D"" id=3D"re=
+act-aria8892419012-:rqb:" fdprocessedid=3D"fhl2c"><div class=3D" useView_vi=
+ew__C2mnv">History</div><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" =
+height=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"tr=
+ue" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px=
+; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M10.64 2.354A9.75 9.75 0 =
+1 1 2.803 15.25a.75.75 0 0 1 1.414-.498 8.25 8.25 0 1 0 1.937-8.564L2.894 9=
+.25H7a.75.75 0 0 1 0 1.5H1A.75.75 0 0 1 .25 10V4a.75.75 0 0 1 1.5 0v4.266l3=
+.368-3.165a9.75 9.75 0 0 1 5.522-2.747ZM12 6.25a.75.75 0 0 1 .75.75v4.932l3=
+.666 2.444a.75.75 0 1 1-.832 1.248l-4-2.667a.75.75 0 0 1-.334-.624V7a.75.75=
+ 0 0 1 .75-.75Z" clip-rule=3D"evenodd"></path></svg></button></div></div></=
+div></div></div><div class=3D" useView_view__C2mnv Pane_interactionBlanket_=
+_HGhM4"></div></div><div class=3D" useView_view__C2mnv Pane_root__Dz_FC Sur=
+face_surfaceDefault__TcNI5" role=3D"tabpanel" id=3D"204324e0-b6ab-492e-af47=
+-f147b20c332c" aria-labelledby=3D"tab-204324e0-b6ab-492e-af47-f147b20c332c"=
+ style=3D"--index--border-gap: 4px; --index--transform-origin-x: 0x; --fixe=
+d-position-offset-x: -407px; --fixed-position-offset-y: -80px; --index--poi=
+nter-events: none; z-index: 0; --index--interaction-blanket-display: none; =
+--index--user-select: auto; --index--iframe-pointer-events: auto; --index--=
+width: 529.1999999999999px; --index--height: 554px; --index--transform-x: 4=
+06.8px; --index--transform-y: 32px; --index--scale: 1; --index--opacity: 0;=
+"><div class=3D" useView_view__C2mnv Pane_container__V2H53"><div class=3D" =
+useView_view__C2mnv" tabindex=3D"-1"></div><div class=3D" useView_view__C2m=
+nv css-8pbtm4" style=3D"--useView--grow: 1; --useView--shrink: 1;"><div cla=
+ss=3D" useView_view__C2mnv css-1jy0d03"><div class=3D" useView_view__C2mnv =
+css-1honu3h" style=3D"--useView--align: end;"><div class=3D" useView_view__=
+C2mnv css-10kww86" style=3D"--useView--align: center;"><div class=3D" useVi=
+ew_view__C2mnv useView_isHorizontal__Q1YOp css-1oa1efi" style=3D"--useView-=
+-align: center;"><label class=3D" useView_view__C2mnv css-2t6oeo"><div styl=
+e=3D"border: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); he=
+ight: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute=
+; width: 1px; white-space: nowrap;"><input aria-label=3D"Show Only Latest" =
+type=3D"checkbox" tabindex=3D"0" role=3D"switch" checked=3D""></div><svg ar=
+ia-hidden=3D"true" width=3D"38" height=3D"24" viewBox=3D"0 0 38 24" fill=3D=
+"none" xmlns=3D"http://www.w3.org/2000/svg" overflow=3D"hidden" class=3D"cs=
+s-1sujfxg" style=3D"cursor: pointer;"><rect x=3D"0" y=3D"0" width=3D"38" he=
+ight=3D"24" rx=3D"12" fill=3D"var(--accent-primary-default)" class=3D"css-e=
+ebew0"></rect><rect x=3D"18" y=3D"4" width=3D"16" height=3D"16" rx=3D"8" fi=
+ll=3D"var(--white)" opacity=3D"1" class=3D"css-q1g2y6"></rect><rect x=3D"0.=
+5" y=3D"0.5" width=3D"37" height=3D"23" rx=3D"12" stroke=3D"transparent" da=
+ta-switch-outline=3D"true"></rect><rect x=3D"-1" y=3D"-1" stroke=3D"transpa=
+rent" width=3D"40" height=3D"26" rx=3D"13" stroke-width=3D"2"></rect></svg>=
+<span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA=
+" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size=
+-default); --Text--line-height: var(--line-height-default);"><div class=3D"=
+ useView_view__C2mnv css-c25p8t">Show Only Latest</div></span></label></div=
+><button class=3D" useView_view__C2mnv css-13c1oxn" disabled=3D"" alt=3D"Cl=
+ear Past Runs"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D=
+"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=
+=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height:=
+ 12px;"><path fill-rule=3D"evenodd" d=3D"M10 2.75A1.25 1.25 0 0 0 8.75 4v1.=
+25h6.5V4A1.25 1.25 0 0 0 14 2.75h-4Zm6.75 2.5V4A2.75 2.75 0 0 0 14 1.25h-4A=
+2.75 2.75 0 0 0 7.25 4v1.25H3a.75.75 0 0 0 0 1.5h1.25V20A2.75 2.75 0 0 0 7 =
+22.75h10A2.75 2.75 0 0 0 19.75 20V6.75H21a.75.75 0 0 0 0-1.5h-4.25Zm-11 1.5=
+V20A1.25 1.25 0 0 0 7 21.25h10A1.25 1.25 0 0 0 18.25 20V6.75H5.75Zm4.25 3.5=
+a.75.75 0 0 1 .75.75v6a.75.75 0 0 1-1.5 0v-6a.75.75 0 0 1 .75-.75Zm4 0a.75.=
+75 0 0 1 .75.75v6a.75.75 0 0 1-1.5 0v-6a.75.75 0 0 1 .75-.75Z" clip-rule=3D=
+"evenodd"></path></svg><div class=3D" useView_view__C2mnv css-c25p8t">Clear=
+ Past Runs</div></button></div></div><div class=3D" useView_view__C2mnv css=
+-1nfmrg4"><div class=3D" useView_view__C2mnv"><div class=3D" useView_view__=
+C2mnv css-kud5ro"><div class=3D" useView_view__C2mnv css-46r8gi"><button cl=
+ass=3D" useView_view__C2mnv css-os4f0t" type=3D"button" aria-label=3D"Colla=
+pse" fdprocessedid=3D"2zklizd" style=3D"--height: 24px; --width: 24px;"><sv=
+g preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 =
+0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" st=
+yle=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill=
+-rule=3D"evenodd" d=3D"M12.53 15.53a.75.75 0 0 1-1.06 0l-6-6a.75.75 0 0 1 1=
+.06-1.06L12 13.94l5.47-5.47a.75.75 0 1 1 1.06 1.06l-6 6Z" clip-rule=3D"even=
+odd"></path></svg></button><div class=3D" useView_view__C2mnv css-c511d" co=
+lor=3D"grey"><span>echo "Serving HTML, open the Preview to see your output.
 To see changes you make, you can hit the refresh button in the preview, you=
  do =1B[1mnot=1B[0m have to stop and run again.
 Console logs are available in the Preview devtools or your browser devtools=
@@ -1960,12 +1961,12 @@ an class=3D" useView_view__C2mnv css-wi1nyz Text_text__T_hn_ Text_multiline=
 __ICkLz" style=3D"--Text--font-family: inherit; --Text--font-size: var(--fo=
 nt-size-small); --Text--line-height: var(--line-height-small); --Text--colo=
 r: var(--foreground-dimmer);"><span class=3D" useView_view__C2mnv" tabindex=
-=3D"0">11m</span>&nbsp;=E2=80=A2&nbsp;<span class=3D" useView_view__C2mnv c=
+=3D"0">14m</span>&nbsp;=E2=80=A2&nbsp;<span class=3D" useView_view__C2mnv c=
 ss-85lk56" data-chromatic=3D"ignore" tabindex=3D"0"><span class=3D" useView=
 _view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font=
 -family: inherit; --Text--font-size: var(--font-size-small); --Text--line-h=
 eight: var(--line-height-small); --Text--color: var(--foreground-dimmer);">=
-11 minutes ago</span></span></span><div class=3D" useView_view__C2mnv css-1=
+14 minutes ago</span></span></span><div class=3D" useView_view__C2mnv css-1=
 mrf5pc"></div></div><button class=3D" useView_view__C2mnv css-os4f0t" type=
 =3D"button" aria-label=3D"Stop" fdprocessedid=3D"nc7v99" style=3D"--height:=
  24px; --width: 24px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" h=
@@ -2232,118 +2233,127 @@ ght: 12px;"><path fill-rule=3D"evenodd" d=3D"M15.53 11.47a.75.75 0 0 1 0 1.=
 06l-6 6a.75.75 0 0 1-1.06-1.06L13.94 12 8.47 6.53a.75.75 0 0 1 1.06-1.06l6 =
 6Z" clip-rule=3D"evenodd"></path></svg><button class=3D" useView_view__C2mn=
 v css-15yqntz" type=3D"button" tabindex=3D"0" id=3D"react-aria8892419012-:r=
-t3:" aria-haspopup=3D"true" aria-expanded=3D"false" fdprocessedid=3D"iglebn=
-"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=
-=3D"0 0 24 24" fill=3D"var(--accent-yellow-default)" aria-hidden=3D"true" c=
-lass=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; hei=
-ght: 12px;"><path fill-rule=3D"evenodd" d=3D"M6.513 1.598a1.75 1.75 0 0 1 2=
-.475 0l1.414 1.414a1.75 1.75 0 0 1 0 2.475L8.25 7.64v3.111h8.01l2.574-2.573=
-a1.75 1.75 0 0 1 2.474 0l.708.707a1.75 1.75 0 0 1 0 2.475l-2.829 2.828a1.75=
- 1.75 0 0 1-2.475 0l-.707-.707c-.34-.34-.51-.785-.512-1.23H8.25v6.25c0 .138=
-.112.25.25.25h7.76l2.574-2.573a1.75 1.75 0 0 1 2.474 0l.708.707a1.75 1.75 0=
- 0 1 0 2.475l-2.829 2.828a1.75 1.75 0 0 1-2.475 0l-.707-.707c-.34-.34-.51-.=
-785-.512-1.23H8.5a1.75 1.75 0 0 1-1.75-1.75V9.14l-1.263 1.262a1.75 1.75 0 0=
- 1-2.475 0L1.598 8.988a1.75 1.75 0 0 1 0-2.475l4.915-4.915ZM17.1 12.031l-.0=
-35.035a.25.25 0 0 0 0 .353l.707.707a.25.25 0 0 0 .354 0l2.828-2.828a.25.25 =
-0 0 0 0-.353l-.707-.708a.25.25 0 0 0-.354 0l-2.792 2.793H17.1ZM9.34 4.427a.=
-25.25 0 0 0 0-.354L7.927 2.659a.25.25 0 0 0-.353 0L2.659 7.574a.25.25 0 0 0=
- 0 .353l1.414 1.414a.25.25 0 0 0 .353 0l4.915-4.914Zm10.907 12.81a.25.25 0 =
-0 0-.354 0l-2.828 2.829a.25.25 0 0 0 0 .353l.707.707a.25.25 0 0 0 .354 0l2.=
-828-2.828a.25.25 0 0 0 0-.353l-.707-.708Z" clip-rule=3D"evenodd"></path></s=
-vg><div class=3D" useView_view__C2mnv css-1gm78i9">button</div></button></d=
-iv></div><div class=3D" useView_view__C2mnv css-1gppttt"><div class=3D" use=
-View_view__C2mnv css-36r0go"><button data-cy=3D"ws-format-btn" class=3D" us=
-eView_view__C2mnv css-jq818c" alt=3D"Format style.css" fdprocessedid=3D"t8a=
-f9"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBo=
-x=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492=
-dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><pa=
-th fill-rule=3D"evenodd" d=3D"M2.25 6A3.75 3.75 0 0 1 6 2.25h12A3.75 3.75 0=
- 0 1 21.75 6v12A3.75 3.75 0 0 1 18 21.75H6A3.75 3.75 0 0 1 2.25 18V6ZM6 3.7=
-5A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25h12A2.25 2.25 0 0 0 20.2=
-5 18V6A2.25 2.25 0 0 0 18 3.75H6ZM6.25 8A.75.75 0 0 1 7 7.25h10a.75.75 0 0 =
-1 0 1.5H7A.75.75 0 0 1 6.25 8Zm0 4a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.=
-5H7a.75.75 0 0 1-.75-.75Zm0 4a.75.75 0 0 1 .75-.75h10a.75.75 0 0 1 0 1.5H7a=
-.75.75 0 0 1-.75-.75Z" clip-rule=3D"evenodd"></path></svg><div class=3D" us=
-eView_view__C2mnv css-c25p8t">Format</div></button></div></div></div><div c=
-lass=3D"css-1vdup0e"><div data-cy=3D"workspace-cm-editor-style.css" class=
-=3D"css-5zpaww"><div class=3D"css-19w5vye"><div class=3D"cm-editor =CD=BC1 =
-=CD=BC3 =CD=BC4 =CD=BCs =CD=BCt =CD=BCo =CD=BC2z =CD=BC2y =CD=BCr =CD=BC2t =
-=CD=BC2s =CD=BCq =CD=BC34 =CD=BC30 =CD=BC2q =CD=BC2r =CD=BC32 =CD=BC2x =CD=
-=BC2w =CD=BC2v =CD=BC2u =CD=BC2o =CD=BC2m =CD=BCp =CD=BC2n =CD=BC33 =CD=BC2=
-f =CD=BC3b =CD=BCv =CD=BCw =CD=BCz =CD=BC16 cm-with-scrollbar"><div class=
-=3D"cm-announced" aria-live=3D"polite"></div><div tabindex=3D"-1" class=3D"=
-cm-scroller"><div class=3D"cm-gutters" aria-hidden=3D"true" style=3D"min-he=
-ight: 3499px; position: sticky;"><div class=3D"cm-gutter cm-diff-gutter"><d=
-iv class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-=
-file-added" style=3D"height: 0px; visibility: hidden; pointer-events: none;=
-"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutte=
-r-element-empty" style=3D"height: 21px; margin-top: 4px;"></div><div class=
-=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-empty" s=
-tyle=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-=
-element cm-diff-gutter-element-empty" style=3D"height: 42px;"></div><div cl=
-ass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-empty=
-" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutt=
-er-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><div=
- class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-em=
-pty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-g=
-utter-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><=
-div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element=
--empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-dif=
-f-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></di=
-v><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-elem=
-ent-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-=
-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21px;"><=
-/div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-e=
-lement-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement =
-cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21px;=
-"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutte=
-r-element-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterEleme=
-nt cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21=
-px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gu=
-tter-element-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterEl=
-ement cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height:=
- 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff=
--gutter-element-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutte=
-rElement cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"heig=
-ht: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-d=
-iff-gutter-element-empty" style=3D"height: 21px;"></div><div class=3D"cm-gu=
-tterElement cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"h=
-eight: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element c=
-m-diff-gutter-element-empty" style=3D"height: 21px;"></div><div class=3D"cm=
--gutterElement cm-diff-gutter-element cm-diff-gutter-element-empty" style=
+v7:" aria-haspopup=3D"true" aria-expanded=3D"false"><svg preserveAspectRati=
+o=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var=
+(--accent-yellow-default)" aria-hidden=3D"true" class=3D"css-492dz9" style=
+=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-ru=
+le=3D"evenodd" d=3D"M6.513 1.598a1.75 1.75 0 0 1 2.475 0l1.414 1.414a1.75 1=
+.75 0 0 1 0 2.475L8.25 7.64v3.111h8.01l2.574-2.573a1.75 1.75 0 0 1 2.474 0l=
+.708.707a1.75 1.75 0 0 1 0 2.475l-2.829 2.828a1.75 1.75 0 0 1-2.475 0l-.707=
+-.707c-.34-.34-.51-.785-.512-1.23H8.25v6.25c0 .138.112.25.25.25h7.76l2.574-=
+2.573a1.75 1.75 0 0 1 2.474 0l.708.707a1.75 1.75 0 0 1 0 2.475l-2.829 2.828=
+a1.75 1.75 0 0 1-2.475 0l-.707-.707c-.34-.34-.51-.785-.512-1.23H8.5a1.75 1.=
+75 0 0 1-1.75-1.75V9.14l-1.263 1.262a1.75 1.75 0 0 1-2.475 0L1.598 8.988a1.=
+75 1.75 0 0 1 0-2.475l4.915-4.915ZM17.1 12.031l-.035.035a.25.25 0 0 0 0 .35=
+3l.707.707a.25.25 0 0 0 .354 0l2.828-2.828a.25.25 0 0 0 0-.353l-.707-.708a.=
+25.25 0 0 0-.354 0l-2.792 2.793H17.1ZM9.34 4.427a.25.25 0 0 0 0-.354L7.927 =
+2.659a.25.25 0 0 0-.353 0L2.659 7.574a.25.25 0 0 0 0 .353l1.414 1.414a.25.2=
+5 0 0 0 .353 0l4.915-4.914Zm10.907 12.81a.25.25 0 0 0-.354 0l-2.828 2.829a.=
+25.25 0 0 0 0 .353l.707.707a.25.25 0 0 0 .354 0l2.828-2.828a.25.25 0 0 0 0-=
+.353l-.707-.708Z" clip-rule=3D"evenodd"></path></svg><div class=3D" useView=
+_view__C2mnv css-1gm78i9">body</div></button></div></div><div class=3D" use=
+View_view__C2mnv css-1gppttt"><div class=3D" useView_view__C2mnv css-36r0go=
+"><button data-cy=3D"ws-format-btn" class=3D" useView_view__C2mnv css-jq818=
+c" alt=3D"Format style.css" fdprocessedid=3D"t8af9"><svg preserveAspectRati=
+o=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"cur=
+rentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px;=
+ --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=
+=3D"M2.25 6A3.75 3.75 0 0 1 6 2.25h12A3.75 3.75 0 0 1 21.75 6v12A3.75 3.75 =
+0 0 1 18 21.75H6A3.75 3.75 0 0 1 2.25 18V6ZM6 3.75A2.25 2.25 0 0 0 3.75 6v1=
+2A2.25 2.25 0 0 0 6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 =
+3.75H6ZM6.25 8A.75.75 0 0 1 7 7.25h10a.75.75 0 0 1 0 1.5H7A.75.75 0 0 1 6.2=
+5 8Zm0 4a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75Zm=
+0 4a.75.75 0 0 1 .75-.75h10a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75Z" cli=
+p-rule=3D"evenodd"></path></svg><div class=3D" useView_view__C2mnv css-c25p=
+8t">Format</div></button></div></div></div><div class=3D"css-1vdup0e"><div =
+data-cy=3D"workspace-cm-editor-style.css" class=3D"css-5zpaww"><div class=
+=3D"css-19w5vye"><div class=3D"cm-editor =CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =
+=CD=BCt =CD=BCo =CD=BC2z =CD=BC2y =CD=BCr =CD=BC2t =CD=BC2s =CD=BCq =CD=BC3=
+4 =CD=BC30 =CD=BC2q =CD=BC2r =CD=BC32 =CD=BC2x =CD=BC2w =CD=BC2v =CD=BC2u =
+=CD=BC2o =CD=BC2m =CD=BCp =CD=BC2n =CD=BC33 =CD=BC2f =CD=BC3b =CD=BCv =CD=
+=BCw =CD=BCz =CD=BC16 cm-with-scrollbar"><div class=3D"cm-announced" aria-l=
+ive=3D"polite"></div><div tabindex=3D"-1" class=3D"cm-scroller"><div class=
+=3D"cm-gutters" aria-hidden=3D"true" style=3D"min-height: 3499px; position:=
+ sticky;"><div class=3D"cm-gutter cm-diff-gutter"><div class=3D"cm-gutterEl=
+ement cm-diff-gutter-element cm-diff-gutter-element-file-added" style=3D"he=
+ight: 0px; visibility: hidden; pointer-events: none;"></div><div class=3D"c=
+m-gutterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" st=
+yle=3D"height: 21px; margin-top: 4px;"></div><div class=3D"cm-gutterElement=
+ cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"height: =
+21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-=
+gutter-element-insertion" style=3D"height: 42px;"></div><div class=3D"cm-gu=
+tterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" style=
 =3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-elem=
-ent cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><div class=
-=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-empty" s=
-tyle=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-=
-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><div cl=
-ass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-empty=
-" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutt=
-er-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><div=
- class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-em=
-pty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-g=
-utter-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></div><=
-div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element=
--empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-dif=
-f-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21px;"></di=
-v><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-elem=
-ent-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-=
-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21px;"><=
-/div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-e=
-lement-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement =
-cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21px;=
-"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutte=
-r-element-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterEleme=
-nt cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height: 21=
-px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gu=
-tter-element-empty" style=3D"height: 21px;"></div><div class=3D"cm-gutterEl=
-ement cm-diff-gutter-element cm-diff-gutter-element-empty" style=3D"height:=
+ent cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div cl=
+ass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-inser=
+tion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-=
+gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;"></=
+div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-el=
+ement-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterEleme=
+nt cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"height=
+: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-dif=
+f-gutter-element-insertion cm-activeLineGutter" style=3D"height: 21px;"></d=
+iv><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-ele=
+ment-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElemen=
+t cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"height:=
  21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff=
--gutter-element-empty" style=3D"height: 21px;"></div></div><div class=3D"cm=
--gutter cm-diff-gutter"><div class=3D"cm-gutterElement cm-diff-gutter-eleme=
-nt cm-diff-gutter-element-empty" style=3D"height: 0px; visibility: hidden; =
-pointer-events: none;"></div><div class=3D"cm-gutterElement" style=3D"heigh=
-t: 21px; margin-top: 4px;"></div><div class=3D"cm-gutterElement" style=3D"h=
-eight: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 42px;"=
+-gutter-element-modified" style=3D"height: 21px;"></div><div class=3D"cm-gu=
+tterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" style=
+=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-elem=
+ent cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div cl=
+ass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-inser=
+tion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-=
+gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;"></=
+div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-el=
+ement-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterEleme=
+nt cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"height=
+: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-dif=
+f-gutter-element-insertion" style=3D"height: 21px;"></div><div class=3D"cm-=
+gutterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" styl=
+e=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-ele=
+ment cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div c=
+lass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-inse=
+rtion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff=
+-gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;"><=
+/div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-e=
+lement-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElem=
+ent cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"heigh=
+t: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-di=
+ff-gutter-element-insertion" style=3D"height: 21px;"></div><div class=3D"cm=
+-gutterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" sty=
+le=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-el=
+ement cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div =
+class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-ins=
+ertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-dif=
+f-gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;">=
+</div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-=
+element-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterEle=
+ment cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"heig=
+ht: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-d=
+iff-gutter-element-insertion" style=3D"height: 21px;"></div><div class=3D"c=
+m-gutterElement cm-diff-gutter-element cm-diff-gutter-element-insertion" st=
+yle=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-e=
+lement cm-diff-gutter-element-insertion" style=3D"height: 21px;"></div><div=
+ class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-in=
+sertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement cm-di=
+ff-gutter-element cm-diff-gutter-element-insertion" style=3D"height: 21px;"=
+></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter=
+-element-insertion" style=3D"height: 21px;"></div><div class=3D"cm-gutterEl=
+ement cm-diff-gutter-element cm-diff-gutter-element-insertion" style=3D"hei=
+ght: 21px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-=
+diff-gutter-element-insertion" style=3D"height: 21px;"></div></div><div cla=
+ss=3D"cm-gutter cm-diff-gutter"><div class=3D"cm-gutterElement cm-diff-gutt=
+er-element cm-diff-gutter-element-empty" style=3D"height: 0px; visibility: =
+hidden; pointer-events: none;"></div><div class=3D"cm-gutterElement" style=
+=3D"height: 21px; margin-top: 4px;"></div><div class=3D"cm-gutterElement" s=
+tyle=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"heigh=
+t: 42px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></d=
+iv><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=
+=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gutter=
+Element" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" styl=
+e=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: =
+21px;"></div><div class=3D"cm-gutterElement cm-activeLineGutter" style=3D"h=
+eight: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"=
 ></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div c=
 lass=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gu=
 tterElement" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" =
@@ -2368,375 +2378,370 @@ div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"=
 cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gutterElem=
 ent" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D=
 "height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px=
-;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div=
- class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-=
-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement=
-" style=3D"height: 21px;"></div><div class=3D"cm-gutterElement" style=3D"he=
-ight: 21px;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;">=
-</div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div><div cl=
-ass=3D"cm-gutterElement" style=3D"height: 21px;"></div><div class=3D"cm-gut=
-terElement" style=3D"height: 21px;"></div></div><div class=3D"cm-gutter cm-=
-lineNumbers"><div class=3D"cm-gutterElement" style=3D"height: 0px; visibili=
-ty: hidden; pointer-events: none;">999</div><div class=3D"cm-gutterElement"=
- style=3D"height: 21px; margin-top: 4px;">1</div><div class=3D"cm-gutterEle=
-ment" style=3D"height: 21px;">2</div><div class=3D"cm-gutterElement" style=
-=3D"height: 42px;">3</div><div class=3D"cm-gutterElement" style=3D"height: =
-21px;">4</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">5</di=
-v><div class=3D"cm-gutterElement" style=3D"height: 21px;">6</div><div class=
-=3D"cm-gutterElement" style=3D"height: 21px;">7</div><div class=3D"cm-gutte=
-rElement" style=3D"height: 21px;">8</div><div class=3D"cm-gutterElement" st=
-yle=3D"height: 21px;">9</div><div class=3D"cm-gutterElement" style=3D"heigh=
-t: 21px;">10</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">1=
-1</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">12</div><div=
- class=3D"cm-gutterElement" style=3D"height: 21px;">13</div><div class=3D"c=
-m-gutterElement" style=3D"height: 21px;">14</div><div class=3D"cm-gutterEle=
-ment" style=3D"height: 21px;">15</div><div class=3D"cm-gutterElement" style=
-=3D"height: 21px;">16</div><div class=3D"cm-gutterElement" style=3D"height:=
- 21px;">17</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">18<=
-/div><div class=3D"cm-gutterElement" style=3D"height: 21px;">19</div><div c=
-lass=3D"cm-gutterElement" style=3D"height: 21px;">20</div><div class=3D"cm-=
-gutterElement" style=3D"height: 21px;">21</div><div class=3D"cm-gutterEleme=
-nt" style=3D"height: 21px;">22</div><div class=3D"cm-gutterElement" style=
-=3D"height: 21px;">23</div><div class=3D"cm-gutterElement" style=3D"height:=
- 21px;">24</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">25<=
-/div><div class=3D"cm-gutterElement" style=3D"height: 21px;">26</div><div c=
-lass=3D"cm-gutterElement" style=3D"height: 21px;">27</div><div class=3D"cm-=
-gutterElement" style=3D"height: 21px;">28</div><div class=3D"cm-gutterEleme=
-nt" style=3D"height: 21px;">29</div><div class=3D"cm-gutterElement" style=
-=3D"height: 21px;">30</div><div class=3D"cm-gutterElement" style=3D"height:=
- 21px;">31</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">32<=
-/div><div class=3D"cm-gutterElement" style=3D"height: 21px;">33</div><div c=
-lass=3D"cm-gutterElement" style=3D"height: 21px;">34</div><div class=3D"cm-=
-gutterElement" style=3D"height: 21px;">35</div><div class=3D"cm-gutterEleme=
-nt" style=3D"height: 21px;">36</div><div class=3D"cm-gutterElement" style=
-=3D"height: 21px;">37</div><div class=3D"cm-gutterElement" style=3D"height:=
- 21px;">38</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">39<=
-/div><div class=3D"cm-gutterElement" style=3D"height: 21px;">40</div><div c=
-lass=3D"cm-gutterElement" style=3D"height: 21px;">41</div></div><div class=
-=3D"cm-gutter cm-foldGutter"><div class=3D"cm-gutterElement" style=3D"heigh=
-t: 0px; visibility: hidden; pointer-events: none;"><div class=3D"cm-gutter-=
-fold-marker is-folded" title=3D"Unfold block"></div></div><div class=3D"cm-=
-gutterElement" style=3D"height: 21px; margin-top: 4px;"><div class=3D"cm-gu=
-tter-fold-marker" title=3D"Fold block"></div></div><div class=3D"cm-gutterE=
-lement" style=3D"height: 21px; margin-top: 231px;"><div class=3D"cm-gutter-=
-fold-marker" title=3D"Fold block"></div></div><div class=3D"cm-gutterElemen=
-t" style=3D"height: 21px; margin-top: 231px;"><div class=3D"cm-gutter-fold-=
-marker" title=3D"Fold block"></div></div><div class=3D"cm-gutterElement" st=
-yle=3D"height: 21px; margin-top: 84px;"><div class=3D"cm-gutter-fold-marker=
-" title=3D"Fold block"></div></div><div class=3D"cm-gutterElement" style=3D=
-"height: 21px; margin-top: 105px;"><div class=3D"cm-gutter-fold-marker" tit=
-le=3D"Fold block"></div></div></div></div><div spellcheck=3D"false" autocor=
-rect=3D"off" autocapitalize=3D"off" translate=3D"no" contenteditable=3D"tru=
-e" style=3D"tab-size: 2; padding-bottom: 471.5px;" class=3D"cm-content cm-l=
-ineWrapping" role=3D"textbox" aria-multiline=3D"true" data-language=3D"css"=
- data-gramm=3D"false" data-gramm_editor=3D"false" data-enabled-grammarly=3D=
-"false" aria-autocomplete=3D"list"><div class=3D"cm-line"><span class=3D"=
-=CD=BC27">body</span> <span class=3D"=CD=BC1f">{</span></div><div class=3D"=
-cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-grad=
-ient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.=
-5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">font-family</spa=
-n>: <span class=3D"=CD=BC1m">'Segoe UI'</span>, <span class=3D"=CD=BC29">sa=
-ns-serif</span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--i=
-ndent-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-c=
-olor) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span=
- class=3D"=CD=BC1z">background</span>: <span class=3D"=CD=BC2a">linear-grad=
-ient</span><span class=3D"=CD=BC1f">(</span><span class=3D"=CD=BC29">to</sp=
-an> <span class=3D"=CD=BC29">right</span>, <img class=3D"cm-widgetBuffer" a=
-ria-hidden=3D"true"><span class=3D"cm-css-color-picker-wrapper" contentedit=
-able=3D"false"><input type=3D"color"></span><span class=3D"=CD=BC1o">#fceab=
-b</span>, <img class=3D"cm-widgetBuffer" aria-hidden=3D"true"><span class=
-=3D"cm-css-color-picker-wrapper" contenteditable=3D"false"><input type=3D"c=
-olor"></span><span class=3D"=CD=BC1o">#f8b500</span><span class=3D"=CD=BC1f=
-">)</span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent=
--markers: repeating-linear-gradient(to right, var(--indent-marker-bg-color)=
- 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span clas=
-s=3D"=CD=BC1z">margin</span>: <span class=3D"=CD=BC1w">0</span>;</div><div =
+;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px;"></div></di=
+v><div class=3D"cm-gutter cm-lineNumbers"><div class=3D"cm-gutterElement" s=
+tyle=3D"height: 0px; visibility: hidden; pointer-events: none;">999</div><d=
+iv class=3D"cm-gutterElement" style=3D"height: 21px; margin-top: 4px;">1</d=
+iv><div class=3D"cm-gutterElement" style=3D"height: 21px;">2</div><div clas=
+s=3D"cm-gutterElement" style=3D"height: 42px;">3</div><div class=3D"cm-gutt=
+erElement" style=3D"height: 21px;">4</div><div class=3D"cm-gutterElement" s=
+tyle=3D"height: 21px;">5</div><div class=3D"cm-gutterElement" style=3D"heig=
+ht: 21px;">6</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">7=
+</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">8</div><div c=
+lass=3D"cm-gutterElement" style=3D"height: 21px;">9</div><div class=3D"cm-g=
+utterElement cm-activeLineGutter" style=3D"height: 21px;">10</div><div clas=
+s=3D"cm-gutterElement" style=3D"height: 21px;">11</div><div class=3D"cm-gut=
+terElement" style=3D"height: 21px;">12</div><div class=3D"cm-gutterElement"=
+ style=3D"height: 21px;">13</div><div class=3D"cm-gutterElement" style=3D"h=
+eight: 21px;">14</div><div class=3D"cm-gutterElement" style=3D"height: 21px=
+;">15</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">16</div>=
+<div class=3D"cm-gutterElement" style=3D"height: 21px;">17</div><div class=
+=3D"cm-gutterElement" style=3D"height: 21px;">18</div><div class=3D"cm-gutt=
+erElement" style=3D"height: 21px;">19</div><div class=3D"cm-gutterElement" =
+style=3D"height: 21px;">20</div><div class=3D"cm-gutterElement" style=3D"he=
+ight: 21px;">21</div><div class=3D"cm-gutterElement" style=3D"height: 21px;=
+">22</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">23</div><=
+div class=3D"cm-gutterElement" style=3D"height: 21px;">24</div><div class=
+=3D"cm-gutterElement" style=3D"height: 21px;">25</div><div class=3D"cm-gutt=
+erElement" style=3D"height: 21px;">26</div><div class=3D"cm-gutterElement" =
+style=3D"height: 21px;">27</div><div class=3D"cm-gutterElement" style=3D"he=
+ight: 21px;">28</div><div class=3D"cm-gutterElement" style=3D"height: 21px;=
+">29</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">30</div><=
+div class=3D"cm-gutterElement" style=3D"height: 21px;">31</div><div class=
+=3D"cm-gutterElement" style=3D"height: 21px;">32</div><div class=3D"cm-gutt=
+erElement" style=3D"height: 21px;">33</div><div class=3D"cm-gutterElement" =
+style=3D"height: 21px;">34</div><div class=3D"cm-gutterElement" style=3D"he=
+ight: 21px;">35</div><div class=3D"cm-gutterElement" style=3D"height: 21px;=
+">36</div><div class=3D"cm-gutterElement" style=3D"height: 21px;">37</div><=
+div class=3D"cm-gutterElement" style=3D"height: 21px;">38</div><div class=
+=3D"cm-gutterElement" style=3D"height: 21px;">39</div><div class=3D"cm-gutt=
+erElement" style=3D"height: 21px;">40</div><div class=3D"cm-gutterElement" =
+style=3D"height: 21px;">41</div></div><div class=3D"cm-gutter cm-foldGutter=
+"><div class=3D"cm-gutterElement" style=3D"height: 0px; visibility: hidden;=
+ pointer-events: none;"><div class=3D"cm-gutter-fold-marker is-folded" titl=
+e=3D"Unfold block"></div></div><div class=3D"cm-gutterElement" style=3D"hei=
+ght: 21px; margin-top: 4px;"><div class=3D"cm-gutter-fold-marker" title=3D"=
+Fold block"></div></div><div class=3D"cm-gutterElement cm-activeLineGutter"=
+ style=3D"height: 21px; margin-top: 189px;"></div><div class=3D"cm-gutterEl=
+ement" style=3D"height: 21px; margin-top: 21px;"><div class=3D"cm-gutter-fo=
+ld-marker" title=3D"Fold block"></div></div><div class=3D"cm-gutterElement"=
+ style=3D"height: 21px; margin-top: 231px;"><div class=3D"cm-gutter-fold-ma=
+rker" title=3D"Fold block"></div></div><div class=3D"cm-gutterElement" styl=
+e=3D"height: 21px; margin-top: 84px;"><div class=3D"cm-gutter-fold-marker" =
+title=3D"Fold block"></div></div><div class=3D"cm-gutterElement" style=3D"h=
+eight: 21px; margin-top: 105px;"><div class=3D"cm-gutter-fold-marker" title=
+=3D"Fold block"></div></div></div></div><div spellcheck=3D"false" autocorre=
+ct=3D"off" autocapitalize=3D"off" translate=3D"no" contenteditable=3D"true"=
+ style=3D"tab-size: 2; padding-bottom: 471.5px;" class=3D"cm-content cm-lin=
+eWrapping" role=3D"textbox" aria-multiline=3D"true" data-language=3D"css" d=
+ata-gramm=3D"false" data-gramm_editor=3D"false" data-enabled-grammarly=3D"f=
+alse" aria-autocomplete=3D"list"><div class=3D"cm-line"><span class=3D"=CD=
+=BC27">body</span> <span class=3D"cm-matchingBracket"><span class=3D"=CD=BC=
+1f">{</span></span></div><div class=3D"cm-indent-markers cm-line" style=3D"=
+--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-a=
+ctive-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat=
+;">  <span class=3D"=CD=BC1z">font-family</span>: <span class=3D"=CD=BC1m">=
+'Segoe UI'</span>, <span class=3D"=CD=BC29">sans-serif</span>;</div><div cl=
+ass=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-line=
+ar-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transpare=
+nt 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">ba=
+ckground</span>: <span class=3D"=CD=BC2a">linear-gradient</span><span class=
+=3D"=CD=BC1f">(</span><span class=3D"=CD=BC29">to</span> <span class=3D"=CD=
+=BC29">right</span>, <img class=3D"cm-widgetBuffer" aria-hidden=3D"true"><s=
+pan class=3D"cm-css-color-picker-wrapper" contenteditable=3D"false"><input =
+type=3D"color"></span><span class=3D"=CD=BC1o">#fceabb</span>, <img class=
+=3D"cm-widgetBuffer" aria-hidden=3D"true"><span class=3D"cm-css-color-picke=
+r-wrapper" contenteditable=3D"false"><input type=3D"color"></span><span cla=
+ss=3D"=CD=BC1o">#f8b500</span><span class=3D"=CD=BC1f">)</span>;</div><div =
 class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-li=
-near-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1p=
-x 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">padding=
-</span>: <span class=3D"=CD=BC1w">0</span>;</div><div class=3D"cm-indent-ma=
-rkers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to righ=
-t, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch=
- - 1px) no-repeat;">  <span class=3D"=CD=BC1z">display</span>: <span class=
+near-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transpa=
+rent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">=
+margin</span>: <span class=3D"=CD=BC1w">0</span>;</div><div class=3D"cm-ind=
+ent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient(t=
+o right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0=
+.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">padding</span>:=
+ <span class=3D"=CD=BC1w">0</span>;</div><div class=3D"cm-indent-markers cm=
+-line" style=3D"--indent-markers: repeating-linear-gradient(to right, var(-=
+-indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch =
+- 1px) no-repeat;">  <span class=3D"=CD=BC1z">display</span>: <span class=
 =3D"=CD=BC29">flex</span>;</div><div class=3D"cm-indent-markers cm-line" st=
 yle=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-m=
-arker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat=
-;">  <span class=3D"=CD=BC1z">justify-content</span>: <span class=3D"=CD=BC=
-29">center</span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"-=
--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-bg=
--color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <sp=
-an class=3D"=CD=BC1z">align-items</span>: <span class=3D"=CD=BC29">center</=
+arker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no=
+-repeat;">  <span class=3D"=CD=BC1z">justify-content</span>: <span class=3D=
+"=CD=BC29">center</span>;</div><div class=3D"cm-indent-markers cm-line" sty=
+le=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-ma=
+rker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-=
+repeat;">  <span class=3D"=CD=BC1z">align-items</span>: <span class=3D"=CD=
+=BC29">center</span>;</div><div class=3D"cm-indent-markers cm-line" style=
+=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mark=
+er-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-re=
+peat;">  <span class=3D"=CD=BC1z">min-height</span>: <span class=3D"=CD=BC1=
+w">100</span><span class=3D"=CD=BC2a">vh</span>;</div><div class=3D"cm-repl=
+it-active-line cm-line"><span class=3D"cm-matchingBracket"><span class=3D"=
+=CD=BC1f">}</span></span></div><div class=3D"cm-line"><br></div><div class=
+=3D"cm-line">.<span class=3D"=CD=BC23">game-container</span> <span class=3D=
+"=CD=BC1f">{</span></div><div class=3D"cm-indent-markers cm-line" style=3D"=
+--indent-markers: repeating-linear-gradient(to right, var(--indent-marker-b=
+g-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <s=
+pan class=3D"=CD=BC1z">background</span>: <img class=3D"cm-widgetBuffer" ar=
+ia-hidden=3D"true"><span class=3D"cm-css-color-picker-wrapper" contentedita=
+ble=3D"false"><input type=3D"color"></span><span class=3D"=CD=BC29">white</=
 span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-mark=
 ers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1p=
 x, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=
-=CD=BC1z">min-height</span>: <span class=3D"=CD=BC1w">100</span><span class=
-=3D"=CD=BC2a">vh</span>;</div><div class=3D"cm-line"><span class=3D"=CD=BC1=
-f">}</span></div><div class=3D"cm-line"><br></div><div class=3D"cm-line">.<=
-span class=3D"=CD=BC23">game-container</span> <span class=3D"=CD=BC1f">{</s=
-pan></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-marker=
-s: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px,=
- transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=
-=CD=BC1z">background</span>: <img class=3D"cm-widgetBuffer" aria-hidden=3D"=
-true"><span class=3D"cm-css-color-picker-wrapper" contenteditable=3D"false"=
-><input type=3D"color"></span><span class=3D"=CD=BC29">white</span>;</div><=
-div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeatin=
-g-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparen=
-t 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">pad=
-ding</span>: <span class=3D"=CD=BC1w">30</span><span class=3D"=CD=BC2a">px<=
-/span> <span class=3D"=CD=BC1w">20</span><span class=3D"=CD=BC2a">px</span>=
-;</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: =
+=CD=BC1z">padding</span>: <span class=3D"=CD=BC1w">30</span><span class=3D"=
+=CD=BC2a">px</span> <span class=3D"=CD=BC1w">20</span><span class=3D"=CD=BC=
+2a">px</span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--ind=
+ent-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-col=
+or) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span c=
+lass=3D"=CD=BC1z">border-radius</span>: <span class=3D"=CD=BC1w">16</span><=
+span class=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-indent-markers cm-=
+line" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--=
+indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) n=
+o-repeat;">  <span class=3D"=CD=BC1z">box-shadow</span>: <span class=3D"=CD=
+=BC1w">0</span> <span class=3D"=CD=BC1w">8</span><span class=3D"=CD=BC2a">p=
+x</span> <span class=3D"=CD=BC1w">20</span><span class=3D"=CD=BC2a">px</spa=
+n> <img class=3D"cm-widgetBuffer" aria-hidden=3D"true"><span class=3D"cm-cs=
+s-color-picker-wrapper" contenteditable=3D"false"><input type=3D"color"></s=
+pan><span class=3D"=CD=BC2a">rgba</span><span class=3D"=CD=BC1f">(</span><s=
+pan class=3D"=CD=BC1w">0</span>, <span class=3D"=CD=BC1w">0</span>, <span c=
+lass=3D"=CD=BC1w">0</span>, <span class=3D"=CD=BC1w">0.2</span><span class=
+=3D"=CD=BC1f">)</span>;</div><div class=3D"cm-indent-markers cm-line" style=
+=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mark=
+er-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">=
+  <span class=3D"=CD=BC1z">text-align</span>: <span class=3D"=CD=BC29">cent=
+er</span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-=
+markers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) =
+0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=
+=3D"=CD=BC1z">width</span>: <span class=3D"=CD=BC1w">100</span><span class=
+=3D"=CD=BC2a">%</span>;</div><div class=3D"cm-indent-markers cm-line" style=
+=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mark=
+er-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">=
+  <span class=3D"=CD=BC1z">max-width</span>: <span class=3D"=CD=BC1w">400</=
+span><span class=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-indent-marke=
+rs cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right, =
+var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - =
+1px) no-repeat;">  <span class=3D"=CD=BC1z">box-sizing</span>: <span class=
+=3D"=CD=BC29">border-box</span>;</div><div class=3D"cm-indent-markers cm-li=
+ne" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--in=
+dent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-=
+repeat;">  <span class=3D"=CD=BC1z">animation</span>: <span class=3D"=CD=BC=
+29">fadeIn</span> <span class=3D"=CD=BC1w">0.5</span><span class=3D"=CD=BC2=
+a">s</span> <span class=3D"=CD=BC29">ease</span>;</div><div class=3D"cm-lin=
+e"><span class=3D"=CD=BC1f">}</span></div><div class=3D"cm-line"><br></div>=
+<div class=3D"cm-line"><span class=3D"=CD=BC27">h1</span> <span class=3D"=
+=CD=BC1f">{</span></div><div class=3D"cm-indent-markers cm-line" style=3D"-=
+-indent-markers: repeating-linear-gradient(to right, var(--indent-marker-bg=
+-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <sp=
+an class=3D"=CD=BC1z">margin-bottom</span>: <span class=3D"=CD=BC1w">10</sp=
+an><span class=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-indent-markers=
+ cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right, va=
+r(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1p=
+x) no-repeat;">  <span class=3D"=CD=BC1z">color</span>: <img class=3D"cm-wi=
+dgetBuffer" aria-hidden=3D"true"><span class=3D"cm-css-color-picker-wrapper=
+" contenteditable=3D"false"><input type=3D"color"></span><span class=3D"=CD=
+=BC1o">#333</span>;</div><div class=3D"cm-line"><span class=3D"=CD=BC1f">}<=
+/span></div><div class=3D"cm-line"><br></div><div class=3D"cm-line"><span c=
+lass=3D"=CD=BC27">p</span> <span class=3D"=CD=BC1f">{</span></div><div clas=
+s=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linear=
+-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2c=
+h) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">color</span=
+>: <img class=3D"cm-widgetBuffer" aria-hidden=3D"true"><span class=3D"cm-cs=
+s-color-picker-wrapper" contenteditable=3D"false"><input type=3D"color"></s=
+pan><span class=3D"=CD=BC1o">#444</span>;</div><div class=3D"cm-indent-mark=
+ers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right,=
+ var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch -=
+ 1px) no-repeat;">  <span class=3D"=CD=BC1z">font-size</span>: <span class=
+=3D"=CD=BC1w">16</span><span class=3D"=CD=BC2a">px</span>;</div><div class=
+=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-=
+gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch=
+) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">margin</span=
+>: <span class=3D"=CD=BC1w">8</span><span class=3D"=CD=BC2a">px</span> <spa=
+n class=3D"=CD=BC1w">0</span>;</div><div class=3D"cm-line"><span class=3D"=
+=CD=BC1f">}</span></div><div class=3D"cm-line"><br></div><div class=3D"cm-l=
+ine"><span class=3D"=CD=BC27">input</span> <span class=3D"=CD=BC1f">{</span=
+></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: =
 repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, tr=
 ansparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=
-=BC1z">border-radius</span>: <span class=3D"=CD=BC1w">16</span><span class=
-=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-indent-markers cm-line" styl=
-e=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mar=
-ker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;"=
->  <span class=3D"=CD=BC1z">box-shadow</span>: <span class=3D"=CD=BC1w">0</=
-span> <span class=3D"=CD=BC1w">8</span><span class=3D"=CD=BC2a">px</span> <=
-span class=3D"=CD=BC1w">20</span><span class=3D"=CD=BC2a">px</span> <img cl=
-ass=3D"cm-widgetBuffer" aria-hidden=3D"true"><span class=3D"cm-css-color-pi=
-cker-wrapper" contenteditable=3D"false"><input type=3D"color"></span><span =
-class=3D"=CD=BC2a">rgba</span><span class=3D"=CD=BC1f">(</span><span class=
-=3D"=CD=BC1w">0</span>, <span class=3D"=CD=BC1w">0</span>, <span class=3D"=
-=CD=BC1w">0</span>, <span class=3D"=CD=BC1w">0.2</span><span class=3D"=CD=
-=BC1f">)</span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--i=
-ndent-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-c=
-olor) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span=
- class=3D"=CD=BC1z">text-align</span>: <span class=3D"=CD=BC29">center</spa=
-n>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers=
-: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, =
-transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=
-=BC1z">width</span>: <span class=3D"=CD=BC1w">100</span><span class=3D"=CD=
-=BC2a">%</span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--i=
-ndent-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-c=
-olor) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span=
- class=3D"=CD=BC1z">max-width</span>: <span class=3D"=CD=BC1w">400</span><s=
+=BC1z">padding</span>: <span class=3D"=CD=BC1w">12</span><span class=3D"=CD=
+=BC2a">px</span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--=
+indent-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-=
+color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <spa=
+n class=3D"=CD=BC1z">font-size</span>: <span class=3D"=CD=BC1w">18</span><s=
 pan class=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-indent-markers cm-l=
 ine" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--i=
 ndent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no=
--repeat;">  <span class=3D"=CD=BC1z">box-sizing</span>: <span class=3D"=CD=
-=BC29">border-box</span>;</div><div class=3D"cm-indent-markers cm-line" sty=
-le=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-ma=
-rker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;=
-">  <span class=3D"=CD=BC1z">animation</span>: <span class=3D"=CD=BC29">fad=
-eIn</span> <span class=3D"=CD=BC1w">0.5</span><span class=3D"=CD=BC2a">s</s=
-pan> <span class=3D"=CD=BC29">ease</span>;</div><div class=3D"cm-line"><spa=
-n class=3D"=CD=BC1f">}</span></div><div class=3D"cm-line"><br></div><div cl=
-ass=3D"cm-line"><span class=3D"=CD=BC27">h1</span> <span class=3D"=CD=BC1f"=
->{</span></div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-m=
-arkers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0=
- 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=
-=3D"=CD=BC1z">margin-bottom</span>: <span class=3D"=CD=BC1w">10</span><span=
- class=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-indent-markers cm-line=
-" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--inde=
-nt-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-re=
-peat;">  <span class=3D"=CD=BC1z">color</span>: <img class=3D"cm-widgetBuff=
-er" aria-hidden=3D"true"><span class=3D"cm-css-color-picker-wrapper" conten=
-teditable=3D"false"><input type=3D"color"></span><span class=3D"=CD=BC1o">#=
-333</span>;</div><div class=3D"cm-line"><span class=3D"=CD=BC1f">}</span></=
-div><div class=3D"cm-line"><br></div><div class=3D"cm-line"><span class=3D"=
-=CD=BC27">p</span> <span class=3D"=CD=BC1f">{</span></div><div class=3D"cm-=
-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradien=
-t(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch=
-/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">color</span>: <img =
-class=3D"cm-widgetBuffer" aria-hidden=3D"true"><span class=3D"cm-css-color-=
-picker-wrapper" contenteditable=3D"false"><input type=3D"color"></span><spa=
-n class=3D"=CD=BC1o">#444</span>;</div><div class=3D"cm-indent-markers cm-l=
-ine" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--i=
-ndent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no=
--repeat;">  <span class=3D"=CD=BC1z">font-size</span>: <span class=3D"=CD=
-=BC1w">16</span><span class=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-i=
-ndent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient=
-(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/=
-calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">margin</span>: <span=
- class=3D"=CD=BC1w">8</span><span class=3D"=CD=BC2a">px</span> <span class=
-=3D"=CD=BC1w">0</span>;</div><div class=3D"cm-line"><span class=3D"=CD=BC1f=
-">}</span></div><div class=3D"cm-line"><br></div><div class=3D"cm-line"><sp=
-an class=3D"=CD=BC27">input</span> <span class=3D"=CD=BC1f">{</span></div><=
-div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeatin=
-g-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparen=
-t 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">pad=
-ding</span>: <span class=3D"=CD=BC1w">12</span><span class=3D"=CD=BC2a">px<=
-/span>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-mar=
-kers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1=
-px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D=
-"=CD=BC1z">font-size</span>: <span class=3D"=CD=BC1w">18</span><span class=
-=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-indent-markers cm-line" styl=
-e=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mar=
-ker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;"=
->  <span class=3D"=CD=BC1z">width</span>: <span class=3D"=CD=BC1w">100</spa=
-n><span class=3D"=CD=BC2a">%</span>;</div><div class=3D"cm-indent-markers c=
-m-line" style=3D"--indent-markers: repeating-linear-gradient(to right, var(=
---indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px)=
- no-repeat;">  <span class=3D"=CD=BC1z">margin-top</span>: <span class=3D"=
-=CD=BC1w">10</span><span class=3D"=CD=BC2a">px</span>;</div><div class=3D"c=
-m-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradi=
-ent(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5=
-ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">border</span>: <s=
-pan class=3D"=CD=BC1w">2</span><span class=3D"=CD=BC2a">px</span> <span cla=
-ss=3D"=CD=BC29">solid</span> <img class=3D"cm-widgetBuffer" aria-hidden=3D"=
-true"><span class=3D"cm-css-color-picker-wrapper" contenteditable=3D"false"=
-><input type=3D"color"></span><span class=3D"=CD=BC1o">#ddd</span>;</div><d=
-iv class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating=
--linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent=
- 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">bord=
-er-radius</span>: <span class=3D"=CD=BC1w">8</span><span class=3D"=CD=BC2a"=
->px</span>;</div><div class=3D"cm-gap" style=3D"height: 2037px;"></div><div=
- class=3D"cm-replit-active-line cm-line">  button <span class=3D"cm-matchin=
-gBracket">{</span></div><div class=3D"cm-gap" style=3D"height: 84px;"></div=
-></div><div class=3D"cm-scrollbar-gutter"><div class=3D"cm-scrollbar-inner"=
-><canvas aria-hidden=3D"true" width=3D"28" height=3D"994"></canvas><div cla=
-ss=3D"cm-scrollbar-overlay-container" role=3D"presentation" aria-hidden=3D"=
-true"><div class=3D"cm-scrollbar-overlay" style=3D"--cm-scrollbar-overlay-h=
-eight: 14.204058302372106%; top: 0px;"></div></div></div></div><div class=
-=3D"cm-right-gutters" aria-hidden=3D"true" style=3D"width: 0px; min-height:=
- 3499px; position: sticky; right: 0px;"><div class=3D"cm-gutter cm-thread-i=
-ndicator-gutter"><div class=3D"cm-gutterElement" style=3D"height: 0px; visi=
-bility: hidden; pointer-events: none;"><cm-editor-lifecycle class=3D"cm-thr=
-ead-indicator" aria-hidden=3D"true" style=3D"display: inline; cursor: point=
-er;"><button class=3D" useView_view__C2mnv thread-indicator css-1iysqm2" ty=
-pe=3D"button" aria-label=3D"View threads" style=3D"--height: 24px; --width:=
- 24px;"><span class=3D"css-k008qs"><svg width=3D"12" height=3D"12" viewBox=
-=3D"0 0 24 24" fill=3D"none" xmlns=3D"http://www.w3.org/2000/svg" style=3D"=
-color: currentcolor;"><path d=3D"M21 15C21 15.5304 20.7893 16.0391 20.4142 =
-16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086=
- 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071=
- 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke=3D"currentColo=
-r" stroke-width=3D"3" stroke-linecap=3D"round" stroke-linejoin=3D"round"></=
-path></svg></span></button></cm-editor-lifecycle></div></div></div><div cla=
-ss=3D"cm-layer cm-multiplayer-cursor-layer" aria-hidden=3D"true" style=3D"z=
--index: -1;"></div><div class=3D"cm-layer cm-layer-above cm-cursorLayer" ar=
-ia-hidden=3D"true" style=3D"z-index: 148; animation-duration: 1200ms; anima=
-tion-name: cm-blink;"><div class=3D"cm-cursor cm-cursor-primary" style=3D"l=
-eft: 142.33px; top: 2924.45px; height: 16.7273px;"></div></div><div class=
-=3D"cm-layer cm-selectionLayer" aria-hidden=3D"true" style=3D"z-index: -4;"=
-></div><div class=3D"cm-layer cm-active-line-layer" aria-hidden=3D"true" st=
-yle=3D"z-index: -5;"><div class=3D"cm-active-line-layer-element" style=3D"l=
-eft: 0px; top: 2923px; height: 21px;"></div></div><div class=3D"cm-layer cm=
--layer-above cm-empty-state-layer" aria-hidden=3D"true" style=3D"z-index: 1=
-45;"></div><div class=3D"cm-layer" aria-hidden=3D"true" style=3D"z-index: -=
-7;"></div><div class=3D"cm-layer cm-layer-above cm-ghostwriter-hint-layer" =
-aria-hidden=3D"true" style=3D"z-index: 149;"></div><div class=3D"cm-layer c=
-m-layer-above cm-selection-controls-layer" aria-hidden=3D"true" style=3D"z-=
-index: 143;"></div></div><cm-editor-lifecycle class=3D"cm-mounted-react-nod=
-es" style=3D"display: contents;"></cm-editor-lifecycle></div></div></div></=
-div><div style=3D"display: block;"><div class=3D" useView_view__C2mnv useVi=
-ew_isHorizontal__Q1YOp css-1tje688" style=3D"--useView--grow: 1; --useView-=
--shrink: 1;"><div class=3D" useView_view__C2mnv"><button type=3D"button" ta=
-bindex=3D"0" aria-expanded=3D"false" id=3D"react-aria8892419012-:rrn:" clas=
-s=3D"css-y7csor" data-rac=3D"" fdprocessedid=3D"nl2hp"><svg preserveAspectR=
-atio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"=
-var(--accent-blurple-default)" aria-hidden=3D"true" class=3D"css-492dz9" st=
-yle=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill=
--rule=3D"evenodd" d=3D"M15.938 1.044c-.147-.4-.73-.4-.876 0l-1.004 2.744a.4=
-58.458 0 0 1-.298.278l-2.436.746a.446.446 0 0 0 0 .857l2.437.753a.458.458 0=
- 0 1 .297.278l1.005 2.745c.146.399.728.399.874 0L16.943 6.7a.458.458 0 0 1 =
-.297-.278l2.437-.75a.446.446 0 0 0 0-.856l-2.437-.75a.458.458 0 0 1-.297-.2=
-78l-1.005-2.744Z" clip-rule=3D"evenodd"></path><path d=3D"M6.764 19.334c.12=
--.3.494-.417.778-.261.806.441 2.443 1.171 4.458 1.171s3.652-.73 4.458-1.171=
-c.284-.156.658-.04.778.261l1.215 2.539a1 1 0 0 1-.928 1.371H6.477a1 1 0 0 1=
--.928-1.371l1.215-2.539Z"></path><path fill-rule=3D"evenodd" d=3D"M10.814 1=
-.053a.75.75 0 0 1-.526.92 6.5 6.5 0 1 0 7.494 9.241.75.75 0 0 1 1.334.686A8=
- 8 0 1 1 9.893.527a.75.75 0 0 1 .921.526Z" clip-rule=3D"evenodd"></path></s=
-vg><div class=3D" useView_view__C2mnv">AI</div></button></div><div class=3D=
-" useView_view__C2mnv"><button type=3D"button" tabindex=3D"0" aria-expanded=
-=3D"false" id=3D"react-aria8892419012-:rrs:" class=3D"css-y7csor" data-rac=
-=3D"" fdprocessedid=3D"3g9nud"><div data-cy=3D"ws-code-intelligence-active"=
- class=3D" useView_view__C2mnv"><svg preserveAspectRatio=3D"xMidYMin" width=
-=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidd=
-en=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; wid=
-th: 16px; height: 16px;"><path fill=3D"var(--foreground-dimmer)" fill-rule=
-=3D"evenodd" d=3D"M6.25 4.5c-.764 0-1.407.117-1.932.37a2.49 2.49 0 0 0-1.14=
-3 1.078c-.426.79-.425 1.785-.425 2.57v.084c0 .903-.017 1.562-.263 2.018a1.0=
-37 1.037 0 0 1-.49.462c-.248.12-.637.215-1.247.215-.414 0-.75.315-.75.703 0=
- .388.336.703.75.703.61 0 .999.095 1.248.215.235.113.383.266.49.462.245.456=
-.262 1.115.262 2.018v.085c0 .784-.001 1.78.425 2.57.238.44.605.819 1.143 1.=
-078.525.252 1.168.369 1.932.369.414 0 .75-.315.75-.703 0-.389-.336-.704-.75=
--.704-.61 0-.999-.095-1.248-.214a1.037 1.037 0 0 1-.489-.462c-.246-.456-.26=
-3-1.115-.263-2.019v-.084c0-.784.001-1.78-.424-2.57A2.452 2.452 0 0 0 3.212 =
-12c.263-.214.464-.467.614-.745.425-.789.425-1.785.424-2.569v-.084c0-.904.01=
-7-1.563.263-2.02.106-.195.254-.348.49-.46.248-.12.637-.215 1.247-.215.414 0=
- .75-.315.75-.704 0-.388-.336-.703-.75-.703Zm11.5 0c-.415 0-.75.315-.75.703=
- 0 .389.335.704.75.704.61 0 .999.095 1.248.214.235.113.383.266.489.462.246.=
-456.263 1.115.263 2.019v.084c0 .784-.002 1.78.424 2.57.15.277.351.53.614.74=
-4a2.452 2.452 0 0 0-.614.745c-.425.789-.425 1.785-.424 2.569v.084c0 .904-.0=
-17 1.563-.263 2.02a1.037 1.037 0 0 1-.49.46c-.248.12-.637.215-1.247.215-.41=
-5 0-.75.315-.75.704 0 .388.335.703.75.703.764 0 1.407-.117 1.932-.37a2.49 2=
-.49 0 0 0 1.143-1.078c.426-.79.425-1.785.425-2.57v-.084c0-.903.017-1.562.26=
-3-2.018.105-.196.254-.349.49-.462.248-.12.637-.215 1.247-.215.414 0 .75-.31=
-5.75-.703 0-.388-.336-.703-.75-.703-.61 0-.999-.095-1.248-.215a1.036 1.036 =
-0 0 1-.49-.462c-.245-.456-.262-1.115-.262-2.018v-.085c0-.784.001-1.78-.425-=
-2.57a2.49 2.49 0 0 0-1.143-1.078c-.525-.252-1.168-.369-1.932-.369Z" clip-ru=
-le=3D"evenodd"></path><path fill=3D"var(--accent-positive-stronger)" d=3D"M=
-16.09 9.227a.692.692 0 0 1-.047.978l-5.077 4.615a.692.692 0 0 1-.932 0l-2.3=
-07-2.098a.692.692 0 0 1 .931-1.024l1.842 1.674 4.611-4.192a.692.692 0 0 1 .=
-978.047Z"></path></svg></div><div class=3D" useView_view__C2mnv">CSS</div><=
-/button></div><div class=3D" useView_view__C2mnv"><button type=3D"button" c=
-lass=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rs1:" tabinde=
-x=3D"0" fdprocessedid=3D"m7b0ym"><div class=3D" useView_view__C2mnv useView=
-_isHorizontal__Q1YOp" style=3D"--useView--gap: 8px; --useView--align: cente=
-r;"><div class=3D" useView_view__C2mnv css-v9redf"><div class=3D"css-1uzv2g=
-f"><div class=3D"css-a26g8n" style=3D"height: 12px; width: 12px; transform:=
- scale(0.75);"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D=
-"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-red-stronger)" aria-hidden=
-=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width=
-: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0=
- 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.7=
-5.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.=
-47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"evenodd"></path></svg></div><svg=
- preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0=
- 24 24" fill=3D"var(--accent-red-stronger)" aria-hidden=3D"true" class=3D"c=
-ss-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px=
-;"><path fill-rule=3D"evenodd" d=3D"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.=
-25 0 0 0 0-18.5ZM1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12=
- 17.937 22.75 12 22.75 1.25 17.937 1.25 12Z" clip-rule=3D"evenodd"></path><=
-/svg></div><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_single=
-Line__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(=
---font-size-small); --Text--line-height: var(--line-height-small); --Text--=
-color: var(--foreground-dimmer);">4</span></div><div class=3D" useView_view=
-__C2mnv css-v9redf"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" heig=
-ht=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-yellow-stronger)" aria=
--hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg=
-; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M10.58 3.125=
-c.673-1.167 2.357-1.167 3.03 0l9.094 15.75c.673 1.167-.169 2.625-1.516 2.62=
-5H3.002c-1.348 0-2.19-1.458-1.516-2.625l9.093-15.75Zm1.731.75a.25.25 0 0 0-=
-.433 0l-9.093 15.75a.25.25 0 0 0 .217.375h18.186a.25.25 0 0 0 .217-.375L12.=
-31 3.875Zm-.268 4.478a.75.75 0 0 1 .75.75v4a.75.75 0 1 1-1.5 0v-4a.75.75 0 =
-0 1 .75-.75Zm-.75 8.75a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 0 1.5h-.01a.75=
-.75 0 0 1-.75-.75Z" clip-rule=3D"evenodd"></path></svg><span class=3D" useV=
-iew_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--f=
-ont-family: inherit; --Text--font-size: var(--font-size-small); --Text--lin=
-e-height: var(--line-height-small); --Text--color: var(--foreground-dimmer)=
-;">0</span></div></div></button></div><div class=3D" useView_view__C2mnv"><=
-button type=3D"button" tabindex=3D"0" class=3D"css-y7csor" data-rac=3D"" id=
-=3D"react-aria8892419012-:rso:" fdprocessedid=3D"fnoblk"><svg preserveAspec=
-tRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=
-=3D"var(--foreground-dimmer)" aria-hidden=3D"true" class=3D"css-492dz9" sty=
-le=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-=
-rule=3D"evenodd" d=3D"M18 2.5H6A1.5 1.5 0 0 0 4.5 4v16A1.5 1.5 0 0 0 6 21.5=
-h12a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 18 2.5ZM6 1a3 3 0 0 0-3 3v16a3 3 =
-0 0 0 3 3h12a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H6Z" clip-rule=3D"evenodd"></path=
-><path fill-rule=3D"evenodd" d=3D"M16 17.25c0 .414-.316.75-.706.75H8.706c-.=
-39 0-.706-.336-.706-.75s.316-.75.706-.75h6.588c.39 0 .706.336.706.75ZM16 9.=
-5c0 .414-.316.75-.706.75H8.706c-.39 0-.706-.336-.706-.75s.316-.75.706-.75h6=
-.588c.39 0 .706.336.706.75Z" clip-rule=3D"evenodd"></path><path fill-rule=
-=3D"evenodd" d=3D"M12 13.5c-.414 0-.75-.316-.75-.706V6.206c0-.39.336-.706.7=
-5-.706s.75.316.75.706v6.588c0 .39-.336.706-.75.706Z" clip-rule=3D"evenodd">=
-</path></svg><div class=3D" useView_view__C2mnv">Diff</div></button></div><=
-div class=3D" useView_view__C2mnv"><button type=3D"button" disabled=3D"" cl=
-ass=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rsr:" data-dis=
-abled=3D"true"></button></div><div class=3D" useView_view__C2mnv css-tqeoyf=
-"></div><div class=3D" useView_view__C2mnv"><button type=3D"button" tabinde=
-x=3D"0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rsu:=
-" fdprocessedid=3D"miqha"><span data-cy=3D"current-position">Ln 139, Col 11=
-</span></button></div><div class=3D" useView_view__C2mnv"><button type=3D"b=
-utton" tabindex=3D"0" aria-expanded=3D"false" id=3D"react-aria8892419012-:r=
-s7:" class=3D"css-y7csor" data-rac=3D"" fdprocessedid=3D"tj6fz4"><svg prese=
-rveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24=
-" fill=3D"var(--foreground-dimmer)" aria-hidden=3D"true" class=3D"css-492dz=
-9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><circ=
-le cx=3D"12" cy=3D"12" r=3D"6" fill-rule=3D"evenodd"></circle></svg><span c=
-lass=3D" useView_view__C2mnv Text_text__T_hn_ Text_multiline__ICkLz" style=
+-repeat;">  <span class=3D"=CD=BC1z">width</span>: <span class=3D"=CD=BC1w"=
+>100</span><span class=3D"=CD=BC2a">%</span>;</div><div class=3D"cm-indent-=
+markers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to ri=
+ght, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2=
+ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">margin-top</span>: <span c=
+lass=3D"=CD=BC1w">10</span><span class=3D"=CD=BC2a">px</span>;</div><div cl=
+ass=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-line=
+ar-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px =
+2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1z">border</s=
+pan>: <span class=3D"=CD=BC1w">2</span><span class=3D"=CD=BC2a">px</span> <=
+span class=3D"=CD=BC29">solid</span> <img class=3D"cm-widgetBuffer" aria-hi=
+dden=3D"true"><span class=3D"cm-css-color-picker-wrapper" contenteditable=
+=3D"false"><input type=3D"color"></span><span class=3D"=CD=BC1o">#ddd</span=
+>;</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers:=
+ repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, t=
+ransparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=
+=BC1z">border-radius</span>: <span class=3D"=CD=BC1w">8</span><span class=
+=3D"=CD=BC2a">px</span>;</div><div class=3D"cm-gap" style=3D"height: 2142px=
+;"></div></div><div class=3D"cm-scrollbar-gutter"><div class=3D"cm-scrollba=
+r-inner"><canvas aria-hidden=3D"true" width=3D"28" height=3D"994"></canvas>=
+<div class=3D"cm-scrollbar-overlay-container" role=3D"presentation" aria-hi=
+dden=3D"true"><div class=3D"cm-scrollbar-overlay" style=3D"--cm-scrollbar-o=
+verlay-height: 14.204058302372106%; top: 0px;"></div></div></div></div><div=
+ class=3D"cm-right-gutters" aria-hidden=3D"true" style=3D"width: 0px; min-h=
+eight: 3499px; position: sticky; right: 0px;"><div class=3D"cm-gutter cm-th=
+read-indicator-gutter"><div class=3D"cm-gutterElement" style=3D"height: 0px=
+; visibility: hidden; pointer-events: none;"><cm-editor-lifecycle class=3D"=
+cm-thread-indicator" aria-hidden=3D"true" style=3D"display: inline; cursor:=
+ pointer;"><button class=3D" useView_view__C2mnv thread-indicator css-1iysq=
+m2" type=3D"button" aria-label=3D"View threads" style=3D"--height: 24px; --=
+width: 24px;"><span class=3D"css-k008qs"><svg width=3D"12" height=3D"12" vi=
+ewBox=3D"0 0 24 24" fill=3D"none" xmlns=3D"http://www.w3.org/2000/svg" styl=
+e=3D"color: currentcolor;"><path d=3D"M21 15C21 15.5304 20.7893 16.0391 20.=
+4142 16.4142C20.0391 16.7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.=
+96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.=
+21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V15Z" stroke=3D"curren=
+tColor" stroke-width=3D"3" stroke-linecap=3D"round" stroke-linejoin=3D"roun=
+d"></path></svg></span></button></cm-editor-lifecycle></div></div></div><di=
+v class=3D"cm-layer cm-multiplayer-cursor-layer" aria-hidden=3D"true" style=
+=3D"z-index: -1;"></div><div class=3D"cm-layer cm-layer-above cm-cursorLaye=
+r" aria-hidden=3D"true" style=3D"z-index: 148; animation-duration: 1200ms; =
+animation-name: cm-blink;"><div class=3D"cm-cursor cm-cursor-primary" style=
+=3D"left: 66.4659px; top: 215.455px; height: 16.7273px;"></div></div><div c=
+lass=3D"cm-layer cm-selectionLayer" aria-hidden=3D"true" style=3D"z-index: =
+-4;"></div><div class=3D"cm-layer cm-active-line-layer" aria-hidden=3D"true=
+" style=3D"z-index: -5;"><div class=3D"cm-active-line-layer-element" style=
+=3D"left: 0px; top: 214px; height: 21px;"></div></div><div class=3D"cm-laye=
+r cm-layer-above cm-empty-state-layer" aria-hidden=3D"true" style=3D"z-inde=
+x: 145;"></div><div class=3D"cm-layer" aria-hidden=3D"true" style=3D"z-inde=
+x: -7;"></div><div class=3D"cm-layer cm-layer-above cm-ghostwriter-hint-lay=
+er" aria-hidden=3D"true" style=3D"z-index: 149;"></div><div class=3D"cm-lay=
+er cm-layer-above cm-selection-controls-layer" aria-hidden=3D"true" style=
+=3D"z-index: 143;"></div></div><cm-editor-lifecycle class=3D"cm-mounted-rea=
+ct-nodes" style=3D"display: contents;"></cm-editor-lifecycle></div></div></=
+div></div><div style=3D"display: block;"><div class=3D" useView_view__C2mnv=
+ useView_isHorizontal__Q1YOp css-1tje688" style=3D"--useView--grow: 1; --us=
+eView--shrink: 1;"><div class=3D" useView_view__C2mnv"><button type=3D"butt=
+on" tabindex=3D"0" aria-expanded=3D"false" id=3D"react-aria8892419012-:rrn:=
+" class=3D"css-y7csor" data-rac=3D"" fdprocessedid=3D"nl2hp"><svg preserveA=
+spectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fi=
+ll=3D"var(--accent-blurple-default)" aria-hidden=3D"true" class=3D"css-492d=
+z9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><pat=
+h fill-rule=3D"evenodd" d=3D"M15.938 1.044c-.147-.4-.73-.4-.876 0l-1.004 2.=
+744a.458.458 0 0 1-.298.278l-2.436.746a.446.446 0 0 0 0 .857l2.437.753a.458=
+.458 0 0 1 .297.278l1.005 2.745c.146.399.728.399.874 0L16.943 6.7a.458.458 =
+0 0 1 .297-.278l2.437-.75a.446.446 0 0 0 0-.856l-2.437-.75a.458.458 0 0 1-.=
+297-.278l-1.005-2.744Z" clip-rule=3D"evenodd"></path><path d=3D"M6.764 19.3=
+34c.12-.3.494-.417.778-.261.806.441 2.443 1.171 4.458 1.171s3.652-.73 4.458=
+-1.171c.284-.156.658-.04.778.261l1.215 2.539a1 1 0 0 1-.928 1.371H6.477a1 1=
+ 0 0 1-.928-1.371l1.215-2.539Z"></path><path fill-rule=3D"evenodd" d=3D"M10=
+.814 1.053a.75.75 0 0 1-.526.92 6.5 6.5 0 1 0 7.494 9.241.75.75 0 0 1 1.334=
+.686A8 8 0 1 1 9.893.527a.75.75 0 0 1 .921.526Z" clip-rule=3D"evenodd"></pa=
+th></svg><div class=3D" useView_view__C2mnv">AI</div></button></div><div cl=
+ass=3D" useView_view__C2mnv"><button type=3D"button" tabindex=3D"0" aria-ex=
+panded=3D"false" id=3D"react-aria8892419012-:rrs:" class=3D"css-y7csor" dat=
+a-rac=3D"" fdprocessedid=3D"3g9nud"><div data-cy=3D"ws-code-intelligence-ac=
+tive" class=3D" useView_view__C2mnv"><svg preserveAspectRatio=3D"xMidYMin" =
+width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria=
+-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg=
+; width: 16px; height: 16px;"><path fill=3D"var(--foreground-dimmer)" fill-=
+rule=3D"evenodd" d=3D"M6.25 4.5c-.764 0-1.407.117-1.932.37a2.49 2.49 0 0 0-=
+1.143 1.078c-.426.79-.425 1.785-.425 2.57v.084c0 .903-.017 1.562-.263 2.018=
+a1.037 1.037 0 0 1-.49.462c-.248.12-.637.215-1.247.215-.414 0-.75.315-.75.7=
+03 0 .388.336.703.75.703.61 0 .999.095 1.248.215.235.113.383.266.49.462.245=
+.456.262 1.115.262 2.018v.085c0 .784-.001 1.78.425 2.57.238.44.605.819 1.14=
+3 1.078.525.252 1.168.369 1.932.369.414 0 .75-.315.75-.703 0-.389-.336-.704=
+-.75-.704-.61 0-.999-.095-1.248-.214a1.037 1.037 0 0 1-.489-.462c-.246-.456=
+-.263-1.115-.263-2.019v-.084c0-.784.001-1.78-.424-2.57A2.452 2.452 0 0 0 3.=
+212 12c.263-.214.464-.467.614-.745.425-.789.425-1.785.424-2.569v-.084c0-.90=
+4.017-1.563.263-2.02.106-.195.254-.348.49-.46.248-.12.637-.215 1.247-.215.4=
+14 0 .75-.315.75-.704 0-.388-.336-.703-.75-.703Zm11.5 0c-.415 0-.75.315-.75=
+.703 0 .389.335.704.75.704.61 0 .999.095 1.248.214.235.113.383.266.489.462.=
+246.456.263 1.115.263 2.019v.084c0 .784-.002 1.78.424 2.57.15.277.351.53.61=
+4.744a2.452 2.452 0 0 0-.614.745c-.425.789-.425 1.785-.424 2.569v.084c0 .90=
+4-.017 1.563-.263 2.02a1.037 1.037 0 0 1-.49.46c-.248.12-.637.215-1.247.215=
+-.415 0-.75.315-.75.704 0 .388.335.703.75.703.764 0 1.407-.117 1.932-.37a2.=
+49 2.49 0 0 0 1.143-1.078c.426-.79.425-1.785.425-2.57v-.084c0-.903.017-1.56=
+2.263-2.018.105-.196.254-.349.49-.462.248-.12.637-.215 1.247-.215.414 0 .75=
+-.315.75-.703 0-.388-.336-.703-.75-.703-.61 0-.999-.095-1.248-.215a1.036 1.=
+036 0 0 1-.49-.462c-.245-.456-.262-1.115-.262-2.018v-.085c0-.784.001-1.78-.=
+425-2.57a2.49 2.49 0 0 0-1.143-1.078c-.525-.252-1.168-.369-1.932-.369Z" cli=
+p-rule=3D"evenodd"></path><path fill=3D"var(--accent-positive-stronger)" d=
+=3D"M16.09 9.227a.692.692 0 0 1-.047.978l-5.077 4.615a.692.692 0 0 1-.932 0=
+l-2.307-2.098a.692.692 0 0 1 .931-1.024l1.842 1.674 4.611-4.192a.692.692 0 =
+0 1 .978.047Z"></path></svg></div><div class=3D" useView_view__C2mnv">CSS</=
+div></button></div><div class=3D" useView_view__C2mnv"><button type=3D"butt=
+on" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rs1:" ta=
+bindex=3D"0" fdprocessedid=3D"m7b0ym"><div class=3D" useView_view__C2mnv us=
+eView_isHorizontal__Q1YOp" style=3D"--useView--gap: 8px; --useView--align: =
+center;"><div class=3D" useView_view__C2mnv css-v9redf"><div class=3D"css-1=
+uzv2gf"><div class=3D"css-a26g8n" style=3D"height: 12px; width: 12px; trans=
+form: scale(0.75);"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" heig=
+ht=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-red-stronger)" aria-hi=
+dden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; w=
+idth: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M5.47 5.47a.75.=
+75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.4=
+7a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 1=
+2 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"evenodd"></path></svg></div>=
+<svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D=
+"0 0 24 24" fill=3D"var(--accent-red-stronger)" aria-hidden=3D"true" class=
+=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height:=
+ 12px;"><path fill-rule=3D"evenodd" d=3D"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.=
+25 9.25 0 0 0 0-18.5ZM1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.=
+75 12 17.937 22.75 12 22.75 1.25 17.937 1.25 12Z" clip-rule=3D"evenodd"></p=
+ath></svg></div><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_s=
+ingleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size:=
+ var(--font-size-small); --Text--line-height: var(--line-height-small); --T=
+ext--color: var(--foreground-dimmer);">4</span></div><div class=3D" useView=
+_view__C2mnv css-v9redf"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12"=
+ height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-yellow-stronger)"=
+ aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate:=
+ 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M10.58 =
+3.125c.673-1.167 2.357-1.167 3.03 0l9.094 15.75c.673 1.167-.169 2.625-1.516=
+ 2.625H3.002c-1.348 0-2.19-1.458-1.516-2.625l9.093-15.75Zm1.731.75a.25.25 0=
+ 0 0-.433 0l-9.093 15.75a.25.25 0 0 0 .217.375h18.186a.25.25 0 0 0 .217-.37=
+5L12.31 3.875Zm-.268 4.478a.75.75 0 0 1 .75.75v4a.75.75 0 1 1-1.5 0v-4a.75.=
+75 0 0 1 .75-.75Zm-.75 8.75a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 0 1.5h-.0=
+1a.75.75 0 0 1-.75-.75Z" clip-rule=3D"evenodd"></path></svg><span class=3D"=
+ useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Te=
+xt--font-family: inherit; --Text--font-size: var(--font-size-small); --Text=
+--line-height: var(--line-height-small); --Text--color: var(--foreground-di=
+mmer);">0</span></div></div></button></div><div class=3D" useView_view__C2m=
+nv"><button type=3D"button" tabindex=3D"0" class=3D"css-y7csor" data-rac=3D=
+"" id=3D"react-aria8892419012-:rso:" fdprocessedid=3D"fnoblk"><svg preserve=
+AspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" f=
+ill=3D"var(--foreground-dimmer)" aria-hidden=3D"true" class=3D"css-492dz9" =
+style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fi=
+ll-rule=3D"evenodd" d=3D"M18 2.5H6A1.5 1.5 0 0 0 4.5 4v16A1.5 1.5 0 0 0 6 2=
+1.5h12a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 18 2.5ZM6 1a3 3 0 0 0-3 3v16a3=
+ 3 0 0 0 3 3h12a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H6Z" clip-rule=3D"evenodd"></p=
+ath><path fill-rule=3D"evenodd" d=3D"M16 17.25c0 .414-.316.75-.706.75H8.706=
+c-.39 0-.706-.336-.706-.75s.316-.75.706-.75h6.588c.39 0 .706.336.706.75ZM16=
+ 9.5c0 .414-.316.75-.706.75H8.706c-.39 0-.706-.336-.706-.75s.316-.75.706-.7=
+5h6.588c.39 0 .706.336.706.75Z" clip-rule=3D"evenodd"></path><path fill-rul=
+e=3D"evenodd" d=3D"M12 13.5c-.414 0-.75-.316-.75-.706V6.206c0-.39.336-.706.=
+75-.706s.75.316.75.706v6.588c0 .39-.336.706-.75.706Z" clip-rule=3D"evenodd"=
+></path></svg><div class=3D" useView_view__C2mnv">Diff</div></button></div>=
+<div class=3D" useView_view__C2mnv"><button type=3D"button" disabled=3D"" c=
+lass=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rsr:" data-di=
+sabled=3D"true"></button></div><div class=3D" useView_view__C2mnv css-tqeoy=
+f"></div><div class=3D" useView_view__C2mnv"><button type=3D"button" tabind=
+ex=3D"0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rsu=
+:" fdprocessedid=3D"miqha"><span data-cy=3D"current-position">Ln 10, Col 2<=
+/span></button></div><div class=3D" useView_view__C2mnv"><button type=3D"bu=
+tton" tabindex=3D"0" aria-expanded=3D"false" id=3D"react-aria8892419012-:rs=
+7:" class=3D"css-y7csor" data-rac=3D"" fdprocessedid=3D"tj6fz4"><svg preser=
+veAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24"=
+ fill=3D"var(--foreground-dimmer)" aria-hidden=3D"true" class=3D"css-492dz9=
+" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><circl=
+e cx=3D"12" cy=3D"12" r=3D"6" fill-rule=3D"evenodd"></circle></svg><span cl=
+ass=3D" useView_view__C2mnv Text_text__T_hn_ Text_multiline__ICkLz" style=
 =3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-small)=
 ; --Text--line-height: var(--line-height-small); --Text--color: var(--foreg=
 round-dimmer);">Spaces: 2</span></button></div><div class=3D" useView_view_=
@@ -2757,11 +2762,11 @@ root__Dz_FC Surface_surfaceDefault__TcNI5" role=3D"tabpanel" id=3D"bc8aabd9=
 -f39e-482c-a995-70b0e100e3ab" aria-labelledby=3D"tab-bc8aabd9-f39e-482c-a99=
 5-70b0e100e3ab" style=3D"--index--border-gap: 4px; --index--transform-origi=
 n-x: 0x; --fixed-position-offset-x: -407px; --fixed-position-offset-y: -80p=
-x; --index--pointer-events: none; z-index: 0; --index--interaction-blanket-=
+x; --index--pointer-events: auto; z-index: 5; --index--interaction-blanket-=
 display: none; --index--user-select: auto; --index--iframe-pointer-events: =
 auto; --index--width: 529.1999999999999px; --index--height: 554px; --index-=
 -transform-x: 406.8px; --index--transform-y: 32px; --index--scale: 1; --ind=
-ex--opacity: 0;"><div class=3D" useView_view__C2mnv Pane_container__V2H53">=
+ex--opacity: 1;"><div class=3D" useView_view__C2mnv Pane_container__V2H53">=
 <div class=3D" useView_view__C2mnv" tabindex=3D"-1"></div><div class=3D" us=
 eView_view__C2mnv css-1un13td"><div class=3D" useView_view__C2mnv css-4nw7y=
 5"><div class=3D" useView_view__C2mnv css-hs7krv" style=3D"--useView--pl: 4=
@@ -2791,43 +2796,65 @@ ass=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; heig=
 ht: 12px;"><path fill-rule=3D"evenodd" d=3D"M15.53 11.47a.75.75 0 0 1 0 1.0=
 6l-6 6a.75.75 0 0 1-1.06-1.06L13.94 12 8.47 6.53a.75.75 0 0 1 1.06-1.06l6 6=
 Z" clip-rule=3D"evenodd"></path></svg><button class=3D" useView_view__C2mnv=
- css-15yqntz" type=3D"button" tabindex=3D"0" id=3D"react-aria8892419012-:ru=
-k:" aria-haspopup=3D"true" aria-expanded=3D"false" style=3D""><svg preserve=
-AspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" f=
-ill=3D"var(--accent-blurple-stronger)" aria-hidden=3D"true" class=3D"css-49=
-2dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><p=
-ath fill-rule=3D"evenodd" d=3D"M14.5 2.75A2.25 2.25 0 0 0 12.25 5v2.75h4.25=
-a.75.75 0 0 1 0 1.5h-4.25V19a3.75 3.75 0 0 1-3.75 3.75h-1a.75.75 0 0 1 0-1.=
-5h1A2.25 2.25 0 0 0 10.75 19V9.25H7.5a.75.75 0 0 1 0-1.5h3.25V5a3.75 3.75 0=
- 0 1 3.75-3.75h2a.75.75 0 0 1 0 1.5h-2Z" clip-rule=3D"evenodd"></path></svg=
-><div class=3D" useView_view__C2mnv css-1gm78i9">startGame</div></button></=
-div></div><div class=3D" useView_view__C2mnv css-1gppttt"><div class=3D" us=
-eView_view__C2mnv css-36r0go"><button data-cy=3D"ws-format-btn" class=3D" u=
-seView_view__C2mnv css-jq818c" alt=3D"Format script.js"><svg preserveAspect=
-Ratio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D=
-"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 1=
-2px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd=
-" d=3D"M2.25 6A3.75 3.75 0 0 1 6 2.25h12A3.75 3.75 0 0 1 21.75 6v12A3.75 3.=
-75 0 0 1 18 21.75H6A3.75 3.75 0 0 1 2.25 18V6ZM6 3.75A2.25 2.25 0 0 0 3.75 =
-6v12A2.25 2.25 0 0 0 6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 =
-18 3.75H6ZM6.25 8A.75.75 0 0 1 7 7.25h10a.75.75 0 0 1 0 1.5H7A.75.75 0 0 1 =
-6.25 8Zm0 4a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.7=
-5Zm0 4a.75.75 0 0 1 .75-.75h10a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75Z" =
-clip-rule=3D"evenodd"></path></svg><div class=3D" useView_view__C2mnv css-c=
-25p8t">Format</div></button></div></div></div><div class=3D"css-1vdup0e"><d=
-iv data-cy=3D"workspace-cm-editor-script.js" class=3D"css-5zpaww"><div clas=
-s=3D"css-19w5vye"><div class=3D"cm-editor =CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =
-=CD=BCt =CD=BCo =CD=BC2z =CD=BC2y =CD=BCr =CD=BC2t =CD=BC2s =CD=BCq =CD=BC3=
-4 =CD=BC30 =CD=BC2q =CD=BC2r =CD=BC32 =CD=BC2x =CD=BC2w =CD=BC2v =CD=BC2u =
-=CD=BC2o =CD=BC2m =CD=BCp =CD=BC2n =CD=BC33 =CD=BC2f =CD=BCv =CD=BCw =CD=BC=
-z =CD=BC16 cm-with-scrollbar"><div class=3D"cm-announced" aria-live=3D"poli=
-te"></div><div tabindex=3D"-1" class=3D"cm-scroller"><div class=3D"cm-gutte=
-rs" aria-hidden=3D"true" style=3D"min-height: 4822px; position: sticky;"><d=
-iv class=3D"cm-gutter cm-diff-gutter"><div class=3D"cm-gutterElement cm-dif=
-f-gutter-element cm-diff-gutter-element-file-added" style=3D"height: 0px; v=
-isibility: hidden; pointer-events: none;"></div><div class=3D"cm-gutterElem=
-ent cm-diff-gutter-element cm-diff-gutter-element-file-added" style=3D"heig=
-ht: 21px; margin-top: 4px;"></div><div class=3D"cm-gutterElement cm-diff-gu=
+ css-15yqntz" type=3D"button" tabindex=3D"0" id=3D"react-aria8892419012-:rv=
+c:" aria-haspopup=3D"true" aria-expanded=3D"false"><svg preserveAspectRatio=
+=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(=
+--accent-blue-stronger)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D=
+"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=
+=3D"evenodd" d=3D"M13.5 4.75c-4.165 0-8.75 3.24-8.75 8.75 0 1.928.365 3.487=
+ 1.162 4.55.767 1.022 2.021 1.7 4.088 1.7a7.999 7.999 0 0 0 6.4-3.2.75.75 0=
+ 1 1 1.2.9 9.499 9.499 0 0 1-7.6 3.8c-2.433 0-4.18-.822-5.288-2.3-1.077-1.4=
+37-1.462-3.378-1.462-5.45 0-6.49 5.415-10.25 10.25-10.25 1.88 0 3.234.887 4=
+.025 2.087.2.303.362.624.49.956l.814-1.628a.75.75 0 1 1 1.342.67l-2 4a.75.7=
+5 0 0 1-1.398-.517c.197-.79.046-1.825-.5-2.655-.527-.8-1.422-1.413-2.773-1.=
+413Z" clip-rule=3D"evenodd"></path></svg><div class=3D" useView_view__C2mnv=
+ css-1gm78i9">wordList</div></button></div></div><div class=3D" useView_vie=
+w__C2mnv css-1gppttt"><div class=3D" useView_view__C2mnv css-36r0go"><butto=
+n data-cy=3D"ws-format-btn" class=3D" useView_view__C2mnv css-jq818c" alt=
+=3D"Format script.js"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" he=
+ight=3D"12" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true=
+" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; =
+height: 12px;"><path fill-rule=3D"evenodd" d=3D"M2.25 6A3.75 3.75 0 0 1 6 2=
+.25h12A3.75 3.75 0 0 1 21.75 6v12A3.75 3.75 0 0 1 18 21.75H6A3.75 3.75 0 0 =
+1 2.25 18V6ZM6 3.75A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25h12A2.=
+25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6ZM6.25 8A.75.75 0 0 1 7 7=
+.25h10a.75.75 0 0 1 0 1.5H7A.75.75 0 0 1 6.25 8Zm0 4a.75.75 0 0 1 .75-.75h4=
+a.75.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75Zm0 4a.75.75 0 0 1 .75-.75h10a.75=
+.75 0 0 1 0 1.5H7a.75.75 0 0 1-.75-.75Z" clip-rule=3D"evenodd"></path></svg=
+><div class=3D" useView_view__C2mnv css-c25p8t">Format</div></button></div>=
+</div></div><div class=3D"css-1vdup0e"><div data-cy=3D"workspace-cm-editor-=
+script.js" class=3D"css-5zpaww"><div class=3D"css-19w5vye"><div class=3D"cm=
+-editor cm-focused =CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =CD=BCt =CD=BCo =CD=BC2z=
+ =CD=BC2y =CD=BCr =CD=BC2t =CD=BC2s =CD=BCq =CD=BC34 =CD=BC30 =CD=BC2q =CD=
+=BC2r =CD=BC32 =CD=BC2x =CD=BC2w =CD=BC2v =CD=BC2u =CD=BC2o =CD=BC2m =CD=BC=
+p =CD=BC2n =CD=BC33 =CD=BC2f =CD=BCv =CD=BCw =CD=BCz =CD=BC16 cm-with-scrol=
+lbar"><div class=3D"cm-announced" aria-live=3D"polite"></div><div tabindex=
+=3D"-1" class=3D"cm-scroller"><div class=3D"cm-gutters" aria-hidden=3D"true=
+" style=3D"min-height: 4822px; position: sticky;"><div class=3D"cm-gutter c=
+m-diff-gutter"><div class=3D"cm-gutterElement cm-diff-gutter-element cm-dif=
+f-gutter-element-file-added" style=3D"height: 0px; visibility: hidden; poin=
+ter-events: none;"></div><div class=3D"cm-gutterElement cm-diff-gutter-elem=
+ent cm-diff-gutter-element-file-added" style=3D"height: 21px; margin-top: 4=
+px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gu=
+tter-element-file-added cm-activeLineGutter" style=3D"height: 42px;"></div>=
+<div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-elemen=
+t-file-added" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement =
+cm-diff-gutter-element cm-diff-gutter-element-file-added" style=3D"height: =
+42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-=
+gutter-element-file-added" style=3D"height: 42px;"></div><div class=3D"cm-g=
+utterElement cm-diff-gutter-element cm-diff-gutter-element-file-added" styl=
+e=3D"height: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-ele=
+ment cm-diff-gutter-element-file-added" style=3D"height: 42px;"></div><div =
+class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-fil=
+e-added" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement cm-di=
+ff-gutter-element cm-diff-gutter-element-file-added" style=3D"height: 42px;=
+"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutte=
+r-element-file-added" style=3D"height: 42px;"></div><div class=3D"cm-gutter=
+Element cm-diff-gutter-element cm-diff-gutter-element-file-added" style=3D"=
+height: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element =
+cm-diff-gutter-element-file-added" style=3D"height: 42px;"></div><div class=
+=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-file-add=
+ed" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gu=
 tter-element cm-diff-gutter-element-file-added" style=3D"height: 42px;"></d=
 iv><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-ele=
 ment-file-added" style=3D"height: 42px;"></div><div class=3D"cm-gutterEleme=
@@ -2854,30 +2881,17 @@ lement cm-diff-gutter-element cm-diff-gutter-element-file-added" style=3D"h=
 eight: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element c=
 m-diff-gutter-element-file-added" style=3D"height: 42px;"></div><div class=
 =3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-file-add=
-ed" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gu=
-tter-element cm-diff-gutter-element-file-added" style=3D"height: 42px;"></d=
-iv><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-ele=
-ment-file-added" style=3D"height: 42px;"></div><div class=3D"cm-gutterEleme=
-nt cm-diff-gutter-element cm-diff-gutter-element-file-added" style=3D"heigh=
-t: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-di=
-ff-gutter-element-file-added" style=3D"height: 42px;"></div><div class=3D"c=
-m-gutterElement cm-diff-gutter-element cm-diff-gutter-element-file-added" s=
-tyle=3D"height: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-=
-element cm-diff-gutter-element-file-added" style=3D"height: 42px;"></div><d=
-iv class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-=
-file-added" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement cm=
--diff-gutter-element cm-diff-gutter-element-file-added" style=3D"height: 42=
-px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gu=
-tter-element-file-added" style=3D"height: 42px;"></div><div class=3D"cm-gut=
-terElement cm-diff-gutter-element cm-diff-gutter-element-file-added" style=
-=3D"height: 42px;"></div><div class=3D"cm-gutterElement cm-diff-gutter-elem=
-ent cm-diff-gutter-element-file-added" style=3D"height: 42px;"></div><div c=
-lass=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-element-file=
--added" style=3D"height: 42px;"></div></div><div class=3D"cm-gutter cm-diff=
--gutter"><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutt=
-er-element-empty" style=3D"height: 0px; visibility: hidden; pointer-events:=
- none;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px; margin=
--top: 4px;"></div><div class=3D"cm-gutterElement" style=3D"height: 42px;"><=
+ed" style=3D"height: 42px;"></div></div><div class=3D"cm-gutter cm-diff-gut=
+ter"><div class=3D"cm-gutterElement cm-diff-gutter-element cm-diff-gutter-e=
+lement-empty" style=3D"height: 0px; visibility: hidden; pointer-events: non=
+e;"></div><div class=3D"cm-gutterElement" style=3D"height: 21px; margin-top=
+: 4px;"></div><div class=3D"cm-gutterElement cm-activeLineGutter" style=3D"=
+height: 42px;"></div><div class=3D"cm-gutterElement" style=3D"height: 42px;=
+"></div><div class=3D"cm-gutterElement" style=3D"height: 42px;"></div><div =
+class=3D"cm-gutterElement" style=3D"height: 42px;"></div><div class=3D"cm-g=
+utterElement" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement"=
+ style=3D"height: 42px;"></div><div class=3D"cm-gutterElement" style=3D"hei=
+ght: 42px;"></div><div class=3D"cm-gutterElement" style=3D"height: 42px;"><=
 /div><div class=3D"cm-gutterElement" style=3D"height: 42px;"></div><div cla=
 ss=3D"cm-gutterElement" style=3D"height: 42px;"></div><div class=3D"cm-gutt=
 erElement" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement" st=
@@ -2895,1157 +2909,1154 @@ ment" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement" style=
 2px;"></div><div class=3D"cm-gutterElement" style=3D"height: 42px;"></div><=
 div class=3D"cm-gutterElement" style=3D"height: 42px;"></div><div class=3D"=
 cm-gutterElement" style=3D"height: 42px;"></div><div class=3D"cm-gutterElem=
-ent" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement" style=3D=
-"height: 42px;"></div><div class=3D"cm-gutterElement" style=3D"height: 42px=
-;"></div><div class=3D"cm-gutterElement" style=3D"height: 42px;"></div><div=
- class=3D"cm-gutterElement" style=3D"height: 42px;"></div><div class=3D"cm-=
-gutterElement" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement=
-" style=3D"height: 42px;"></div><div class=3D"cm-gutterElement" style=3D"he=
-ight: 42px;"></div></div><div class=3D"cm-gutter cm-lineNumbers"><div class=
-=3D"cm-gutterElement" style=3D"height: 0px; visibility: hidden; pointer-eve=
-nts: none;">999</div><div class=3D"cm-gutterElement" style=3D"height: 21px;=
- margin-top: 4px;">1</div><div class=3D"cm-gutterElement" style=3D"height: =
-42px;">2</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">3</di=
-v><div class=3D"cm-gutterElement" style=3D"height: 42px;">4</div><div class=
-=3D"cm-gutterElement" style=3D"height: 42px;">5</div><div class=3D"cm-gutte=
-rElement" style=3D"height: 42px;">6</div><div class=3D"cm-gutterElement" st=
-yle=3D"height: 42px;">7</div><div class=3D"cm-gutterElement" style=3D"heigh=
-t: 42px;">8</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">9<=
-/div><div class=3D"cm-gutterElement" style=3D"height: 42px;">10</div><div c=
-lass=3D"cm-gutterElement" style=3D"height: 42px;">11</div><div class=3D"cm-=
-gutterElement" style=3D"height: 42px;">12</div><div class=3D"cm-gutterEleme=
-nt" style=3D"height: 42px;">13</div><div class=3D"cm-gutterElement" style=
-=3D"height: 42px;">14</div><div class=3D"cm-gutterElement" style=3D"height:=
- 42px;">15</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">16<=
-/div><div class=3D"cm-gutterElement" style=3D"height: 42px;">17</div><div c=
-lass=3D"cm-gutterElement" style=3D"height: 42px;">18</div><div class=3D"cm-=
-gutterElement" style=3D"height: 42px;">19</div><div class=3D"cm-gutterEleme=
-nt" style=3D"height: 42px;">20</div><div class=3D"cm-gutterElement" style=
-=3D"height: 42px;">21</div><div class=3D"cm-gutterElement" style=3D"height:=
- 42px;">22</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">23<=
-/div><div class=3D"cm-gutterElement" style=3D"height: 42px;">24</div><div c=
-lass=3D"cm-gutterElement" style=3D"height: 42px;">25</div><div class=3D"cm-=
-gutterElement" style=3D"height: 42px;">26</div><div class=3D"cm-gutterEleme=
-nt" style=3D"height: 42px;">27</div><div class=3D"cm-gutterElement" style=
-=3D"height: 42px;">28</div><div class=3D"cm-gutterElement" style=3D"height:=
- 42px;">29</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">30<=
-/div></div><div class=3D"cm-gutter cm-foldGutter"><div class=3D"cm-gutterEl=
-ement" style=3D"height: 0px; visibility: hidden; pointer-events: none;"><di=
-v class=3D"cm-gutter-fold-marker is-folded" title=3D"Unfold block"></div></=
-div><div class=3D"cm-gutterElement" style=3D"height: 21px; margin-top: 4px;=
-"><div class=3D"cm-gutter-fold-marker" title=3D"Fold block"></div></div></d=
-iv></div><div spellcheck=3D"false" autocorrect=3D"off" autocapitalize=3D"of=
-f" translate=3D"no" contenteditable=3D"true" style=3D"tab-size: 2; padding-=
-bottom: 471.5px;" class=3D"cm-content cm-lineWrapping" role=3D"textbox" ari=
-a-multiline=3D"true" data-language=3D"javascript" data-gramm=3D"false" data=
--gramm_editor=3D"false" data-enabled-grammarly=3D"false" aria-autocomplete=
-=3D"list"><div class=3D"cm-line"><span class=3D"=CD=BC2a">const</span> <spa=
-n class=3D"=CD=BC1j">wordList</span> <span class=3D"=CD=BC21">=3D</span> <s=
-pan class=3D"=CD=BC1g">[</span></div><div class=3D"cm-indent-markers cm-lin=
-e" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--ind=
-ent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-r=
-epeat;">  <span class=3D"=CD=BC1m">"able"</span>, <span class=3D"=CD=BC1m">=
-"acid"</span>, <span class=3D"=CD=BC1m">"aged"</span>, <span class=3D"=CD=
-=BC1m">"also"</span>, <span class=3D"=CD=BC1m">"area"</span>, <span class=
-=3D"=CD=BC1m">"army"</span>, <span class=3D"=CD=BC1m">"away"</span>, <span =
-class=3D"=CD=BC1m">"baby"</span>, <span class=3D"=CD=BC1m">"back"</span>, <=
-span class=3D"=CD=BC1m">"ball"</span>,</div><div class=3D"cm-indent-markers=
- cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right, va=
-r(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1p=
-x) no-repeat;">  <span class=3D"=CD=BC1m">"band"</span>, <span class=3D"=CD=
+ent" style=3D"height: 42px;"></div></div><div class=3D"cm-gutter cm-lineNum=
+bers"><div class=3D"cm-gutterElement" style=3D"height: 0px; visibility: hid=
+den; pointer-events: none;">999</div><div class=3D"cm-gutterElement" style=
+=3D"height: 21px; margin-top: 4px;">1</div><div class=3D"cm-gutterElement c=
+m-activeLineGutter" style=3D"height: 42px;">2</div><div class=3D"cm-gutterE=
+lement" style=3D"height: 42px;">3</div><div class=3D"cm-gutterElement" styl=
+e=3D"height: 42px;">4</div><div class=3D"cm-gutterElement" style=3D"height:=
+ 42px;">5</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">6</d=
+iv><div class=3D"cm-gutterElement" style=3D"height: 42px;">7</div><div clas=
+s=3D"cm-gutterElement" style=3D"height: 42px;">8</div><div class=3D"cm-gutt=
+erElement" style=3D"height: 42px;">9</div><div class=3D"cm-gutterElement" s=
+tyle=3D"height: 42px;">10</div><div class=3D"cm-gutterElement" style=3D"hei=
+ght: 42px;">11</div><div class=3D"cm-gutterElement" style=3D"height: 42px;"=
+>12</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">13</div><d=
+iv class=3D"cm-gutterElement" style=3D"height: 42px;">14</div><div class=3D=
+"cm-gutterElement" style=3D"height: 42px;">15</div><div class=3D"cm-gutterE=
+lement" style=3D"height: 42px;">16</div><div class=3D"cm-gutterElement" sty=
+le=3D"height: 42px;">17</div><div class=3D"cm-gutterElement" style=3D"heigh=
+t: 42px;">18</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">1=
+9</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">20</div><div=
+ class=3D"cm-gutterElement" style=3D"height: 42px;">21</div><div class=3D"c=
+m-gutterElement" style=3D"height: 42px;">22</div><div class=3D"cm-gutterEle=
+ment" style=3D"height: 42px;">23</div><div class=3D"cm-gutterElement" style=
+=3D"height: 42px;">24</div><div class=3D"cm-gutterElement" style=3D"height:=
+ 42px;">25</div><div class=3D"cm-gutterElement" style=3D"height: 42px;">26<=
+/div><div class=3D"cm-gutterElement" style=3D"height: 42px;">27</div><div c=
+lass=3D"cm-gutterElement" style=3D"height: 42px;">28</div><div class=3D"cm-=
+gutterElement" style=3D"height: 42px;">29</div><div class=3D"cm-gutterEleme=
+nt" style=3D"height: 42px;">30</div></div><div class=3D"cm-gutter cm-foldGu=
+tter"><div class=3D"cm-gutterElement" style=3D"height: 0px; visibility: hid=
+den; pointer-events: none;"><div class=3D"cm-gutter-fold-marker is-folded" =
+title=3D"Unfold block"></div></div><div class=3D"cm-gutterElement" style=3D=
+"height: 21px; margin-top: 4px;"><div class=3D"cm-gutter-fold-marker" title=
+=3D"Fold block"></div></div><div class=3D"cm-gutterElement cm-activeLineGut=
+ter" style=3D"height: 42px;"></div></div></div><div spellcheck=3D"false" au=
+tocorrect=3D"off" autocapitalize=3D"off" translate=3D"no" contenteditable=
+=3D"true" style=3D"tab-size: 2; padding-bottom: 471.5px;" class=3D"cm-conte=
+nt cm-lineWrapping" role=3D"textbox" aria-multiline=3D"true" data-language=
+=3D"javascript" data-gramm=3D"false" data-gramm_editor=3D"false" data-enabl=
+ed-grammarly=3D"false" aria-autocomplete=3D"list"><div class=3D"cm-line"><s=
+pan class=3D"=CD=BC2a">const</span> <span class=3D"=CD=BC1j">wordList</span=
+> <span class=3D"=CD=BC21">=3D</span> <span class=3D"=CD=BC1g">[</span></di=
+v><div class=3D"cm-replit-active-line cm-indent-markers cm-line" style=3D"-=
+-indent-markers: repeating-linear-gradient(to right, var(--indent-marker-ac=
+tive-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;=
+">  <span class=3D"=CD=BC1m">"able"</span>, <span class=3D"=CD=BC1m">"acid"=
+</span>, <span class=3D"=CD=BC1m">"aged"</span>, <span class=3D"=CD=BC1m">"=
+also"</span>, <span class=3D"=CD=BC1m">"area"</span>, <span class=3D"=CD=BC=
+1m">"army"</span>, <span class=3D"=CD=BC1m">"away"</span>, <span class=3D"=
+=CD=BC1m">"baby"</span>, <span class=3D"=CD=BC1m">"back"</span>, <span clas=
+s=3D"=CD=BC1m">"ball"</span>,</div><div class=3D"cm-indent-markers cm-line"=
+ style=3D"--indent-markers: repeating-linear-gradient(to right, var(--inden=
+t-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px)=
+ no-repeat;">  <span class=3D"=CD=BC1m">"band"</span>, <span class=3D"=CD=
 =BC1m">"bank"</span>, <span class=3D"=CD=BC1m">"base"</span>, <span class=
 =3D"=CD=BC1m">"bath"</span>, <span class=3D"=CD=BC1m">"bear"</span>, <span =
 class=3D"=CD=BC1m">"beat"</span>, <span class=3D"=CD=BC1m">"been"</span>, <=
 span class=3D"=CD=BC1m">"beer"</span>, <span class=3D"=CD=BC1m">"bell"</spa=
 n>, <span class=3D"=CD=BC1m">"belt"</span>,</div><div class=3D"cm-indent-ma=
 rkers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to righ=
-t, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch=
- - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"best"</span>, <span class=
-=3D"=CD=BC1m">"bill"</span>, <span class=3D"=CD=BC1m">"bird"</span>, <span =
-class=3D"=CD=BC1m">"blow"</span>, <span class=3D"=CD=BC1m">"blue"</span>, <=
-span class=3D"=CD=BC1m">"boat"</span>, <span class=3D"=CD=BC1m">"body"</spa=
-n>, <span class=3D"=CD=BC1m">"bomb"</span>, <span class=3D"=CD=BC1m">"bond"=
-</span>, <span class=3D"=CD=BC1m">"bone"</span>,</div><div class=3D"cm-inde=
-nt-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to=
- right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/cal=
-c(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"book"</span>, <span cl=
-ass=3D"=CD=BC1m">"boom"</span>, <span class=3D"=CD=BC1m">"born"</span>, <sp=
-an class=3D"=CD=BC1m">"boss"</span>, <span class=3D"=CD=BC1m">"both"</span>=
-, <span class=3D"=CD=BC1m">"bowl"</span>, <span class=3D"=CD=BC1m">"bulk"</=
-span>, <span class=3D"=CD=BC1m">"burn"</span>, <span class=3D"=CD=BC1m">"bu=
-sh"</span>, <span class=3D"=CD=BC1m">"busy"</span>,</div><div class=3D"cm-i=
-ndent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient=
-(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/=
-calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"call"</span>, <span=
- class=3D"=CD=BC1m">"calm"</span>, <span class=3D"=CD=BC1m">"came"</span>, =
-<span class=3D"=CD=BC1m">"camp"</span>, <span class=3D"=CD=BC1m">"card"</sp=
-an>, <span class=3D"=CD=BC1m">"care"</span>, <span class=3D"=CD=BC1m">"case=
-"</span>, <span class=3D"=CD=BC1m">"cash"</span>, <span class=3D"=CD=BC1m">=
-"cast"</span>, <span class=3D"=CD=BC1m">"cell"</span>,</div><div class=3D"c=
-m-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradi=
-ent(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5=
-ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"chat"</span>, <s=
-pan class=3D"=CD=BC1m">"chip"</span>, <span class=3D"=CD=BC1m">"city"</span=
->, <span class=3D"=CD=BC1m">"club"</span>, <span class=3D"=CD=BC1m">"coal"<=
-/span>, <span class=3D"=CD=BC1m">"coat"</span>, <span class=3D"=CD=BC1m">"c=
-ode"</span>, <span class=3D"=CD=BC1m">"cold"</span>, <span class=3D"=CD=BC1=
-m">"come"</span>, <span class=3D"=CD=BC1m">"cook"</span>,</div><div class=
-=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-=
-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch=
-) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"cool"</span=
->, <span class=3D"=CD=BC1m">"cope"</span>, <span class=3D"=CD=BC1m">"copy"<=
-/span>, <span class=3D"=CD=BC1m">"core"</span>, <span class=3D"=CD=BC1m">"c=
-ost"</span>, <span class=3D"=CD=BC1m">"crew"</span>, <span class=3D"=CD=BC1=
-m">"crop"</span>, <span class=3D"=CD=BC1m">"dark"</span>, <span class=3D"=
-=CD=BC1m">"data"</span>, <span class=3D"=CD=BC1m">"date"</span>,</div><div =
+t, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/c=
+alc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"best"</span>, <span =
+class=3D"=CD=BC1m">"bill"</span>, <span class=3D"=CD=BC1m">"bird"</span>, <=
+span class=3D"=CD=BC1m">"blow"</span>, <span class=3D"=CD=BC1m">"blue"</spa=
+n>, <span class=3D"=CD=BC1m">"boat"</span>, <span class=3D"=CD=BC1m">"body"=
+</span>, <span class=3D"=CD=BC1m">"bomb"</span>, <span class=3D"=CD=BC1m">"=
+bond"</span>, <span class=3D"=CD=BC1m">"bone"</span>,</div><div class=3D"cm=
+-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradie=
+nt(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2c=
+h) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"book"</spa=
+n>, <span class=3D"=CD=BC1m">"boom"</span>, <span class=3D"=CD=BC1m">"born"=
+</span>, <span class=3D"=CD=BC1m">"boss"</span>, <span class=3D"=CD=BC1m">"=
+both"</span>, <span class=3D"=CD=BC1m">"bowl"</span>, <span class=3D"=CD=BC=
+1m">"bulk"</span>, <span class=3D"=CD=BC1m">"burn"</span>, <span class=3D"=
+=CD=BC1m">"bush"</span>, <span class=3D"=CD=BC1m">"busy"</span>,</div><div =
 class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-li=
-near-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1p=
-x 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"dawn"<=
-/span>, <span class=3D"=CD=BC1m">"dead"</span>, <span class=3D"=CD=BC1m">"d=
-eal"</span>, <span class=3D"=CD=BC1m">"dean"</span>, <span class=3D"=CD=BC1=
-m">"dear"</span>, <span class=3D"=CD=BC1m">"debt"</span>, <span class=3D"=
-=CD=BC1m">"deep"</span>, <span class=3D"=CD=BC1m">"deny"</span>, <span clas=
-s=3D"=CD=BC1m">"desk"</span>, <span class=3D"=CD=BC1m">"dial"</span>,</div>=
-<div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeati=
-ng-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transpare=
-nt 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"d=
-iet"</span>, <span class=3D"=CD=BC1m">"disk"</span>, <span class=3D"=CD=BC1=
-m">"does"</span>, <span class=3D"=CD=BC1m">"done"</span>, <span class=3D"=
-=CD=BC1m">"door"</span>, <span class=3D"=CD=BC1m">"dose"</span>, <span clas=
-s=3D"=CD=BC1m">"down"</span>, <span class=3D"=CD=BC1m">"draw"</span>, <span=
- class=3D"=CD=BC1m">"drop"</span>, <span class=3D"=CD=BC1m">"drug"</span>,<=
-/div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: re=
-peating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, tran=
-sparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1=
-m">"dual"</span>, <span class=3D"=CD=BC1m">"duck"</span>, <span class=3D"=
-=CD=BC1m">"duty"</span>, <span class=3D"=CD=BC1m">"each"</span>, <span clas=
-s=3D"=CD=BC1m">"earn"</span>, <span class=3D"=CD=BC1m">"ease"</span>, <span=
- class=3D"=CD=BC1m">"east"</span>, <span class=3D"=CD=BC1m">"easy"</span>, =
-<span class=3D"=CD=BC1m">"edge"</span>, <span class=3D"=CD=BC1m">"else"</sp=
-an>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-marker=
-s: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px,=
- transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=
-=CD=BC1m">"even"</span>, <span class=3D"=CD=BC1m">"ever"</span>, <span clas=
-s=3D"=CD=BC1m">"exit"</span>, <span class=3D"=CD=BC1m">"face"</span>, <span=
- class=3D"=CD=BC1m">"fact"</span>, <span class=3D"=CD=BC1m">"fail"</span>, =
-<span class=3D"=CD=BC1m">"fair"</span>, <span class=3D"=CD=BC1m">"fall"</sp=
-an>, <span class=3D"=CD=BC1m">"farm"</span>, <span class=3D"=CD=BC1m">"fast=
-"</span>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-m=
-arkers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0=
- 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=
-=3D"=CD=BC1m">"fate"</span>, <span class=3D"=CD=BC1m">"fear"</span>, <span =
-class=3D"=CD=BC1m">"feed"</span>, <span class=3D"=CD=BC1m">"feel"</span>, <=
-span class=3D"=CD=BC1m">"feet"</span>, <span class=3D"=CD=BC1m">"fell"</spa=
-n>, <span class=3D"=CD=BC1m">"felt"</span>, <span class=3D"=CD=BC1m">"file"=
-</span>, <span class=3D"=CD=BC1m">"fill"</span>, <span class=3D"=CD=BC1m">"=
-film"</span>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--inde=
-nt-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-colo=
-r) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span cl=
-ass=3D"=CD=BC1m">"find"</span>, <span class=3D"=CD=BC1m">"fine"</span>, <sp=
-an class=3D"=CD=BC1m">"fire"</span>, <span class=3D"=CD=BC1m">"firm"</span>=
-, <span class=3D"=CD=BC1m">"fish"</span>, <span class=3D"=CD=BC1m">"five"</=
-span>, <span class=3D"=CD=BC1m">"flat"</span>, <span class=3D"=CD=BC1m">"fl=
-ow"</span>, <span class=3D"=CD=BC1m">"food"</span>, <span class=3D"=CD=BC1m=
-">"foot"</span>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--i=
-ndent-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-c=
-olor) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span=
- class=3D"=CD=BC1m">"ford"</span>, <span class=3D"=CD=BC1m">"form"</span>, =
-<span class=3D"=CD=BC1m">"fort"</span>, <span class=3D"=CD=BC1m">"free"</sp=
-an>, <span class=3D"=CD=BC1m">"from"</span>, <span class=3D"=CD=BC1m">"fuel=
-"</span>, <span class=3D"=CD=BC1m">"full"</span>, <span class=3D"=CD=BC1m">=
-"fund"</span>, <span class=3D"=CD=BC1m">"gain"</span>, <span class=3D"=CD=
-=BC1m">"game"</span>,</div><div class=3D"cm-indent-markers cm-line" style=
-=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mark=
-er-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">=
-  <span class=3D"=CD=BC1m">"gate"</span>, <span class=3D"=CD=BC1m">"gave"</=
-span>, <span class=3D"=CD=BC1m">"gear"</span>, <span class=3D"=CD=BC1m">"ge=
-ne"</span>, <span class=3D"=CD=BC1m">"gift"</span>, <span class=3D"=CD=BC1m=
-">"girl"</span>, <span class=3D"=CD=BC1m">"give"</span>, <span class=3D"=CD=
-=BC1m">"glad"</span>, <span class=3D"=CD=BC1m">"goal"</span>, <span class=
-=3D"=CD=BC1m">"goes"</span>,</div><div class=3D"cm-indent-markers cm-line" =
-style=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent=
--marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repe=
-at;">  <span class=3D"=CD=BC1m">"gold"</span>, <span class=3D"=CD=BC1m">"go=
-lf"</span>, <span class=3D"=CD=BC1m">"gone"</span>, <span class=3D"=CD=BC1m=
-">"good"</span>, <span class=3D"=CD=BC1m">"gray"</span>, <span class=3D"=CD=
-=BC1m">"grew"</span>, <span class=3D"=CD=BC1m">"grey"</span>, <span class=
-=3D"=CD=BC1m">"grow"</span>, <span class=3D"=CD=BC1m">"gulf"</span>, <span =
-class=3D"=CD=BC1m">"hair"</span>,</div><div class=3D"cm-indent-markers cm-l=
-ine" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--i=
-ndent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no=
--repeat;">  <span class=3D"=CD=BC1m">"half"</span>, <span class=3D"=CD=BC1m=
-">"hall"</span>, <span class=3D"=CD=BC1m">"hand"</span>, <span class=3D"=CD=
-=BC1m">"hang"</span>, <span class=3D"=CD=BC1m">"hard"</span>, <span class=
-=3D"=CD=BC1m">"harm"</span>, <span class=3D"=CD=BC1m">"hate"</span>, <span =
-class=3D"=CD=BC1m">"have"</span>, <span class=3D"=CD=BC1m">"head"</span>, <=
-span class=3D"=CD=BC1m">"hear"</span>,</div><div class=3D"cm-indent-markers=
+near-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transpa=
+rent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">=
+"call"</span>, <span class=3D"=CD=BC1m">"calm"</span>, <span class=3D"=CD=
+=BC1m">"came"</span>, <span class=3D"=CD=BC1m">"camp"</span>, <span class=
+=3D"=CD=BC1m">"card"</span>, <span class=3D"=CD=BC1m">"care"</span>, <span =
+class=3D"=CD=BC1m">"case"</span>, <span class=3D"=CD=BC1m">"cash"</span>, <=
+span class=3D"=CD=BC1m">"cast"</span>, <span class=3D"=CD=BC1m">"cell"</spa=
+n>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers=
+: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color) =
+0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=
+=3D"=CD=BC1m">"chat"</span>, <span class=3D"=CD=BC1m">"chip"</span>, <span =
+class=3D"=CD=BC1m">"city"</span>, <span class=3D"=CD=BC1m">"club"</span>, <=
+span class=3D"=CD=BC1m">"coal"</span>, <span class=3D"=CD=BC1m">"coat"</spa=
+n>, <span class=3D"=CD=BC1m">"code"</span>, <span class=3D"=CD=BC1m">"cold"=
+</span>, <span class=3D"=CD=BC1m">"come"</span>, <span class=3D"=CD=BC1m">"=
+cook"</span>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--inde=
+nt-markers: repeating-linear-gradient(to right, var(--indent-marker-active-=
+bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <=
+span class=3D"=CD=BC1m">"cool"</span>, <span class=3D"=CD=BC1m">"cope"</spa=
+n>, <span class=3D"=CD=BC1m">"copy"</span>, <span class=3D"=CD=BC1m">"core"=
+</span>, <span class=3D"=CD=BC1m">"cost"</span>, <span class=3D"=CD=BC1m">"=
+crew"</span>, <span class=3D"=CD=BC1m">"crop"</span>, <span class=3D"=CD=BC=
+1m">"dark"</span>, <span class=3D"=CD=BC1m">"data"</span>, <span class=3D"=
+=CD=BC1m">"date"</span>,</div><div class=3D"cm-indent-markers cm-line" styl=
+e=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mar=
+ker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-r=
+epeat;">  <span class=3D"=CD=BC1m">"dawn"</span>, <span class=3D"=CD=BC1m">=
+"dead"</span>, <span class=3D"=CD=BC1m">"deal"</span>, <span class=3D"=CD=
+=BC1m">"dean"</span>, <span class=3D"=CD=BC1m">"dear"</span>, <span class=
+=3D"=CD=BC1m">"debt"</span>, <span class=3D"=CD=BC1m">"deep"</span>, <span =
+class=3D"=CD=BC1m">"deny"</span>, <span class=3D"=CD=BC1m">"desk"</span>, <=
+span class=3D"=CD=BC1m">"dial"</span>,</div><div class=3D"cm-indent-markers=
  cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right, va=
-r(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1p=
-x) no-repeat;">  <span class=3D"=CD=BC1m">"heat"</span>, <span class=3D"=CD=
-=BC1m">"held"</span>, <span class=3D"=CD=BC1m">"hell"</span>, <span class=
-=3D"=CD=BC1m">"help"</span>, <span class=3D"=CD=BC1m">"here"</span>, <span =
-class=3D"=CD=BC1m">"hero"</span>, <span class=3D"=CD=BC1m">"high"</span>, <=
-span class=3D"=CD=BC1m">"hill"</span>, <span class=3D"=CD=BC1m">"hire"</spa=
-n>, <span class=3D"=CD=BC1m">"hold"</span>,</div><div class=3D"cm-indent-ma=
-rkers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to righ=
-t, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch=
- - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"hole"</span>, <span class=
-=3D"=CD=BC1m">"holy"</span>, <span class=3D"=CD=BC1m">"home"</span>, <span =
-class=3D"=CD=BC1m">"hope"</span>, <span class=3D"=CD=BC1m">"host"</span>, <=
-span class=3D"=CD=BC1m">"hour"</span>, <span class=3D"=CD=BC1m">"huge"</spa=
-n>, <span class=3D"=CD=BC1m">"hung"</span>, <span class=3D"=CD=BC1m">"hunt"=
-</span>, <span class=3D"=CD=BC1m">"hurt"</span>,</div><div class=3D"cm-inde=
+r(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2=
+ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"diet"</span>, <span class=
+=3D"=CD=BC1m">"disk"</span>, <span class=3D"=CD=BC1m">"does"</span>, <span =
+class=3D"=CD=BC1m">"done"</span>, <span class=3D"=CD=BC1m">"door"</span>, <=
+span class=3D"=CD=BC1m">"dose"</span>, <span class=3D"=CD=BC1m">"down"</spa=
+n>, <span class=3D"=CD=BC1m">"draw"</span>, <span class=3D"=CD=BC1m">"drop"=
+</span>, <span class=3D"=CD=BC1m">"drug"</span>,</div><div class=3D"cm-inde=
 nt-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to=
- right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/cal=
-c(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"idea"</span>, <span cl=
-ass=3D"=CD=BC1m">"inch"</span>, <span class=3D"=CD=BC1m">"into"</span>, <sp=
-an class=3D"=CD=BC1m">"iron"</span>, <span class=3D"=CD=BC1m">"item"</span>=
-, <span class=3D"=CD=BC1m">"jack"</span>, <span class=3D"=CD=BC1m">"jane"</=
-span>, <span class=3D"=CD=BC1m">"jean"</span>, <span class=3D"=CD=BC1m">"jo=
-hn"</span>, <span class=3D"=CD=BC1m">"join"</span>,</div><div class=3D"cm-i=
-ndent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient=
-(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/=
-calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"jump"</span>, <span=
- class=3D"=CD=BC1m">"jury"</span>, <span class=3D"=CD=BC1m">"just"</span>, =
-<span class=3D"=CD=BC1m">"keen"</span>, <span class=3D"=CD=BC1m">"keep"</sp=
-an>, <span class=3D"=CD=BC1m">"kept"</span>, <span class=3D"=CD=BC1m">"kick=
-"</span>, <span class=3D"=CD=BC1m">"kill"</span>, <span class=3D"=CD=BC1m">=
-"kind"</span>, <span class=3D"=CD=BC1m">"king"</span>,</div><div class=3D"c=
-m-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradi=
-ent(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch) 0.5=
-ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"knee"</span>, <s=
-pan class=3D"=CD=BC1m">"knew"</span>, <span class=3D"=CD=BC1m">"know"</span=
->, <span class=3D"=CD=BC1m">"lack"</span>, <span class=3D"=CD=BC1m">"lady"<=
-/span>, <span class=3D"=CD=BC1m">"laid"</span>, <span class=3D"=CD=BC1m">"l=
-ake"</span>, <span class=3D"=CD=BC1m">"land"</span>, <span class=3D"=CD=BC1=
-m">"lane"</span>, <span class=3D"=CD=BC1m">"last"</span>,</div><div class=
+ right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.=
+5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"dual"</span>, <=
+span class=3D"=CD=BC1m">"duck"</span>, <span class=3D"=CD=BC1m">"duty"</spa=
+n>, <span class=3D"=CD=BC1m">"each"</span>, <span class=3D"=CD=BC1m">"earn"=
+</span>, <span class=3D"=CD=BC1m">"ease"</span>, <span class=3D"=CD=BC1m">"=
+east"</span>, <span class=3D"=CD=BC1m">"easy"</span>, <span class=3D"=CD=BC=
+1m">"edge"</span>, <span class=3D"=CD=BC1m">"else"</span>,</div><div class=
 =3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-=
-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1px 2ch=
-) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"late"</span=
->, <span class=3D"=CD=BC1m">"lead"</span>, <span class=3D"=CD=BC1m">"left"<=
-/span>, <span class=3D"=CD=BC1m">"less"</span>, <span class=3D"=CD=BC1m">"l=
-ife"</span>, <span class=3D"=CD=BC1m">"lift"</span>, <span class=3D"=CD=BC1=
-m">"like"</span>, <span class=3D"=CD=BC1m">"line"</span>, <span class=3D"=
-=CD=BC1m">"link"</span>, <span class=3D"=CD=BC1m">"list"</span>,</div><div =
-class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-li=
-near-gradient(to right, var(--indent-marker-bg-color) 0 1px, transparent 1p=
-x 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"live"<=
-/span>, <span class=3D"=CD=BC1m">"load"</span>, <span class=3D"=CD=BC1m">"l=
-oan"</span>, <span class=3D"=CD=BC1m">"lock"</span>, <span class=3D"=CD=BC1=
-m">"logo"</span>, <span class=3D"=CD=BC1m">"long"</span>, <span class=3D"=
-=CD=BC1m">"look"</span>, <span class=3D"=CD=BC1m">"lord"</span>, <span clas=
-s=3D"=CD=BC1m">"lose"</span>, <span class=3D"=CD=BC1m">"loss"</span>,</div>=
-<div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeati=
-ng-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, transpare=
-nt 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"l=
-ost"</span>, <span class=3D"=CD=BC1m">"love"</span>, <span class=3D"=CD=BC1=
-m">"luck"</span>, <span class=3D"=CD=BC1m">"made"</span>, <span class=3D"=
-=CD=BC1m">"mail"</span>, <span class=3D"=CD=BC1m">"main"</span>, <span clas=
-s=3D"=CD=BC1m">"make"</span>, <span class=3D"=CD=BC1m">"male"</span>, <span=
- class=3D"=CD=BC1m">"many"</span>, <span class=3D"=CD=BC1m">"mark"</span>,<=
-/div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: re=
-peating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px, tran=
-sparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1=
-m">"mass"</span>, <span class=3D"=CD=BC1m">"mate"</span>, <span class=3D"=
-=CD=BC1m">"math"</span>, <span class=3D"=CD=BC1m">"meal"</span>, <span clas=
-s=3D"=CD=BC1m">"mean"</span>, <span class=3D"=CD=BC1m">"meat"</span>, <span=
- class=3D"=CD=BC1m">"meet"</span>, <span class=3D"=CD=BC1m">"menu"</span>, =
-<span class=3D"=CD=BC1m">"mere"</span>, <span class=3D"=CD=BC1m">"mild"</sp=
-an>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-marker=
-s: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0 1px,=
- transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=
-=CD=BC1m">"mile"</span>, <span class=3D"=CD=BC1m">"milk"</span>, <span clas=
-s=3D"=CD=BC1m">"mind"</span>, <span class=3D"=CD=BC1m">"mine"</span>, <span=
- class=3D"=CD=BC1m">"miss"</span>, <span class=3D"=CD=BC1m">"mode"</span>, =
-<span class=3D"=CD=BC1m">"mood"</span>, <span class=3D"=CD=BC1m">"moon"</sp=
-an>, <span class=3D"=CD=BC1m">"more"</span>, <span class=3D"=CD=BC1m">"most=
+gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparent =
+1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"even=
+"</span>, <span class=3D"=CD=BC1m">"ever"</span>, <span class=3D"=CD=BC1m">=
+"exit"</span>, <span class=3D"=CD=BC1m">"face"</span>, <span class=3D"=CD=
+=BC1m">"fact"</span>, <span class=3D"=CD=BC1m">"fail"</span>, <span class=
+=3D"=CD=BC1m">"fair"</span>, <span class=3D"=CD=BC1m">"fall"</span>, <span =
+class=3D"=CD=BC1m">"farm"</span>, <span class=3D"=CD=BC1m">"fast"</span>,</=
+div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: rep=
+eating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px=
+, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=
+=CD=BC1m">"fate"</span>, <span class=3D"=CD=BC1m">"fear"</span>, <span clas=
+s=3D"=CD=BC1m">"feed"</span>, <span class=3D"=CD=BC1m">"feel"</span>, <span=
+ class=3D"=CD=BC1m">"feet"</span>, <span class=3D"=CD=BC1m">"fell"</span>, =
+<span class=3D"=CD=BC1m">"felt"</span>, <span class=3D"=CD=BC1m">"file"</sp=
+an>, <span class=3D"=CD=BC1m">"fill"</span>, <span class=3D"=CD=BC1m">"film=
 "</span>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-m=
-arkers: repeating-linear-gradient(to right, var(--indent-marker-bg-color) 0=
- 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=
-=3D"=CD=BC1m">"move"</span>, <span class=3D"=CD=BC1m">"much"</span>, <span =
-class=3D"=CD=BC1m">"must"</span>, <span class=3D"=CD=BC1m">"name"</span>, <=
-span class=3D"=CD=BC1m">"navy"</span>, <span class=3D"=CD=BC1m">"near"</spa=
-n>, <span class=3D"=CD=BC1m">"neck"</span>, <span class=3D"=CD=BC1m">"need"=
-</span>, <span class=3D"=CD=BC1m">"news"</span>, <span class=3D"=CD=BC1m">"=
-next"</span>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--inde=
-nt-markers: repeating-linear-gradient(to right, var(--indent-marker-bg-colo=
-r) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span cl=
-ass=3D"=CD=BC1m">"nice"</span>, <span class=3D"=CD=BC1m">"nick"</span>, <sp=
-an class=3D"=CD=BC1m">"nine"</span>, <span class=3D"=CD=BC1m">"none"</span>=
-, <span class=3D"=CD=BC1m">"nose"</span>, <span class=3D"=CD=BC1m">"note"</=
-span>, <span class=3D"=CD=BC1m">"okay"</span>, <span class=3D"=CD=BC1m">"on=
-ce"</span>, <span class=3D"=CD=BC1m">"only"</span>, <span class=3D"=CD=BC1m=
-">"open"</span>,</div><div class=3D"cm-gap" style=3D"height: 1008px;"></div=
-><div class=3D"cm-replit-active-line cm-line" style=3D"">  attempts =3D 0;<=
-/div><div class=3D"cm-gap" style=3D"height: 2079px;"></div></div><div class=
-=3D"cm-scrollbar-gutter"><div class=3D"cm-scrollbar-inner"><canvas aria-hid=
-den=3D"true" width=3D"28" height=3D"994"></canvas><div class=3D"cm-scrollba=
-r-overlay-container" role=3D"presentation" aria-hidden=3D"true"><div class=
-=3D"cm-scrollbar-overlay" style=3D"--cm-scrollbar-overlay-height: 10.306926=
-58647864%; top: 0px;"></div></div></div></div><div class=3D"cm-right-gutter=
-s" aria-hidden=3D"true" style=3D"width: 0px; min-height: 4822px; position: =
-sticky; right: 0px;"><div class=3D"cm-gutter cm-thread-indicator-gutter"><d=
-iv class=3D"cm-gutterElement" style=3D"height: 0px; visibility: hidden; poi=
-nter-events: none;"><cm-editor-lifecycle class=3D"cm-thread-indicator" aria=
--hidden=3D"true" style=3D"display: inline; cursor: pointer;"><button class=
-=3D" useView_view__C2mnv thread-indicator css-1iysqm2" type=3D"button" aria=
--label=3D"View threads" style=3D"--height: 24px; --width: 24px;"><span clas=
-s=3D"css-k008qs"><svg width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=
-=3D"none" xmlns=3D"http://www.w3.org/2000/svg" style=3D"color: currentcolor=
-;"><path d=3D"M21 15C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.=
-7893 19.5304 17 19 17H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.=
-96086 3.21071 4.46957 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20=
-.7893 3.96086 21 4.46957 21 5V15Z" stroke=3D"currentColor" stroke-width=3D"=
-3" stroke-linecap=3D"round" stroke-linejoin=3D"round"></path></svg></span><=
-/button></cm-editor-lifecycle></div></div></div><div class=3D"cm-layer cm-m=
-ultiplayer-cursor-layer" aria-hidden=3D"true" style=3D"z-index: -1;"></div>=
-<div class=3D"cm-layer cm-layer-above cm-cursorLayer" aria-hidden=3D"true" =
-style=3D"z-index: 148; animation-duration: 1200ms; animation-name: cm-blink=
-;"><div class=3D"cm-cursor cm-cursor-primary" style=3D"left: 184.466px; top=
-: 2252.45px; height: 16.7273px;"></div></div><div class=3D"cm-layer cm-sele=
-ctionLayer" aria-hidden=3D"true" style=3D"z-index: -4;"></div><div class=3D=
-"cm-layer cm-active-line-layer" aria-hidden=3D"true" style=3D"z-index: -5;"=
-><div class=3D"cm-active-line-layer-element" style=3D"left: 0px; top: 2251p=
-x; height: 21px;"></div></div><div class=3D"cm-layer cm-layer-above cm-empt=
-y-state-layer" aria-hidden=3D"true" style=3D"z-index: 145;"></div><div clas=
-s=3D"cm-layer" aria-hidden=3D"true" style=3D"z-index: -7;"></div><div class=
-=3D"cm-layer cm-layer-above cm-ghostwriter-hint-layer" aria-hidden=3D"true"=
- style=3D"z-index: 149;"></div><div class=3D"cm-layer cm-layer-above cm-sel=
-ection-controls-layer" aria-hidden=3D"true" style=3D"z-index: 143;"></div><=
-/div><cm-editor-lifecycle class=3D"cm-mounted-react-nodes" style=3D"display=
-: contents;"></cm-editor-lifecycle></div></div></div></div><div style=3D"di=
-splay: block;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1Y=
-Op css-1tje688" style=3D"--useView--grow: 1; --useView--shrink: 1;"><div cl=
-ass=3D" useView_view__C2mnv"><button type=3D"button" tabindex=3D"0" aria-ex=
-panded=3D"false" id=3D"react-aria8892419012-:rt8:" class=3D"css-y7csor" dat=
-a-rac=3D"" fdprocessedid=3D"sy681j"><svg preserveAspectRatio=3D"xMidYMin" w=
-idth=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-blurpl=
-e-default)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px=
-; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=
-=3D"M15.938 1.044c-.147-.4-.73-.4-.876 0l-1.004 2.744a.458.458 0 0 1-.298.2=
-78l-2.436.746a.446.446 0 0 0 0 .857l2.437.753a.458.458 0 0 1 .297.278l1.005=
- 2.745c.146.399.728.399.874 0L16.943 6.7a.458.458 0 0 1 .297-.278l2.437-.75=
-a.446.446 0 0 0 0-.856l-2.437-.75a.458.458 0 0 1-.297-.278l-1.005-2.744Z" c=
-lip-rule=3D"evenodd"></path><path d=3D"M6.764 19.334c.12-.3.494-.417.778-.2=
-61.806.441 2.443 1.171 4.458 1.171s3.652-.73 4.458-1.171c.284-.156.658-.04.=
-778.261l1.215 2.539a1 1 0 0 1-.928 1.371H6.477a1 1 0 0 1-.928-1.371l1.215-2=
-.539Z"></path><path fill-rule=3D"evenodd" d=3D"M10.814 1.053a.75.75 0 0 1-.=
-526.92 6.5 6.5 0 1 0 7.494 9.241.75.75 0 0 1 1.334.686A8 8 0 1 1 9.893.527a=
-.75.75 0 0 1 .921.526Z" clip-rule=3D"evenodd"></path></svg><div class=3D" u=
-seView_view__C2mnv">AI</div></button></div><div class=3D" useView_view__C2m=
-nv"><button type=3D"button" tabindex=3D"0" aria-expanded=3D"false" id=3D"re=
-act-aria8892419012-:rtd:" class=3D"css-y7csor" data-rac=3D"" fdprocessedid=
-=3D"kl7cg9"><div data-cy=3D"ws-code-intelligence-active" class=3D" useView_=
-view__C2mnv"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"1=
-6" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=
-=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height:=
- 16px;"><path fill=3D"var(--foreground-dimmer)" fill-rule=3D"evenodd" d=3D"=
-M6.25 4.5c-.764 0-1.407.117-1.932.37a2.49 2.49 0 0 0-1.143 1.078c-.426.79-.=
-425 1.785-.425 2.57v.084c0 .903-.017 1.562-.263 2.018a1.037 1.037 0 0 1-.49=
-.462c-.248.12-.637.215-1.247.215-.414 0-.75.315-.75.703 0 .388.336.703.75.7=
-03.61 0 .999.095 1.248.215.235.113.383.266.49.462.245.456.262 1.115.262 2.0=
-18v.085c0 .784-.001 1.78.425 2.57.238.44.605.819 1.143 1.078.525.252 1.168.=
-369 1.932.369.414 0 .75-.315.75-.703 0-.389-.336-.704-.75-.704-.61 0-.999-.=
-095-1.248-.214a1.037 1.037 0 0 1-.489-.462c-.246-.456-.263-1.115-.263-2.019=
-v-.084c0-.784.001-1.78-.424-2.57A2.452 2.452 0 0 0 3.212 12c.263-.214.464-.=
-467.614-.745.425-.789.425-1.785.424-2.569v-.084c0-.904.017-1.563.263-2.02.1=
-06-.195.254-.348.49-.46.248-.12.637-.215 1.247-.215.414 0 .75-.315.75-.704 =
-0-.388-.336-.703-.75-.703Zm11.5 0c-.415 0-.75.315-.75.703 0 .389.335.704.75=
-.704.61 0 .999.095 1.248.214.235.113.383.266.489.462.246.456.263 1.115.263 =
-2.019v.084c0 .784-.002 1.78.424 2.57.15.277.351.53.614.744a2.452 2.452 0 0 =
-0-.614.745c-.425.789-.425 1.785-.424 2.569v.084c0 .904-.017 1.563-.263 2.02=
-a1.037 1.037 0 0 1-.49.46c-.248.12-.637.215-1.247.215-.415 0-.75.315-.75.70=
-4 0 .388.335.703.75.703.764 0 1.407-.117 1.932-.37a2.49 2.49 0 0 0 1.143-1.=
-078c.426-.79.425-1.785.425-2.57v-.084c0-.903.017-1.562.263-2.018.105-.196.2=
-54-.349.49-.462.248-.12.637-.215 1.247-.215.414 0 .75-.315.75-.703 0-.388-.=
-336-.703-.75-.703-.61 0-.999-.095-1.248-.215a1.036 1.036 0 0 1-.49-.462c-.2=
-45-.456-.262-1.115-.262-2.018v-.085c0-.784.001-1.78-.425-2.57a2.49 2.49 0 0=
- 0-1.143-1.078c-.525-.252-1.168-.369-1.932-.369Z" clip-rule=3D"evenodd"></p=
-ath><path fill=3D"var(--accent-positive-stronger)" d=3D"M16.09 9.227a.692.6=
-92 0 0 1-.047.978l-5.077 4.615a.692.692 0 0 1-.932 0l-2.307-2.098a.692.692 =
-0 0 1 .931-1.024l1.842 1.674 4.611-4.192a.692.692 0 0 1 .978.047Z"></path><=
-/svg></div><div class=3D" useView_view__C2mnv">JavaScript</div></button></d=
-iv><div class=3D" useView_view__C2mnv"><button type=3D"button" class=3D"css=
--y7csor" data-rac=3D"" id=3D"react-aria8892419012-:rti:" tabindex=3D"0"><di=
-v class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--use=
-View--gap: 8px; --useView--align: center;"><div class=3D" useView_view__C2m=
-nv css-v9redf"><div class=3D"css-1uzv2gf"><div class=3D"css-a26g8n" style=
-=3D"height: 12px; width: 12px; transform: scale(0.75);"><svg preserveAspect=
-Ratio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D=
-"var(--accent-red-stronger)" aria-hidden=3D"true" class=3D"css-492dz9" styl=
-e=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-r=
-ule=3D"evenodd" d=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.=
-75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47=
- 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-=
-rule=3D"evenodd"></path></svg></div><svg preserveAspectRatio=3D"xMidYMin" w=
-idth=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-red-st=
-ronger)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; -=
--rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D=
-"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5ZM1.25 12C1.25 6.063=
- 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17.937 =
-1.25 12Z" clip-rule=3D"evenodd"></path></svg></div><span class=3D" useView_=
-view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-=
-family: inherit; --Text--font-size: var(--font-size-small); --Text--line-he=
-ight: var(--line-height-small); --Text--color: var(--foreground-dimmer);">0=
-</span></div><div class=3D" useView_view__C2mnv css-v9redf"><svg preserveAs=
-pectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fil=
-l=3D"var(--accent-yellow-stronger)" aria-hidden=3D"true" class=3D"css-492dz=
-9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path=
- fill-rule=3D"evenodd" d=3D"M10.58 3.125c.673-1.167 2.357-1.167 3.03 0l9.09=
-4 15.75c.673 1.167-.169 2.625-1.516 2.625H3.002c-1.348 0-2.19-1.458-1.516-2=
-.625l9.093-15.75Zm1.731.75a.25.25 0 0 0-.433 0l-9.093 15.75a.25.25 0 0 0 .2=
-17.375h18.186a.25.25 0 0 0 .217-.375L12.31 3.875Zm-.268 4.478a.75.75 0 0 1 =
-.75.75v4a.75.75 0 1 1-1.5 0v-4a.75.75 0 0 1 .75-.75Zm-.75 8.75a.75.75 0 0 1=
- .75-.75h.01a.75.75 0 0 1 0 1.5h-.01a.75.75 0 0 1-.75-.75Z" clip-rule=3D"ev=
-enodd"></path></svg><span class=3D" useView_view__C2mnv Text_text__T_hn_ Te=
-xt_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-s=
-ize: var(--font-size-small); --Text--line-height: var(--line-height-small);=
- --Text--color: var(--foreground-dimmer);">0</span></div></div></button></d=
-iv><div class=3D" useView_view__C2mnv"><button type=3D"button" tabindex=3D"=
-0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:ru9:"><sv=
-g preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 =
-0 24 24" fill=3D"var(--foreground-dimmer)" aria-hidden=3D"true" class=3D"cs=
-s-492dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;=
-"><path fill-rule=3D"evenodd" d=3D"M18 2.5H6A1.5 1.5 0 0 0 4.5 4v16A1.5 1.5=
- 0 0 0 6 21.5h12a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 18 2.5ZM6 1a3 3 0 0 =
-0-3 3v16a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H6Z" clip-rule=3D"ev=
-enodd"></path><path fill-rule=3D"evenodd" d=3D"M16 17.25c0 .414-.316.75-.70=
-6.75H8.706c-.39 0-.706-.336-.706-.75s.316-.75.706-.75h6.588c.39 0 .706.336.=
-706.75ZM16 9.5c0 .414-.316.75-.706.75H8.706c-.39 0-.706-.336-.706-.75s.316-=
-.75.706-.75h6.588c.39 0 .706.336.706.75Z" clip-rule=3D"evenodd"></path><pat=
-h fill-rule=3D"evenodd" d=3D"M12 13.5c-.414 0-.75-.316-.75-.706V6.206c0-.39=
-.336-.706.75-.706s.75.316.75.706v6.588c0 .39-.336.706-.75.706Z" clip-rule=
-=3D"evenodd"></path></svg><div class=3D" useView_view__C2mnv">Diff</div></b=
-utton></div><div class=3D" useView_view__C2mnv"><button type=3D"button" dis=
-abled=3D"" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:r=
-uc:" data-disabled=3D"true"></button></div><div class=3D" useView_view__C2m=
-nv css-tqeoyf"></div><div class=3D" useView_view__C2mnv"><button type=3D"bu=
-tton" tabindex=3D"0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria889=
-2419012-:ruf:"><span data-cy=3D"current-position">Ln 59, Col 16</span></but=
-ton></div><div class=3D" useView_view__C2mnv"><button type=3D"button" tabin=
-dex=3D"0" aria-expanded=3D"false" id=3D"react-aria8892419012-:rto:" class=
-=3D"css-y7csor" data-rac=3D"" fdprocessedid=3D"0gj91q"><svg preserveAspectR=
+arkers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-c=
+olor) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span=
+ class=3D"=CD=BC1m">"find"</span>, <span class=3D"=CD=BC1m">"fine"</span>, =
+<span class=3D"=CD=BC1m">"fire"</span>, <span class=3D"=CD=BC1m">"firm"</sp=
+an>, <span class=3D"=CD=BC1m">"fish"</span>, <span class=3D"=CD=BC1m">"five=
+"</span>, <span class=3D"=CD=BC1m">"flat"</span>, <span class=3D"=CD=BC1m">=
+"flow"</span>, <span class=3D"=CD=BC1m">"food"</span>, <span class=3D"=CD=
+=BC1m">"foot"</span>,</div><div class=3D"cm-indent-markers cm-line" style=
+=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mark=
+er-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-re=
+peat;">  <span class=3D"=CD=BC1m">"ford"</span>, <span class=3D"=CD=BC1m">"=
+form"</span>, <span class=3D"=CD=BC1m">"fort"</span>, <span class=3D"=CD=BC=
+1m">"free"</span>, <span class=3D"=CD=BC1m">"from"</span>, <span class=3D"=
+=CD=BC1m">"fuel"</span>, <span class=3D"=CD=BC1m">"full"</span>, <span clas=
+s=3D"=CD=BC1m">"fund"</span>, <span class=3D"=CD=BC1m">"gain"</span>, <span=
+ class=3D"=CD=BC1m">"game"</span>,</div><div class=3D"cm-indent-markers cm-=
+line" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--=
+indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch -=
+ 1px) no-repeat;">  <span class=3D"=CD=BC1m">"gate"</span>, <span class=3D"=
+=CD=BC1m">"gave"</span>, <span class=3D"=CD=BC1m">"gear"</span>, <span clas=
+s=3D"=CD=BC1m">"gene"</span>, <span class=3D"=CD=BC1m">"gift"</span>, <span=
+ class=3D"=CD=BC1m">"girl"</span>, <span class=3D"=CD=BC1m">"give"</span>, =
+<span class=3D"=CD=BC1m">"glad"</span>, <span class=3D"=CD=BC1m">"goal"</sp=
+an>, <span class=3D"=CD=BC1m">"goes"</span>,</div><div class=3D"cm-indent-m=
+arkers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to rig=
+ht, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/=
+calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"gold"</span>, <span=
+ class=3D"=CD=BC1m">"golf"</span>, <span class=3D"=CD=BC1m">"gone"</span>, =
+<span class=3D"=CD=BC1m">"good"</span>, <span class=3D"=CD=BC1m">"gray"</sp=
+an>, <span class=3D"=CD=BC1m">"grew"</span>, <span class=3D"=CD=BC1m">"grey=
+"</span>, <span class=3D"=CD=BC1m">"grow"</span>, <span class=3D"=CD=BC1m">=
+"gulf"</span>, <span class=3D"=CD=BC1m">"hair"</span>,</div><div class=3D"c=
+m-indent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradi=
+ent(to right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2=
+ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"half"</sp=
+an>, <span class=3D"=CD=BC1m">"hall"</span>, <span class=3D"=CD=BC1m">"hand=
+"</span>, <span class=3D"=CD=BC1m">"hang"</span>, <span class=3D"=CD=BC1m">=
+"hard"</span>, <span class=3D"=CD=BC1m">"harm"</span>, <span class=3D"=CD=
+=BC1m">"hate"</span>, <span class=3D"=CD=BC1m">"have"</span>, <span class=
+=3D"=CD=BC1m">"head"</span>, <span class=3D"=CD=BC1m">"hear"</span>,</div><=
+div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeatin=
+g-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, tra=
+nsparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC=
+1m">"heat"</span>, <span class=3D"=CD=BC1m">"held"</span>, <span class=3D"=
+=CD=BC1m">"hell"</span>, <span class=3D"=CD=BC1m">"help"</span>, <span clas=
+s=3D"=CD=BC1m">"here"</span>, <span class=3D"=CD=BC1m">"hero"</span>, <span=
+ class=3D"=CD=BC1m">"high"</span>, <span class=3D"=CD=BC1m">"hill"</span>, =
+<span class=3D"=CD=BC1m">"hire"</span>, <span class=3D"=CD=BC1m">"hold"</sp=
+an>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-marker=
+s: repeating-linear-gradient(to right, var(--indent-marker-active-bg-color)=
+ 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span clas=
+s=3D"=CD=BC1m">"hole"</span>, <span class=3D"=CD=BC1m">"holy"</span>, <span=
+ class=3D"=CD=BC1m">"home"</span>, <span class=3D"=CD=BC1m">"hope"</span>, =
+<span class=3D"=CD=BC1m">"host"</span>, <span class=3D"=CD=BC1m">"hour"</sp=
+an>, <span class=3D"=CD=BC1m">"huge"</span>, <span class=3D"=CD=BC1m">"hung=
+"</span>, <span class=3D"=CD=BC1m">"hunt"</span>, <span class=3D"=CD=BC1m">=
+"hurt"</span>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--ind=
+ent-markers: repeating-linear-gradient(to right, var(--indent-marker-active=
+-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  =
+<span class=3D"=CD=BC1m">"idea"</span>, <span class=3D"=CD=BC1m">"inch"</sp=
+an>, <span class=3D"=CD=BC1m">"into"</span>, <span class=3D"=CD=BC1m">"iron=
+"</span>, <span class=3D"=CD=BC1m">"item"</span>, <span class=3D"=CD=BC1m">=
+"jack"</span>, <span class=3D"=CD=BC1m">"jane"</span>, <span class=3D"=CD=
+=BC1m">"jean"</span>, <span class=3D"=CD=BC1m">"john"</span>, <span class=
+=3D"=CD=BC1m">"join"</span>,</div><div class=3D"cm-indent-markers cm-line" =
+style=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent=
+-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) =
+no-repeat;">  <span class=3D"=CD=BC1m">"jump"</span>, <span class=3D"=CD=BC=
+1m">"jury"</span>, <span class=3D"=CD=BC1m">"just"</span>, <span class=3D"=
+=CD=BC1m">"keen"</span>, <span class=3D"=CD=BC1m">"keep"</span>, <span clas=
+s=3D"=CD=BC1m">"kept"</span>, <span class=3D"=CD=BC1m">"kick"</span>, <span=
+ class=3D"=CD=BC1m">"kill"</span>, <span class=3D"=CD=BC1m">"kind"</span>, =
+<span class=3D"=CD=BC1m">"king"</span>,</div><div class=3D"cm-indent-marker=
+s cm-line" style=3D"--indent-markers: repeating-linear-gradient(to right, v=
+ar(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(=
+2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"knee"</span>, <span clas=
+s=3D"=CD=BC1m">"knew"</span>, <span class=3D"=CD=BC1m">"know"</span>, <span=
+ class=3D"=CD=BC1m">"lack"</span>, <span class=3D"=CD=BC1m">"lady"</span>, =
+<span class=3D"=CD=BC1m">"laid"</span>, <span class=3D"=CD=BC1m">"lake"</sp=
+an>, <span class=3D"=CD=BC1m">"land"</span>, <span class=3D"=CD=BC1m">"lane=
+"</span>, <span class=3D"=CD=BC1m">"last"</span>,</div><div class=3D"cm-ind=
+ent-markers cm-line" style=3D"--indent-markers: repeating-linear-gradient(t=
+o right, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0=
+.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"late"</span>, =
+<span class=3D"=CD=BC1m">"lead"</span>, <span class=3D"=CD=BC1m">"left"</sp=
+an>, <span class=3D"=CD=BC1m">"less"</span>, <span class=3D"=CD=BC1m">"life=
+"</span>, <span class=3D"=CD=BC1m">"lift"</span>, <span class=3D"=CD=BC1m">=
+"like"</span>, <span class=3D"=CD=BC1m">"line"</span>, <span class=3D"=CD=
+=BC1m">"link"</span>, <span class=3D"=CD=BC1m">"list"</span>,</div><div cla=
+ss=3D"cm-indent-markers cm-line" style=3D"--indent-markers: repeating-linea=
+r-gradient(to right, var(--indent-marker-active-bg-color) 0 1px, transparen=
+t 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"li=
+ve"</span>, <span class=3D"=CD=BC1m">"load"</span>, <span class=3D"=CD=BC1m=
+">"loan"</span>, <span class=3D"=CD=BC1m">"lock"</span>, <span class=3D"=CD=
+=BC1m">"logo"</span>, <span class=3D"=CD=BC1m">"long"</span>, <span class=
+=3D"=CD=BC1m">"look"</span>, <span class=3D"=CD=BC1m">"lord"</span>, <span =
+class=3D"=CD=BC1m">"lose"</span>, <span class=3D"=CD=BC1m">"loss"</span>,</=
+div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-markers: rep=
+eating-linear-gradient(to right, var(--indent-marker-active-bg-color) 0 1px=
+, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span class=3D"=
+=CD=BC1m">"lost"</span>, <span class=3D"=CD=BC1m">"love"</span>, <span clas=
+s=3D"=CD=BC1m">"luck"</span>, <span class=3D"=CD=BC1m">"made"</span>, <span=
+ class=3D"=CD=BC1m">"mail"</span>, <span class=3D"=CD=BC1m">"main"</span>, =
+<span class=3D"=CD=BC1m">"make"</span>, <span class=3D"=CD=BC1m">"male"</sp=
+an>, <span class=3D"=CD=BC1m">"many"</span>, <span class=3D"=CD=BC1m">"mark=
+"</span>,</div><div class=3D"cm-indent-markers cm-line" style=3D"--indent-m=
+arkers: repeating-linear-gradient(to right, var(--indent-marker-active-bg-c=
+olor) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-repeat;">  <span=
+ class=3D"=CD=BC1m">"mass"</span>, <span class=3D"=CD=BC1m">"mate"</span>, =
+<span class=3D"=CD=BC1m">"math"</span>, <span class=3D"=CD=BC1m">"meal"</sp=
+an>, <span class=3D"=CD=BC1m">"mean"</span>, <span class=3D"=CD=BC1m">"meat=
+"</span>, <span class=3D"=CD=BC1m">"meet"</span>, <span class=3D"=CD=BC1m">=
+"menu"</span>, <span class=3D"=CD=BC1m">"mere"</span>, <span class=3D"=CD=
+=BC1m">"mild"</span>,</div><div class=3D"cm-indent-markers cm-line" style=
+=3D"--indent-markers: repeating-linear-gradient(to right, var(--indent-mark=
+er-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch - 1px) no-re=
+peat;">  <span class=3D"=CD=BC1m">"mile"</span>, <span class=3D"=CD=BC1m">"=
+milk"</span>, <span class=3D"=CD=BC1m">"mind"</span>, <span class=3D"=CD=BC=
+1m">"mine"</span>, <span class=3D"=CD=BC1m">"miss"</span>, <span class=3D"=
+=CD=BC1m">"mode"</span>, <span class=3D"=CD=BC1m">"mood"</span>, <span clas=
+s=3D"=CD=BC1m">"moon"</span>, <span class=3D"=CD=BC1m">"more"</span>, <span=
+ class=3D"=CD=BC1m">"most"</span>,</div><div class=3D"cm-indent-markers cm-=
+line" style=3D"--indent-markers: repeating-linear-gradient(to right, var(--=
+indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/calc(2ch -=
+ 1px) no-repeat;">  <span class=3D"=CD=BC1m">"move"</span>, <span class=3D"=
+=CD=BC1m">"much"</span>, <span class=3D"=CD=BC1m">"must"</span>, <span clas=
+s=3D"=CD=BC1m">"name"</span>, <span class=3D"=CD=BC1m">"navy"</span>, <span=
+ class=3D"=CD=BC1m">"near"</span>, <span class=3D"=CD=BC1m">"neck"</span>, =
+<span class=3D"=CD=BC1m">"need"</span>, <span class=3D"=CD=BC1m">"news"</sp=
+an>, <span class=3D"=CD=BC1m">"next"</span>,</div><div class=3D"cm-indent-m=
+arkers cm-line" style=3D"--indent-markers: repeating-linear-gradient(to rig=
+ht, var(--indent-marker-active-bg-color) 0 1px, transparent 1px 2ch) 0.5ch/=
+calc(2ch - 1px) no-repeat;">  <span class=3D"=CD=BC1m">"nice"</span>, <span=
+ class=3D"=CD=BC1m">"nick"</span>, <span class=3D"=CD=BC1m">"nine"</span>, =
+<span class=3D"=CD=BC1m">"none"</span>, <span class=3D"=CD=BC1m">"nose"</sp=
+an>, <span class=3D"=CD=BC1m">"note"</span>, <span class=3D"=CD=BC1m">"okay=
+"</span>, <span class=3D"=CD=BC1m">"once"</span>, <span class=3D"=CD=BC1m">=
+"only"</span>, <span class=3D"=CD=BC1m">"open"</span>,</div><div class=3D"c=
+m-gap" style=3D"height: 3108px;"></div></div><div class=3D"cm-scrollbar-gut=
+ter"><div class=3D"cm-scrollbar-inner"><canvas aria-hidden=3D"true" width=
+=3D"28" height=3D"994"></canvas><div class=3D"cm-scrollbar-overlay-containe=
+r" role=3D"presentation" aria-hidden=3D"true"><div class=3D"cm-scrollbar-ov=
+erlay" style=3D"--cm-scrollbar-overlay-height: 10.30692658647864%; top: 0px=
+;"></div></div></div></div><div class=3D"cm-right-gutters" aria-hidden=3D"t=
+rue" style=3D"width: 0px; min-height: 4822px; position: sticky; right: 0px;=
+"><div class=3D"cm-gutter cm-thread-indicator-gutter"><div class=3D"cm-gutt=
+erElement" style=3D"height: 0px; visibility: hidden; pointer-events: none;"=
+><cm-editor-lifecycle class=3D"cm-thread-indicator" aria-hidden=3D"true" st=
+yle=3D"display: inline; cursor: pointer;"><button class=3D" useView_view__C=
+2mnv thread-indicator css-1iysqm2" type=3D"button" aria-label=3D"View threa=
+ds" style=3D"--height: 24px; --width: 24px;"><span class=3D"css-k008qs"><sv=
+g width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"none" xmlns=3D"h=
+ttp://www.w3.org/2000/svg" style=3D"color: currentcolor;"><path d=3D"M21 15=
+C21 15.5304 20.7893 16.0391 20.4142 16.4142C20.0391 16.7893 19.5304 17 19 1=
+7H7L3 21V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.4695=
+7 3 5 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.4=
+6957 21 5V15Z" stroke=3D"currentColor" stroke-width=3D"3" stroke-linecap=3D=
+"round" stroke-linejoin=3D"round"></path></svg></span></button></cm-editor-=
+lifecycle></div></div></div><div class=3D"cm-layer cm-multiplayer-cursor-la=
+yer" aria-hidden=3D"true" style=3D"z-index: -1;"></div><div class=3D"cm-lay=
+er cm-layer-above cm-cursorLayer" aria-hidden=3D"true" style=3D"z-index: 14=
+8; animation-duration: 1200ms; animation-name: cm-blink;"><div class=3D"cm-=
+cursor cm-cursor-primary" style=3D"left: 167.614px; top: 47.4545px; height:=
+ 16.7273px;"></div></div><div class=3D"cm-layer cm-selectionLayer" aria-hid=
+den=3D"true" style=3D"z-index: -4;"></div><div class=3D"cm-layer cm-active-=
+line-layer" aria-hidden=3D"true" style=3D"z-index: -5;"><div class=3D"cm-ac=
+tive-line-layer-element" style=3D"left: 0px; top: 25px; height: 42px;"></di=
+v></div><div class=3D"cm-layer cm-layer-above cm-empty-state-layer" aria-hi=
+dden=3D"true" style=3D"z-index: 145;"></div><div class=3D"cm-layer" aria-hi=
+dden=3D"true" style=3D"z-index: -7;"></div><div class=3D"cm-layer cm-layer-=
+above cm-ghostwriter-hint-layer" aria-hidden=3D"true" style=3D"z-index: 149=
+;"></div><div class=3D"cm-layer cm-layer-above cm-selection-controls-layer"=
+ aria-hidden=3D"true" style=3D"z-index: 143;"></div></div><cm-editor-lifecy=
+cle class=3D"cm-mounted-react-nodes" style=3D"display: contents;"></cm-edit=
+or-lifecycle></div></div></div></div><div style=3D"display: block;"><div cl=
+ass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-1tje688" style=
+=3D"--useView--grow: 1; --useView--shrink: 1;"><div class=3D" useView_view_=
+_C2mnv"><button type=3D"button" tabindex=3D"0" aria-expanded=3D"false" id=
+=3D"react-aria8892419012-:rt8:" class=3D"css-y7csor" data-rac=3D"" fdproces=
+sedid=3D"sy681j"><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=
+=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-blurple-default)" aria-h=
+idden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; =
+width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M15.938 1.044c=
+-.147-.4-.73-.4-.876 0l-1.004 2.744a.458.458 0 0 1-.298.278l-2.436.746a.446=
+.446 0 0 0 0 .857l2.437.753a.458.458 0 0 1 .297.278l1.005 2.745c.146.399.72=
+8.399.874 0L16.943 6.7a.458.458 0 0 1 .297-.278l2.437-.75a.446.446 0 0 0 0-=
+.856l-2.437-.75a.458.458 0 0 1-.297-.278l-1.005-2.744Z" clip-rule=3D"evenod=
+d"></path><path d=3D"M6.764 19.334c.12-.3.494-.417.778-.261.806.441 2.443 1=
+.171 4.458 1.171s3.652-.73 4.458-1.171c.284-.156.658-.04.778.261l1.215 2.53=
+9a1 1 0 0 1-.928 1.371H6.477a1 1 0 0 1-.928-1.371l1.215-2.539Z"></path><pat=
+h fill-rule=3D"evenodd" d=3D"M10.814 1.053a.75.75 0 0 1-.526.92 6.5 6.5 0 1=
+ 0 7.494 9.241.75.75 0 0 1 1.334.686A8 8 0 1 1 9.893.527a.75.75 0 0 1 .921.=
+526Z" clip-rule=3D"evenodd"></path></svg><div class=3D" useView_view__C2mnv=
+">AI</div></button></div><div class=3D" useView_view__C2mnv"><button type=
+=3D"button" tabindex=3D"0" aria-expanded=3D"false" id=3D"react-aria88924190=
+12-:rtd:" class=3D"css-y7csor" data-rac=3D"" fdprocessedid=3D"kl7cg9"><div =
+data-cy=3D"ws-code-intelligence-active" class=3D" useView_view__C2mnv"><svg=
+ preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0=
+ 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" sty=
+le=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill=
+=3D"var(--foreground-dimmer)" fill-rule=3D"evenodd" d=3D"M6.25 4.5c-.764 0-=
+1.407.117-1.932.37a2.49 2.49 0 0 0-1.143 1.078c-.426.79-.425 1.785-.425 2.5=
+7v.084c0 .903-.017 1.562-.263 2.018a1.037 1.037 0 0 1-.49.462c-.248.12-.637=
+.215-1.247.215-.414 0-.75.315-.75.703 0 .388.336.703.75.703.61 0 .999.095 1=
+.248.215.235.113.383.266.49.462.245.456.262 1.115.262 2.018v.085c0 .784-.00=
+1 1.78.425 2.57.238.44.605.819 1.143 1.078.525.252 1.168.369 1.932.369.414 =
+0 .75-.315.75-.703 0-.389-.336-.704-.75-.704-.61 0-.999-.095-1.248-.214a1.0=
+37 1.037 0 0 1-.489-.462c-.246-.456-.263-1.115-.263-2.019v-.084c0-.784.001-=
+1.78-.424-2.57A2.452 2.452 0 0 0 3.212 12c.263-.214.464-.467.614-.745.425-.=
+789.425-1.785.424-2.569v-.084c0-.904.017-1.563.263-2.02.106-.195.254-.348.4=
+9-.46.248-.12.637-.215 1.247-.215.414 0 .75-.315.75-.704 0-.388-.336-.703-.=
+75-.703Zm11.5 0c-.415 0-.75.315-.75.703 0 .389.335.704.75.704.61 0 .999.095=
+ 1.248.214.235.113.383.266.489.462.246.456.263 1.115.263 2.019v.084c0 .784-=
+.002 1.78.424 2.57.15.277.351.53.614.744a2.452 2.452 0 0 0-.614.745c-.425.7=
+89-.425 1.785-.424 2.569v.084c0 .904-.017 1.563-.263 2.02a1.037 1.037 0 0 1=
+-.49.46c-.248.12-.637.215-1.247.215-.415 0-.75.315-.75.704 0 .388.335.703.7=
+5.703.764 0 1.407-.117 1.932-.37a2.49 2.49 0 0 0 1.143-1.078c.426-.79.425-1=
+.785.425-2.57v-.084c0-.903.017-1.562.263-2.018.105-.196.254-.349.49-.462.24=
+8-.12.637-.215 1.247-.215.414 0 .75-.315.75-.703 0-.388-.336-.703-.75-.703-=
+.61 0-.999-.095-1.248-.215a1.036 1.036 0 0 1-.49-.462c-.245-.456-.262-1.115=
+-.262-2.018v-.085c0-.784.001-1.78-.425-2.57a2.49 2.49 0 0 0-1.143-1.078c-.5=
+25-.252-1.168-.369-1.932-.369Z" clip-rule=3D"evenodd"></path><path fill=3D"=
+var(--accent-positive-stronger)" d=3D"M16.09 9.227a.692.692 0 0 1-.047.978l=
+-5.077 4.615a.692.692 0 0 1-.932 0l-2.307-2.098a.692.692 0 0 1 .931-1.024l1=
+.842 1.674 4.611-4.192a.692.692 0 0 1 .978.047Z"></path></svg></div><div cl=
+ass=3D" useView_view__C2mnv">JavaScript</div></button></div><div class=3D" =
+useView_view__C2mnv"><button type=3D"button" class=3D"css-y7csor" data-rac=
+=3D"" id=3D"react-aria8892419012-:rti:" tabindex=3D"0"><div class=3D" useVi=
+ew_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 8px; -=
+-useView--align: center;"><div class=3D" useView_view__C2mnv css-v9redf"><d=
+iv class=3D"css-1uzv2gf"><div class=3D"css-a26g8n" style=3D"height: 12px; w=
+idth: 12px; transform: scale(0.75);"><svg preserveAspectRatio=3D"xMidYMin" =
+width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-red-s=
+tronger)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; =
+--rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=
+=3D"M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.0=
+6L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 =
+1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule=3D"evenodd">=
+</path></svg></div><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" heigh=
+t=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent-red-stronger)" aria-hid=
+den=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; --rotate: 0deg; wi=
+dth: 12px; height: 12px;"><path fill-rule=3D"evenodd" d=3D"M12 2.75a9.25 9.=
+25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5ZM1.25 12C1.25 6.063 6.063 1.25 12 1.=
+25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17.937 1.25 12Z" clip-ru=
+le=3D"evenodd"></path></svg></div><span class=3D" useView_view__C2mnv Text_=
+text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; =
+--Text--font-size: var(--font-size-small); --Text--line-height: var(--line-=
+height-small); --Text--color: var(--foreground-dimmer);">0</span></div><div=
+ class=3D" useView_view__C2mnv css-v9redf"><svg preserveAspectRatio=3D"xMid=
+YMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--accent=
+-yellow-stronger)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--siz=
+e: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"eve=
+nodd" d=3D"M10.58 3.125c.673-1.167 2.357-1.167 3.03 0l9.094 15.75c.673 1.16=
+7-.169 2.625-1.516 2.625H3.002c-1.348 0-2.19-1.458-1.516-2.625l9.093-15.75Z=
+m1.731.75a.25.25 0 0 0-.433 0l-9.093 15.75a.25.25 0 0 0 .217.375h18.186a.25=
+.25 0 0 0 .217-.375L12.31 3.875Zm-.268 4.478a.75.75 0 0 1 .75.75v4a.75.75 0=
+ 1 1-1.5 0v-4a.75.75 0 0 1 .75-.75Zm-.75 8.75a.75.75 0 0 1 .75-.75h.01a.75.=
+75 0 0 1 0 1.5h-.01a.75.75 0 0 1-.75-.75Z" clip-rule=3D"evenodd"></path></s=
+vg><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lX=
+pWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-s=
+ize-small); --Text--line-height: var(--line-height-small); --Text--color: v=
+ar(--foreground-dimmer);">0</span></div></div></button></div><div class=3D"=
+ useView_view__C2mnv"><button type=3D"button" tabindex=3D"0" class=3D"css-y=
+7csor" data-rac=3D"" id=3D"react-aria8892419012-:ru9:"><svg preserveAspectR=
 atio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"=
 var(--foreground-dimmer)" aria-hidden=3D"true" class=3D"css-492dz9" style=
-=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><circle cx=3D=
-"12" cy=3D"12" r=3D"6" fill-rule=3D"evenodd"></circle></svg><span class=3D"=
- useView_view__C2mnv Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Tex=
-t--font-family: inherit; --Text--font-size: var(--font-size-small); --Text-=
--line-height: var(--line-height-small); --Text--color: var(--foreground-dim=
-mer);">Spaces: 2</span></button></div><div class=3D" useView_view__C2mnv"><=
-button type=3D"button" tabindex=3D"0" class=3D"css-y7csor" data-rac=3D"" id=
-=3D"react-aria8892419012-:rui:"><div class=3D" useView_view__C2mnv">History=
-</div><svg preserveAspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" view=
-Box=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-4=
-92dz9" style=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><=
-path fill-rule=3D"evenodd" d=3D"M10.64 2.354A9.75 9.75 0 1 1 2.803 15.25a.7=
-5.75 0 0 1 1.414-.498 8.25 8.25 0 1 0 1.937-8.564L2.894 9.25H7a.75.75 0 0 1=
- 0 1.5H1A.75.75 0 0 1 .25 10V4a.75.75 0 0 1 1.5 0v4.266l3.368-3.165a9.75 9.=
-75 0 0 1 5.522-2.747ZM12 6.25a.75.75 0 0 1 .75.75v4.932l3.666 2.444a.75.75 =
-0 1 1-.832 1.248l-4-2.667a.75.75 0 0 1-.334-.624V7a.75.75 0 0 1 .75-.75Z" c=
-lip-rule=3D"evenodd"></path></svg></button></div></div></div></div></div><d=
-iv class=3D" useView_view__C2mnv Pane_interactionBlanket__HGhM4"></div></di=
-v><div class=3D" useView_view__C2mnv Pane_root__Dz_FC Surface_surfaceDefaul=
-t__TcNI5" role=3D"tabpanel" id=3D"178b7dee-7c8f-4d50-a198-d263cb19ce8c" ari=
-a-labelledby=3D"tab-178b7dee-7c8f-4d50-a198-d263cb19ce8c" style=3D"--index-=
--border-gap: 4px; --index--transform-origin-x: 0x; --fixed-position-offset-=
-x: -407px; --fixed-position-offset-y: -80px; --index--pointer-events: none;=
- z-index: 0; --index--interaction-blanket-display: none; --index--user-sele=
-ct: auto; --index--iframe-pointer-events: auto; --index--width: 529.1999999=
-999999px; --index--height: 554px; --index--transform-x: 406.8px; --index--t=
-ransform-y: 32px; --index--scale: 1; --index--opacity: 0;"><div class=3D" u=
-seView_view__C2mnv Pane_container__V2H53"><div class=3D" useView_view__C2mn=
-v" tabindex=3D"-1"></div><div class=3D" useView_view__C2mnv css-1doad88"><d=
-iv class=3D" useView_view__C2mnv css-1r9nnac"><div class=3D" useView_view__=
-C2mnv css-1iazb6n" style=3D"--useView--gap: 32px;"><div class=3D" useView_v=
-iew__C2mnv css-18v9zov" style=3D"--useView--gap: 4px;"><svg preserveAspectR=
-atio=3D"xMidYMin" width=3D"48" height=3D"48" viewBox=3D"0 0 24 24" fill=3D"=
-var(--accent-green-strongest)" aria-hidden=3D"true" class=3D"css-492dz9" st=
-yle=3D"--size: 48px; --rotate: 0deg; width: 48px; height: 48px;"><path fill=
--rule=3D"evenodd" d=3D"M14.409 9.75c-.039.434-.101.865-.188 1.29l1.241 1.24=
-c.233-.822.385-1.67.452-2.53h3.298a7.226 7.226 0 0 1-1.995 4.285l1.06 1.06a=
-8.75 8.75 0 1 0-12.555 0l1.061-1.06A7.226 7.226 0 0 1 4.788 9.75h3.298c.067=
-.86.219 1.708.452 2.53l1.24-1.24c-.086-.425-.149-.856-.187-1.29h4.818Zm-9.6=
-2-1.5h3.297c.176-2.262.94-4.433 2.209-6.298A7.256 7.256 0 0 0 4.788 8.25ZM1=
-2 2.16a11.49 11.49 0 0 0-2.409 6.09h4.818A11.49 11.49 0 0 0 12 2.16Zm7.212 =
-6.09h-3.298a12.99 12.99 0 0 0-2.209-6.298 7.256 7.256 0 0 1 5.507 6.298Z" c=
-lip-rule=3D"evenodd"></path><path d=3D"m17.53 16.47-5-5a.75.75 0 0 0-1.06 0=
-l-5 5a.75.75 0 1 0 1.06 1.06l3.72-3.72V23a.75.75 0 0 0 1.5 0v-9.19l3.72 3.7=
-2a.75.75 0 1 0 1.06-1.06Z"></path></svg><h1 class=3D" useView_view__C2mnv T=
-ext_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-size: var(--fo=
-nt-size-subhead-big); --Text--font-family: inherit; --Text--line-height: va=
-r(--line-height-subhead-big); --Text--font-weight: var(--font-weight-medium=
-);">Deploy to production</h1><span class=3D" useView_view__C2mnv Text_text_=
-_T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text=
---font-size: var(--font-size-default); --Text--line-height: var(--line-heig=
-ht-default); --Text--color: var(--foreground-dimmer);">Publish a live, stab=
-le, public version of your App, unaffected by the changes you make in the w=
-orkspace <a href=3D"https://docs.replit.com/category/replit-deployments" ta=
-rget=3D"_blank" rel=3D"noopener">Learn more.</a></span><a class=3D"Button_b=
-utton__oRQ_x css-1waevtp" role=3D"link" target=3D"_blank" href=3D"https://w=
-ww.youtube.com/watch?v=3DOqSbgBMoTm0" style=3D"--Button--height: 32px; --Bu=
-tton--shrink: 0; --Button--align-self: auto; --Button--alignment: center; d=
-isplay: flex;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1Y=
-Op" style=3D"--useView--gap: 8px; --useView--justify: center; --useView--al=
-ign: center; --useView--grow: 1; --useView--shrink: 1;"><svg preserveAspect=
-Ratio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D=
-"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 1=
-6px; --rotate: 0deg; width: 16px; height: 16px;"><path d=3D"M21.8 8s-.195-1=
-.38-.796-1.985c-.762-.797-1.613-.8-2.004-.847-2.797-.204-6.996-.204-6.996-.=
-204h-.008s-4.2 0-6.996.204c-.39.046-1.242.05-2.004.847C2.395 6.621 2.203 8 =
-2.203 8S2 9.62 2 11.238v1.516c0 1.617.2 3.238.2 3.238s.195 1.379.792 1.984c=
-.762.797 1.762.77 2.207.856 1.602.152 6.801.199 6.801.199s4.203-.008 7-.207=
-c.39-.047 1.242-.05 2.004-.848.601-.605.797-1.984.797-1.984S22 14.375 22 12=
-.754v-1.516C22 9.62 21.8 8 21.8 8ZM9.935 14.593v-5.62l5.402 2.82-5.402 2.8Z=
-"></path></svg><span class=3D"Text_singleLineWrapper__REG8N" style=3D"--Tex=
-t--font-size: var(--font-size-default); --Text--font-family: inherit;"><spa=
-n class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" st=
-yle=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-def=
-ault); --Text--line-height: var(--line-height-default);"> Choosing the righ=
-t deployment type</span></span></div></a></div><div class=3D" useView_view_=
-_C2mnv css-1rtw910"><div class=3D" useView_view__C2mnv css-d81awo"><span cl=
-ass=3D"css-zts4em"><button class=3D"css-8rcuo8" fdprocessedid=3D"1hwx2s" st=
-yle=3D"--provider-order: 0;"><div class=3D" useView_view__C2mnv css-4q3ady"=
-><div class=3D" useView_view__C2mnv css-opcaka"><svg preserveAspectRatio=3D=
-"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D"current=
-Color" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 32px; --r=
-otate: 0deg; width: 32px; height: 32px;"><path fill-rule=3D"evenodd" d=3D"M=
-4.171 4.421c-.37.292-.421.493-.421.579 0 .086.052.287.421.579.362.285.932.5=
-74 1.702.83 1.534.512 3.7.841 6.127.841 2.427 0 4.593-.329 6.127-.84.77-.25=
-7 1.34-.546 1.701-.831.37-.292.422-.493.422-.579 0-.086-.052-.287-.422-.579=
--.361-.285-.93-.574-1.701-.83-1.534-.512-3.7-.841-6.127-.841-2.427 0-4.593.=
-329-6.127.84-.77.257-1.34.546-1.702.831ZM20.25 7.103a8.448 8.448 0 0 1-1.64=
-9.73c-1.724.574-4.057.917-6.601.917-2.543 0-4.877-.343-6.601-.917a8.449 8.4=
-49 0 0 1-1.649-.73V12c0 .09.053.291.419.581.359.285.925.574 1.694.83 1.529.=
-51 3.695.839 6.137.839 2.442 0 4.608-.328 6.137-.839.769-.256 1.335-.545 1.=
-694-.83.366-.29.419-.492.419-.581V7.103ZM21.75 5c0-.743-.452-1.33-.993-1.75=
-7-.55-.433-1.298-.79-2.156-1.076-1.724-.574-4.057-.917-6.601-.917-2.543 0-4=
-.877.343-6.601.917-.858.286-1.607.643-2.156 1.076C2.703 3.67 2.25 4.257 2.2=
-5 5v14c0 .74.447 1.329.987 1.757.548.434 1.294.791 2.15 1.077 1.721.574 4.0=
-55.916 6.613.916 2.558 0 4.892-.342 6.613-.916.856-.286 1.602-.643 2.15-1.0=
-77.54-.428.987-1.016.987-1.757V5Zm-1.5 9.108a8.394 8.394 0 0 1-1.637.726c-1=
-.721.574-4.055.916-6.613.916-2.558 0-4.892-.342-6.612-.916a8.393 8.393 0 0 =
-1-1.638-.726V19c0 .09.053.291.419.581.359.285.925.573 1.694.83 1.529.51 3.6=
-95.839 6.137.839 2.442 0 4.608-.328 6.137-.839.769-.257 1.335-.545 1.694-.8=
-3.366-.29.419-.492.419-.581v-4.892Z" clip-rule=3D"evenodd"></path></svg></d=
-iv><div class=3D" useView_view__C2mnv"><div class=3D" useView_view__C2mnv u=
-seView_isHorizontal__Q1YOp css-g6iv6y" style=3D"--useView--gap: 4px;"><span=
- class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" sty=
-le=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-subh=
-ead-default); --Text--line-height: var(--line-height-subhead-default); --Te=
-xt--font-weight: var(--font-weight-medium);">Reserved VM</span></div><span =
-class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" styl=
-e=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-small=
-); --Text--line-height: var(--line-height-small);">Always On Servers</span>=
-</div></div></button></span><span class=3D"css-zts4em"><button class=3D"css=
--8rcuo8" fdprocessedid=3D"tv1xrh" style=3D"--provider-order: 1;"><div class=
-=3D" useView_view__C2mnv css-4q3ady"><div class=3D" useView_view__C2mnv css=
--opcaka"><svg preserveAspectRatio=3D"xMidYMin" width=3D"32" height=3D"32" v=
-iewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"cs=
-s-492dz9" style=3D"--size: 32px; --rotate: 0deg; width: 32px; height: 32px;=
-"><path fill-rule=3D"evenodd" d=3D"M6.495 4.729a8.287 8.287 0 0 1 4.387-.32=
-c1.465.29 2.819.97 3.907 1.967A7.725 7.725 0 0 1 16.863 9.5h.593c1.395 0 2.=
-738.533 3.733 1.491a5.044 5.044 0 0 1 1.561 3.634 5.044 5.044 0 0 1-1.56 3.=
-634 5.385 5.385 0 0 1-3.734 1.491h-8.18a8.23 8.23 0 0 1-4.233-1.164 7.852 7=
-.852 0 0 1-2.967-3.16 7.524 7.524 0 0 1-.785-4.211 7.607 7.607 0 0 1 1.646-=
-3.97A8.01 8.01 0 0 1 6.495 4.73Zm4.096 1.15a6.787 6.787 0 0 0-3.593.263 6.5=
-1 6.51 0 0 0-2.892 2.043 6.106 6.106 0 0 0-1.323 3.187 6.024 6.024 0 0 0 .6=
-3 3.373 6.352 6.352 0 0 0 2.4 2.554 6.73 6.73 0 0 0 3.463.951h8.18a3.885 3.=
-885 0 0 0 2.693-1.072 3.544 3.544 0 0 0 1.101-2.553c0-.952-.393-1.871-1.101=
--2.553A3.885 3.885 0 0 0 17.456 11H16.31a.75.75 0 0 1-.725-.556 6.2 6.2 0 0=
- 0-1.81-2.962 6.62 6.62 0 0 0-3.185-1.603Z" clip-rule=3D"evenodd"></path></=
-svg></div><div class=3D" useView_view__C2mnv"><div class=3D" useView_view__=
-C2mnv useView_isHorizontal__Q1YOp css-g6iv6y" style=3D"--useView--gap: 4px;=
-"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXp=
-WA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-si=
-ze-subhead-default); --Text--line-height: var(--line-height-subhead-default=
-); --Text--font-weight: var(--font-weight-medium);">Autoscale</span></div><=
-span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA"=
- style=3D"--Text--font-family: inherit; --Text--font-size: var(--font-size-=
-small); --Text--line-height: var(--line-height-small);">Meet demand exactly=
-</span></div></div></button></span><span class=3D"css-zts4em"><button class=
-=3D"css-17ftjjb" fdprocessedid=3D"ad37n6" style=3D"--provider-order: 0.5;">=
-<div class=3D" useView_view__C2mnv css-1jaty4f"><span class=3D" useView_vie=
-w__C2mnv Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-fami=
-ly: inherit; --Text--font-size: var(--font-size-small); --Text--line-height=
-: var(--line-height-small);">Recommended</span></div><div class=3D" useView=
-_view__C2mnv css-4yn97c"><div class=3D" useView_view__C2mnv css-1xwwtcj"><s=
-vg preserveAspectRatio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0=
- 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" s=
-tyle=3D"--size: 32px; --rotate: 0deg; width: 32px; height: 32px;"><path fil=
-l-rule=3D"evenodd" d=3D"M4 3.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1=
-.25 1.25h16c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25H4Zm8.75 14H=
-20A2.75 2.75 0 0 0 22.75 15V5A2.75 2.75 0 0 0 20 2.25H4A2.75 2.75 0 0 0 1.2=
-5 5v10A2.75 2.75 0 0 0 4 17.75h7.25v2.5H8a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0=
- 0-1.5h-3.25v-2.5Z" clip-rule=3D"evenodd"></path></svg></div><div class=3D"=
- useView_view__C2mnv"><div class=3D" useView_view__C2mnv useView_isHorizont=
-al__Q1YOp css-g6iv6y" style=3D"--useView--gap: 4px;"><span class=3D" useVie=
-w_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--fon=
-t-family: inherit; --Text--font-size: var(--font-size-subhead-default); --T=
-ext--line-height: var(--line-height-subhead-default); --Text--font-weight: =
-var(--font-weight-medium);">Static pages</span></div><span class=3D" useVie=
-w_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--fon=
-t-family: inherit; --Text--font-size: var(--font-size-small); --Text--line-=
-height: var(--line-height-small);">Simple HTML websites</span></div></div><=
-/button></span><span class=3D"css-zts4em"><button class=3D"css-8rcuo8" fdpr=
-ocessedid=3D"gfvb6" style=3D"--provider-order: 3;"><div class=3D" useView_v=
-iew__C2mnv css-4q3ady"><div class=3D" useView_view__C2mnv css-opcaka"><svg =
-preserveAspectRatio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 =
-24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" styl=
-e=3D"--size: 32px; --rotate: 0deg; width: 32px; height: 32px;"><path fill-r=
-ule=3D"evenodd" d=3D"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5=
-ZM1.25 12C1.25 6.063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 1=
-2 22.75 1.25 17.937 1.25 12ZM12 6.25a.75.75 0 0 1 .75.75v4.932l3.666 2.444a=
-.75.75 0 1 1-.832 1.248l-4-2.667a.75.75 0 0 1-.334-.624V7a.75.75 0 0 1 .75-=
-.75Z" clip-rule=3D"evenodd"></path></svg></div><div class=3D" useView_view_=
-_C2mnv"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-=
-g6iv6y" style=3D"--useView--gap: 4px;"><span class=3D" useView_view__C2mnv =
-Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inhe=
-rit; --Text--font-size: var(--font-size-subhead-default); --Text--line-heig=
-ht: var(--line-height-subhead-default); --Text--font-weight: var(--font-wei=
-ght-medium);">Scheduled</span></div><span class=3D" useView_view__C2mnv Tex=
+=3D"--size: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-ru=
+le=3D"evenodd" d=3D"M18 2.5H6A1.5 1.5 0 0 0 4.5 4v16A1.5 1.5 0 0 0 6 21.5h1=
+2a1.5 1.5 0 0 0 1.5-1.5V4A1.5 1.5 0 0 0 18 2.5ZM6 1a3 3 0 0 0-3 3v16a3 3 0 =
+0 0 3 3h12a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H6Z" clip-rule=3D"evenodd"></path><=
+path fill-rule=3D"evenodd" d=3D"M16 17.25c0 .414-.316.75-.706.75H8.706c-.39=
+ 0-.706-.336-.706-.75s.316-.75.706-.75h6.588c.39 0 .706.336.706.75ZM16 9.5c=
+0 .414-.316.75-.706.75H8.706c-.39 0-.706-.336-.706-.75s.316-.75.706-.75h6.5=
+88c.39 0 .706.336.706.75Z" clip-rule=3D"evenodd"></path><path fill-rule=3D"=
+evenodd" d=3D"M12 13.5c-.414 0-.75-.316-.75-.706V6.206c0-.39.336-.706.75-.7=
+06s.75.316.75.706v6.588c0 .39-.336.706-.75.706Z" clip-rule=3D"evenodd"></pa=
+th></svg><div class=3D" useView_view__C2mnv">Diff</div></button></div><div =
+class=3D" useView_view__C2mnv"><button type=3D"button" disabled=3D"" class=
+=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:ruc:" data-disabl=
+ed=3D"true"></button></div><div class=3D" useView_view__C2mnv css-tqeoyf"><=
+/div><div class=3D" useView_view__C2mnv"><button type=3D"button" tabindex=
+=3D"0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria8892419012-:ruf:"=
+><span data-cy=3D"current-position">Ln 2, Col 64</span></button></div><div =
+class=3D" useView_view__C2mnv"><button type=3D"button" tabindex=3D"0" aria-=
+expanded=3D"false" id=3D"react-aria8892419012-:rto:" class=3D"css-y7csor" d=
+ata-rac=3D"" fdprocessedid=3D"0gj91q"><svg preserveAspectRatio=3D"xMidYMin"=
+ width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" fill=3D"var(--foreground-=
+dimmer)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 12px; -=
+-rotate: 0deg; width: 12px; height: 12px;"><circle cx=3D"12" cy=3D"12" r=3D=
+"6" fill-rule=3D"evenodd"></circle></svg><span class=3D" useView_view__C2mn=
+v Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inh=
+erit; --Text--font-size: var(--font-size-small); --Text--line-height: var(-=
+-line-height-small); --Text--color: var(--foreground-dimmer);">Spaces: 2</s=
+pan></button></div><div class=3D" useView_view__C2mnv"><button type=3D"butt=
+on" tabindex=3D"0" class=3D"css-y7csor" data-rac=3D"" id=3D"react-aria88924=
+19012-:rui:"><div class=3D" useView_view__C2mnv">History</div><svg preserve=
+AspectRatio=3D"xMidYMin" width=3D"12" height=3D"12" viewBox=3D"0 0 24 24" f=
+ill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--s=
+ize: 12px; --rotate: 0deg; width: 12px; height: 12px;"><path fill-rule=3D"e=
+venodd" d=3D"M10.64 2.354A9.75 9.75 0 1 1 2.803 15.25a.75.75 0 0 1 1.414-.4=
+98 8.25 8.25 0 1 0 1.937-8.564L2.894 9.25H7a.75.75 0 0 1 0 1.5H1A.75.75 0 0=
+ 1 .25 10V4a.75.75 0 0 1 1.5 0v4.266l3.368-3.165a9.75 9.75 0 0 1 5.522-2.74=
+7ZM12 6.25a.75.75 0 0 1 .75.75v4.932l3.666 2.444a.75.75 0 1 1-.832 1.248l-4=
+-2.667a.75.75 0 0 1-.334-.624V7a.75.75 0 0 1 .75-.75Z" clip-rule=3D"evenodd=
+"></path></svg></button></div></div></div></div></div><div class=3D" useVie=
+w_view__C2mnv Pane_interactionBlanket__HGhM4"></div></div><div class=3D" us=
+eView_view__C2mnv Pane_root__Dz_FC Surface_surfaceDefault__TcNI5" role=3D"t=
+abpanel" id=3D"178b7dee-7c8f-4d50-a198-d263cb19ce8c" aria-labelledby=3D"tab=
+-178b7dee-7c8f-4d50-a198-d263cb19ce8c" style=3D"--index--border-gap: 4px; -=
+-index--transform-origin-x: 0x; --fixed-position-offset-x: -407px; --fixed-=
+position-offset-y: -80px; --index--pointer-events: none; z-index: 0; --inde=
+x--interaction-blanket-display: none; --index--user-select: auto; --index--=
+iframe-pointer-events: auto; --index--width: 529.1999999999999px; --index--=
+height: 554px; --index--transform-x: 406.8px; --index--transform-y: 32px; -=
+-index--scale: 1; --index--opacity: 0;"><div class=3D" useView_view__C2mnv =
+Pane_container__V2H53"><div class=3D" useView_view__C2mnv" tabindex=3D"-1">=
+</div><div class=3D" useView_view__C2mnv css-1doad88"><div class=3D" useVie=
+w_view__C2mnv css-1r9nnac"><div class=3D" useView_view__C2mnv css-1iazb6n" =
+style=3D"--useView--gap: 32px;"><div class=3D" useView_view__C2mnv css-18v9=
+zov" style=3D"--useView--gap: 4px;"><svg preserveAspectRatio=3D"xMidYMin" w=
+idth=3D"48" height=3D"48" viewBox=3D"0 0 24 24" fill=3D"var(--accent-green-=
+strongest)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 48px=
+; --rotate: 0deg; width: 48px; height: 48px;"><path fill-rule=3D"evenodd" d=
+=3D"M14.409 9.75c-.039.434-.101.865-.188 1.29l1.241 1.24c.233-.822.385-1.67=
+.452-2.53h3.298a7.226 7.226 0 0 1-1.995 4.285l1.06 1.06a8.75 8.75 0 1 0-12.=
+555 0l1.061-1.06A7.226 7.226 0 0 1 4.788 9.75h3.298c.067.86.219 1.708.452 2=
+.53l1.24-1.24c-.086-.425-.149-.856-.187-1.29h4.818Zm-9.62-1.5h3.297c.176-2.=
+262.94-4.433 2.209-6.298A7.256 7.256 0 0 0 4.788 8.25ZM12 2.16a11.49 11.49 =
+0 0 0-2.409 6.09h4.818A11.49 11.49 0 0 0 12 2.16Zm7.212 6.09h-3.298a12.99 1=
+2.99 0 0 0-2.209-6.298 7.256 7.256 0 0 1 5.507 6.298Z" clip-rule=3D"evenodd=
+"></path><path d=3D"m17.53 16.47-5-5a.75.75 0 0 0-1.06 0l-5 5a.75.75 0 1 0 =
+1.06 1.06l3.72-3.72V23a.75.75 0 0 0 1.5 0v-9.19l3.72 3.72a.75.75 0 1 0 1.06=
+-1.06Z"></path></svg><h1 class=3D" useView_view__C2mnv Text_text__T_hn_ Tex=
+t_multiline__ICkLz" style=3D"--Text--font-size: var(--font-size-subhead-big=
+); --Text--font-family: inherit; --Text--line-height: var(--line-height-sub=
+head-big); --Text--font-weight: var(--font-weight-medium);">Deploy to produ=
+ction</h1><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_multili=
+ne__ICkLz" style=3D"--Text--font-family: inherit; --Text--font-size: var(--=
+font-size-default); --Text--line-height: var(--line-height-default); --Text=
+--color: var(--foreground-dimmer);">Publish a live, stable, public version =
+of your App, unaffected by the changes you make in the workspace <a href=3D=
+"https://docs.replit.com/category/replit-deployments" target=3D"_blank" rel=
+=3D"noopener">Learn more.</a></span><a class=3D"Button_button__oRQ_x css-1w=
+aevtp" role=3D"link" target=3D"_blank" href=3D"https://www.youtube.com/watc=
+h?v=3DOqSbgBMoTm0" style=3D"--Button--height: 32px; --Button--shrink: 0; --=
+Button--align-self: auto; --Button--alignment: center; display: flex;"><div=
+ class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useV=
+iew--gap: 8px; --useView--justify: center; --useView--align: center; --useV=
+iew--grow: 1; --useView--shrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" =
+width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria=
+-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg=
+; width: 16px; height: 16px;"><path d=3D"M21.8 8s-.195-1.38-.796-1.985c-.76=
+2-.797-1.613-.8-2.004-.847-2.797-.204-6.996-.204-6.996-.204h-.008s-4.2 0-6.=
+996.204c-.39.046-1.242.05-2.004.847C2.395 6.621 2.203 8 2.203 8S2 9.62 2 11=
+.238v1.516c0 1.617.2 3.238.2 3.238s.195 1.379.792 1.984c.762.797 1.762.77 2=
+.207.856 1.602.152 6.801.199 6.801.199s4.203-.008 7-.207c.39-.047 1.242-.05=
+ 2.004-.848.601-.605.797-1.984.797-1.984S22 14.375 22 12.754v-1.516C22 9.62=
+ 21.8 8 21.8 8ZM9.935 14.593v-5.62l5.402 2.82-5.402 2.8Z"></path></svg><spa=
+n class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: var(-=
+-font-size-default); --Text--font-family: inherit;"><span class=3D" useView=
+_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font=
+-family: inherit; --Text--font-size: var(--font-size-default); --Text--line=
+-height: var(--line-height-default);"> Choosing the right deployment type</=
+span></span></div></a></div><div class=3D" useView_view__C2mnv css-1rtw910"=
+><div class=3D" useView_view__C2mnv css-d81awo"><span class=3D"css-zts4em">=
+<button class=3D"css-8rcuo8" fdprocessedid=3D"1hwx2s" style=3D"--provider-o=
+rder: 0;"><div class=3D" useView_view__C2mnv css-4q3ady"><div class=3D" use=
+View_view__C2mnv css-opcaka"><svg preserveAspectRatio=3D"xMidYMin" width=3D=
+"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=
+=3D"true" class=3D"css-492dz9" style=3D"--size: 32px; --rotate: 0deg; width=
+: 32px; height: 32px;"><path fill-rule=3D"evenodd" d=3D"M4.171 4.421c-.37.2=
+92-.421.493-.421.579 0 .086.052.287.421.579.362.285.932.574 1.702.83 1.534.=
+512 3.7.841 6.127.841 2.427 0 4.593-.329 6.127-.84.77-.257 1.34-.546 1.701-=
+.831.37-.292.422-.493.422-.579 0-.086-.052-.287-.422-.579-.361-.285-.93-.57=
+4-1.701-.83-1.534-.512-3.7-.841-6.127-.841-2.427 0-4.593.329-6.127.84-.77.2=
+57-1.34.546-1.702.831ZM20.25 7.103a8.448 8.448 0 0 1-1.649.73c-1.724.574-4.=
+057.917-6.601.917-2.543 0-4.877-.343-6.601-.917a8.449 8.449 0 0 1-1.649-.73=
+V12c0 .09.053.291.419.581.359.285.925.574 1.694.83 1.529.51 3.695.839 6.137=
+.839 2.442 0 4.608-.328 6.137-.839.769-.256 1.335-.545 1.694-.83.366-.29.41=
+9-.492.419-.581V7.103ZM21.75 5c0-.743-.452-1.33-.993-1.757-.55-.433-1.298-.=
+79-2.156-1.076-1.724-.574-4.057-.917-6.601-.917-2.543 0-4.877.343-6.601.917=
+-.858.286-1.607.643-2.156 1.076C2.703 3.67 2.25 4.257 2.25 5v14c0 .74.447 1=
+.329.987 1.757.548.434 1.294.791 2.15 1.077 1.721.574 4.055.916 6.613.916 2=
+.558 0 4.892-.342 6.613-.916.856-.286 1.602-.643 2.15-1.077.54-.428.987-1.0=
+16.987-1.757V5Zm-1.5 9.108a8.394 8.394 0 0 1-1.637.726c-1.721.574-4.055.916=
+-6.613.916-2.558 0-4.892-.342-6.612-.916a8.393 8.393 0 0 1-1.638-.726V19c0 =
+.09.053.291.419.581.359.285.925.573 1.694.83 1.529.51 3.695.839 6.137.839 2=
+.442 0 4.608-.328 6.137-.839.769-.257 1.335-.545 1.694-.83.366-.29.419-.492=
+.419-.581v-4.892Z" clip-rule=3D"evenodd"></path></svg></div><div class=3D" =
+useView_view__C2mnv"><div class=3D" useView_view__C2mnv useView_isHorizonta=
+l__Q1YOp css-g6iv6y" style=3D"--useView--gap: 4px;"><span class=3D" useView=
+_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font=
+-family: inherit; --Text--font-size: var(--font-size-subhead-default); --Te=
+xt--line-height: var(--line-height-subhead-default); --Text--font-weight: v=
+ar(--font-weight-medium);">Reserved VM</span></div><span class=3D" useView_=
+view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-=
+family: inherit; --Text--font-size: var(--font-size-small); --Text--line-he=
+ight: var(--line-height-small);">Always On Servers</span></div></div></butt=
+on></span><span class=3D"css-zts4em"><button class=3D"css-8rcuo8" fdprocess=
+edid=3D"tv1xrh" style=3D"--provider-order: 1;"><div class=3D" useView_view_=
+_C2mnv css-4q3ady"><div class=3D" useView_view__C2mnv css-opcaka"><svg pres=
+erveAspectRatio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 2=
+4" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D=
+"--size: 32px; --rotate: 0deg; width: 32px; height: 32px;"><path fill-rule=
+=3D"evenodd" d=3D"M6.495 4.729a8.287 8.287 0 0 1 4.387-.32c1.465.29 2.819.9=
+7 3.907 1.967A7.725 7.725 0 0 1 16.863 9.5h.593c1.395 0 2.738.533 3.733 1.4=
+91a5.044 5.044 0 0 1 1.561 3.634 5.044 5.044 0 0 1-1.56 3.634 5.385 5.385 0=
+ 0 1-3.734 1.491h-8.18a8.23 8.23 0 0 1-4.233-1.164 7.852 7.852 0 0 1-2.967-=
+3.16 7.524 7.524 0 0 1-.785-4.211 7.607 7.607 0 0 1 1.646-3.97A8.01 8.01 0 =
+0 1 6.495 4.73Zm4.096 1.15a6.787 6.787 0 0 0-3.593.263 6.51 6.51 0 0 0-2.89=
+2 2.043 6.106 6.106 0 0 0-1.323 3.187 6.024 6.024 0 0 0 .63 3.373 6.352 6.3=
+52 0 0 0 2.4 2.554 6.73 6.73 0 0 0 3.463.951h8.18a3.885 3.885 0 0 0 2.693-1=
+.072 3.544 3.544 0 0 0 1.101-2.553c0-.952-.393-1.871-1.101-2.553A3.885 3.88=
+5 0 0 0 17.456 11H16.31a.75.75 0 0 1-.725-.556 6.2 6.2 0 0 0-1.81-2.962 6.6=
+2 6.62 0 0 0-3.185-1.603Z" clip-rule=3D"evenodd"></path></svg></div><div cl=
+ass=3D" useView_view__C2mnv"><div class=3D" useView_view__C2mnv useView_isH=
+orizontal__Q1YOp css-g6iv6y" style=3D"--useView--gap: 4px;"><span class=3D"=
+ useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Te=
+xt--font-family: inherit; --Text--font-size: var(--font-size-subhead-defaul=
+t); --Text--line-height: var(--line-height-subhead-default); --Text--font-w=
+eight: var(--font-weight-medium);">Autoscale</span></div><span class=3D" us=
+eView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text-=
+-font-family: inherit; --Text--font-size: var(--font-size-small); --Text--l=
+ine-height: var(--line-height-small);">Meet demand exactly</span></div></di=
+v></button></span><span class=3D"css-zts4em"><button class=3D"css-17ftjjb" =
+fdprocessedid=3D"ad37n6" style=3D"--provider-order: 0.5;"><div class=3D" us=
+eView_view__C2mnv css-1jaty4f"><span class=3D" useView_view__C2mnv Text_tex=
+t__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Te=
+xt--font-size: var(--font-size-small); --Text--line-height: var(--line-heig=
+ht-small);">Recommended</span></div><div class=3D" useView_view__C2mnv css-=
+4yn97c"><div class=3D" useView_view__C2mnv css-1xwwtcj"><svg preserveAspect=
+Ratio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D=
+"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 3=
+2px; --rotate: 0deg; width: 32px; height: 32px;"><path fill-rule=3D"evenodd=
+" d=3D"M4 3.75c-.69 0-1.25.56-1.25 1.25v10c0 .69.56 1.25 1.25 1.25h16c.69 0=
+ 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.25H4Zm8.75 14H20A2.75 2.75 0 0 =
+0 22.75 15V5A2.75 2.75 0 0 0 20 2.25H4A2.75 2.75 0 0 0 1.25 5v10A2.75 2.75 =
+0 0 0 4 17.75h7.25v2.5H8a.75.75 0 0 0 0 1.5h8a.75.75 0 0 0 0-1.5h-3.25v-2.5=
+Z" clip-rule=3D"evenodd"></path></svg></div><div class=3D" useView_view__C2=
+mnv"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-g6i=
+v6y" style=3D"--useView--gap: 4px;"><span class=3D" useView_view__C2mnv Tex=
+t_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit=
+; --Text--font-size: var(--font-size-subhead-default); --Text--line-height:=
+ var(--line-height-subhead-default); --Text--font-weight: var(--font-weight=
+-medium);">Static pages</span></div><span class=3D" useView_view__C2mnv Tex=
 t_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit=
 ; --Text--font-size: var(--font-size-small); --Text--line-height: var(--lin=
-e-height-small);">Time-based job scheduler</span></div></div></button></spa=
-n></div><div class=3D" useView_view__C2mnv css-13e0o9f"><div class=3D" useV=
-iew_view__C2mnv css-1mex0y6"><button type=3D"button" tabindex=3D"0" class=
-=3D"loaded Button_button__oRQ_x css-1exqc7i" data-rac=3D"" id=3D"react-aria=
-8892419012-:rpm:" fdprocessedid=3D"ezq4es" style=3D"--Button--height: 32px;=
- --Button--shrink: 0; --Button--align-self: auto; --Button--alignment: cent=
-er;"><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=
-=3D"--useView--gap: 8px; --useView--justify: center; --useView--align: cent=
-er; --useView--grow: 1; --useView--shrink: 1;"><svg preserveAspectRatio=3D"=
-xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentC=
-olor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --ro=
-tate: 0deg; width: 16px; height: 16px;"><path d=3D"M12.554.492c.49 3.288 1.=
-307 7.363 2.448 8.505 1.142 1.142 5.22 1.959 8.51 2.449.651.097.65 1.01 0 1=
-.107-3.29.49-7.367 1.307-8.51 2.448-1.143 1.143-1.96 5.227-2.45 8.518-.096.=
-642-1.009.641-1.104 0-.49-3.291-1.308-7.374-2.45-8.517-1.142-1.143-5.217-1.=
-959-8.506-2.45a.558.558 0 0 1 0-1.107c3.289-.49 7.363-1.307 8.505-2.448 1.1=
-42-1.142 1.959-5.216 2.45-8.505a.558.558 0 0 1 1.107 0Z"></path></svg><span=
- class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-size: var(--=
-font-size-default); --Text--font-family: inherit;"><span class=3D" useView_=
-view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-=
-family: inherit; --Text--font-size: var(--font-size-default); --Text--line-=
-height: var(--line-height-default);">Upgrade your plan to deploy</span></sp=
-an></div></button><button type=3D"button" tabindex=3D"0" class=3D"Button_bu=
-tton__oRQ_x css-o0xl6i" data-rac=3D"" id=3D"react-aria8892419012-:rpo:" fdp=
-rocessedid=3D"xrlg9b9" style=3D"--Button--height: 32px; --Button--shrink: 0=
-; --Button--align-self: auto; --Button--alignment: center;"><div class=3D" =
-useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 8=
-px; --useView--justify: center; --useView--align: center; --useView--grow: =
-1; --useView--shrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16=
-" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"=
-true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16=
-px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M19 2a.75.75 0 0 1 .75.=
-75V6H23a.75.75 0 0 1 0 1.5h-3.25v3.25a.75.75 0 0 1-1.5 0V7.5H15A.75.75 0 0 =
-1 15 6h3.25V2.75A.75.75 0 0 1 19 2ZM3 7.5c-.69 0-1.25.56-1.25 1.25V10H15.5a=
-.75.75 0 0 1 0 1.5H1.75v7.25c0 .69.56 1.25 1.25 1.25h14c.69 0 1.25-.56 1.25=
--1.25v-4.5a.75.75 0 0 1 1.5 0v4.5A2.75 2.75 0 0 1 17 21.5H3a2.75 2.75 0 0 1=
--2.75-2.75v-10A2.75 2.75 0 0 1 3 6h8.5a.75.75 0 0 1 0 1.5H3Z" clip-rule=3D"=
-evenodd"></path></svg><span class=3D"Text_singleLineWrapper__REG8N" style=
-=3D"--Text--font-size: var(--font-size-default); --Text--font-family: inher=
-it;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__=
-lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: var(--font=
--size-default); --Text--line-height: var(--line-height-default);">or add a =
-payment method</span></span></div></button></div></div></div><div class=3D"=
- useView_view__C2mnv css-1rtw910"><div class=3D" useView_view__C2mnv css-1f=
-7j3sa" style=3D"--useView--gap: 12px;"><span class=3D" useView_view__C2mnv =
-Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inher=
-it; --Text--font-size: var(--font-size-subhead-default); --Text--line-heigh=
-t: var(--line-height-subhead-default); --Text--font-weight: var(--font-weig=
-ht-medium);">Basic websites with no backend server</span><div class=3D" use=
+e-height-small);">Simple HTML websites</span></div></div></button></span><s=
+pan class=3D"css-zts4em"><button class=3D"css-8rcuo8" fdprocessedid=3D"gfvb=
+6" style=3D"--provider-order: 3;"><div class=3D" useView_view__C2mnv css-4q=
+3ady"><div class=3D" useView_view__C2mnv css-opcaka"><svg preserveAspectRat=
+io=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D"cu=
+rrentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 32px=
+; --rotate: 0deg; width: 32px; height: 32px;"><path fill-rule=3D"evenodd" d=
+=3D"M12 2.75a9.25 9.25 0 1 0 0 18.5 9.25 9.25 0 0 0 0-18.5ZM1.25 12C1.25 6.=
+063 6.063 1.25 12 1.25S22.75 6.063 22.75 12 17.937 22.75 12 22.75 1.25 17.9=
+37 1.25 12ZM12 6.25a.75.75 0 0 1 .75.75v4.932l3.666 2.444a.75.75 0 1 1-.832=
+ 1.248l-4-2.667a.75.75 0 0 1-.334-.624V7a.75.75 0 0 1 .75-.75Z" clip-rule=
+=3D"evenodd"></path></svg></div><div class=3D" useView_view__C2mnv"><div cl=
+ass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp css-g6iv6y" style=
+=3D"--useView--gap: 4px;"><span class=3D" useView_view__C2mnv Text_text__T_=
+hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--=
+font-size: var(--font-size-subhead-default); --Text--line-height: var(--lin=
+e-height-subhead-default); --Text--font-weight: var(--font-weight-medium);"=
+>Scheduled</span></div><span class=3D" useView_view__C2mnv Text_text__T_hn_=
+ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--fon=
+t-size: var(--font-size-small); --Text--line-height: var(--line-height-smal=
+l);">Time-based job scheduler</span></div></div></button></span></div><div =
+class=3D" useView_view__C2mnv css-13e0o9f"><div class=3D" useView_view__C2m=
+nv css-1mex0y6"><button type=3D"button" tabindex=3D"0" class=3D"loaded Butt=
+on_button__oRQ_x css-1exqc7i" data-rac=3D"" id=3D"react-aria8892419012-:rpm=
+:" fdprocessedid=3D"ezq4es" style=3D"--Button--height: 32px; --Button--shri=
+nk: 0; --Button--align-self: auto; --Button--alignment: center;"><div class=
+=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--g=
+ap: 8px; --useView--justify: center; --useView--align: center; --useView--g=
+row: 1; --useView--shrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" width=
+=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidd=
+en=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; wid=
+th: 16px; height: 16px;"><path d=3D"M12.554.492c.49 3.288 1.307 7.363 2.448=
+ 8.505 1.142 1.142 5.22 1.959 8.51 2.449.651.097.65 1.01 0 1.107-3.29.49-7.=
+367 1.307-8.51 2.448-1.143 1.143-1.96 5.227-2.45 8.518-.096.642-1.009.641-1=
+.104 0-.49-3.291-1.308-7.374-2.45-8.517-1.142-1.143-5.217-1.959-8.506-2.45a=
+.558.558 0 0 1 0-1.107c3.289-.49 7.363-1.307 8.505-2.448 1.142-1.142 1.959-=
+5.216 2.45-8.505a.558.558 0 0 1 1.107 0Z"></path></svg><span class=3D"Text_=
+singleLineWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-defau=
+lt); --Text--font-family: inherit;"><span class=3D" useView_view__C2mnv Tex=
+t_text__T_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit=
+; --Text--font-size: var(--font-size-default); --Text--line-height: var(--l=
+ine-height-default);">Upgrade your plan to deploy</span></span></div></butt=
+on><button type=3D"button" tabindex=3D"0" class=3D"Button_button__oRQ_x css=
+-o0xl6i" data-rac=3D"" id=3D"react-aria8892419012-:rpo:" fdprocessedid=3D"x=
+rlg9b9" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button--ali=
+gn-self: auto; --Button--alignment: center;"><div class=3D" useView_view__C=
+2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 8px; --useView--=
+justify: center; --useView--align: center; --useView--grow: 1; --useView--s=
+hrink: 1;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16"=
+ viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"=
+css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16p=
+x;"><path fill-rule=3D"evenodd" d=3D"M19 2a.75.75 0 0 1 .75.75V6H23a.75.75 =
+0 0 1 0 1.5h-3.25v3.25a.75.75 0 0 1-1.5 0V7.5H15A.75.75 0 0 1 15 6h3.25V2.7=
+5A.75.75 0 0 1 19 2ZM3 7.5c-.69 0-1.25.56-1.25 1.25V10H15.5a.75.75 0 0 1 0 =
+1.5H1.75v7.25c0 .69.56 1.25 1.25 1.25h14c.69 0 1.25-.56 1.25-1.25v-4.5a.75.=
+75 0 0 1 1.5 0v4.5A2.75 2.75 0 0 1 17 21.5H3a2.75 2.75 0 0 1-2.75-2.75v-10A=
+2.75 2.75 0 0 1 3 6h8.5a.75.75 0 0 1 0 1.5H3Z" clip-rule=3D"evenodd"></path=
+></svg><span class=3D"Text_singleLineWrapper__REG8N" style=3D"--Text--font-=
+size: var(--font-size-default); --Text--font-family: inherit;"><span class=
+=3D" useView_view__C2mnv Text_text__T_hn_ Text_singleLine__lXpWA" style=3D"=
+--Text--font-family: inherit; --Text--font-size: var(--font-size-default); =
+--Text--line-height: var(--line-height-default);">or add a payment method</=
+span></span></div></button></div></div></div><div class=3D" useView_view__C=
+2mnv css-1rtw910"><div class=3D" useView_view__C2mnv css-1f7j3sa" style=3D"=
+--useView--gap: 12px;"><span class=3D" useView_view__C2mnv Text_text__T_hn_=
+ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text--font=
+-size: var(--font-size-subhead-default); --Text--line-height: var(--line-he=
+ight-subhead-default); --Text--font-weight: var(--font-weight-medium);">Bas=
+ic websites with no backend server</span><div class=3D" useView_view__C2mnv=
+ css-1tw46ai" style=3D"--useView--align: center;"><svg width=3D"56" height=
+=3D"44" viewBox=3D"0 0 56 44" fill=3D"none" xmlns=3D"http://www.w3.org/2000=
+/svg" class=3D"css-746qlq"><path d=3D"M1 42H55" stroke=3D"#57ABFF" stroke-w=
+idth=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round"></path><g fil=
+ter=3D"url(#filter0_d_3629_304)"><path d=3D"M21 11L35 25M38 18C38 23.5228 3=
+3.5228 28 28 28C22.4772 28 18 23.5228 18 18C18 12.4772 22.4772 8 28 8C33.52=
+28 8 38 12.4772 38 18Z" stroke=3D"#0053A6" stroke-width=3D"2"></path></g><d=
+efs><filter id=3D"filter0_d_3629_304" x=3D"9" y=3D"3" width=3D"38" height=
+=3D"38" filterUnits=3D"userSpaceOnUse" color-interpolation-filters=3D"sRGB"=
+><feFlood flood-opacity=3D"0" result=3D"BackgroundImageFix"></feFlood><feCo=
+lorMatrix in=3D"SourceAlpha" type=3D"matrix" values=3D"0 0 0 0 0 0 0 0 0 0 =
+0 0 0 0 0 0 0 0 127 0" result=3D"hardAlpha"></feColorMatrix><feOffset dy=3D=
+"4"></feOffset><feGaussianBlur stdDeviation=3D"4"></feGaussianBlur><feColor=
+Matrix type=3D"matrix" values=3D"0 0 0 0 0 0 0 0 0 0.32549 0 0 0 0 0.65098 =
+0 0 0 0.5 0"></feColorMatrix><feBlend mode=3D"normal" in2=3D"BackgroundImag=
+eFix" result=3D"effect1_dropShadow_3629_304"></feBlend><feBlend mode=3D"nor=
+mal" in=3D"SourceGraphic" in2=3D"effect1_dropShadow_3629_304" result=3D"sha=
+pe"></feBlend></filter></defs></svg><span class=3D" useView_view__C2mnv css=
+-18p0tjm Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-fami=
+ly: inherit; --Text--font-size: var(--font-size-default); --Text--line-heig=
+ht: var(--line-height-default);">You only pay for outbound data transfer in=
+cluded in Replit plans. $0.10/GiB otherwise.</span></div><div class=3D" use=
 View_view__C2mnv css-1tw46ai" style=3D"--useView--align: center;"><svg widt=
 h=3D"56" height=3D"44" viewBox=3D"0 0 56 44" fill=3D"none" xmlns=3D"http://=
-www.w3.org/2000/svg" class=3D"css-746qlq"><path d=3D"M1 42H55" stroke=3D"#5=
-7ABFF" stroke-width=3D"2" stroke-linecap=3D"round" stroke-linejoin=3D"round=
-"></path><g filter=3D"url(#filter0_d_3629_304)"><path d=3D"M21 11L35 25M38 =
-18C38 23.5228 33.5228 28 28 28C22.4772 28 18 23.5228 18 18C18 12.4772 22.47=
-72 8 28 8C33.5228 8 38 12.4772 38 18Z" stroke=3D"#0053A6" stroke-width=3D"2=
-"></path></g><defs><filter id=3D"filter0_d_3629_304" x=3D"9" y=3D"3" width=
-=3D"38" height=3D"38" filterUnits=3D"userSpaceOnUse" color-interpolation-fi=
-lters=3D"sRGB"><feFlood flood-opacity=3D"0" result=3D"BackgroundImageFix"><=
-/feFlood><feColorMatrix in=3D"SourceAlpha" type=3D"matrix" values=3D"0 0 0 =
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result=3D"hardAlpha"></feColorMatrix><=
-feOffset dy=3D"4"></feOffset><feGaussianBlur stdDeviation=3D"4"></feGaussia=
-nBlur><feColorMatrix type=3D"matrix" values=3D"0 0 0 0 0 0 0 0 0 0.32549 0 =
-0 0 0 0.65098 0 0 0 0.5 0"></feColorMatrix><feBlend mode=3D"normal" in2=3D"=
-BackgroundImageFix" result=3D"effect1_dropShadow_3629_304"></feBlend><feBle=
-nd mode=3D"normal" in=3D"SourceGraphic" in2=3D"effect1_dropShadow_3629_304"=
- result=3D"shape"></feBlend></filter></defs></svg><span class=3D" useView_v=
-iew__C2mnv css-18p0tjm Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--T=
-ext--font-family: inherit; --Text--font-size: var(--font-size-default); --T=
-ext--line-height: var(--line-height-default);">You only pay for outbound da=
-ta transfer included in Replit plans. $0.10/GiB otherwise.</span></div><div=
- class=3D" useView_view__C2mnv css-1tw46ai" style=3D"--useView--align: cent=
-er;"><svg width=3D"56" height=3D"44" viewBox=3D"0 0 56 44" fill=3D"none" xm=
-lns=3D"http://www.w3.org/2000/svg" class=3D"css-746qlq"><circle cx=3D"28" c=
-y=3D"22" r=3D"13" fill=3D"#0053A6"></circle><path d=3D"M28 9C30.2851 9 32.5=
-297 9.6023 34.5079 10.7462L28 22L28 9Z" fill=3D"#0079F2"></path><circle cx=
-=3D"28" cy=3D"22" r=3D"10.5" stroke=3D"#57ABFF" stroke-dasharray=3D"1 4"></=
-circle><g filter=3D"url(#filter0_d_3629_309)"><path fill-rule=3D"evenodd" c=
-lip-rule=3D"evenodd" d=3D"M28 36.3334C35.9161 36.3334 42.3333 29.9162 42.33=
-33 22.0001C42.3333 15.1129 37.4759 9.36028 31 7.98119V6C31 5 30 4 29 4H27C2=
-6 4 25 5 25 6V7.9812C18.5241 9.36029 13.6667 15.1129 13.6667 22.0001C13.666=
-7 29.9162 20.0839 36.3334 28 36.3334ZM15.6667 22.0001C15.6667 15.1886 21.18=
-85 9.66675 28 9.66675C34.8115 9.66675 40.3333 15.1886 40.3333 22.0001C40.33=
-33 28.8116 34.8115 34.3334 28 34.3334C21.1885 34.3334 15.6667 28.8116 15.66=
-67 22.0001Z" fill=3D"#0079F2"></path></g><g filter=3D"url(#filter1_d_3629_3=
-09)"><path d=3D"M28 12V22L33 13.3" stroke=3D"#B2D9FF" stroke-width=3D"1.5" =
-stroke-linecap=3D"round" stroke-linejoin=3D"round"></path></g><defs><filter=
- id=3D"filter0_d_3629_309" x=3D"11.6667" y=3D"3" width=3D"32.6667" height=
-=3D"36.3335" filterUnits=3D"userSpaceOnUse" color-interpolation-filters=3D"=
-sRGB"><feFlood flood-opacity=3D"0" result=3D"BackgroundImageFix"></feFlood>=
-<feColorMatrix in=3D"SourceAlpha" type=3D"matrix" values=3D"0 0 0 0 0 0 0 0=
- 0 0 0 0 0 0 0 0 0 0 127 0" result=3D"hardAlpha"></feColorMatrix><feOffset =
-dy=3D"1"></feOffset><feGaussianBlur stdDeviation=3D"1"></feGaussianBlur><fe=
-Composite in2=3D"hardAlpha" operator=3D"out"></feComposite><feColorMatrix t=
-ype=3D"matrix" values=3D"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"></feCo=
-lorMatrix><feBlend mode=3D"normal" in2=3D"BackgroundImageFix" result=3D"eff=
-ect1_dropShadow_3629_309"></feBlend><feBlend mode=3D"normal" in=3D"SourceGr=
-aphic" in2=3D"effect1_dropShadow_3629_309" result=3D"shape"></feBlend></fil=
-ter><filter id=3D"filter1_d_3629_309" x=3D"25.25" y=3D"10.25" width=3D"10.5=
-001" height=3D"15.5" filterUnits=3D"userSpaceOnUse" color-interpolation-fil=
-ters=3D"sRGB"><feFlood flood-opacity=3D"0" result=3D"BackgroundImageFix"></=
-feFlood><feColorMatrix in=3D"SourceAlpha" type=3D"matrix" values=3D"0 0 0 0=
- 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result=3D"hardAlpha"></feColorMatrix><f=
-eOffset dy=3D"1"></feOffset><feGaussianBlur stdDeviation=3D"1"></feGaussian=
-Blur><feComposite in2=3D"hardAlpha" operator=3D"out"></feComposite><feColor=
-Matrix type=3D"matrix" values=3D"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0=
-"></feColorMatrix><feBlend mode=3D"normal" in2=3D"BackgroundImageFix" resul=
-t=3D"effect1_dropShadow_3629_309"></feBlend><feBlend mode=3D"normal" in=3D"=
-SourceGraphic" in2=3D"effect1_dropShadow_3629_309" result=3D"shape"></feBle=
-nd></filter></defs></svg><span class=3D" useView_view__C2mnv css-18p0tjm Te=
-xt_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit=
-; --Text--font-size: var(--font-size-default); --Text--line-height: var(--l=
-ine-height-default);">No database or data persistence.</span></div><div cla=
-ss=3D" useView_view__C2mnv css-1tw46ai" style=3D"--useView--align: center;"=
-><div class=3D" useView_view__C2mnv css-4xovtc" style=3D"--useView--pt: 6px=
-; --useView--pr: 12px; --useView--pb: 6px; --useView--pl: 12px;"><svg prese=
-rveAspectRatio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24=
-" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"=
---size: 32px; --rotate: 0deg; width: 32px; height: 32px;"><path fill-rule=
-=3D"evenodd" d=3D"M12 1.25a.75.75 0 0 1 .673.418l2.915 5.907 6.52.953a.75.7=
-5 0 0 1 .415 1.28l-4.717 4.594 1.113 6.491a.75.75 0 0 1-1.088.79L12 18.618l=
--5.83 3.067a.75.75 0 0 1-1.09-.79l1.114-6.492-4.717-4.595a.75.75 0 0 1 .415=
--1.28l6.52-.952 2.915-5.907A.75.75 0 0 1 12 1.25Zm0 2.444L9.583 8.592a.75.7=
-5 0 0 1-.565.41l-5.407.79 3.912 3.81a.75.75 0 0 1 .216.665l-.923 5.382 4.83=
-5-2.543a.75.75 0 0 1 .698 0l4.835 2.543-.923-5.382a.75.75 0 0 1 .216-.664l3=
-.912-3.81-5.407-.79a.75.75 0 0 1-.564-.411L12 3.694Z" clip-rule=3D"evenodd"=
-></path></svg></div><span class=3D" useView_view__C2mnv css-18p0tjm Text_te=
-xt__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --T=
-ext--font-size: var(--font-size-default); --Text--line-height: var(--line-h=
-eight-default);">Suitable for HTML, CSS, JavaScript sites.</span></div></di=
-v></div><div class=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" sty=
-le=3D"--useView--justify: center;"><div class=3D" useView_view__C2mnv css-1=
-1uz3ji Surface_surfaceDefault__TcNI5"><div class=3D" useView_view__C2mnv" s=
-tyle=3D"--useView--gap: 8px; --useView--justify: center;"><div class=3D" us=
-eView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px=
-; --useView--justify: center; --useView--align: center;"><span class=3D" us=
-eView_view__C2mnv Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--=
-font-family: inherit; --Text--font-size: var(--font-size-default); --Text--=
-line-height: var(--line-height-default);">Security scan</span><div class=3D=
-" useView_view__C2mnv css-3kx9rt"><span>Beta</span></div></div><div class=
-=3D" useView_view__C2mnv"><span class=3D" useView_view__C2mnv Text_text__T_=
-hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text--f=
-ont-size: var(--font-size-small); --Text--line-height: var(--line-height-sm=
-all); --Text--color: var(--foreground-dimmer);">Identify potential vulnerab=
-ilities by running a security scan powered by our partner, Semgrep.</span><=
-/div><button type=3D"button" tabindex=3D"0" class=3D"Button_button__oRQ_x c=
-ss-9glblb" data-rac=3D"" id=3D"react-aria8892419012-:rpj:" fdprocessedid=3D=
-"65wzi9" style=3D"--Button--height: 32px; --Button--shrink: 0; --Button--al=
-ign-self: auto; --Button--alignment: center;"><span class=3D"Text_singleLin=
-eWrapper__REG8N" style=3D"--Text--font-size: var(--font-size-default); --Te=
-xt--font-family: inherit;"><span class=3D" useView_view__C2mnv Text_text__T=
-_hn_ Text_singleLine__lXpWA" style=3D"--Text--font-family: inherit; --Text-=
--font-size: var(--font-size-default); --Text--line-height: var(--line-heigh=
-t-default);">Run scan on Replit using </span></span><div class=3D" useView_=
-view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --us=
-eView--align: center;"><svg xmlns=3D"http://www.w3.org/2000/svg" version=3D=
-"1.1" viewBox=3D"0 0 1670 252" class=3D"PoweredBySemgrep_semgrepLogo__hTS0C=
-"><g fill=3D"#13bf95"><path d=3D"m412-4e-7c55.22847 0 100 44.77153 100 100 =
-0 55.22847-44.77153 100-100 100s-100-44.77153-100-100c1e-3 -22.75534 7.7629=
-7-44.82984 22.00391-62.57812 5.79468 6.661495 7.89062 10.6061 13.99609 20.5=
-7812h3.5c-3.0923-7.636258-7.63896-15.06492-13.76367-24.96093 18.96049-21.03=
-049 45.94792-33.03689 74.26367-33.03906zm0 44c-30.92795 0-56 25.07205-56 56=
- 0 30.92795 25.07205 56 56 56s56-25.07205 56-56c0-30.92794-25.07205-56-56-5=
-6z"></path><path d=3D"m256 0c-55.22841 0-100 44.77158-100 100 8e-3 22.74213=
- 7.76844 44.80216 22 62.54102 0.04153-0.05203 0.07004-0.09276 0.11133-0.144=
-54 0.01252 0.01556 0.02458 0.03133 0.03711 0.04688 0.96022-1.20705 1.88357-=
-2.443 2.78711-3.69336 4.19703-5.49557 7.10017-10.10355 9.92773-17.07812 0.2=
-5397-0.55649 0.51186-1.11021 0.75586-1.67188h3.38086c-0.72386 2.98756-1.740=
-37 5.91654-2.99414 8.88477-2.79519 5.99462-6.2697 12.37905-9.80078 18.10937=
--0.05698 0.09227-0.10092 0.17302-0.1582 0.26563 18.94128 20.83966 45.79173 =
-32.72679 73.95312 32.74023 28.16139-0.01344 55.01184-11.90057 73.95312-32.7=
-4023-0.05728-0.09261-0.10122-0.17336-0.1582-0.26563-3.53108-5.73032-7.00559=
--12.11475-9.80078-18.10937-1.25377-2.96823-2.27028-5.89721-2.99414-8.88477h=
-3.38086c0.244 0.56167 0.50189 1.11539 0.75586 1.67188 2.82756 6.97457 5.730=
-7 11.58255 9.92773 17.07812 0.90354 1.25036 1.82689 2.48631 2.78711 3.69336=
- 0.01253-0.01555 0.02459-0.03132 0.03711-0.04688 0.04129 0.05178 0.0698 0.0=
-9251 0.11133 0.14454 14.23156-17.73886 21.992-39.79889 22-62.54102 0-55.228=
-42-44.77159-100-100-100zm0 44c30.92792 0 56 25.07208 56 56 0 30.92792-25.07=
-208 56-56 56s-56-25.07208-56-56c0-0.966497 0.02388-1.926386 0.07227-2.88085=
-9 1.49985-29.58868 25.96631-53.11914 55.92773-53.11914z"></path><path d=3D"=
-m100 0c-55.22848 0-100 44.77152-100 100 0 55.22847 44.77152 100 100 100 55.=
-22847 0 100-44.77153 100-100-1e-3 -22.75534-7.76297-44.82984-22.00391-62.57=
-812-5.79468 6.661495-7.89062 10.6061-13.99609 20.57812h-3.5c3.0923-7.636258=
- 7.63896-15.06492 13.76367-24.96093-18.96049-21.03049-45.94792-33.03689-74.=
-26367-33.03906zm0 44c30.92795 0 56 25.07205 56 56 0 30.92795-25.07205 56-56=
- 56-30.92795 0-56-25.07205-56-56 0-30.92795 25.07205-56 56-56z"></path></g>=
-<g fill=3D"currentColor"><path d=3D"M659.55109 194.4763q-15.41724 0-28.4824=
-3-3.92117-13.0652-4.18248-23.51636-12.02494-10.45116-8.10366-18.55228-19.86=
-69l20.64231-23.52687q12.8032 18.0379 24.82438 25.09587 12.01918 6.79666 27.=
-96042 6.79666 9.40715 0 16.98426-2.87559 7.57802-2.87548 12.01918-8.10365 4=
-.44227-5.22817 4.44227-11.76394 0-4.70538-1.56782-8.62645-1.56783-4.18258-4=
-.96488-7.31947-3.39705-3.13698-8.36183-5.75097-4.96487-2.87558-11.49717-4.9=
-6677-6.5326-2.09119-14.89423-3.39838-14.11021-3.13698-24.82437-7.84216-10.4=
-5116-4.70528-17.76827-11.763938-7.05521-7.058063-10.45116-16.207914-3.39705=
--9.149252-3.39705-20.389893 0-11.23994 4.96487-20.650891 4.96488-9.672049 1=
-3.58721-16.729911 8.62313-7.058063 20.38131-10.7179437Q648.83763 6 662.1648=
-3 6q14.89423 0 26.6534 3.6596807 12.01919 3.6596803 21.16533 10.9789423 9.1=
-4573 7.058062 15.41723 17.513907l-21.16532 20.650891q-5.48748-8.365056-12.0=
-1918-13.854927-6.2714-5.751069-14.11022-8.626454-7.83922-2.875585-16.46225-=
-2.875585-9.66835 0-16.98426 3.136984-7.0552 2.875584-11.23517 8.103557-4.18=
-096 5.228172-4.18096 12.286935 0 5.228172 2.09033 9.672049 2.35164 4.182478=
- 6.5326 7.58076 4.44227 3.398382 11.49717 6.012468 7.05521 2.614186 16.4622=
-5 4.443977 14.37122 3.136983 25.60839 8.103557 11.49718 4.705375 19.3363 11=
-.239938 8.10062 6.53527 12.01918 14.90092 4.18096 8.36506 4.18096 18.03791 =
-0 17.7759-8.36182 30.84684-8.10063 12.80893-23.25536 19.86689-15.15523 6.79=
-666-35.80054 6.79666z"></path><path d=3D"M815.75346 194.4763q-21.42632 0-37=
-.88957-8.88785-16.46225-9.14925-25.8694-24.83487-9.14573-15.94591-9.14573-3=
-6.33581 0-16.20791 5.22617-29.539839 5.22618-13.33193 14.37122-23.003879 9.=
-40715-9.933547 22.21034-15.16192 13.0652-5.489571 28.22143-5.489571 13.5872=
-1 0 25.08538 5.228173 11.75818 4.966773 20.38131 14.115925 8.62313 8.887853=
- 13.0652 21.174888 4.70357 12.286933 4.44227 26.663863l-.26129 11.50294h-11=
-1.8317l-6.01009-21.69789h92.50341l-3.91966 4.44398v-6.01247q-.78393-8.36505=
-7-5.48749-14.639924-4.70357-6.535166-12.01918-10.194946-7.05521-3.92108-15.=
-67824-3.92108-13.5872 0-22.73334 5.228173-9.14574 4.966674-14.11022 14.9009=
-21-4.70357 9.933546-4.70357 24.311876 0 13.85492 5.74869 24.04987 6.01009 1=
-0.19495 16.72225 15.94591 10.71317 5.48958 24.82438 5.48958 9.92975 0 18.29=
-028-3.13699 8.36183-3.39838 18.29028-11.76394l14.63322 20.6509q-6.5327 6.27=
-376-15.67824 10.97894-9.14574 4.70537-19.07429 7.31946-9.92975 2.61418-19.5=
-973 2.61418z"></path><path d=3D"M899.25473 191.86632V54.367045h29.52845v28.=
-493849l-4.96487 2.614086q2.35163-6.796664 6.794-12.808932 4.70357-6.012468 =
-11.23517-10.717943 6.5327-4.705376 14.11021-7.319362 7.57752-2.613986 15.41=
-724-2.614086 11.49717 0 20.1203 3.921079 8.88457 3.659681 14.63327 11.23994=
-1 6.01 7.58076 8.8845 19.344898l-4.7036-.784246 1.8291-4.443977q3.1357-6.01=
-2468 8.1006-11.23994 5.2262-5.489571 11.7582-9.41065 6.5325-4.182478 13.849=
-2-6.273767 7.3166-2.352688 14.1102-2.352688 15.6782 0 25.8694 6.273767 10.1=
-901 6.273767 15.4172 19.082899 5.2262 12.808933 5.2262 31.630837v82.86656h-=
-29.7905V111.0948q0-11.239946-2.8745-18.298908-2.8744-7.058863-8.6231-10.455=
-945-5.7487-3.659681-14.8943-3.659681-6.794 0-13.0652 2.352688-6.0101 2.3526=
-87-10.4511 6.535165-4.4423 4.182478-7.0553 9.933448-2.3519 5.489573-2.3519 =
-12.286933v82.08157h-29.78842V110.5725q0-10.19495-3.13565-17.252911-2.87445-=
-7.319461-8.62313-10.978942-5.74869-3.659681-14.11022-3.659681-6.794 0-12.80=
-319 2.352688-6.01009 2.352687-10.45116 6.535165-4.44227 3.92108-7.05521 9.6=
-72049-2.35163 5.489572-2.35163 12.024932v82.60457z"></path><path d=3D"M1199=
-.1093 251.996q-14.8942 0-29.7905-4.70527-14.8942-4.70538-24.3003-12.02494l1=
-0.9741-22.48188q5.2262 3.92118 12.0192 6.79666 7.0553 3.13699 14.6332 4.705=
-28 7.8393 1.82989 15.6783 1.82989 14.1102 0 23.5163-4.70538 9.4071-4.44397 =
-14.1103-13.59293 4.9648-8.88775 4.9648-22.21988v-25.61886l3.6583 1.56849q-1=
-.3066 8.36505-8.6231 15.68492-7.0554 7.31946-17.7683 12.02493-10.7132 4.443=
-88-21.9494 4.44388-19.3362 0-34.7545-9.14925-15.1552-9.14925-24.0403-25.095=
-87-8.6233-15.94592-8.6233-36.59781t8.6233-36.596804q8.6231-16.207914 23.778=
-3-25.356866 15.1552-9.41065 34.2325-9.41065 7.8393 0 15.1553 2.091189 7.316=
-5 1.82989 13.5872 5.228172 6.2711 3.398382 10.9741 7.58076 4.9647 4.182478 =
-8.1004 8.887753 3.1357 4.705375 3.9196 8.887853l-6.0101 2.091189.2613-31.89=
-2831h29.0055V182.98707q0 16.46891-4.9647 29.27784-4.7036 12.80893-14.1102 2=
-1.69789-9.1458 8.88785-22.4724 13.33193Q1215.829 252 1199.1038 252Zm1.0452-=
-84.43455q12.2812 0 21.6883-5.75097 9.6684-5.75107 14.8943-15.68492 5.2261-9=
-.93355 5.2261-23.26588 0-13.07093-5.4873-23.265874-5.2263-10.194946-14.6333=
--15.945916-9.407-5.75107-21.6883-5.75107-12.0192 0-21.4263 6.012469-9.4071 =
-5.751069-14.6332 15.945915-5.2262 10.194946-5.2262 23.003876 0 13.07093 5.2=
-262 23.26588 5.2261 9.93355 14.6332 15.68492 9.4071 5.75097 21.4263 5.75097=
-z"></path><path d=3D"M1297.8108 191.86632V54.367045h29.2664l.5227 43.392771=
--3.6583-9.933548q2.8743-10.194946 9.9297-18.298903 7.0552-8.365056 16.2013-=
-13.070931 9.1458-4.966674 18.8133-4.966674 4.4423 0 8.6231.784206 4.1809.78=
-4206 6.5327 1.82989l-7.8393 32.15383q-3.1356-1.307093-7.0552-2.091189-3.919=
-6-1.045594-7.8392-1.045594-6.794 0-13.0652 2.614086-6.0102 2.614186-10.7132=
- 7.319461-4.4424 4.443877-7.3165 10.71794-2.6131 6.01247-2.6131 13.33193v74=
-.76161z"></path><path d=3D"M1454.2132 194.4763q-21.4264 0-37.8896-8.88785-1=
-6.4623-9.14925-25.8684-24.83487-9.1458-15.94591-9.1458-36.33581 0-16.20791 =
-5.2261-29.539839 5.2262-13.33193 14.3713-23.003879 9.4071-9.933547 22.2103-=
-15.16192 13.0652-5.489571 28.2204-5.489571 13.5872 0 25.0844 5.228173 11.75=
-82 4.966773 20.3823 14.115925 8.623 8.887853 13.0652 21.174888 4.7036 12.28=
-6933 4.4423 26.663863l-.2615 11.50294h-111.8317l-6.0101-21.69789h92.5034l-3=
-.9197 4.44398v-6.01247q-.7839-8.365057-5.4875-14.639924-4.7034-6.535166-12.=
-0191-10.194946-7.0554-3.92108-15.6783-3.92108-13.5872 0-22.7323 5.228173-9.=
-146 4.966674-14.1102 14.900921-4.7036 9.933546-4.7036 24.311876 0 13.85492 =
-5.7487 24.04987 6.0101 10.19495 16.7222 15.94591 10.7132 5.48958 24.8244 5.=
-48958 9.9297 0 18.2903-3.13699 8.3618-3.39838 18.2903-11.76394l14.6332 20.6=
-509q-6.5326 6.27376-15.6782 10.97894-9.1458 4.70537-19.0743 7.31946-9.9297 =
-2.61418-19.5973 2.61418z"></path><path d=3D"M1532.8144 249.37601V54.367045h=
-29.2664l.2611 31.369834-4.7036-2.352688q1.5679-8.103557 8.8846-15.16192 7.3=
-165-7.319361 17.7682-11.763937 10.7132-4.443977 22.2104-4.443977 18.2903 0 =
-32.4025 9.149252 14.3712 9.149251 22.7343 25.095867Q1670 102.20539 1670 122=
-.85628q0 20.65189-8.3617 36.85781-8.1007 15.94591-22.4723 25.35686-14.1102 =
-9.14926-32.1405 9.14926-12.0192 0-23.2564-4.70528-10.9741-4.70527-18.8132-1=
-2.28693-7.8393-7.58066-9.6685-15.94592l7.3168-3.65968v91.75351zm68.724-81.8=
-1956q11.4972 0 20.3813-5.75097 9.1458-5.75107 14.3712-15.68492 5.2261-10.19=
-495 5.2261-23.26588 0-12.80893-5.2261-22.74288-4.9648-9.933544-14.1102-15.6=
-84914-8.8843-5.75097-20.6423-5.75097t-20.9043 5.75097q-8.8845 5.489571-14.1=
-102 15.684914-5.2262 9.93355-5.2262 22.74288 0 13.07093 5.2262 23.26588 5.2=
-262 9.93355 14.1102 15.68492 9.1456 5.75097 20.9043 5.75097z"></path></g></=
-svg><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBo=
-x=3D"0 0 24 24" fill=3D"var(--foreground-dimmest)" aria-hidden=3D"true" cla=
-ss=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; heigh=
-t: 16px;"><path fill-rule=3D"evenodd" d=3D"M17.5 18.75c.69 0 1.25-.56 1.25-=
-1.25v-11c0-.69-.56-1.25-1.25-1.25h-11c-.69 0-1.25.56-1.25 1.25v6.25a.75.75 =
-0 0 1-1.5 0V6.5A2.75 2.75 0 0 1 6.5 3.75h11a2.75 2.75 0 0 1 2.75 2.75v11a2.=
-75 2.75 0 0 1-2.75 2.75h-6.25a.75.75 0 0 1 0-1.5h6.25Z" clip-rule=3D"evenod=
-d"></path><path fill-rule=3D"evenodd" d=3D"M8.25 9A.75.75 0 0 1 9 8.25h6a.7=
-5.75 0 0 1 .75.75v6a.75.75 0 0 1-1.5 0v-4.19l-9.97 9.97a.75.75 0 0 1-1.06-1=
-.06l9.97-9.97H9A.75.75 0 0 1 8.25 9Z" clip-rule=3D"evenodd"></path></svg></=
-div></button></div></div></div></div></div></div></div><div class=3D" useVi=
-ew_view__C2mnv Pane_interactionBlanket__HGhM4"></div></div></main><div clas=
-s=3D"css-1bdmx7n" style=3D"--border: 1px solid var(--accent-primary-default=
-); --opacity: 0; --visibility: hidden;"><div class=3D"css-1y76wjm" style=3D=
-"--innerOpacity: 0; --innerScale: 1;"></div></div><div class=3D" useView_vi=
-ew__C2mnv css-hq36dh" style=3D"--opacity: 0; --pointerEvents: none;"><svg p=
-reserveAspectRatio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 2=
-4 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=
-=3D"--size: 32px; --rotate: 0deg; width: 32px; height: 32px;"><path fill-ru=
-le=3D"evenodd" d=3D"M7 2.25A4.75 4.75 0 0 0 2.25 7v10A4.75 4.75 0 0 0 7 21.=
-75h10A4.75 4.75 0 0 0 21.75 17V7A4.75 4.75 0 0 0 17 2.25H7ZM3.75 12h16.5v5A=
-3.25 3.25 0 0 1 17 20.25H7A3.25 3.25 0 0 1 3.75 17v-5Z" clip-rule=3D"evenod=
-d"></path></svg></div><div class=3D" useView_view__C2mnv css-hq36dh" style=
-=3D"--opacity: 0; --pointerEvents: none;"><svg preserveAspectRatio=3D"xMidY=
-Min" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D"currentColor"=
- aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 32px; --rotate:=
- 0deg; width: 32px; height: 32px;"><path fill-rule=3D"evenodd" d=3D"M17 21.=
-75A4.75 4.75 0 0 0 21.75 17V7A4.75 4.75 0 0 0 17 2.25H7A4.75 4.75 0 0 0 2.2=
-5 7v10A4.75 4.75 0 0 0 7 21.75h10ZM20.25 12H3.75V7A3.25 3.25 0 0 1 7 3.75h1=
-0A3.25 3.25 0 0 1 20.25 7v5Z" clip-rule=3D"evenodd"></path></svg></div><div=
- class=3D" useView_view__C2mnv css-hq36dh" style=3D"--opacity: 0; --pointer=
-Events: none;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"32" height=3D=
-"32" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=
-=3D"css-492dz9" style=3D"--size: 32px; --rotate: 0deg; width: 32px; height:=
- 32px;"><path fill-rule=3D"evenodd" d=3D"M2.25 7A4.75 4.75 0 0 1 7 2.25h10A=
-4.75 4.75 0 0 1 21.75 7v10A4.75 4.75 0 0 1 17 21.75H7A4.75 4.75 0 0 1 2.25 =
-17V7ZM12 3.75v16.5h5A3.25 3.25 0 0 0 20.25 17V7A3.25 3.25 0 0 0 17 3.75h-5Z=
-" clip-rule=3D"evenodd"></path></svg></div><div class=3D" useView_view__C2m=
-nv css-hq36dh" style=3D"--opacity: 0; --pointerEvents: none;"><svg preserve=
-AspectRatio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24" f=
-ill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--s=
-ize: 32px; --rotate: 0deg; width: 32px; height: 32px;"><path fill-rule=3D"e=
-venodd" d=3D"M21.75 7A4.75 4.75 0 0 0 17 2.25H7A4.75 4.75 0 0 0 2.25 7v10A4=
-.75 4.75 0 0 0 7 21.75h10A4.75 4.75 0 0 0 21.75 17V7ZM12 3.75v16.5H7A3.25 3=
-.25 0 0 1 3.75 17V7A3.25 3.25 0 0 1 7 3.75h5Z" clip-rule=3D"evenodd"></path=
-></svg></div><div class=3D" useView_view__C2mnv css-hq36dh" style=3D"--opac=
-ity: 0; --pointerEvents: none;"><svg preserveAspectRatio=3D"xMidYMin" width=
-=3D"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidd=
-en=3D"true" class=3D"css-492dz9" style=3D"--size: 32px; --rotate: 0deg; wid=
-th: 32px; height: 32px;"><path fill-rule=3D"evenodd" d=3D"M2 6.75A4.75 4.75=
- 0 0 1 6.75 2h10a4.75 4.75 0 0 1 4.75 4.75v10a4.75 4.75 0 0 1-4.75 4.75h-10=
-A4.75 4.75 0 0 1 2 16.75v-10ZM6.75 3.5A3.25 3.25 0 0 0 3.5 6.75v10A3.25 3.2=
-5 0 0 0 6.75 20h10A3.25 3.25 0 0 0 20 16.75v-10a3.25 3.25 0 0 0-3.25-3.25h-=
-10Z" clip-rule=3D"evenodd"></path><path d=3D"M5.25 8.398a3.167 3.167 0 0 1 =
-3.167-3.167h6.666a3.167 3.167 0 0 1 3.167 3.167v6.667a3.167 3.167 0 0 1-3.1=
-67 3.166H8.417a3.167 3.167 0 0 1-3.167-3.166V8.398Z"></path></svg></div><di=
-v class=3D" useView_view__C2mnv css-yr3i9j" style=3D"--transform: translate=
-(0px, 0px); --width: 0px; --height: 0px; --opacity: 0;"></div><div class=3D=
-" useView_view__C2mnv Layout_root__zbmnW" style=3D"--useView--gap: 6px; --u=
-seView--justify: space-between; --useView--align: stretch; width: 48px;"><d=
-iv class=3D" useView_view__C2mnv" style=3D"--useView--align: center;"><div =
-class=3D" useView_view__C2mnv css-1ll3la2"><div class=3D" useView_view__C2m=
-nv css-mu1g57" style=3D"--toolIconButtonSize: 32px; --toolIconBorderRadius:=
- 8px;"><button data-cy=3D"toggle-files-sidebar" class=3D" useView_view__C2m=
-nv css-os4f0t" type=3D"button" aria-label=3D"Open files" fdprocessedid=3D"6=
-vdwph" style=3D"--height: 24px; --width: 24px;"><svg preserveAspectRatio=3D=
-"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"current=
-Color" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --r=
-otate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M=
-1.25 5A2.75 2.75 0 0 1 4 2.25h4.999c.251 0 .485.126.625.334L11.4 5.25H20A2.=
-75 2.75 0 0 1 22.75 8v4.5a.75.75 0 0 1-1.5 0V8c0-.69-.56-1.25-1.25-1.25h-9a=
-.751.751 0 0 1-.625-.335L8.598 3.75H4c-.69 0-1.25.56-1.25 1.25v14c0 .69.56 =
-1.25 1.25 1.25h4a.75.75 0 0 1 0 1.5H4A2.75 2.75 0 0 1 1.25 19V5Z" clip-rule=
-=3D"evenodd"></path><path fill-rule=3D"evenodd" d=3D"M22.55 17.646a.854.854=
- 0 0 1 0 1.208l-3.696 3.696a.855.855 0 0 1-1.208-1.209l3.091-3.091-3.091-3.=
-091a.855.855 0 0 1 1.208-1.209l3.696 3.696Z" clip-rule=3D"evenodd"></path><=
-path fill-rule=3D"evenodd" d=3D"M17.376 18.854 13.68 22.55a.854.854 0 0 1-1=
-.208-1.209l3.092-3.091-3.092-3.091a.855.855 0 0 1 1.208-1.209l3.696 3.696a.=
-854.854 0 0 1 0 1.208Z" clip-rule=3D"evenodd"></path></svg></button></div><=
-/div></div><div class=3D" useView_view__C2mnv Layout_middle__CTNFw" style=
-=3D"--useView--align: center;"><div class=3D" useView_view__C2mnv Layout_pr=
-imaryTools__ynQG1"><div class=3D" useView_view__C2mnv css-lha41x"><div clas=
-s=3D" useView_view__C2mnv css-mu1g57" style=3D"--toolIconButtonSize: 36px; =
---toolIconBorderRadius: 8px;"><button class=3D" useView_view__C2mnv css-os4=
-f0t" type=3D"button" aria-label=3D"Assistant" draggable=3D"true" style=3D"-=
--height: 24px; --width: 24px;" fdprocessedid=3D"5i1kve"><svg preserveAspect=
-Ratio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D=
-"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 1=
-6px; --rotate: 0deg; width: 16px; height: 16px;"><g clip-path=3D"url(#clip0=
-_7329_267)"><path fill=3D"var(--accent-teal-default)" d=3D"M7.714 0a3.429 3=
-.429 0 0 1 3.429 3.429v.026a5.143 5.143 0 0 0 5.137 5.116h.006a3.429 3.429 =
-0 0 1 0 6.858 5.143 5.143 0 0 0-5.143 5.142 3.429 3.429 0 1 1-3.429-3.428h.=
-007a5.143 5.143 0 0 0-.007-10.286 3.429 3.429 0 0 1 0-6.857Z"></path><path =
-fill=3D"var(--accent-teal-stronger)" d=3D"M11.143 12a3.429 3.429 0 1 0-6.85=
-7 0 3.429 3.429 0 0 0 6.857 0Z"></path><path fill=3D"url(#paint0_radial_732=
-9_267)" d=3D"M7.714 0a3.429 3.429 0 0 1 3.429 3.429v.026a5.143 5.143 0 0 0 =
-5.137 5.116h.006a3.429 3.429 0 0 1 0 6.858 5.143 5.143 0 0 0-5.143 5.142 3.=
-429 3.429 0 1 1-3.429-3.428h.007a5.143 5.143 0 0 0-.007-10.286 3.429 3.429 =
-0 0 1 0-6.857Z" opacity=3D".5"></path><path fill=3D"url(#paint1_radial_7329=
-_267)" d=3D"M7.714 8.571a3.429 3.429 0 1 1 0 6.858 3.429 3.429 0 0 1 0-6.85=
-8Z" opacity=3D".5"></path></g><defs><radialGradient id=3D"paint0_radial_732=
-9_267" cx=3D"0" cy=3D"0" r=3D"1" gradientTransform=3D"rotate(44.479 -2.762 =
-5.679)scale(29.1694)" gradientUnits=3D"userSpaceOnUse"><stop stop-color=3D"=
-#fff" stop-opacity=3D".79"></stop><stop offset=3D"1"></stop></radialGradien=
-t><radialGradient id=3D"paint1_radial_7329_267" cx=3D"0" cy=3D"0" r=3D"1" g=
-radientTransform=3D"rotate(44.479 -2.763 5.679)scale(29.1694)" gradientUnit=
-s=3D"userSpaceOnUse"><stop stop-color=3D"#fff" stop-opacity=3D".79"></stop>=
-<stop offset=3D"1"></stop></radialGradient><clipPath id=3D"clip0_7329_267">=
-<path fill=3D"#fff" d=3D"M0 .274C0 .123.123 0 .274 0h23.452c.151 0 .274.123=
-.274.274v23.452a.274.274 0 0 1-.274.274H.274A.274.274 0 0 1 0 23.726V.274Z"=
-></path></clipPath></defs></svg></button></div><div class=3D" useView_view_=
-_C2mnv css-1otiy91" style=3D"right: -2px;"></div></div></div><div class=3D"=
- useView_view__C2mnv Layout_divider__K1Gu3"></div><div class=3D" useView_vi=
-ew__C2mnv Layout_secondarySection__QzsOI" style=3D"--useView--align: stretc=
-h;"><div class=3D" useView_view__C2mnv Layout_secondaryTools__xDqvE" style=
-=3D"--useView--align: center;"><div class=3D" useView_view__C2mnv Layout_fa=
-de__5GmrQ Layout_fadeTop__y79T3" style=3D"opacity: 0;"></div><div class=3D"=
- useView_view__C2mnv Layout_secondaryToolsScroll__ZeWEF"><div class=3D" use=
-View_view__C2mnv css-lha41x"><div class=3D" useView_view__C2mnv css-mu1g57"=
- style=3D"--toolIconButtonSize: 36px; --toolIconBorderRadius: 8px;"><button=
- class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" aria-label=3D"Pr=
-eview" draggable=3D"true" style=3D"--height: 24px; --width: 24px;" fdproces=
-sedid=3D"hq9gpk"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=
-=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" cl=
-ass=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; heig=
-ht: 16px;"><path fill-rule=3D"evenodd" d=3D"M4 3.75c-.69 0-1.25.56-1.25 1.2=
-5v10c0 .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1=
-.25-1.25H4Zm8.75 14H20A2.75 2.75 0 0 0 22.75 15V5A2.75 2.75 0 0 0 20 2.25H4=
-A2.75 2.75 0 0 0 1.25 5v10A2.75 2.75 0 0 0 4 17.75h7.25v2.5H8a.75.75 0 0 0 =
-0 1.5h8a.75.75 0 0 0 0-1.5h-3.25v-2.5Z" clip-rule=3D"evenodd"></path></svg>=
-</button></div><div class=3D" useView_view__C2mnv css-1otiy91" style=3D"rig=
-ht: -2px;"></div></div><div class=3D" useView_view__C2mnv css-lha41x"><div =
-class=3D" useView_view__C2mnv css-mu1g57" style=3D"--toolIconButtonSize: 36=
-px; --toolIconBorderRadius: 8px;"><button class=3D" useView_view__C2mnv css=
--os4f0t" type=3D"button" aria-label=3D"Console" draggable=3D"true" style=3D=
-"--height: 24px; --width: 24px;" fdprocessedid=3D"0xmyi6"><svg preserveAspe=
-ctRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=
-=3D"var(--accent-yellow-strongest)" aria-hidden=3D"true" class=3D"css-492dz=
-9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path=
- fill-rule=3D"evenodd" d=3D"M3.47 4.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1=
- 0 1.06l-6 6a.75.75 0 0 1-1.06-1.06L8.94 11 3.47 5.53a.75.75 0 0 1 0-1.06ZM=
-11.25 19a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1-.75-.75Z=
-" clip-rule=3D"evenodd"></path></svg></button></div><div class=3D" useView_=
-view__C2mnv css-1otiy91" style=3D"right: -2px;"></div></div><div class=3D" =
-useView_view__C2mnv" aria-expanded=3D"false"><div class=3D" useView_view__C=
-2mnv css-lha41x"><div class=3D" useView_view__C2mnv css-mu1g57" style=3D"--=
-toolIconButtonSize: 36px; --toolIconBorderRadius: 8px;"><button class=3D" u=
-seView_view__C2mnv css-os4f0t" type=3D"button" aria-label=3D"Database" drag=
-gable=3D"true" style=3D"--height: 24px; --width: 24px;" fdprocessedid=3D"1r=
-ggkr"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" view=
-Box=3D"0 0 24 24" fill=3D"var(--accent-blue-strongest)" aria-hidden=3D"true=
-" class=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; =
-height: 16px;"><path fill-rule=3D"evenodd" d=3D"M4.171 4.421c-.37.292-.421.=
-493-.421.579 0 .086.052.287.421.579.362.285.932.574 1.702.83 1.534.512 3.7.=
-841 6.127.841 2.427 0 4.593-.329 6.127-.84.77-.257 1.34-.546 1.701-.831.37-=
-.292.422-.493.422-.579 0-.086-.052-.287-.422-.579-.361-.285-.93-.574-1.701-=
-.83-1.534-.512-3.7-.841-6.127-.841-2.427 0-4.593.329-6.127.84-.77.257-1.34.=
-546-1.702.831ZM20.25 7.103a8.448 8.448 0 0 1-1.649.73c-1.724.574-4.057.917-=
-6.601.917-2.543 0-4.877-.343-6.601-.917a8.449 8.449 0 0 1-1.649-.73V12c0 .0=
-9.053.291.419.581.359.285.925.574 1.694.83 1.529.51 3.695.839 6.137.839 2.4=
-42 0 4.608-.328 6.137-.839.769-.256 1.335-.545 1.694-.83.366-.29.419-.492.4=
-19-.581V7.103ZM21.75 5c0-.743-.452-1.33-.993-1.757-.55-.433-1.298-.79-2.156=
--1.076-1.724-.574-4.057-.917-6.601-.917-2.543 0-4.877.343-6.601.917-.858.28=
-6-1.607.643-2.156 1.076C2.703 3.67 2.25 4.257 2.25 5v14c0 .74.447 1.329.987=
- 1.757.548.434 1.294.791 2.15 1.077 1.721.574 4.055.916 6.613.916 2.558 0 4=
-.892-.342 6.613-.916.856-.286 1.602-.643 2.15-1.077.54-.428.987-1.016.987-1=
-.757V5Zm-1.5 9.108a8.394 8.394 0 0 1-1.637.726c-1.721.574-4.055.916-6.613.9=
-16-2.558 0-4.892-.342-6.612-.916a8.393 8.393 0 0 1-1.638-.726V19c0 .09.053.=
-291.419.581.359.285.925.573 1.694.83 1.529.51 3.695.839 6.137.839 2.442 0 4=
-.608-.328 6.137-.839.769-.257 1.335-.545 1.694-.83.366-.29.419-.492.419-.58=
-1v-4.892Z" clip-rule=3D"evenodd"></path></svg></button></div></div></div><d=
-iv class=3D" useView_view__C2mnv css-lha41x"><div class=3D" useView_view__C=
-2mnv css-mu1g57" style=3D"--toolIconButtonSize: 36px; --toolIconBorderRadiu=
-s: 8px;"><button class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" =
-aria-label=3D"Deployments" draggable=3D"true" style=3D"--height: 24px; --wi=
-dth: 24px;" fdprocessedid=3D"ebs4yv"><svg preserveAspectRatio=3D"xMidYMin" =
-width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"var(--accent-green=
--strongest)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16p=
-x; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" =
-d=3D"M14.409 9.75c-.039.434-.101.865-.188 1.29l1.241 1.24c.233-.822.385-1.6=
-7.452-2.53h3.298a7.226 7.226 0 0 1-1.995 4.285l1.06 1.06a8.75 8.75 0 1 0-12=
-.555 0l1.061-1.06A7.226 7.226 0 0 1 4.788 9.75h3.298c.067.86.219 1.708.452 =
-2.53l1.24-1.24c-.086-.425-.149-.856-.187-1.29h4.818Zm-9.62-1.5h3.297c.176-2=
-.262.94-4.433 2.209-6.298A7.256 7.256 0 0 0 4.788 8.25ZM12 2.16a11.49 11.49=
- 0 0 0-2.409 6.09h4.818A11.49 11.49 0 0 0 12 2.16Zm7.212 6.09h-3.298a12.99 =
-12.99 0 0 0-2.209-6.298 7.256 7.256 0 0 1 5.507 6.298Z" clip-rule=3D"evenod=
-d"></path><path d=3D"m17.53 16.47-5-5a.75.75 0 0 0-1.06 0l-5 5a.75.75 0 1 0=
- 1.06 1.06l3.72-3.72V23a.75.75 0 0 0 1.5 0v-9.19l3.72 3.72a.75.75 0 1 0 1.0=
-6-1.06Z"></path></svg></button></div><div class=3D" useView_view__C2mnv css=
--1otiy91" style=3D"right: -2px;"></div></div></div><div class=3D" useView_v=
-iew__C2mnv Layout_fade__5GmrQ Layout_fadeBottom__spqF7" style=3D"--useView-=
--justify: end; --useView--align: center; opacity: 0;"></div></div><div clas=
+www.w3.org/2000/svg" class=3D"css-746qlq"><circle cx=3D"28" cy=3D"22" r=3D"=
+13" fill=3D"#0053A6"></circle><path d=3D"M28 9C30.2851 9 32.5297 9.6023 34.=
+5079 10.7462L28 22L28 9Z" fill=3D"#0079F2"></path><circle cx=3D"28" cy=3D"2=
+2" r=3D"10.5" stroke=3D"#57ABFF" stroke-dasharray=3D"1 4"></circle><g filte=
+r=3D"url(#filter0_d_3629_309)"><path fill-rule=3D"evenodd" clip-rule=3D"eve=
+nodd" d=3D"M28 36.3334C35.9161 36.3334 42.3333 29.9162 42.3333 22.0001C42.3=
+333 15.1129 37.4759 9.36028 31 7.98119V6C31 5 30 4 29 4H27C26 4 25 5 25 6V7=
+.9812C18.5241 9.36029 13.6667 15.1129 13.6667 22.0001C13.6667 29.9162 20.08=
+39 36.3334 28 36.3334ZM15.6667 22.0001C15.6667 15.1886 21.1885 9.66675 28 9=
+.66675C34.8115 9.66675 40.3333 15.1886 40.3333 22.0001C40.3333 28.8116 34.8=
+115 34.3334 28 34.3334C21.1885 34.3334 15.6667 28.8116 15.6667 22.0001Z" fi=
+ll=3D"#0079F2"></path></g><g filter=3D"url(#filter1_d_3629_309)"><path d=3D=
+"M28 12V22L33 13.3" stroke=3D"#B2D9FF" stroke-width=3D"1.5" stroke-linecap=
+=3D"round" stroke-linejoin=3D"round"></path></g><defs><filter id=3D"filter0=
+_d_3629_309" x=3D"11.6667" y=3D"3" width=3D"32.6667" height=3D"36.3335" fil=
+terUnits=3D"userSpaceOnUse" color-interpolation-filters=3D"sRGB"><feFlood f=
+lood-opacity=3D"0" result=3D"BackgroundImageFix"></feFlood><feColorMatrix i=
+n=3D"SourceAlpha" type=3D"matrix" values=3D"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0=
+ 0 0 127 0" result=3D"hardAlpha"></feColorMatrix><feOffset dy=3D"1"></feOff=
+set><feGaussianBlur stdDeviation=3D"1"></feGaussianBlur><feComposite in2=3D=
+"hardAlpha" operator=3D"out"></feComposite><feColorMatrix type=3D"matrix" v=
+alues=3D"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"></feColorMatrix><feBle=
+nd mode=3D"normal" in2=3D"BackgroundImageFix" result=3D"effect1_dropShadow_=
+3629_309"></feBlend><feBlend mode=3D"normal" in=3D"SourceGraphic" in2=3D"ef=
+fect1_dropShadow_3629_309" result=3D"shape"></feBlend></filter><filter id=
+=3D"filter1_d_3629_309" x=3D"25.25" y=3D"10.25" width=3D"10.5001" height=3D=
+"15.5" filterUnits=3D"userSpaceOnUse" color-interpolation-filters=3D"sRGB">=
+<feFlood flood-opacity=3D"0" result=3D"BackgroundImageFix"></feFlood><feCol=
+orMatrix in=3D"SourceAlpha" type=3D"matrix" values=3D"0 0 0 0 0 0 0 0 0 0 0=
+ 0 0 0 0 0 0 0 127 0" result=3D"hardAlpha"></feColorMatrix><feOffset dy=3D"=
+1"></feOffset><feGaussianBlur stdDeviation=3D"1"></feGaussianBlur><feCompos=
+ite in2=3D"hardAlpha" operator=3D"out"></feComposite><feColorMatrix type=3D=
+"matrix" values=3D"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"></feColorMat=
+rix><feBlend mode=3D"normal" in2=3D"BackgroundImageFix" result=3D"effect1_d=
+ropShadow_3629_309"></feBlend><feBlend mode=3D"normal" in=3D"SourceGraphic"=
+ in2=3D"effect1_dropShadow_3629_309" result=3D"shape"></feBlend></filter></=
+defs></svg><span class=3D" useView_view__C2mnv css-18p0tjm Text_text__T_hn_=
+ Text_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text--font=
+-size: var(--font-size-default); --Text--line-height: var(--line-height-def=
+ault);">No database or data persistence.</span></div><div class=3D" useView=
+_view__C2mnv css-1tw46ai" style=3D"--useView--align: center;"><div class=3D=
+" useView_view__C2mnv css-4xovtc" style=3D"--useView--pt: 6px; --useView--p=
+r: 12px; --useView--pb: 6px; --useView--pl: 12px;"><svg preserveAspectRatio=
+=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D"curr=
+entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 32px; =
+--rotate: 0deg; width: 32px; height: 32px;"><path fill-rule=3D"evenodd" d=
+=3D"M12 1.25a.75.75 0 0 1 .673.418l2.915 5.907 6.52.953a.75.75 0 0 1 .415 1=
+.28l-4.717 4.594 1.113 6.491a.75.75 0 0 1-1.088.79L12 18.618l-5.83 3.067a.7=
+5.75 0 0 1-1.09-.79l1.114-6.492-4.717-4.595a.75.75 0 0 1 .415-1.28l6.52-.95=
+2 2.915-5.907A.75.75 0 0 1 12 1.25Zm0 2.444L9.583 8.592a.75.75 0 0 1-.565.4=
+1l-5.407.79 3.912 3.81a.75.75 0 0 1 .216.665l-.923 5.382 4.835-2.543a.75.75=
+ 0 0 1 .698 0l4.835 2.543-.923-5.382a.75.75 0 0 1 .216-.664l3.912-3.81-5.40=
+7-.79a.75.75 0 0 1-.564-.411L12 3.694Z" clip-rule=3D"evenodd"></path></svg>=
+</div><span class=3D" useView_view__C2mnv css-18p0tjm Text_text__T_hn_ Text=
+_multiline__ICkLz" style=3D"--Text--font-family: inherit; --Text--font-size=
+: var(--font-size-default); --Text--line-height: var(--line-height-default)=
+;">Suitable for HTML, CSS, JavaScript sites.</span></div></div></div><div c=
+lass=3D" useView_view__C2mnv useView_isHorizontal__Q1YOp" style=3D"--useVie=
+w--justify: center;"><div class=3D" useView_view__C2mnv css-11uz3ji Surface=
+_surfaceDefault__TcNI5"><div class=3D" useView_view__C2mnv" style=3D"--useV=
+iew--gap: 8px; --useView--justify: center;"><div class=3D" useView_view__C2=
+mnv useView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--j=
+ustify: center; --useView--align: center;"><span class=3D" useView_view__C2=
+mnv Text_text__T_hn_ Text_multiline__ICkLz" style=3D"--Text--font-family: i=
+nherit; --Text--font-size: var(--font-size-default); --Text--line-height: v=
+ar(--line-height-default);">Security scan</span><div class=3D" useView_view=
+__C2mnv css-3kx9rt"><span>Beta</span></div></div><div class=3D" useView_vie=
+w__C2mnv"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_multili=
+ne__ICkLz" style=3D"--Text--font-family: inherit; --Text--font-size: var(--=
+font-size-small); --Text--line-height: var(--line-height-small); --Text--co=
+lor: var(--foreground-dimmer);">Identify potential vulnerabilities by runni=
+ng a security scan powered by our partner, Semgrep.</span></div><button typ=
+e=3D"button" tabindex=3D"0" class=3D"Button_button__oRQ_x css-9glblb" data-=
+rac=3D"" id=3D"react-aria8892419012-:rpj:" fdprocessedid=3D"65wzi9" style=
+=3D"--Button--height: 32px; --Button--shrink: 0; --Button--align-self: auto=
+; --Button--alignment: center;"><span class=3D"Text_singleLineWrapper__REG8=
+N" style=3D"--Text--font-size: var(--font-size-default); --Text--font-famil=
+y: inherit;"><span class=3D" useView_view__C2mnv Text_text__T_hn_ Text_sing=
+leLine__lXpWA" style=3D"--Text--font-family: inherit; --Text--font-size: va=
+r(--font-size-default); --Text--line-height: var(--line-height-default);">R=
+un scan on Replit using </span></span><div class=3D" useView_view__C2mnv us=
+eView_isHorizontal__Q1YOp" style=3D"--useView--gap: 4px; --useView--align: =
+center;"><svg xmlns=3D"http://www.w3.org/2000/svg" version=3D"1.1" viewBox=
+=3D"0 0 1670 252" class=3D"PoweredBySemgrep_semgrepLogo__hTS0C"><g fill=3D"=
+#13bf95"><path d=3D"m412-4e-7c55.22847 0 100 44.77153 100 100 0 55.22847-44=
+.77153 100-100 100s-100-44.77153-100-100c1e-3 -22.75534 7.76297-44.82984 22=
+.00391-62.57812 5.79468 6.661495 7.89062 10.6061 13.99609 20.57812h3.5c-3.0=
+923-7.636258-7.63896-15.06492-13.76367-24.96093 18.96049-21.03049 45.94792-=
+33.03689 74.26367-33.03906zm0 44c-30.92795 0-56 25.07205-56 56 0 30.92795 2=
+5.07205 56 56 56s56-25.07205 56-56c0-30.92794-25.07205-56-56-56z"></path><p=
+ath d=3D"m256 0c-55.22841 0-100 44.77158-100 100 8e-3 22.74213 7.76844 44.8=
+0216 22 62.54102 0.04153-0.05203 0.07004-0.09276 0.11133-0.14454 0.01252 0.=
+01556 0.02458 0.03133 0.03711 0.04688 0.96022-1.20705 1.88357-2.443 2.78711=
+-3.69336 4.19703-5.49557 7.10017-10.10355 9.92773-17.07812 0.25397-0.55649 =
+0.51186-1.11021 0.75586-1.67188h3.38086c-0.72386 2.98756-1.74037 5.91654-2.=
+99414 8.88477-2.79519 5.99462-6.2697 12.37905-9.80078 18.10937-0.05698 0.09=
+227-0.10092 0.17302-0.1582 0.26563 18.94128 20.83966 45.79173 32.72679 73.9=
+5312 32.74023 28.16139-0.01344 55.01184-11.90057 73.95312-32.74023-0.05728-=
+0.09261-0.10122-0.17336-0.1582-0.26563-3.53108-5.73032-7.00559-12.11475-9.8=
+0078-18.10937-1.25377-2.96823-2.27028-5.89721-2.99414-8.88477h3.38086c0.244=
+ 0.56167 0.50189 1.11539 0.75586 1.67188 2.82756 6.97457 5.7307 11.58255 9.=
+92773 17.07812 0.90354 1.25036 1.82689 2.48631 2.78711 3.69336 0.01253-0.01=
+555 0.02459-0.03132 0.03711-0.04688 0.04129 0.05178 0.0698 0.09251 0.11133 =
+0.14454 14.23156-17.73886 21.992-39.79889 22-62.54102 0-55.22842-44.77159-1=
+00-100-100zm0 44c30.92792 0 56 25.07208 56 56 0 30.92792-25.07208 56-56 56s=
+-56-25.07208-56-56c0-0.966497 0.02388-1.926386 0.07227-2.880859 1.49985-29.=
+58868 25.96631-53.11914 55.92773-53.11914z"></path><path d=3D"m100 0c-55.22=
+848 0-100 44.77152-100 100 0 55.22847 44.77152 100 100 100 55.22847 0 100-4=
+4.77153 100-100-1e-3 -22.75534-7.76297-44.82984-22.00391-62.57812-5.79468 6=
+.661495-7.89062 10.6061-13.99609 20.57812h-3.5c3.0923-7.636258 7.63896-15.0=
+6492 13.76367-24.96093-18.96049-21.03049-45.94792-33.03689-74.26367-33.0390=
+6zm0 44c30.92795 0 56 25.07205 56 56 0 30.92795-25.07205 56-56 56-30.92795 =
+0-56-25.07205-56-56 0-30.92795 25.07205-56 56-56z"></path></g><g fill=3D"cu=
+rrentColor"><path d=3D"M659.55109 194.4763q-15.41724 0-28.48243-3.92117-13.=
+0652-4.18248-23.51636-12.02494-10.45116-8.10366-18.55228-19.8669l20.64231-2=
+3.52687q12.8032 18.0379 24.82438 25.09587 12.01918 6.79666 27.96042 6.79666=
+ 9.40715 0 16.98426-2.87559 7.57802-2.87548 12.01918-8.10365 4.44227-5.2281=
+7 4.44227-11.76394 0-4.70538-1.56782-8.62645-1.56783-4.18258-4.96488-7.3194=
+7-3.39705-3.13698-8.36183-5.75097-4.96487-2.87558-11.49717-4.96677-6.5326-2=
+.09119-14.89423-3.39838-14.11021-3.13698-24.82437-7.84216-10.45116-4.70528-=
+17.76827-11.763938-7.05521-7.058063-10.45116-16.207914-3.39705-9.149252-3.3=
+9705-20.389893 0-11.23994 4.96487-20.650891 4.96488-9.672049 13.58721-16.72=
+9911 8.62313-7.058063 20.38131-10.7179437Q648.83763 6 662.16483 6q14.89423 =
+0 26.6534 3.6596807 12.01919 3.6596803 21.16533 10.9789423 9.14573 7.058062=
+ 15.41723 17.513907l-21.16532 20.650891q-5.48748-8.365056-12.01918-13.85492=
+7-6.2714-5.751069-14.11022-8.626454-7.83922-2.875585-16.46225-2.875585-9.66=
+835 0-16.98426 3.136984-7.0552 2.875584-11.23517 8.103557-4.18096 5.228172-=
+4.18096 12.286935 0 5.228172 2.09033 9.672049 2.35164 4.182478 6.5326 7.580=
+76 4.44227 3.398382 11.49717 6.012468 7.05521 2.614186 16.46225 4.443977 14=
+.37122 3.136983 25.60839 8.103557 11.49718 4.705375 19.3363 11.239938 8.100=
+62 6.53527 12.01918 14.90092 4.18096 8.36506 4.18096 18.03791 0 17.7759-8.3=
+6182 30.84684-8.10063 12.80893-23.25536 19.86689-15.15523 6.79666-35.80054 =
+6.79666z"></path><path d=3D"M815.75346 194.4763q-21.42632 0-37.88957-8.8878=
+5-16.46225-9.14925-25.8694-24.83487-9.14573-15.94591-9.14573-36.33581 0-16.=
+20791 5.22617-29.539839 5.22618-13.33193 14.37122-23.003879 9.40715-9.93354=
+7 22.21034-15.16192 13.0652-5.489571 28.22143-5.489571 13.58721 0 25.08538 =
+5.228173 11.75818 4.966773 20.38131 14.115925 8.62313 8.887853 13.0652 21.1=
+74888 4.70357 12.286933 4.44227 26.663863l-.26129 11.50294h-111.8317l-6.010=
+09-21.69789h92.50341l-3.91966 4.44398v-6.01247q-.78393-8.365057-5.48749-14.=
+639924-4.70357-6.535166-12.01918-10.194946-7.05521-3.92108-15.67824-3.92108=
+-13.5872 0-22.73334 5.228173-9.14574 4.966674-14.11022 14.900921-4.70357 9.=
+933546-4.70357 24.311876 0 13.85492 5.74869 24.04987 6.01009 10.19495 16.72=
+225 15.94591 10.71317 5.48958 24.82438 5.48958 9.92975 0 18.29028-3.13699 8=
+.36183-3.39838 18.29028-11.76394l14.63322 20.6509q-6.5327 6.27376-15.67824 =
+10.97894-9.14574 4.70537-19.07429 7.31946-9.92975 2.61418-19.5973 2.61418z"=
+></path><path d=3D"M899.25473 191.86632V54.367045h29.52845v28.493849l-4.964=
+87 2.614086q2.35163-6.796664 6.794-12.808932 4.70357-6.012468 11.23517-10.7=
+17943 6.5327-4.705376 14.11021-7.319362 7.57752-2.613986 15.41724-2.614086 =
+11.49717 0 20.1203 3.921079 8.88457 3.659681 14.63327 11.239941 6.01 7.5807=
+6 8.8845 19.344898l-4.7036-.784246 1.8291-4.443977q3.1357-6.012468 8.1006-1=
+1.23994 5.2262-5.489571 11.7582-9.41065 6.5325-4.182478 13.8492-6.273767 7.=
+3166-2.352688 14.1102-2.352688 15.6782 0 25.8694 6.273767 10.1901 6.273767 =
+15.4172 19.082899 5.2262 12.808933 5.2262 31.630837v82.86656h-29.7905V111.0=
+948q0-11.239946-2.8745-18.298908-2.8744-7.058863-8.6231-10.455945-5.7487-3.=
+659681-14.8943-3.659681-6.794 0-13.0652 2.352688-6.0101 2.352687-10.4511 6.=
+535165-4.4423 4.182478-7.0553 9.933448-2.3519 5.489573-2.3519 12.286933v82.=
+08157h-29.78842V110.5725q0-10.19495-3.13565-17.252911-2.87445-7.319461-8.62=
+313-10.978942-5.74869-3.659681-14.11022-3.659681-6.794 0-12.80319 2.352688-=
+6.01009 2.352687-10.45116 6.535165-4.44227 3.92108-7.05521 9.672049-2.35163=
+ 5.489572-2.35163 12.024932v82.60457z"></path><path d=3D"M1199.1093 251.996=
+q-14.8942 0-29.7905-4.70527-14.8942-4.70538-24.3003-12.02494l10.9741-22.481=
+88q5.2262 3.92118 12.0192 6.79666 7.0553 3.13699 14.6332 4.70528 7.8393 1.8=
+2989 15.6783 1.82989 14.1102 0 23.5163-4.70538 9.4071-4.44397 14.1103-13.59=
+293 4.9648-8.88775 4.9648-22.21988v-25.61886l3.6583 1.56849q-1.3066 8.36505=
+-8.6231 15.68492-7.0554 7.31946-17.7683 12.02493-10.7132 4.44388-21.9494 4.=
+44388-19.3362 0-34.7545-9.14925-15.1552-9.14925-24.0403-25.09587-8.6233-15.=
+94592-8.6233-36.59781t8.6233-36.596804q8.6231-16.207914 23.7783-25.356866 1=
+5.1552-9.41065 34.2325-9.41065 7.8393 0 15.1553 2.091189 7.3165 1.82989 13.=
+5872 5.228172 6.2711 3.398382 10.9741 7.58076 4.9647 4.182478 8.1004 8.8877=
+53 3.1357 4.705375 3.9196 8.887853l-6.0101 2.091189.2613-31.892831h29.0055V=
+182.98707q0 16.46891-4.9647 29.27784-4.7036 12.80893-14.1102 21.69789-9.145=
+8 8.88785-22.4724 13.33193Q1215.829 252 1199.1038 252Zm1.0452-84.43455q12.2=
+812 0 21.6883-5.75097 9.6684-5.75107 14.8943-15.68492 5.2261-9.93355 5.2261=
+-23.26588 0-13.07093-5.4873-23.265874-5.2263-10.194946-14.6333-15.945916-9.=
+407-5.75107-21.6883-5.75107-12.0192 0-21.4263 6.012469-9.4071 5.751069-14.6=
+332 15.945915-5.2262 10.194946-5.2262 23.003876 0 13.07093 5.2262 23.26588 =
+5.2261 9.93355 14.6332 15.68492 9.4071 5.75097 21.4263 5.75097z"></path><pa=
+th d=3D"M1297.8108 191.86632V54.367045h29.2664l.5227 43.392771-3.6583-9.933=
+548q2.8743-10.194946 9.9297-18.298903 7.0552-8.365056 16.2013-13.070931 9.1=
+458-4.966674 18.8133-4.966674 4.4423 0 8.6231.784206 4.1809.784206 6.5327 1=
+.82989l-7.8393 32.15383q-3.1356-1.307093-7.0552-2.091189-3.9196-1.045594-7.=
+8392-1.045594-6.794 0-13.0652 2.614086-6.0102 2.614186-10.7132 7.319461-4.4=
+424 4.443877-7.3165 10.71794-2.6131 6.01247-2.6131 13.33193v74.76161z"></pa=
+th><path d=3D"M1454.2132 194.4763q-21.4264 0-37.8896-8.88785-16.4623-9.1492=
+5-25.8684-24.83487-9.1458-15.94591-9.1458-36.33581 0-16.20791 5.2261-29.539=
+839 5.2262-13.33193 14.3713-23.003879 9.4071-9.933547 22.2103-15.16192 13.0=
+652-5.489571 28.2204-5.489571 13.5872 0 25.0844 5.228173 11.7582 4.966773 2=
+0.3823 14.115925 8.623 8.887853 13.0652 21.174888 4.7036 12.286933 4.4423 2=
+6.663863l-.2615 11.50294h-111.8317l-6.0101-21.69789h92.5034l-3.9197 4.44398=
+v-6.01247q-.7839-8.365057-5.4875-14.639924-4.7034-6.535166-12.0191-10.19494=
+6-7.0554-3.92108-15.6783-3.92108-13.5872 0-22.7323 5.228173-9.146 4.966674-=
+14.1102 14.900921-4.7036 9.933546-4.7036 24.311876 0 13.85492 5.7487 24.049=
+87 6.0101 10.19495 16.7222 15.94591 10.7132 5.48958 24.8244 5.48958 9.9297 =
+0 18.2903-3.13699 8.3618-3.39838 18.2903-11.76394l14.6332 20.6509q-6.5326 6=
+.27376-15.6782 10.97894-9.1458 4.70537-19.0743 7.31946-9.9297 2.61418-19.59=
+73 2.61418z"></path><path d=3D"M1532.8144 249.37601V54.367045h29.2664l.2611=
+ 31.369834-4.7036-2.352688q1.5679-8.103557 8.8846-15.16192 7.3165-7.319361 =
+17.7682-11.763937 10.7132-4.443977 22.2104-4.443977 18.2903 0 32.4025 9.149=
+252 14.3712 9.149251 22.7343 25.095867Q1670 102.20539 1670 122.85628q0 20.6=
+5189-8.3617 36.85781-8.1007 15.94591-22.4723 25.35686-14.1102 9.14926-32.14=
+05 9.14926-12.0192 0-23.2564-4.70528-10.9741-4.70527-18.8132-12.28693-7.839=
+3-7.58066-9.6685-15.94592l7.3168-3.65968v91.75351zm68.724-81.81956q11.4972 =
+0 20.3813-5.75097 9.1458-5.75107 14.3712-15.68492 5.2261-10.19495 5.2261-23=
+.26588 0-12.80893-5.2261-22.74288-4.9648-9.933544-14.1102-15.684914-8.8843-=
+5.75097-20.6423-5.75097t-20.9043 5.75097q-8.8845 5.489571-14.1102 15.684914=
+-5.2262 9.93355-5.2262 22.74288 0 13.07093 5.2262 23.26588 5.2262 9.93355 1=
+4.1102 15.68492 9.1456 5.75097 20.9043 5.75097z"></path></g></svg><svg pres=
+erveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 2=
+4" fill=3D"var(--foreground-dimmest)" aria-hidden=3D"true" class=3D"css-492=
+dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><pa=
+th fill-rule=3D"evenodd" d=3D"M17.5 18.75c.69 0 1.25-.56 1.25-1.25v-11c0-.6=
+9-.56-1.25-1.25-1.25h-11c-.69 0-1.25.56-1.25 1.25v6.25a.75.75 0 0 1-1.5 0V6=
+.5A2.75 2.75 0 0 1 6.5 3.75h11a2.75 2.75 0 0 1 2.75 2.75v11a2.75 2.75 0 0 1=
+-2.75 2.75h-6.25a.75.75 0 0 1 0-1.5h6.25Z" clip-rule=3D"evenodd"></path><pa=
+th fill-rule=3D"evenodd" d=3D"M8.25 9A.75.75 0 0 1 9 8.25h6a.75.75 0 0 1 .7=
+5.75v6a.75.75 0 0 1-1.5 0v-4.19l-9.97 9.97a.75.75 0 0 1-1.06-1.06l9.97-9.97=
+H9A.75.75 0 0 1 8.25 9Z" clip-rule=3D"evenodd"></path></svg></div></button>=
+</div></div></div></div></div></div></div><div class=3D" useView_view__C2mn=
+v Pane_interactionBlanket__HGhM4"></div></div></main><div class=3D"css-1bdm=
+x7n" style=3D"--border: 1px solid var(--accent-primary-default); --opacity:=
+ 0; --visibility: hidden;"><div class=3D"css-1y76wjm" style=3D"--innerOpaci=
+ty: 0; --innerScale: 1;"></div></div><div class=3D" useView_view__C2mnv css=
+-hq36dh" style=3D"--opacity: 0; --pointerEvents: none;"><svg preserveAspect=
+Ratio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D=
+"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 3=
+2px; --rotate: 0deg; width: 32px; height: 32px;"><path fill-rule=3D"evenodd=
+" d=3D"M7 2.25A4.75 4.75 0 0 0 2.25 7v10A4.75 4.75 0 0 0 7 21.75h10A4.75 4.=
+75 0 0 0 21.75 17V7A4.75 4.75 0 0 0 17 2.25H7ZM3.75 12h16.5v5A3.25 3.25 0 0=
+ 1 17 20.25H7A3.25 3.25 0 0 1 3.75 17v-5Z" clip-rule=3D"evenodd"></path></s=
+vg></div><div class=3D" useView_view__C2mnv css-hq36dh" style=3D"--opacity:=
+ 0; --pointerEvents: none;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"=
+32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=
+=3D"true" class=3D"css-492dz9" style=3D"--size: 32px; --rotate: 0deg; width=
+: 32px; height: 32px;"><path fill-rule=3D"evenodd" d=3D"M17 21.75A4.75 4.75=
+ 0 0 0 21.75 17V7A4.75 4.75 0 0 0 17 2.25H7A4.75 4.75 0 0 0 2.25 7v10A4.75 =
+4.75 0 0 0 7 21.75h10ZM20.25 12H3.75V7A3.25 3.25 0 0 1 7 3.75h10A3.25 3.25 =
+0 0 1 20.25 7v5Z" clip-rule=3D"evenodd"></path></svg></div><div class=3D" u=
+seView_view__C2mnv css-hq36dh" style=3D"--opacity: 0; --pointerEvents: none=
+;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=
+=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-492d=
+z9" style=3D"--size: 32px; --rotate: 0deg; width: 32px; height: 32px;"><pat=
+h fill-rule=3D"evenodd" d=3D"M2.25 7A4.75 4.75 0 0 1 7 2.25h10A4.75 4.75 0 =
+0 1 21.75 7v10A4.75 4.75 0 0 1 17 21.75H7A4.75 4.75 0 0 1 2.25 17V7ZM12 3.7=
+5v16.5h5A3.25 3.25 0 0 0 20.25 17V7A3.25 3.25 0 0 0 17 3.75h-5Z" clip-rule=
+=3D"evenodd"></path></svg></div><div class=3D" useView_view__C2mnv css-hq36=
+dh" style=3D"--opacity: 0; --pointerEvents: none;"><svg preserveAspectRatio=
+=3D"xMidYMin" width=3D"32" height=3D"32" viewBox=3D"0 0 24 24" fill=3D"curr=
+entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 32px; =
+--rotate: 0deg; width: 32px; height: 32px;"><path fill-rule=3D"evenodd" d=
+=3D"M21.75 7A4.75 4.75 0 0 0 17 2.25H7A4.75 4.75 0 0 0 2.25 7v10A4.75 4.75 =
+0 0 0 7 21.75h10A4.75 4.75 0 0 0 21.75 17V7ZM12 3.75v16.5H7A3.25 3.25 0 0 1=
+ 3.75 17V7A3.25 3.25 0 0 1 7 3.75h5Z" clip-rule=3D"evenodd"></path></svg></=
+div><div class=3D" useView_view__C2mnv css-hq36dh" style=3D"--opacity: 0; -=
+-pointerEvents: none;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"32" h=
+eight=3D"32" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"tru=
+e" class=3D"css-492dz9" style=3D"--size: 32px; --rotate: 0deg; width: 32px;=
+ height: 32px;"><path fill-rule=3D"evenodd" d=3D"M2 6.75A4.75 4.75 0 0 1 6.=
+75 2h10a4.75 4.75 0 0 1 4.75 4.75v10a4.75 4.75 0 0 1-4.75 4.75h-10A4.75 4.7=
+5 0 0 1 2 16.75v-10ZM6.75 3.5A3.25 3.25 0 0 0 3.5 6.75v10A3.25 3.25 0 0 0 6=
+.75 20h10A3.25 3.25 0 0 0 20 16.75v-10a3.25 3.25 0 0 0-3.25-3.25h-10Z" clip=
+-rule=3D"evenodd"></path><path d=3D"M5.25 8.398a3.167 3.167 0 0 1 3.167-3.1=
+67h6.666a3.167 3.167 0 0 1 3.167 3.167v6.667a3.167 3.167 0 0 1-3.167 3.166H=
+8.417a3.167 3.167 0 0 1-3.167-3.166V8.398Z"></path></svg></div><div class=
+=3D" useView_view__C2mnv css-yr3i9j" style=3D"--transform: translate(0px, 0=
+px); --width: 0px; --height: 0px; --opacity: 0;"></div><div class=3D" useVi=
+ew_view__C2mnv Layout_root__zbmnW" style=3D"--useView--gap: 6px; --useView-=
+-justify: space-between; --useView--align: stretch; width: 48px;"><div clas=
 s=3D" useView_view__C2mnv" style=3D"--useView--align: center;"><div class=
-=3D" useView_view__C2mnv css-mu1g57" style=3D"--toolIconButtonSize: 32px; -=
+=3D" useView_view__C2mnv css-1ll3la2"><div class=3D" useView_view__C2mnv cs=
+s-mu1g57" style=3D"--toolIconButtonSize: 32px; --toolIconBorderRadius: 8px;=
+"><button data-cy=3D"toggle-files-sidebar" class=3D" useView_view__C2mnv cs=
+s-os4f0t" type=3D"button" aria-label=3D"Open files" fdprocessedid=3D"6vdwph=
+" style=3D"--height: 24px; --width: 24px;"><svg preserveAspectRatio=3D"xMid=
+YMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"currentColor=
+" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; --rotate=
+: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=3D"M1.25 =
+5A2.75 2.75 0 0 1 4 2.25h4.999c.251 0 .485.126.625.334L11.4 5.25H20A2.75 2.=
+75 0 0 1 22.75 8v4.5a.75.75 0 0 1-1.5 0V8c0-.69-.56-1.25-1.25-1.25h-9a.751.=
+751 0 0 1-.625-.335L8.598 3.75H4c-.69 0-1.25.56-1.25 1.25v14c0 .69.56 1.25 =
+1.25 1.25h4a.75.75 0 0 1 0 1.5H4A2.75 2.75 0 0 1 1.25 19V5Z" clip-rule=3D"e=
+venodd"></path><path fill-rule=3D"evenodd" d=3D"M22.55 17.646a.854.854 0 0 =
+1 0 1.208l-3.696 3.696a.855.855 0 0 1-1.208-1.209l3.091-3.091-3.091-3.091a.=
+855.855 0 0 1 1.208-1.209l3.696 3.696Z" clip-rule=3D"evenodd"></path><path =
+fill-rule=3D"evenodd" d=3D"M17.376 18.854 13.68 22.55a.854.854 0 0 1-1.208-=
+1.209l3.092-3.091-3.092-3.091a.855.855 0 0 1 1.208-1.209l3.696 3.696a.854.8=
+54 0 0 1 0 1.208Z" clip-rule=3D"evenodd"></path></svg></button></div></div>=
+</div><div class=3D" useView_view__C2mnv Layout_middle__CTNFw" style=3D"--u=
+seView--align: center;"><div class=3D" useView_view__C2mnv Layout_primaryTo=
+ols__ynQG1"><div class=3D" useView_view__C2mnv css-lha41x"><div class=3D" u=
+seView_view__C2mnv css-mu1g57" style=3D"--toolIconButtonSize: 36px; --toolI=
+conBorderRadius: 8px;"><button class=3D" useView_view__C2mnv css-os4f0t" ty=
+pe=3D"button" aria-label=3D"Assistant" draggable=3D"true" style=3D"--height=
+: 24px; --width: 24px;" fdprocessedid=3D"5i1kve"><svg preserveAspectRatio=
+=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"curr=
+entColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; =
+--rotate: 0deg; width: 16px; height: 16px;"><g clip-path=3D"url(#clip0_7329=
+_267)"><path fill=3D"var(--accent-teal-default)" d=3D"M7.714 0a3.429 3.429 =
+0 0 1 3.429 3.429v.026a5.143 5.143 0 0 0 5.137 5.116h.006a3.429 3.429 0 0 1=
+ 0 6.858 5.143 5.143 0 0 0-5.143 5.142 3.429 3.429 0 1 1-3.429-3.428h.007a5=
+.143 5.143 0 0 0-.007-10.286 3.429 3.429 0 0 1 0-6.857Z"></path><path fill=
+=3D"var(--accent-teal-stronger)" d=3D"M11.143 12a3.429 3.429 0 1 0-6.857 0 =
+3.429 3.429 0 0 0 6.857 0Z"></path><path fill=3D"url(#paint0_radial_7329_26=
+7)" d=3D"M7.714 0a3.429 3.429 0 0 1 3.429 3.429v.026a5.143 5.143 0 0 0 5.13=
+7 5.116h.006a3.429 3.429 0 0 1 0 6.858 5.143 5.143 0 0 0-5.143 5.142 3.429 =
+3.429 0 1 1-3.429-3.428h.007a5.143 5.143 0 0 0-.007-10.286 3.429 3.429 0 0 =
+1 0-6.857Z" opacity=3D".5"></path><path fill=3D"url(#paint1_radial_7329_267=
+)" d=3D"M7.714 8.571a3.429 3.429 0 1 1 0 6.858 3.429 3.429 0 0 1 0-6.858Z" =
+opacity=3D".5"></path></g><defs><radialGradient id=3D"paint0_radial_7329_26=
+7" cx=3D"0" cy=3D"0" r=3D"1" gradientTransform=3D"rotate(44.479 -2.762 5.67=
+9)scale(29.1694)" gradientUnits=3D"userSpaceOnUse"><stop stop-color=3D"#fff=
+" stop-opacity=3D".79"></stop><stop offset=3D"1"></stop></radialGradient><r=
+adialGradient id=3D"paint1_radial_7329_267" cx=3D"0" cy=3D"0" r=3D"1" gradi=
+entTransform=3D"rotate(44.479 -2.763 5.679)scale(29.1694)" gradientUnits=3D=
+"userSpaceOnUse"><stop stop-color=3D"#fff" stop-opacity=3D".79"></stop><sto=
+p offset=3D"1"></stop></radialGradient><clipPath id=3D"clip0_7329_267"><pat=
+h fill=3D"#fff" d=3D"M0 .274C0 .123.123 0 .274 0h23.452c.151 0 .274.123.274=
+.274v23.452a.274.274 0 0 1-.274.274H.274A.274.274 0 0 1 0 23.726V.274Z"></p=
+ath></clipPath></defs></svg></button></div><div class=3D" useView_view__C2m=
+nv css-1otiy91" style=3D"right: -2px;"></div></div></div><div class=3D" use=
+View_view__C2mnv Layout_divider__K1Gu3"></div><div class=3D" useView_view__=
+C2mnv Layout_secondarySection__QzsOI" style=3D"--useView--align: stretch;">=
+<div class=3D" useView_view__C2mnv Layout_secondaryTools__xDqvE" style=3D"-=
+-useView--align: center;"><div class=3D" useView_view__C2mnv Layout_fade__5=
+GmrQ Layout_fadeTop__y79T3" style=3D"opacity: 0;"></div><div class=3D" useV=
+iew_view__C2mnv Layout_secondaryToolsScroll__ZeWEF"><div class=3D" useView_=
+view__C2mnv css-lha41x"><div class=3D" useView_view__C2mnv css-mu1g57" styl=
+e=3D"--toolIconButtonSize: 36px; --toolIconBorderRadius: 8px;"><button clas=
+s=3D" useView_view__C2mnv css-os4f0t" type=3D"button" aria-label=3D"Preview=
+" draggable=3D"true" style=3D"--height: 24px; --width: 24px;" fdprocessedid=
+=3D"hq9gpk"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16=
+" viewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D=
+"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16=
+px;"><path fill-rule=3D"evenodd" d=3D"M4 3.75c-.69 0-1.25.56-1.25 1.25v10c0=
+ .69.56 1.25 1.25 1.25h16c.69 0 1.25-.56 1.25-1.25V5c0-.69-.56-1.25-1.25-1.=
+25H4Zm8.75 14H20A2.75 2.75 0 0 0 22.75 15V5A2.75 2.75 0 0 0 20 2.25H4A2.75 =
+2.75 0 0 0 1.25 5v10A2.75 2.75 0 0 0 4 17.75h7.25v2.5H8a.75.75 0 0 0 0 1.5h=
+8a.75.75 0 0 0 0-1.5h-3.25v-2.5Z" clip-rule=3D"evenodd"></path></svg></butt=
+on></div><div class=3D" useView_view__C2mnv css-1otiy91" style=3D"right: -2=
+px;"></div></div><div class=3D" useView_view__C2mnv css-lha41x"><div class=
+=3D" useView_view__C2mnv css-mu1g57" style=3D"--toolIconButtonSize: 36px; -=
 -toolIconBorderRadius: 8px;"><button class=3D" useView_view__C2mnv css-os4f=
-0t" type=3D"button" aria-label=3D"All tools" aria-expanded=3D"false" fdproc=
-essedid=3D"qsowf8" style=3D"--height: 24px; --width: 24px;"><svg preserveAs=
-pectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fil=
-l=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--siz=
-e: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"eve=
-nodd" d=3D"M1.25 3c0-.966.784-1.75 1.75-1.75h6c.966 0 1.75.784 1.75 1.75v6A=
-1.75 1.75 0 0 1 9 10.75H3A1.75 1.75 0 0 1 1.25 9V3ZM3 2.75a.25.25 0 0 0-.25=
-.25v6c0 .138.112.25.25.25h6A.25.25 0 0 0 9.25 9V3A.25.25 0 0 0 9 2.75H3ZM13=
-.25 3c0-.966.784-1.75 1.75-1.75h6c.966 0 1.75.784 1.75 1.75v6A1.75 1.75 0 0=
- 1 21 10.75h-6A1.75 1.75 0 0 1 13.25 9V3ZM15 2.75a.25.25 0 0 0-.25.25v6c0 .=
-138.112.25.25.25h6a.25.25 0 0 0 .25-.25V3a.25.25 0 0 0-.25-.25h-6ZM1.25 15c=
-0-.966.784-1.75 1.75-1.75h6c.966 0 1.75.784 1.75 1.75v6A1.75 1.75 0 0 1 9 2=
-2.75H3A1.75 1.75 0 0 1 1.25 21v-6ZM3 14.75a.25.25 0 0 0-.25.25v6c0 .138.112=
-.25.25.25h6a.25.25 0 0 0 .25-.25v-6a.25.25 0 0 0-.25-.25H3Zm10.25.25c0-.966=
-.784-1.75 1.75-1.75h6c.966 0 1.75.784 1.75 1.75v6A1.75 1.75 0 0 1 21 22.75h=
--6A1.75 1.75 0 0 1 13.25 21v-6Zm1.75-.25a.25.25 0 0 0-.25.25v6c0 .138.112.2=
-5.25.25h6a.25.25 0 0 0 .25-.25v-6a.25.25 0 0 0-.25-.25h-6Z" clip-rule=3D"ev=
-enodd"></path></svg></button></div></div></div></div><div class=3D" useView=
-_view__C2mnv" style=3D"--useView--align: center;"><div class=3D" useView_vi=
-ew__C2mnv" style=3D"--useView--gap: 4px; --useView--align: center;"><div da=
-ta-cy=3D"workspace-sidebar-upgrade-cta" class=3D" useView_view__C2mnv"><but=
-ton class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" aria-label=3D=
-"Join Replit Core" fdprocessedid=3D"287h9" style=3D"--height: 24px; --width=
-: 24px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" v=
-iewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"cs=
-s-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;=
-"><path d=3D"M12.554.492c.49 3.288 1.307 7.363 2.448 8.505 1.142 1.142 5.22=
- 1.959 8.51 2.449.651.097.65 1.01 0 1.107-3.29.49-7.367 1.307-8.51 2.448-1.=
-143 1.143-1.96 5.227-2.45 8.518-.096.642-1.009.641-1.104 0-.49-3.291-1.308-=
-7.374-2.45-8.517-1.142-1.143-5.217-1.959-8.506-2.45a.558.558 0 0 1 0-1.107c=
-3.289-.49 7.363-1.307 8.505-2.448 1.142-1.142 1.959-5.216 2.45-8.505a.558.5=
-58 0 0 1 1.107 0Z"></path></svg></button></div><div class=3D" useView_view_=
-_C2mnv"><button class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" a=
-ria-label=3D"Help" aria-expanded=3D"false" fdprocessedid=3D"9i9fq8" style=
-=3D"--height: 32px; --width: 32px;"><div class=3D" useView_view__C2mnv css-=
-79elbk"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" vi=
+0t" type=3D"button" aria-label=3D"Console" draggable=3D"true" style=3D"--he=
+ight: 24px; --width: 24px;" fdprocessedid=3D"0xmyi6"><svg preserveAspectRat=
+io=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"va=
+r(--accent-yellow-strongest)" aria-hidden=3D"true" class=3D"css-492dz9" sty=
+le=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-=
+rule=3D"evenodd" d=3D"M3.47 4.47a.75.75 0 0 1 1.06 0l6 6a.75.75 0 0 1 0 1.0=
+6l-6 6a.75.75 0 0 1-1.06-1.06L8.94 11 3.47 5.53a.75.75 0 0 1 0-1.06ZM11.25 =
+19a.75.75 0 0 1 .75-.75h8a.75.75 0 0 1 0 1.5h-8a.75.75 0 0 1-.75-.75Z" clip=
+-rule=3D"evenodd"></path></svg></button></div><div class=3D" useView_view__=
+C2mnv css-1otiy91" style=3D"right: -2px;"></div></div><div class=3D" useVie=
+w_view__C2mnv" aria-expanded=3D"false"><div class=3D" useView_view__C2mnv c=
+ss-lha41x"><div class=3D" useView_view__C2mnv css-mu1g57" style=3D"--toolIc=
+onButtonSize: 36px; --toolIconBorderRadius: 8px;"><button class=3D" useView=
+_view__C2mnv css-os4f0t" type=3D"button" aria-label=3D"Database" draggable=
+=3D"true" style=3D"--height: 24px; --width: 24px;" fdprocessedid=3D"1rggkr"=
+><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=
+=3D"0 0 24 24" fill=3D"var(--accent-blue-strongest)" aria-hidden=3D"true" c=
+lass=3D"css-492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; hei=
+ght: 16px;"><path fill-rule=3D"evenodd" d=3D"M4.171 4.421c-.37.292-.421.493=
+-.421.579 0 .086.052.287.421.579.362.285.932.574 1.702.83 1.534.512 3.7.841=
+ 6.127.841 2.427 0 4.593-.329 6.127-.84.77-.257 1.34-.546 1.701-.831.37-.29=
+2.422-.493.422-.579 0-.086-.052-.287-.422-.579-.361-.285-.93-.574-1.701-.83=
+-1.534-.512-3.7-.841-6.127-.841-2.427 0-4.593.329-6.127.84-.77.257-1.34.546=
+-1.702.831ZM20.25 7.103a8.448 8.448 0 0 1-1.649.73c-1.724.574-4.057.917-6.6=
+01.917-2.543 0-4.877-.343-6.601-.917a8.449 8.449 0 0 1-1.649-.73V12c0 .09.0=
+53.291.419.581.359.285.925.574 1.694.83 1.529.51 3.695.839 6.137.839 2.442 =
+0 4.608-.328 6.137-.839.769-.256 1.335-.545 1.694-.83.366-.29.419-.492.419-=
+.581V7.103ZM21.75 5c0-.743-.452-1.33-.993-1.757-.55-.433-1.298-.79-2.156-1.=
+076-1.724-.574-4.057-.917-6.601-.917-2.543 0-4.877.343-6.601.917-.858.286-1=
+.607.643-2.156 1.076C2.703 3.67 2.25 4.257 2.25 5v14c0 .74.447 1.329.987 1.=
+757.548.434 1.294.791 2.15 1.077 1.721.574 4.055.916 6.613.916 2.558 0 4.89=
+2-.342 6.613-.916.856-.286 1.602-.643 2.15-1.077.54-.428.987-1.016.987-1.75=
+7V5Zm-1.5 9.108a8.394 8.394 0 0 1-1.637.726c-1.721.574-4.055.916-6.613.916-=
+2.558 0-4.892-.342-6.612-.916a8.393 8.393 0 0 1-1.638-.726V19c0 .09.053.291=
+.419.581.359.285.925.573 1.694.83 1.529.51 3.695.839 6.137.839 2.442 0 4.60=
+8-.328 6.137-.839.769-.257 1.335-.545 1.694-.83.366-.29.419-.492.419-.581v-=
+4.892Z" clip-rule=3D"evenodd"></path></svg></button></div></div></div><div =
+class=3D" useView_view__C2mnv css-lha41x"><div class=3D" useView_view__C2mn=
+v css-mu1g57" style=3D"--toolIconButtonSize: 36px; --toolIconBorderRadius: =
+8px;"><button class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" ari=
+a-label=3D"Deployments" draggable=3D"true" style=3D"--height: 24px; --width=
+: 24px;" fdprocessedid=3D"ebs4yv"><svg preserveAspectRatio=3D"xMidYMin" wid=
+th=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=3D"var(--accent-green-st=
+rongest)" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size: 16px; =
+--rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"evenodd" d=
+=3D"M14.409 9.75c-.039.434-.101.865-.188 1.29l1.241 1.24c.233-.822.385-1.67=
+.452-2.53h3.298a7.226 7.226 0 0 1-1.995 4.285l1.06 1.06a8.75 8.75 0 1 0-12.=
+555 0l1.061-1.06A7.226 7.226 0 0 1 4.788 9.75h3.298c.067.86.219 1.708.452 2=
+.53l1.24-1.24c-.086-.425-.149-.856-.187-1.29h4.818Zm-9.62-1.5h3.297c.176-2.=
+262.94-4.433 2.209-6.298A7.256 7.256 0 0 0 4.788 8.25ZM12 2.16a11.49 11.49 =
+0 0 0-2.409 6.09h4.818A11.49 11.49 0 0 0 12 2.16Zm7.212 6.09h-3.298a12.99 1=
+2.99 0 0 0-2.209-6.298 7.256 7.256 0 0 1 5.507 6.298Z" clip-rule=3D"evenodd=
+"></path><path d=3D"m17.53 16.47-5-5a.75.75 0 0 0-1.06 0l-5 5a.75.75 0 1 0 =
+1.06 1.06l3.72-3.72V23a.75.75 0 0 0 1.5 0v-9.19l3.72 3.72a.75.75 0 1 0 1.06=
+-1.06Z"></path></svg></button></div><div class=3D" useView_view__C2mnv css-=
+1otiy91" style=3D"right: -2px;"></div></div></div><div class=3D" useView_vi=
+ew__C2mnv Layout_fade__5GmrQ Layout_fadeBottom__spqF7" style=3D"--useView--=
+justify: end; --useView--align: center; opacity: 0;"></div></div><div class=
+=3D" useView_view__C2mnv" style=3D"--useView--align: center;"><div class=3D=
+" useView_view__C2mnv css-mu1g57" style=3D"--toolIconButtonSize: 32px; --to=
+olIconBorderRadius: 8px;"><button class=3D" useView_view__C2mnv css-os4f0t"=
+ type=3D"button" aria-label=3D"All tools" aria-expanded=3D"false" fdprocess=
+edid=3D"qsowf8" style=3D"--height: 24px; --width: 24px;"><svg preserveAspec=
+tRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewBox=3D"0 0 24 24" fill=
+=3D"currentColor" aria-hidden=3D"true" class=3D"css-492dz9" style=3D"--size=
+: 16px; --rotate: 0deg; width: 16px; height: 16px;"><path fill-rule=3D"even=
+odd" d=3D"M1.25 3c0-.966.784-1.75 1.75-1.75h6c.966 0 1.75.784 1.75 1.75v6A1=
+.75 1.75 0 0 1 9 10.75H3A1.75 1.75 0 0 1 1.25 9V3ZM3 2.75a.25.25 0 0 0-.25.=
+25v6c0 .138.112.25.25.25h6A.25.25 0 0 0 9.25 9V3A.25.25 0 0 0 9 2.75H3ZM13.=
+25 3c0-.966.784-1.75 1.75-1.75h6c.966 0 1.75.784 1.75 1.75v6A1.75 1.75 0 0 =
+1 21 10.75h-6A1.75 1.75 0 0 1 13.25 9V3ZM15 2.75a.25.25 0 0 0-.25.25v6c0 .1=
+38.112.25.25.25h6a.25.25 0 0 0 .25-.25V3a.25.25 0 0 0-.25-.25h-6ZM1.25 15c0=
+-.966.784-1.75 1.75-1.75h6c.966 0 1.75.784 1.75 1.75v6A1.75 1.75 0 0 1 9 22=
+.75H3A1.75 1.75 0 0 1 1.25 21v-6ZM3 14.75a.25.25 0 0 0-.25.25v6c0 .138.112.=
+25.25.25h6a.25.25 0 0 0 .25-.25v-6a.25.25 0 0 0-.25-.25H3Zm10.25.25c0-.966.=
+784-1.75 1.75-1.75h6c.966 0 1.75.784 1.75 1.75v6A1.75 1.75 0 0 1 21 22.75h-=
+6A1.75 1.75 0 0 1 13.25 21v-6Zm1.75-.25a.25.25 0 0 0-.25.25v6c0 .138.112.25=
+.25.25h6a.25.25 0 0 0 .25-.25v-6a.25.25 0 0 0-.25-.25h-6Z" clip-rule=3D"eve=
+nodd"></path></svg></button></div></div></div></div><div class=3D" useView_=
+view__C2mnv" style=3D"--useView--align: center;"><div class=3D" useView_vie=
+w__C2mnv" style=3D"--useView--gap: 4px; --useView--align: center;"><div dat=
+a-cy=3D"workspace-sidebar-upgrade-cta" class=3D" useView_view__C2mnv"><butt=
+on class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" aria-label=3D"=
+Join Replit Core" fdprocessedid=3D"287h9" style=3D"--height: 24px; --width:=
+ 24px;"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" vi=
 ewBox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css=
 -492dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"=
-><path d=3D"M12.213 16.012a.5.5 0 0 1-.5.5h-.568a.5.5 0 0 1-.5-.5v-2.726c0-=
-.809.647-1.452 1.44-1.61 2.387-.475 3.74-1.94 3.74-4.04v-.532c0-2.1-1.456-3=
-.528-3.78-3.528-2.203 0-3.539 1.172-4.18 2.98a.532.532 0 0 1-.671.337l-.53-=
-.19a.478.478 0 0 1-.3-.606c.813-2.295 2.632-3.977 5.737-3.977 3.36 0 5.46 2=
-.044 5.46 5.18 0 3.274-2.201 5.106-4.92 5.64a.522.522 0 0 0-.428.505v2.567Z=
-m-.784 6.24c-.896 0-1.316-.476-1.316-1.26v-.308c0-.784.42-1.26 1.316-1.26.9=
-24 0 1.344.476 1.344 1.26v.308c0 .784-.42 1.26-1.344 1.26Z"></path></svg></=
-div></button></div></div></div></div></div></div></div><div class=3D" useVi=
-ew_view__C2mnv Sidebar_overlay__RlBKB css-ipw2rs"></div></div><div data-tes=
-tid=3D"site-presence-enabled"></div></div><div data-modal-priority=3D"99000=
-" class=3D"ModalProvider_modalPortalContainer___AK3k" style=3D"z-index: 990=
-00;"></div><div data-modal-priority=3D"100000" class=3D"ModalProvider_modal=
-PortalContainer___AK3k" style=3D"z-index: 100000;"></div><div data-modal-pr=
-iority=3D"101000" class=3D"ModalProvider_modalPortalContainer___AK3k" style=
-=3D"z-index: 101000;"></div><div data-modal-priority=3D"102000" class=3D"Mo=
-dalProvider_modalPortalContainer___AK3k" style=3D"z-index: 102000;"></div><=
-div data-modal-priority=3D"103000" class=3D"ModalProvider_modalPortalContai=
-ner___AK3k" style=3D"z-index: 103000;"></div><next-route-announcer><p aria-=
-live=3D"assertive" id=3D"__next-route-announcer__" role=3D"alert" style=3D"=
-border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; ove=
-rflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; whit=
-e-space: nowrap; overflow-wrap: normal;">Word Guessing Game - Replit</p></n=
-ext-route-announcer><div id=3D"a11y-status-message" role=3D"status" aria-li=
-ve=3D"polite" aria-relevant=3D"additions text" style=3D"border: 0px; clip: =
-rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padd=
-ing: 0px; position: absolute; width: 1px;"></div><iframe name=3D"__privateS=
-tripeController2621" frameborder=3D"0" allowtransparency=3D"true" scrolling=
+><path d=3D"M12.554.492c.49 3.288 1.307 7.363 2.448 8.505 1.142 1.142 5.22 =
+1.959 8.51 2.449.651.097.65 1.01 0 1.107-3.29.49-7.367 1.307-8.51 2.448-1.1=
+43 1.143-1.96 5.227-2.45 8.518-.096.642-1.009.641-1.104 0-.49-3.291-1.308-7=
+.374-2.45-8.517-1.142-1.143-5.217-1.959-8.506-2.45a.558.558 0 0 1 0-1.107c3=
+.289-.49 7.363-1.307 8.505-2.448 1.142-1.142 1.959-5.216 2.45-8.505a.558.55=
+8 0 0 1 1.107 0Z"></path></svg></button></div><div class=3D" useView_view__=
+C2mnv"><button class=3D" useView_view__C2mnv css-os4f0t" type=3D"button" ar=
+ia-label=3D"Help" aria-expanded=3D"false" fdprocessedid=3D"9i9fq8" style=3D=
+"--height: 32px; --width: 32px;"><div class=3D" useView_view__C2mnv css-79e=
+lbk"><svg preserveAspectRatio=3D"xMidYMin" width=3D"16" height=3D"16" viewB=
+ox=3D"0 0 24 24" fill=3D"currentColor" aria-hidden=3D"true" class=3D"css-49=
+2dz9" style=3D"--size: 16px; --rotate: 0deg; width: 16px; height: 16px;"><p=
+ath d=3D"M12.213 16.012a.5.5 0 0 1-.5.5h-.568a.5.5 0 0 1-.5-.5v-2.726c0-.80=
+9.647-1.452 1.44-1.61 2.387-.475 3.74-1.94 3.74-4.04v-.532c0-2.1-1.456-3.52=
+8-3.78-3.528-2.203 0-3.539 1.172-4.18 2.98a.532.532 0 0 1-.671.337l-.53-.19=
+a.478.478 0 0 1-.3-.606c.813-2.295 2.632-3.977 5.737-3.977 3.36 0 5.46 2.04=
+4 5.46 5.18 0 3.274-2.201 5.106-4.92 5.64a.522.522 0 0 0-.428.505v2.567Zm-.=
+784 6.24c-.896 0-1.316-.476-1.316-1.26v-.308c0-.784.42-1.26 1.316-1.26.924 =
+0 1.344.476 1.344 1.26v.308c0 .784-.42 1.26-1.344 1.26Z"></path></svg></div=
+></button></div></div></div></div></div></div></div><div class=3D" useView_=
+view__C2mnv Sidebar_overlay__RlBKB css-ipw2rs"></div></div><div data-testid=
+=3D"site-presence-enabled"></div></div><div data-modal-priority=3D"99000" c=
+lass=3D"ModalProvider_modalPortalContainer___AK3k" style=3D"z-index: 99000;=
+"></div><div data-modal-priority=3D"100000" class=3D"ModalProvider_modalPor=
+talContainer___AK3k" style=3D"z-index: 100000;"></div><div data-modal-prior=
+ity=3D"101000" class=3D"ModalProvider_modalPortalContainer___AK3k" style=3D=
+"z-index: 101000;"></div><div data-modal-priority=3D"102000" class=3D"Modal=
+Provider_modalPortalContainer___AK3k" style=3D"z-index: 102000;"></div><div=
+ data-modal-priority=3D"103000" class=3D"ModalProvider_modalPortalContainer=
+___AK3k" style=3D"z-index: 103000;"></div><next-route-announcer><p aria-liv=
+e=3D"assertive" id=3D"__next-route-announcer__" role=3D"alert" style=3D"bor=
+der: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overfl=
+ow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-s=
+pace: nowrap; overflow-wrap: normal;">Word Guessing Game - Replit</p></next=
+-route-announcer><div id=3D"a11y-status-message" role=3D"status" aria-live=
+=3D"polite" aria-relevant=3D"additions text" style=3D"border: 0px; clip: re=
+ct(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; paddin=
+g: 0px; position: absolute; width: 1px;"></div><iframe name=3D"__privateStr=
+ipeController2621" frameborder=3D"0" allowtransparency=3D"true" scrolling=
 =3D"no" role=3D"presentation" allow=3D"payment *" src=3D"cid:frame-BCA1F2BE=
 DBC4AE9420FD627F23CB498D@mhtml.blink" aria-hidden=3D"true" tabindex=3D"-1" =
 style=3D"border: none !important; margin: 0px !important; padding: 0px !imp=
@@ -4102,26 +4113,280 @@ tagging-id=3D"AW-11411994397" data-load-time=3D"1753980511802" height=3D"0"=
  width=3D"0" src=3D"cid:frame-4B4AF1F067D82F3570C4B0E57D9CFD33@mhtml.blink"=
  style=3D"display: none; visibility: hidden;"></iframe><div class=3D"cm-too=
 ltips-container" style=3D"z-index: 1000; position: fixed; top: 0px; left: 0=
-px; height: 0px; width: 0px; --cm-tooltip-max-width: 529px;"><div class=3D"=
-=CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =CD=BCt =CD=BCo =CD=BC2z =CD=BC2y =CD=BCr =
-=CD=BC2t =CD=BC2s =CD=BCq =CD=BC34 =CD=BC30 =CD=BC2q =CD=BC2r =CD=BC32 =CD=
-=BC2x =CD=BC2w =CD=BC2v =CD=BC2u =CD=BC2o =CD=BC2m =CD=BCp =CD=BC2n =CD=BC3=
-3 =CD=BC2f =CD=BCv =CD=BCw =CD=BCz =CD=BC16" style=3D"position: relative;">=
-</div></div><div class=3D"cm-tooltips-container" style=3D"z-index: 1000; po=
-sition: fixed; top: 0px; left: 0px; height: 0px; width: 0px; --cm-tooltip-m=
-ax-width: 529px; display: none;"><div class=3D"=CD=BC1 =CD=BC3 =CD=BC4 =CD=
-=BCs =CD=BCt =CD=BCo =CD=BC2z =CD=BC2y =CD=BCr =CD=BC2t =CD=BC2s =CD=BCq =
-=CD=BC34 =CD=BC30 =CD=BC2q =CD=BC2r =CD=BC32 =CD=BC2x =CD=BC2w =CD=BC2v =CD=
-=BC2u =CD=BC2o =CD=BC2m =CD=BCp =CD=BC2n =CD=BC33 =CD=BC2f =CD=BC3b =CD=BCv=
- =CD=BCw =CD=BCz =CD=BC16" style=3D"position: relative;"></div></div><div c=
-lass=3D"cm-tooltips-container" style=3D"z-index: 1000; position: fixed; top=
-: 0px; left: 0px; height: 0px; width: 0px; --cm-tooltip-max-width: 529px; d=
-isplay: none;"><div class=3D"=CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =CD=BCt =CD=BC=
-o =CD=BC2z =CD=BC2y =CD=BCr =CD=BC2t =CD=BC2s =CD=BCq =CD=BC34 =CD=BC30 =CD=
+px; height: 0px; width: 0px; --cm-tooltip-max-width: 529px; display: none;"=
+><div class=3D"=CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =CD=BCt =CD=BCo =CD=BC2z =CD=
+=BC2y =CD=BCr =CD=BC2t =CD=BC2s =CD=BCq =CD=BC34 =CD=BC30 =CD=BC2q =CD=BC2r=
+ =CD=BC32 =CD=BC2x =CD=BC2w =CD=BC2v =CD=BC2u =CD=BC2o =CD=BC2m =CD=BCp =CD=
+=BC2n =CD=BC33 =CD=BC2f =CD=BCv =CD=BCw =CD=BCz =CD=BC16" style=3D"position=
+: relative;"></div></div><div class=3D"cm-tooltips-container" style=3D"z-in=
+dex: 1000; position: fixed; top: 0px; left: 0px; height: 0px; width: 0px; -=
+-cm-tooltip-max-width: 529px; display: none;"><div class=3D"=CD=BC1 =CD=BC3=
+ =CD=BC4 =CD=BCs =CD=BCt =CD=BCo =CD=BC2z =CD=BC2y =CD=BCr =CD=BC2t =CD=BC2=
+s =CD=BCq =CD=BC34 =CD=BC30 =CD=BC2q =CD=BC2r =CD=BC32 =CD=BC2x =CD=BC2w =
+=CD=BC2v =CD=BC2u =CD=BC2o =CD=BC2m =CD=BCp =CD=BC2n =CD=BC33 =CD=BC2f =CD=
+=BC3b =CD=BCv =CD=BCw =CD=BCz =CD=BC16" style=3D"position: relative;"></div=
+></div><div class=3D"cm-tooltips-container" style=3D"z-index: 1000; positio=
+n: fixed; top: 0px; left: 0px; height: 0px; width: 0px; --cm-tooltip-max-wi=
+dth: 529px;"><div class=3D"=CD=BC1 =CD=BC3 =CD=BC4 =CD=BCs =CD=BCt =CD=BCo =
+=CD=BC2z =CD=BC2y =CD=BCr =CD=BC2t =CD=BC2s =CD=BCq =CD=BC34 =CD=BC30 =CD=
 =BC2q =CD=BC2r =CD=BC32 =CD=BC2x =CD=BC2w =CD=BC2v =CD=BC2u =CD=BC2o =CD=BC=
 2m =CD=BCp =CD=BC2n =CD=BC33 =CD=BC2f =CD=BCv =CD=BCw =CD=BCz =CD=BC16" sty=
-le=3D"position: relative;"></div></div></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+le=3D"position: relative;"></div></div><span id=3D"PING_CONTENT_DLS_POPUP" =
+style=3D"display: none;"></span><div style=3D"background-color: transparent=
+; border: none; bottom: 15px; display: block; margin: 0px; opacity: 1; padd=
+ing: 0px; position: fixed; right: 15px; z-index: 2147483647;"><template sha=
+dowmode=3D"closed"><div class=3D"dls__container">
+  <div class=3D"shield" style=3D"opacity: 0.1; display: none; background: t=
+ransparent;">
+    <div class=3D"shield__circle" style=3D"opacity: 1;">
+      <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/image=
+s/download_scan/mcafee_logo_white.svg?secret=3Drg1n3l" x-mcsrc=3D"" id=3D"d=
+ls_ballon_icon" x-mcsrcparsed=3D"true">
+    </div>
+    <div class=3D"dls__popup__expanded" style=3D"opacity: 0;">
+      <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/image=
+s/download_scan/download_scan_icon.svg?secret=3Drg1n3l" x-mcsrc=3D"" class=
+=3D"dls__icon" x-mcsrcparsed=3D"true">
+      <div class=3D"content">
+        <div class=3D"content__images">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/mcafee_logo_red.svg?secret=3Drg1n3l" x-mcsrc=3D"" id=3D=
+"dls_mcafee_logo" x-mcsrcparsed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/seperator_line.svg?secret=3Drg1n3l" x-mcsrc=3D"" class=
+=3D"seperator__line" x-mcsrcparsed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/webadvisor.svg?secret=3Drg1n3l" x-mcsrc=3D"" x-mcsrcpar=
+sed=3D"true">
+          <img src=3D"chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/i=
+mages/download_scan/close-outline.svg?secret=3Drg1n3l" x-mcsrc=3D"" id=3D"d=
+ls_close_icon" x-mcsrcparsed=3D"true">
+        </div>
+        <p id=3D"download_scan_popup_expanded_descriptions">Your download's=
+ being scanned. We'll let you know if there's an issue.</p>
+      </div>
+    </div>
+  </div>
+</div></template></div></body></html>
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/close-outline.svg?secret=rg1n3l
+
+<svg width=3D"12" height=3D"12" viewBox=3D"0 0 12 12" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path d=3D"M11.4671 1.1549L10.3122 0L5.73355 4.57865L1.1549 0L0 1.1549L4.57=
+865 5.73355L0 10.3122L1.1549 11.4671L5.73355 6.88845L10.3122 11.4671L11.467=
+1 10.3122L6.88845 5.73355L11.4671 1.1549Z" fill=3D"#6E6E6E"/>
+</svg>
+
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/webadvisor.svg?secret=rg1n3l
+
+<svg width=3D"64" height=3D"10" viewBox=3D"0 0 64 10" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M8.12091 9.7761H7.18=
+323L5.53671 4.1395C5.45857 3.89001 5.37113 3.57527 5.27438 3.19527C5.17764 =
+2.81527 5.1274 2.5869 5.12368 2.51013C5.04182 3.01679 4.91159 3.57143 4.732=
+98 4.17405L3.13669 9.7761H2.19901L0.027832 1.35863H1.03249L2.3218 6.55766C2=
+.50041 7.28695 2.63064 7.94713 2.7125 8.53824C2.81297 7.83582 2.96181 7.148=
+76 3.15902 6.47705L4.62135 1.35863H5.62601L7.16091 6.52311C7.33951 7.11806 =
+7.49021 7.78976 7.613 8.53824C7.6837 7.99319 7.81765 7.32917 8.01486 6.5461=
+4L9.29859 1.35863H10.3033L8.12091 9.7761ZM13.7973 9.89105C12.8931 9.89105 1=
+2.1796 9.60702 11.6568 9.03894C11.134 8.47086 10.8726 7.68209 10.8726 6.672=
+6C10.8726 5.65544 11.1154 4.84748 11.601 4.24869C12.0866 3.64991 12.7387 3.=
+35052 13.5573 3.35052C14.3238 3.35052 14.9303 3.61057 15.3768 4.13066C15.82=
+33 4.65076 16.0466 5.33686 16.0466 6.18897V6.79351H11.8326C11.8512 7.53431 =
+12.0326 8.09662 12.3768 8.48046C12.721 8.8643 13.2056 9.05621 13.8308 9.056=
+21C14.4894 9.05621 15.1405 8.91419 15.7843 8.63016V9.48227C15.4568 9.62813 =
+15.147 9.73272 14.855 9.79605C14.5629 9.85938 14.2103 9.89105 13.7973 9.891=
+05ZM13.5459 4.15117C13.0548 4.15117 12.6632 4.31622 12.3711 4.64632C12.079 =
+4.97642 11.9069 5.43317 11.8548 6.0166H15.0529C15.0529 5.41398 14.9227 4.95=
+243 14.6622 4.63192C14.4018 4.31142 14.0297 4.15117 13.5459 4.15117ZM20.472=
+6 3.3622C21.2763 3.3622 21.9005 3.64528 22.3452 4.21143C22.7898 4.77759 23.=
+0122 5.57884 23.0122 6.61519C23.0122 7.65155 22.788 8.45663 22.3396 9.03047=
+C21.8912 9.6043 21.2689 9.89121 20.4726 9.89121C20.0745 9.89121 19.7107 9.8=
+1541 19.3814 9.66379C19.0521 9.51218 18.7759 9.279 18.5526 8.96426H18.4856L=
+18.2903 9.77606H17.6261V0.817383H18.5526V2.99372C18.5526 3.48119 18.5377 3.=
+91876 18.5079 4.30643H18.5526C18.9842 3.67694 19.6242 3.3622 20.4726 3.3622=
+ZM20.3389 4.1626C19.7063 4.1626 19.2505 4.34971 18.9714 4.72395C18.6924 5.0=
+9819 18.5528 5.72863 18.5528 6.61529C18.5528 7.50196 18.6961 8.13623 18.982=
+6 8.51815C19.2691 8.90007 19.7287 9.09102 20.3612 9.09102C20.9305 9.09102 2=
+1.3547 8.87704 21.6338 8.44906C21.9129 8.02108 22.0524 7.406 22.0524 6.6037=
+8C22.0524 5.78237 21.9129 5.17016 21.6338 4.76714C21.3547 4.36411 20.9231 4=
+.1626 20.3389 4.1626ZM29.8995 9.77594L28.8837 7.0987H25.613L24.6083 9.77594=
+H23.6483L26.8744 1.32393H27.6725L30.8819 9.77594H29.8995ZM28.5879 6.21798L2=
+7.6391 3.60982C27.5163 3.27972 27.3897 2.87478 27.2595 2.39499C27.1776 2.76=
+347 27.0604 3.16841 26.9079 3.60982L25.9479 6.21798H28.5879ZM36.0283 8.9297=
+1H35.978C35.5501 9.57072 34.9101 9.89121 34.058 9.89121C33.258 9.89121 32.6=
+357 9.6091 32.191 9.04486C31.7464 8.48062 31.5241 7.67842 31.5241 6.63822C3=
+1.5241 5.59803 31.7473 4.79007 32.1938 4.21431C32.6403 3.63856 33.2617 3.35=
+069 34.058 3.35069C34.8878 3.35069 35.5241 3.66159 35.9669 4.2834H36.0394L3=
+6.0004 3.82856L35.978 3.38523V0.817383H36.9045V9.77606H36.1511L36.0283 8.92=
+971ZM34.175 9.09111C34.8076 9.09111 35.2662 8.91359 35.5508 8.55855C35.8355=
+ 8.2035 35.9778 7.63063 35.9778 6.83993V6.63842C35.9778 5.74408 35.8336 5.1=
+0596 35.5452 4.72404C35.2569 4.34213 34.7964 4.15117 34.1638 4.15117C33.620=
+6 4.15117 33.2048 4.369 32.9164 4.80465C32.628 5.2403 32.4838 5.85539 32.48=
+38 6.64993C32.4838 7.45599 32.6271 8.06436 32.9136 8.47506C33.2001 8.88577 =
+33.6206 9.09111 34.175 9.09111ZM40.2084 9.77585L37.8865 3.46563H38.88L40.19=
+73 7.208C40.4949 8.08315 40.6698 8.65122 40.7219 8.91223H40.7666C40.8075 8.=
+70879 40.9368 8.28754 41.1545 7.64845C41.3721 7.00937 41.8605 5.61511 42.61=
+96 3.46563H43.6131L41.2912 9.77585H40.2084ZM45.5221 9.77585H44.5956V3.46563=
+H45.5221V9.77585ZM44.5173 1.75582C44.5173 1.53703 44.5694 1.37678 44.6736 1=
+.27507C44.7777 1.17335 44.908 1.12249 45.0642 1.12249C45.2131 1.12249 45.34=
+14 1.17431 45.4494 1.27795C45.5573 1.38158 45.6112 1.54087 45.6112 1.75582C=
+45.6112 1.97077 45.5573 2.13102 45.4494 2.23657C45.3414 2.34213 45.2131 2.3=
+9491 45.0642 2.39491C44.908 2.39491 44.7777 2.34213 44.6736 2.23657C44.5694=
+ 2.13102 44.5173 1.97077 44.5173 1.75582ZM51.4329 8.05441C51.4329 8.64167 5=
+1.2208 9.09459 50.7966 9.41318C50.3724 9.73176 49.7771 9.89105 49.0106 9.89=
+105C48.1994 9.89105 47.5668 9.75863 47.1129 9.49378V8.60713C47.4068 8.76066=
+ 47.7222 8.88157 48.0589 8.96985C48.3957 9.05813 48.7203 9.10227 49.0329 9.=
+10227C49.5166 9.10227 49.8887 9.02263 50.1492 8.86333C50.4096 8.70404 50.53=
+99 8.46127 50.5399 8.13501C50.5399 7.88936 50.4366 7.67921 50.2301 7.50456C=
+50.0236 7.32992 49.6208 7.12361 49.0217 6.88563C48.4524 6.66684 48.0478 6.4=
+7589 47.8078 6.31276C47.5678 6.14963 47.3892 5.96443 47.2719 5.75716C47.154=
+7 5.54989 47.0961 5.30232 47.0961 5.01444C47.0961 4.5001 47.2989 4.0942 47.=
+7045 3.79673C48.1101 3.49925 48.6664 3.35052 49.3733 3.35052C50.032 3.35052=
+ 50.6757 3.4887 51.3045 3.76506L50.9752 4.54233C50.3613 4.28132 49.805 4.15=
+081 49.3064 4.15081C48.8673 4.15081 48.5361 4.22182 48.3129 4.36384C48.0896=
+ 4.50586 47.978 4.70161 47.978 4.95111C47.978 5.12 48.0199 5.26393 48.1036 =
+5.38292C48.1873 5.50191 48.3222 5.61514 48.5082 5.72261C48.6943 5.83009 49.=
+0515 5.98554 49.5799 6.18897C50.3054 6.4615 50.7957 6.73593 51.0506 7.0123C=
+51.3054 7.28866 51.4329 7.63602 51.4329 8.05441ZM58.2201 6.61503C58.2201 7.=
+64371 57.9689 8.44687 57.4666 9.02455C56.9642 9.60222 56.2703 9.89105 55.38=
+47 9.89105C54.8377 9.89105 54.3521 9.75863 53.9279 9.49378C53.5037 9.22894 =
+53.1763 8.84894 52.9456 8.3538C52.7149 7.85865 52.5995 7.27906 52.5995 6.61=
+503C52.5995 5.58635 52.8488 4.7851 53.3475 4.21127C53.8461 3.63743 54.5382 =
+3.35052 55.4238 3.35052C56.2796 3.35052 56.9596 3.64415 57.4638 4.23142C57.=
+968 4.81869 58.2201 5.61322 58.2201 6.61503ZM53.5593 6.61529C53.5593 7.4213=
+5 53.7156 8.03548 54.0281 8.4577C54.3407 8.87992 54.8002 9.09102 55.4068 9.=
+09102C56.0133 9.09102 56.4738 8.88088 56.7882 8.46058C57.1026 8.04028 57.25=
+98 7.42519 57.2598 6.61529C57.2598 5.81308 57.1026 5.20375 56.7882 4.78729C=
+56.4738 4.37083 56.0096 4.1626 55.3956 4.1626C54.7891 4.1626 54.3314 4.3679=
+5 54.0226 4.77865C53.7137 5.18935 53.5593 5.80156 53.5593 6.61529ZM62.6347 =
+3.35052C62.9063 3.35052 63.15 3.37355 63.3658 3.41961L63.2375 4.30627C62.98=
+44 4.24869 62.7612 4.2199 62.5677 4.2199C62.0728 4.2199 61.6495 4.42717 61.=
+2979 4.84172C60.9463 5.25626 60.7704 5.77251 60.7704 6.39049V9.7759H59.8439=
+V3.46567H60.6086L60.7146 4.63445H60.7593C60.9863 4.22374 61.2598 3.90708 61=
+.5798 3.68446C61.8998 3.46183 62.2514 3.35052 62.6347 3.35052Z" fill=3D"#C0=
+1818"/>
+</svg>
+
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/seperator_line.svg?secret=rg1n3l
+
+<svg width=3D"1" height=3D"13" viewBox=3D"0 0 1 13" fill=3D"none" xmlns=3D"=
+http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M0.571726 11.6904V0.=
+875681V11.6904Z" fill=3D"#FF1C1C"/>
+<path d=3D"M0.571726 11.6904V0.875681" stroke=3D"#FF1C1C" stroke-width=3D"0=
+.866667" stroke-linecap=3D"square"/>
+</svg>
+
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_red.svg?secret=rg1n3l
+
+<svg width=3D"76" height=3D"16" viewBox=3D"0 0 76 16" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M37.7977 9.90788L35.=
+8231 8.69787L35.6761 8.93505C35.226 9.6643 34.6111 10.034 33.8486 10.0333C3=
+2.5424 10.0328 31.5581 9.01666 31.5588 7.66935C31.5594 6.32276 32.5451 5.30=
+793 33.8511 5.30848C34.6244 5.30921 35.2051 5.65942 35.6791 6.41113L35.8265=
+ 6.64466L37.8105 5.43209L37.6391 5.1761C36.6914 3.76032 35.4527 3.07214 33.=
+8525 3.07105C30.8275 3.06958 29.1939 5.4383 29.1929 7.66788C29.1916 9.89783=
+ 30.8224 12.2687 33.8472 12.2702C35.3884 12.2711 36.8426 11.4628 37.6428 10=
+.1604L37.7977 9.90788Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M43.3073 4.8923L44.4=
+124 7.75346L42.187 7.75219L43.3073 4.8923ZM37.6988 12.2726L40.4293 12.274L4=
+1.2405 10.1933L45.3379 10.1953L46.1468 12.2773L48.889 12.2792L43.9977 0.082=
+4538L41.5624 0.0808105L42.211 1.69781L37.6988 12.2726Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M50.0191 12.2794L52.=
+415 12.2809L52.418 6.80706L53.9803 6.80815L53.9815 4.51174L52.4193 4.51083L=
+52.4198 3.42552C52.42 2.95974 52.7224 2.46511 53.283 2.46547C53.5907 2.4656=
+6 53.7766 2.51989 53.9619 2.60168L54.2285 2.72018L55.224 0.479462L54.9371 0=
+.358589C54.492 0.17034 53.8717 0.102783 53.4392 0.102418C52.3529 0.10187 51=
+.4573 0.468142 50.8487 1.16143C50.3175 1.76671 50.0244 2.60862 50.0237 3.53=
+124L50.0232 4.50937L48.9654 4.50882L48.9642 6.80541L50.0221 6.80559L50.0191=
+ 12.2794Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M17.8979 0.0106201V1=
+2.261L20.5011 12.2628L20.505 5.25912L23.0282 7.19748L25.5533 5.25912V12.265=
+8L28.1526 12.267L28.1594 0.0106201L23.0298 4.00748L17.8979 0.0106201Z" fill=
+=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M57.2864 6.56615C57.=
+5992 5.73045 58.2739 5.24257 59.1459 5.24294C60.0272 5.24348 60.7151 5.7213=
+2 61.0798 6.56834L57.2864 6.56615ZM59.376 3.11328C56.3604 3.11164 54.7314 5=
+.47378 54.73 7.69661C54.7291 9.92017 56.3553 12.2834 59.3711 12.2852H59.372=
+5H59.3744C60.7573 12.2699 62.0541 11.6201 63.0579 10.4482L61.1038 9.34922C6=
+0.6029 9.87836 59.9943 10.1566 59.3229 10.1563C58.3388 10.1555 57.4664 9.47=
+94 57.2381 8.59494L63.7543 8.59841L63.7547 7.98839C63.7566 4.62767 61.1954 =
+3.11438 59.376 3.11328Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M67.0804 6.57129C67.=
+3931 5.73558 68.0673 5.24752 68.9399 5.24807C69.8212 5.24862 70.5091 5.7264=
+5 70.8738 6.57348L67.0804 6.57129ZM69.1698 3.11878C66.1538 3.11695 64.5253 =
+5.47909 64.5239 7.7021C64.5229 9.92566 66.1487 12.2889 69.1648 12.2907H69.1=
+662H69.1678C70.5512 12.2754 71.8481 11.6252 72.8517 10.4537L70.8976 9.35471=
+C70.3963 9.88385 69.7881 10.1621 69.1168 10.1617C68.1325 10.161 67.2599 9.4=
+8489 67.0319 8.60044L73.5481 8.60391L73.5486 7.99388C73.5506 4.63298 70.989=
+1 3.11987 69.1698 3.11878Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M73.2422 2.70959H74.=
+2565V2.90496H73.8581V4.00141H73.6389V2.90496H73.2422V2.70959Z" fill=3D"#C01=
+818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M74.3988 2.70959H74.=
+7076L75.0532 3.72113H75.0568L75.3937 2.70959H75.6989V4.00141H75.4902V3.0044=
+7H75.4865L75.1394 4.00141H74.9585L74.6109 3.00447H74.6076V4.00141H74.3988V2=
+.70959Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M2.63757 10.4604V4.2=
+526L6.4351 6.06369V3.0687L0 0.00012207V12.1965L6.4351 15.2676V12.2722L2.637=
+57 10.4604Z" fill=3D"#C01818"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M10.2328 10.4603V4.2=
+5248L6.4353 6.06357V3.06858L12.8704 0V12.1963L6.4353 15.2675V12.2721L10.232=
+8 10.4603Z" fill=3D"#C01818"/>
+</svg>
+
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/download_scan_icon.svg?secret=rg1n3l
+
+<svg width=3D"73" height=3D"65" viewBox=3D"0 0 73 65" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<rect width=3D"72.7844" height=3D"65" fill=3D"white"/>
+<path d=3D"M62.6649 32.891C62.6649 47.186 51.0766 58.7743 36.7817 58.7743C2=
+2.4868 58.7743 10.8984 47.186 10.8984 32.891C10.8984 18.5961 22.4868 7.0078=
+1 36.7817 7.00781C51.0766 7.00781 62.6649 18.5961 62.6649 32.891ZM17.1182 3=
+2.891C17.1182 43.7509 25.9218 52.5545 36.7817 52.5545C47.6415 52.5545 56.44=
+52 43.7509 56.4452 32.891C56.4452 22.0312 47.6415 13.2276 36.7817 13.2276C2=
+5.9218 13.2276 17.1182 22.0312 17.1182 32.891Z" fill=3D"#4258FF"/>
+<circle cx=3D"36.9763" cy=3D"55.6605" r=3D"3.11377" fill=3D"#4258FF"/>
+<path fill-rule=3D"evenodd" clip-rule=3D"evenodd" d=3D"M42.0805 31.351L37.6=
+252 35.8064L37.6249 23.356L35.549 23.356L35.5493 35.8071L31.0933 31.351L29.=
+6255 32.8189L35.1191 38.3125C35.9297 39.1232 37.2441 39.1232 38.0548 38.312=
+5L43.5484 32.8189L42.0805 31.351ZM27.2456 43.0765H45.9282V41.0007H27.2456V4=
+3.0765Z" fill=3D"#4258FF"/>
+</svg>
+
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_white.svg?secret=rg1n3l
+
+<svg width=3D"25" height=3D"30" viewBox=3D"0 0 25 30" fill=3D"none" xmlns=
+=3D"http://www.w3.org/2000/svg">
+<path stroke=3D"white" stroke-width=3D"0.15" d=3D"M5.23996 8.57177V20.1982L=
+12.5768 23.5918V29.2021L0.144043 23.4498V0.606491L12.5768 6.35377V11.9634L5=
+.23996 8.57177Z" fill=3D"white"/>
+<path stroke=3D"white" stroke-width=3D"0.15" d=3D"M19.9137 8.5722V20.1986L1=
+2.5768 23.5918V29.2021L25.0097 23.4502V0.606925L12.5768 6.35377V11.9634L19.=
+9137 8.5722Z" fill=3D"white"/>
+</svg>
+
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.gravatar.com/avatar/7724c0c8de887ca9008ba29d1446e176?d=blank&s=256
@@ -4133,7 +4398,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 AACAGwEtAAHMpTgHAAAAAElFTkSuQmCC
 
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: image/avif
 Content-Transfer-Encoding: base64
 Content-Location: https://replit.com/cdn-cgi/image/width=48,quality=80,format=auto/https://storage.googleapis.com/replit/images/1664473044967_513d905f04b05dc76a37ec102fb668eb.jpeg
@@ -4150,7 +4415,72 @@ E1AXi2zYiL56TFUB+WRid326cLomXFFh1FSSwOoTyn0dOnb+WC9R9013yS4fA85F1MucAF+lk6zE
 WkR90KdnbxG11ecTYsdSfBU6uh3uDM+iEBn65Kbj5uElfYbyf5etfsmqbH/0XcD8NtzhXPc6QD6D
 dfl8D3cnVJ5q3a+QUmbhrphogA==
 
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/css/mcafee_fonts.css
+
+@charset "utf-8";
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-T=
+hin.ttf") format("truetype"); font-weight: 100; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-T=
+hinItalic.ttf") format("truetype"); font-weight: 100; font-style: italic; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-E=
+xtraLight.ttf") format("truetype"); font-weight: 200; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-E=
+xtraLightItalic.ttf") format("truetype"); font-weight: 200; font-style: ita=
+lic; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-L=
+ight.ttf") format("truetype"); font-weight: 300; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-L=
+ightItalic.ttf") format("truetype"); font-weight: 300; font-style: italic; =
+}
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-R=
+egular.ttf") format("truetype"); font-weight: 400; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-I=
+talic.ttf") format("truetype"); font-weight: 400; font-style: italic; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-M=
+edium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-M=
+ediumItalic.ttf") format("truetype"); font-weight: 500; font-style: italic;=
+ }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-S=
+emiBold.ttf") format("truetype"); font-weight: 600; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-S=
+emiBoldItalic.ttf") format("truetype"); font-weight: 600; font-style: itali=
+c; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-B=
+old.ttf") format("truetype"); font-weight: 700; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-B=
+oldItalic.ttf") format("truetype"); font-weight: 700; font-style: italic; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-E=
+xtraBold.ttf") format("truetype"); font-weight: 800; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-E=
+xtraBoldItalic.ttf") format("truetype"); font-weight: 800; font-style: ital=
+ic; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-B=
+lack.ttf") format("truetype"); font-weight: 900; font-style: normal; }
+
+@font-face { font-family: McAfeePoppins; src: url("../../../fonts/Poppins-B=
+lackItalic.ttf") format("truetype"); font-weight: 900; font-style: italic; }
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://cdn.replit.com/_next/static/css/20dd27076eafc880.css
@@ -4416,40 +4746,40 @@ shrink: var(--Button--shrink) !important; }
 
 @layer components {
 }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-cb6e8f83-a2f4-4fcb-bf30-b4f168117352@mhtml.blink
+Content-Location: cid:css-29f15e3c-9a83-46a2-9390-249576424d48@mhtml.blink
 
 @charset "utf-8";
 
 [data-radix-scroll-area-viewport] { scrollbar-width: none; }
 
 [data-radix-scroll-area-viewport]::-webkit-scrollbar { display: none; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-cd0e13da-836c-4470-a7f1-e98177d6d319@mhtml.blink
+Content-Location: cid:css-b2d766f2-252b-4568-a2ce-91bf63fbaec5@mhtml.blink
 
 @charset "utf-8";
 
 [data-radix-scroll-area-viewport] { scrollbar-width: none; }
 
 [data-radix-scroll-area-viewport]::-webkit-scrollbar { display: none; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-16e34db2-ff94-42e0-9434-de897169e93e@mhtml.blink
+Content-Location: cid:css-7d7b855d-e26d-45d3-b9ea-d4a5b622df6a@mhtml.blink
 
 @charset "utf-8";
 
 @font-face { font-family: replit-icons; font-style: normal; font-weight: no=
 rmal; font-stretch: normal; src: url("/public/fonts/replit-icons.woff") for=
 mat("woff"), url("/public/fonts/replit-icons.ttf") format("truetype"); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-2b495b07-6e37-437e-9fc2-e94164fb9386@mhtml.blink
+Content-Location: cid:css-096dd5e6-b5e9-49d1-b3c3-fbeb93f7a4c8@mhtml.blink
 
 @charset "utf-8";
 
@@ -9387,10 +9717,14 @@ family-default); height: 100%; }
 
 .css-10vsj6z:hover * { border-color: var(--foreground-default); color: var(=
 --foreground-default); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+
+.css-ufqb3e { display: inline-block; padding-left: var(--space-4); padding-=
+right: var(--space-4); margin-top: var(--space-2); margin-bottom: var(--spa=
+ce-2); border-radius: var(--border-radius-8); white-space: nowrap; }
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-82a4d626-6027-46c6-86cf-4891a7043e29@mhtml.blink
+Content-Location: cid:css-7176d00a-df1a-46ae-91be-e5fbf9b77c2b@mhtml.blink
 
 @charset "utf-8";
 
@@ -9399,10 +9733,10 @@ Content-Location: cid:css-82a4d626-6027-46c6-86cf-4891a7043e29@mhtml.blink
 @media screen and (min-width: 768px) {
   .css-ipw2rs { display: none; }
 }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-1826d5bc-0636-4a92-9a69-a88a05d334ca@mhtml.blink
+Content-Location: cid:css-34a17e3c-fb91-4eac-a3ec-8b960791c376@mhtml.blink
 
 @charset "utf-8";
 
@@ -9418,10 +9752,10 @@ t: auto; margin-right: auto; max-width: 800px; }
 @media screen and (max-width: 1023px) {
   .css-pbid11 { margin-top: 0px; }
 }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-5c363bab-b246-4b24-b4d2-74d291fa7216@mhtml.blink
+Content-Location: cid:css-7795a656-4bcd-44f9-86b2-502228b9c109@mhtml.blink
 
 @charset "utf-8";
 
@@ -9430,10 +9764,10 @@ Content-Location: cid:css-5c363bab-b246-4b24-b4d2-74d291fa7216@mhtml.blink
 g: var(--space-4); top: 100%; right: 0px; z-index: 1000000; transition: tra=
 nsform 120ms ease-out; transform: translateY(calc(-1 * (var(--groupHeight) =
 + 8px))); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-9f6eb7c8-23f0-458d-8fb1-9e70a8a46e45@mhtml.blink
+Content-Location: cid:css-5b53cafe-eeab-4c7b-92ed-c4f1a5fda34e@mhtml.blink
 
 @charset "utf-8";
 
@@ -9459,207 +9793,207 @@ fault); }
 }
 
 .css-9x64ab:focus { opacity: 1; transform: translateY(0px); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-f60db246-05ef-45af-95b4-399349640e07@mhtml.blink
+Content-Location: cid:css-8037abdf-7d7e-4874-8527-475ac04672a8@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-fabb1db1-2beb-48b2-abf7-b4cb06069d1e@mhtml.blink
+Content-Location: cid:css-e7a0262c-4b48-4ae2-bed0-87ff6234c286@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-fbb5b40d-b0da-4cd5-93a7-c9a6eabf7a62@mhtml.blink
+Content-Location: cid:css-b340e450-67d7-474a-84a9-c57ea9b4bcdf@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-7a3490c3-7f3a-4a5a-8c2c-9ddc52ba2876@mhtml.blink
+Content-Location: cid:css-6cc2b5bd-4869-4939-9d66-455ab46e3850@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-4ec3e2f7-f02e-471e-a123-02af4ff6c93b@mhtml.blink
+Content-Location: cid:css-93560eba-c275-491a-9f52-1c5da3bc2ba9@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-58181d38-0fbf-4fd9-b8dd-079ca6d7faae@mhtml.blink
+Content-Location: cid:css-efae5004-90de-4718-a6dd-1a0177633389@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-971b890b-e55e-4307-9b78-ee366484a4c0@mhtml.blink
+Content-Location: cid:css-d0c1665a-1eba-4a37-8b46-9cf7ab5c3be2@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-4dd8d88b-3466-4608-bcf6-60c96d3b5713@mhtml.blink
+Content-Location: cid:css-e977c6b1-681b-4566-8588-0c5003efa70e@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-a0ec41dd-1df3-44a5-ade7-1caf3b74b0b5@mhtml.blink
+Content-Location: cid:css-eac3b8e7-c1ba-4f26-95f3-7c6330f37332@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-78f1de78-9ac0-458f-a260-944648cebfe7@mhtml.blink
+Content-Location: cid:css-187780b0-4324-4e5c-87cc-78b7270e91f6@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-2239b304-a4e0-4c91-82c6-7c3e497bb84f@mhtml.blink
+Content-Location: cid:css-e34c653d-8c0e-46a7-adc7-98b5e90e8ff6@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-ecc539e0-d316-4bd7-b6c5-9ee4c9a3f246@mhtml.blink
+Content-Location: cid:css-5875b685-fdc7-41cf-993f-32e578891fcc@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-5044e61b-2d3d-4f6b-b5cd-b508b8df6d9a@mhtml.blink
+Content-Location: cid:css-a902ad2d-1690-494b-9fbf-5beed2f1314e@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-5fe2db95-47e0-439e-ac09-f3485a0aea02@mhtml.blink
+Content-Location: cid:css-d1a4cbb1-dce6-4b2d-9ac5-c54709bee51d@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-b26387e9-727a-429e-9249-b9bffc21dcf1@mhtml.blink
+Content-Location: cid:css-002408ac-9974-46d5-800f-686f96acf693@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-ae52d5fd-ba34-4e22-a3f4-06a2a14e2684@mhtml.blink
+Content-Location: cid:css-b2c854e5-69c8-4d51-ac7a-65589ac11475@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-0216b53c-ed22-4a63-8cbb-1a8cea84fbc9@mhtml.blink
+Content-Location: cid:css-c78add67-1b17-4873-ba8d-abc7895b7ada@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-0eeda86f-885f-48a7-aecb-b1fa12d4eeb1@mhtml.blink
+Content-Location: cid:css-81a8ef70-4aaa-4105-b1a9-7a1f239a1e32@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-b15ac419-7744-455c-8987-620ee7c43322@mhtml.blink
+Content-Location: cid:css-b80043dc-dd86-4e41-82fc-fe78244c4ab8@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-b6166db4-bbb2-4010-8c27-f2a1b9c7b4ad@mhtml.blink
+Content-Location: cid:css-149f6d1b-87e7-4561-afe7-3f8d1da752d3@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-0d7cd957-c30f-4144-83c4-0aeadf85604f@mhtml.blink
+Content-Location: cid:css-06b404e0-3bb5-4549-8d4a-4592f47a50cb@mhtml.blink
 
 @charset "utf-8";
 
 body > div[aria-hidden]:has(+ [data-rac-popover]) { app-region: no-drag; z-=
 index: 99999; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-2c3d9516-2946-421b-8d75-23c606af227b@mhtml.blink
+Content-Location: cid:css-2c5d8e79-dd1f-4297-b9dd-6eef2b63e85d@mhtml.blink
 
 @charset "utf-8";
 
 .grecaptcha-badge { visibility: hidden; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-66c61c05-9dcd-4443-bb50-151878ddb485@mhtml.blink
+Content-Location: cid:css-ba8cafae-81a3-4c4c-9b4f-8969360eb4e9@mhtml.blink
 
 @charset "utf-8";
 
@@ -9675,26 +10009,26 @@ mal both running animation-uajlm5; }
 px; height: 100%; background-color: var(--accent-primary-default); box-shad=
 ow: 0 0 10px var(--accent-primary-default),0 0 5px var(--accent-primary-def=
 ault); opacity: 1; transform: rotate(3deg) translate(0px, -4px); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-167b4739-d56b-4e96-9337-bf5bd8d73384@mhtml.blink
+Content-Location: cid:css-d6ef929a-fa8c-4cb6-9343-b47149f7960b@mhtml.blink
 
 @charset "utf-8";
 
 body { overscroll-behavior-x: none; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-20bc73f8-bb6d-4446-86a5-83f392cd5e26@mhtml.blink
+Content-Location: cid:css-a5eeb9ab-370c-42d2-bee9-d3c04da47595@mhtml.blink
 
 @charset "utf-8";
 
 body { overflow: hidden; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-b749b027-1d37-4e27-950a-43f0050cccdf@mhtml.blink
+Content-Location: cid:css-7f6564c9-aac8-4d96-bec3-dfef83f0e6e8@mhtml.blink
 
 @charset "utf-8";
 
@@ -9712,10 +10046,10 @@ Content-Location: cid:css-b749b027-1d37-4e27-950a-43f0050cccdf@mhtml.blink
 
 .cm-tooltip > * { scrollbar-color: var(--background-highest) var(--backgrou=
 nd-higher); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-8df208d5-bc93-4f17-b6ed-73aec196439f@mhtml.blink
+Content-Location: cid:css-002b12fc-e4e7-4311-8485-0a4addda4813@mhtml.blink
 
 @charset "utf-8";
 
@@ -9764,10 +10098,10 @@ ger: #A6A6A6; --accent-grey-strongest: #D4D4D4; --accent-brown-dimmest: #59=
 4031; --accent-brown-dimmer: #75503B; --accent-brown-default: #A3765C; --ac=
 cent-brown-stronger: #D49877; --accent-brown-strongest: #FFC8A8; --black: #=
 0E1525; --white: #FCFCFC; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-9422c271-edc4-440d-aa62-9c3c40f230bc@mhtml.blink
+Content-Location: cid:css-aa229bab-ed74-4c5d-a177-d903f5a1ee24@mhtml.blink
 
 @charset "utf-8";
 
@@ -9839,10 +10173,10 @@ header-height); width: 100%; min-height: 100vh; }
   .AppLayout_content__gze4e { overflow-x: hidden; }
 }
 }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-3d9570c7-befd-45f9-9620-17ead951a729@mhtml.blink
+Content-Location: cid:css-9688339b-d304-4e09-be14-0c19fafd284d@mhtml.blink
 
 @charset "utf-8";
 
@@ -10282,10 +10616,10 @@ ning Workspace_fade-in__b0i2b; }
 
 @layer components {
 }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-99e4fbfe-876c-4564-93e4-a62c9b735c5c@mhtml.blink
+Content-Location: cid:css-9b33c0ea-91d8-4624-8a57-27b62bc0438f@mhtml.blink
 
 @charset "utf-8";
 
@@ -11880,10 +12214,10 @@ header-height); width: 100%; min-height: 100vh; }
   .AppLayout_content__gze4e { overflow-x: hidden; }
 }
 }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-fb07c7dd-d863-401a-a4a4-eaf4b4df8a4e@mhtml.blink
+Content-Location: cid:css-2e4ecb62-20e9-408a-82ee-c14b777d86c7@mhtml.blink
 
 @charset "utf-8";
 
@@ -11904,10 +12238,10 @@ off2?sha=3D3114f1256") format("woff2"), url("/public/fonts/hack-italic.woff=
 ic.woff2?sha=3D3114f1256") format("woff2"), url("/public/fonts/hack-boldita=
 lic.woff?sha=3D3114f1256") format("woff"); font-weight: 700; font-style: it=
 alic; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-dd41f36e-cbe8-4fd5-a5f9-9b9e65df75db@mhtml.blink
+Content-Location: cid:css-bf3eea86-6586-4a7a-aa52-924ef7bd0c40@mhtml.blink
 
 @charset "utf-8";
 
@@ -11955,10 +12289,10 @@ c: local("ABC Diatype Variable"), local("ABCDiatypeVariable"), url("/public=
 ght: 400; src: local("ABC Diatype Pixel"), local("ABCDiatypePixel"), url("/=
 public/fonts/ABCDiatype-RegularPixelBeta.woff") format("woff"), url("/publi=
 c/fonts/ABCDiatype-RegularPixelBeta.woff2") format("woff2"); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-07cf2583-29ce-478e-b13a-08771fe9d477@mhtml.blink
+Content-Location: cid:css-8fa0c9de-fbc2-4679-bc6f-19bca71a0091@mhtml.blink
 
 @charset "utf-8";
 
@@ -13255,7 +13589,7 @@ tion { background-color: highlight !important; }
 .=CD=BC4 .cm-content { caret-color: transparent !important; }
 
 cm-editor-lifecycle { display: block; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-BCA1F2BEDBC4AE9420FD627F23CB498D@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -13268,7 +13602,7 @@ ent=3D"AtD0WrnMwAPI4nWWCvreE+vpgPVz45SO/1fG1IZRNpBsdWZOZN6SKr0ynC11KuzrvT90=
 3WrEU+N9Ik/RpiCRTAEAAABbeyJvcmlnaW4iOiJodHRwczovL3N0cmlwZS5jb206NDQzIiwiZmV=
 hdHVyZSI6IlRwY2QiLCJleHBpcnkiOjE3MzUzNDM5OTksImlzU3ViZG9tYWluIjp0cnVlfQ=3D=
 =3D"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-7991ED55F7E0D20C796AEB4257609C32@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -13276,7 +13610,7 @@ Content-Location: https://www.google.com/recaptcha/enterprise/anchor?ar=1&k=6Ldq
 
 <!DOCTYPE html><html dir=3D"ltr" lang=3D"en-GB"><head><meta http-equiv=3D"C=
 ontent-Type" content=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet=
-" type=3D"text/css" href=3D"cid:css-6af6868f-0b75-4f2b-a582-a25d5a724c44@mh=
+" type=3D"text/css" href=3D"cid:css-f145f8d4-437c-4eeb-87a9-a9b6fd10996b@mh=
 tml.blink" />
 <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
 <title>reCAPTCHA</title>
@@ -13304,7 +13638,7 @@ licies/privacy/" target=3D"_blank" style=3D"">Privacy</a><span aria-hidden=
 =3D"true" role=3D"presentation"> - </span><a href=3D"https://www.google.com=
 /intl/en-GB/policies/terms/" target=3D"_blank" style=3D"">Terms</a></div></=
 div></div><iframe style=3D"display: none;"></iframe></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: image/png
 Content-Transfer-Encoding: base64
 Content-Location: https://www.gstatic.com/recaptcha/api2/logo_48.png
@@ -13350,7 +13684,7 @@ THnHOzs7r4yMjPzdYDDMQn9+gDIxMTE7PDz8RVtb25Vdu3YdX7duXRV+QU/EZQTNc1k+rxaR4C3z
 CLzjkARBM9kavIOQhT+n4++ewL8Nxtc+0jc5tow/hgrk2UmQ4N/4DPp/N0P1KyiVEy8AAAAASUVO
 RK5CYII=
 
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://www.gstatic.com/recaptcha/releases/DBIsSQ0s2djD_akThoRUDeHa/styles__ltr.css
@@ -14866,10 +15200,10 @@ ne: none; width: 270px; }
 er: 1px solid rgb(255, 0, 0); }
 
 sentinel { }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-6af6868f-0b75-4f2b-a582-a25d5a724c44@mhtml.blink
+Content-Location: cid:css-f145f8d4-437c-4eeb-87a9-a9b6fd10996b@mhtml.blink
 
 @charset "utf-8";
 
@@ -14983,7 +15317,7 @@ A0-1EF9, U+20AB; }
 rmat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U=
 +2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+21=
 93, U+2212, U+2215, U+FEFF, U+FFFD; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-9FF75802DF3A12F28AE67488BF8E9384@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -14991,7 +15325,7 @@ Content-Location: https://td.doubleclick.net/td/rul/11411994397?random=175398007
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-A5A919DE8A9F1740AA94FD1584A0BCC5@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15000,14 +15334,14 @@ Content-Transfer-Encoding: quoted-printable
 =3DUTF-8"></head><body><iframe height=3D"0" width=3D"0" src=3D"cid:frame-31=
 3FEFE2C65A6B94C189C2306B484B5C@mhtml.blink" style=3D"display: none; visibil=
 ity: hidden;"></iframe></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-74C95C81EF32930A17A3145DCF540F6C@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-D3BAC61DA11873D4B6D30A9315A94E57@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15015,7 +15349,7 @@ Content-Location: https://td.doubleclick.net/td/rul/11411994397?random=175398008
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-E65784CCA9A3B62A871FFB3309A44A96@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15023,7 +15357,7 @@ Content-Location: https://td.doubleclick.net/td/rul/11411994397?random=175398008
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-366C6FA11D771F1406F20E0A7660A238@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15032,7 +15366,7 @@ Content-Location: https://js.stripe.com/v3/m-outer-3437aaddcdf6922d623e172c2d6f9
 <!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
 t/html; charset=3DUTF-8"></head><body><iframe src=3D"cid:frame-ECCE7FE5BF87=
 21A94A132A711B1F3585@mhtml.blink"></iframe></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-F3B83D2251236517B7E4AD3D0ED97AA7@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15040,7 +15374,7 @@ Content-Location: https://td.doubleclick.net/td/rul/11411994397?random=175398042
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-8D772D2966F1AF87AE27E60EA525FF32@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15048,7 +15382,7 @@ Content-Location: https://td.doubleclick.net/td/rul/11411994397?random=175398050
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-4B4AF1F067D82F3570C4B0E57D9CFD33@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15056,7 +15390,7 @@ Content-Location: https://td.doubleclick.net/td/rul/11411994397?random=175398051
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-E4CAC3BAECB6B9B6CA6B3F2BE8BE2143@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15064,7 +15398,7 @@ Content-Location: https://6a496343-4bb1-40bc-b6c1-a159095c8783-00-1tdt7emnyd2fv.
 
 <!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
 t/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/css" href=3D=
-"cid:css-773d69b8-7560-4500-b2fc-79c9b9c77010@mhtml.blink" />
+"cid:css-2489d313-529f-4d3e-a67d-adeca94f96d6@mhtml.blink" />
    =20
    =20
   </head>
@@ -15086,10 +15420,10 @@ frame-18CE428EE9BE6D6BCAB1ED16AC406FB6@mhtml.blink"></iframe>
  =20
 
 </body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-773d69b8-7560-4500-b2fc-79c9b9c77010@mhtml.blink
+Content-Location: cid:css-2489d313-529f-4d3e-a67d-adeca94f96d6@mhtml.blink
 
 @charset "utf-8";
 
@@ -15097,14 +15431,14 @@ html, body, iframe { margin: 0px; padding: 0px; border: 0px; font: inherit;=
  vertical-align: baseline; height: 100%; width: 100%; }
 
 body { overflow: hidden; }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-D0E183A342C507EE96B7F95ACDAED168@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
 
 <html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
 =3DUTF-8"></head><body></body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-313FEFE2C65A6B94C189C2306B484B5C@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15119,7 +15453,7 @@ icon">
  =20
 
 </body></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-ECCE7FE5BF8721A94A132A711B1F3585@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15128,7 +15462,7 @@ Content-Location: https://m.stripe.network/inner.html#url=https%3A%2F%2Freplit.c
 <!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
 t/html; charset=3DUTF-8"><title>StripeM-Inner</title></head><body></body></=
 html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/html
 Content-ID: <frame-18CE428EE9BE6D6BCAB1ED16AC406FB6@mhtml.blink>
 Content-Transfer-Encoding: quoted-printable
@@ -15136,9 +15470,9 @@ Content-Location: https://6a496343-4bb1-40bc-b6c1-a159095c8783-00-1tdt7emnyd2fv.
 
 <!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
 ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
-css" href=3D"cid:css-6bc40db3-1d3f-436a-a1be-65c1b2f91ecb@mhtml.blink" /><l=
-ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-f53a0e33-bc86-4f32=
--9882-880cdb8c6760@mhtml.blink" />
+css" href=3D"cid:css-273b4198-70f6-45e9-b56d-d6fe13a05ca9@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-92add5cb-7ede-438a=
+-bb67-6b75c603aa95@mhtml.blink" />
 
 
 
@@ -15743,7 +16077,7 @@ pan><span class=3D"letter correct">D</span><span class=3D"letter correct">E=
 
 <span id=3D"PING_IFRAME_FORM_DETECTION" style=3D"display: none;"></span></b=
 ody></html>
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
 Content-Location: https://6a496343-4bb1-40bc-b6c1-a159095c8783-00-1tdt7emnyd2fv.pike.replit.dev/style.css
@@ -15804,10 +16138,10 @@ background-color 0.3s; }
   .letter { width: 44px; height: 44px; line-height: 44px; }
   button { font-size: 15px; padding: 10px; }
 }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-f53a0e33-bc86-4f32-9882-880cdb8c6760@mhtml.blink
+Content-Location: cid:css-92add5cb-7ede-438a-bb67-6b75c603aa95@mhtml.blink
 
 @charset "utf-8";
 
@@ -16737,10 +17071,10 @@ cation-warning { color: rgb(216, 150, 20); }
 
 .luna-notification-theme-dark .luna-notification-icon-container.luna-notifi=
 cation-error { color: rgb(220, 68, 70); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90----
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU----
 Content-Type: text/css
 Content-Transfer-Encoding: quoted-printable
-Content-Location: cid:css-6bc40db3-1d3f-436a-a1be-65c1b2f91ecb@mhtml.blink
+Content-Location: cid:css-273b4198-70f6-45e9-b56d-d6fe13a05ca9@mhtml.blink
 
 @charset "utf-8";
 
@@ -16748,4 +17082,4 @@ Content-Location: cid:css-6bc40db3-1d3f-436a-a1be-65c1b2f91ecb@mhtml.blink
 
 .eruda-search-highlight-block .eruda-keyword { background: rgb(51, 42, 0); =
 color: rgb(255, 203, 107); }
-------MultipartBoundary--w4o4MAjzQi13NZLRr9duv3wd4EdNtI1vRLjZkZwu90------
+------MultipartBoundary--QKenrifnXS1m1zOxQgbSwFBXtNZfHgm04L2U4GkMlU------
